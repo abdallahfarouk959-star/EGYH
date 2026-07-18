@@ -169,7 +169,7 @@ export default function DestinationPage() {
                 </div>
               </div>
 
-              {/* Seasonal Supplements (Pricing Policy) - الجديد */}
+              {/* Seasonal Supplements (Pricing Policy) */}
               {singleTourDetail.pricingPolicy && (
                 <div className="mt-8 bg-slate-50 border border-slate-200 rounded-3xl p-6 md:p-8">
                   <div className="flex items-center gap-3 mb-6 border-b border-slate-200 pb-4">
@@ -276,9 +276,6 @@ export default function DestinationPage() {
                 {/* Tour Image */}
                 <div className="relative h-56 bg-slate-200 overflow-hidden">
                   <img src={tour.images[0]} alt={tour.title} className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" />
-                  <div className="absolute top-4 right-4 bg-[#004d33] text-white text-xs font-bold px-3 py-1.5 rounded-full shadow-md flex items-center gap-1">
-                    <Clock size={12} /> {tour.inclusions[0]?.includes('Duration') ? tour.inclusions[0].replace('Duration:', '').trim() : '1 Day'}
-                  </div>
                 </div>
 
                 {/* Card Content Layer structure */}
