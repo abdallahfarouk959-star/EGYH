@@ -1,9 +1,6 @@
 import React, { useEffect, useState } from "react";
-
 import { useParams, Link } from "react-router-dom";
-
 import { motion, AnimatePresence } from "framer-motion";
-
 import {
   ChevronLeft,
   Star,
@@ -15,7 +12,6 @@ import {
 } from "lucide-react";
 
 // استيراد الداتا الجديدة
-
 import { cruises } from "../data/cruisesData";
 
 export const NileCruiseDetailPage: React.FC = () => {
@@ -28,28 +24,17 @@ export const NileCruiseDetailPage: React.FC = () => {
   const [mainImage, setMainImage] = useState("");
 
   // Form State
-
   const [formData, setFormData] = useState({
     name: "",
-
     email: "",
-
     countryCode: "+20",
-
     phone: "",
-
     date: "",
-
     cabins: "1",
-
     adults: 0,
-
     childrenUnder6: 0,
-
     children6To12: 0,
-
     message: "",
-
     agreed: false,
   });
 
@@ -71,7 +56,6 @@ export const NileCruiseDetailPage: React.FC = () => {
   ) => {
     setFormData((prev) => ({
       ...prev,
-
       [field]: Math.max(0, prev[field] + delta),
     }));
   };
@@ -94,16 +78,12 @@ export const NileCruiseDetailPage: React.FC = () => {
     try {
       const response = await fetch("/api/book", {
         method: "POST",
-
         headers: {
           "Content-Type": "application/json",
         },
-
         body: JSON.stringify({
           ...formData,
-
           tourTitle: `${cruise.name} - ${cruise.itineraries[selectedItineraryIdx].durationName}`,
-
           category: "Nile Cruise",
         }),
       });
@@ -118,7 +98,6 @@ export const NileCruiseDetailPage: React.FC = () => {
           phone: "",
           date: "",
           cabins: "1",
-
           adults: 0,
           childrenUnder6: 0,
           children6To12: 0,
@@ -130,7 +109,6 @@ export const NileCruiseDetailPage: React.FC = () => {
       }
     } catch (error) {
       console.error("Booking error:", error);
-
       setSubmitStatus("error");
     }
   };
@@ -155,7 +133,6 @@ export const NileCruiseDetailPage: React.FC = () => {
   return (
     <div className="pt-24 min-h-screen bg-white">
       {/* Header / Hero */}
-
       <section className="bg-brand-emerald py-20 text-white relative overflow-hidden">
         <div className="absolute inset-0 opacity-20">
           <img
@@ -204,12 +181,10 @@ export const NileCruiseDetailPage: React.FC = () => {
       </section>
 
       {/* Main Content Grid */}
-
       <section className="py-20 max-w-7xl mx-auto px-4">
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-16">
           <div className="lg:col-span-8">
             {/* Interactive Image Gallery */}
-
             <div className="mb-16">
               <div className="mb-4">
                 <img
@@ -236,22 +211,79 @@ export const NileCruiseDetailPage: React.FC = () => {
               </div>
             </div>
 
-            {/* Itinerary Selection Tabs */}
+            {/* --- كروت اختيار المسار (Itinerary Cards) --- */}
+            <div className="mb-16">
+              <h3 className="text-2xl font-serif font-bold text-brand-emerald mb-6">
+                Select Your Itinerary
+              </h3>
+              <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
+                {cruise.itineraries.map((itin, idx) => {
+                  const isSelected = selectedItineraryIdx === idx;
+                  const startingPrice = itin.pricing[0]?.doubleSharing || 0;
+                  const cardImg = cruise.gallery[idx + 1] || cruise.gallery[0];
 
-            <div className="mb-8 flex flex-wrap gap-4 border-b border-gray-200">
-              {cruise.itineraries.map((itin, idx) => (
-                <button
-                  key={itin.id}
-                  onClick={() => setSelectedItineraryIdx(idx)}
-                  className={`pb-4 px-4 font-bold text-lg transition-colors ${selectedItineraryIdx === idx ? "text-brand-gold border-b-2 border-brand-gold" : "text-gray-400 hover:text-gray-600"}`}
-                >
-                  {itin.durationName} ({itin.departureDay})
-                </button>
-              ))}
+                  return (
+                    <div
+                      key={itin.id}
+                      onClick={() => setSelectedItineraryIdx(idx)}
+                      className={`cursor-pointer rounded-2xl overflow-hidden border-2 transition-all duration-300 flex flex-col ${
+                        isSelected
+                          ? "border-brand-emerald shadow-lg"
+                          : "border-gray-200 hover:border-gray-300"
+                      }`}
+                    >
+                      <div className="h-48 sm:h-56 overflow-hidden relative">
+                        <img
+                          src={cardImg}
+                          alt={itin.durationName}
+                          className={`w-full h-full object-cover transition-transform duration-700 ${isSelected ? "scale-105" : "hover:scale-105"}`}
+                        />
+                        {isSelected && (
+                           <div className="absolute top-4 right-4 bg-white/90 backdrop-blur text-brand-emerald p-1.5 rounded-full shadow-lg">
+                               <CheckCircle2 size={20} className="fill-brand-emerald text-white" />
+                           </div>
+                        )}
+                      </div>
+                      <div className="p-6 flex flex-col flex-grow bg-white">
+                        <h4 className="text-xl font-bold text-gray-900 mb-2">
+                          {itin.durationName}
+                        </h4>
+                        <p className="text-gray-800 font-medium mb-6">
+                          {itin.departureDay}
+                        </p>
+
+                        <div className="mt-auto flex items-end justify-between">
+                          <div>
+                            <span className="block text-sm text-gray-500 mb-1">
+                              Start from
+                            </span>
+                            <div className="text-xl font-bold text-gray-900">
+                              ${startingPrice}{" "}
+                              {/* --- التعديل هنا: إضافة per person --- */}
+                              <span className="text-sm font-normal text-gray-500">
+                                / USD per person
+                              </span>
+                            </div>
+                          </div>
+                          <button
+                            type="button"
+                            className={`px-6 py-2.5 rounded-lg font-bold text-sm transition-all duration-300 ${
+                              isSelected
+                                ? "bg-brand-emerald text-white border border-brand-emerald"
+                                : "bg-white text-brand-emerald border border-brand-emerald hover:bg-brand-emerald/5"
+                            }`}
+                          >
+                            {isSelected ? "Selected" : "Select"}
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                  );
+                })}
+              </div>
             </div>
 
             {/* Prices for Selected Itinerary */}
-
             <div className="mb-16 bg-gray-900 text-white rounded-[3rem] p-8 md:p-12 relative overflow-hidden shadow-2xl">
               <h2 className="text-2xl md:text-3xl font-serif font-bold mb-8 flex items-center gap-3">
                 <Star className="text-brand-gold" /> Pricing Seasons
@@ -263,15 +295,18 @@ export const NileCruiseDetailPage: React.FC = () => {
                     key={i}
                     className="bg-white/5 border border-white/10 p-6 rounded-2xl group hover:bg-white/10 transition-colors"
                   >
-                    <span className="block text-xs text-brand-gold uppercase font-bold tracking-widest mb-4 h-10">
+                    <span className="block text-xs text-brand-gold uppercase font-bold tracking-widest mb-1">
                       {p.seasonName}
+                    </span>
+                    {/* --- التعديل هنا: ملحوظة واضحة إن السعر للفرد --- */}
+                    <span className="block text-[10px] text-gray-400 mb-4 italic">
+                      * Price is per person
                     </span>
 
                     <div className="space-y-3 text-sm text-gray-300">
                       {p.doubleSharing && (
                         <div className="flex justify-between items-center border-b border-white/5 pb-2">
                           <span>Double Cabin:</span>
-
                           <span className="text-white font-bold text-xl">
                             ${p.doubleSharing}
                           </span>
@@ -281,7 +316,6 @@ export const NileCruiseDetailPage: React.FC = () => {
                       {p.singleCabin && (
                         <div className="flex justify-between items-center border-b border-white/5 pb-2">
                           <span>Single Cabin:</span>
-
                           <span className="text-white font-bold text-xl">
                             ${p.singleCabin}
                           </span>
@@ -291,7 +325,6 @@ export const NileCruiseDetailPage: React.FC = () => {
                       {p.tripleSharing && (
                         <div className="flex justify-between items-center pb-2">
                           <span>Triple Cabin:</span>
-
                           <span className="text-white font-bold text-xl">
                             ${p.tripleSharing}
                           </span>
@@ -305,14 +338,12 @@ export const NileCruiseDetailPage: React.FC = () => {
               {cruise.note && (
                 <div className="mt-8 flex items-start gap-3 text-sm text-brand-gold bg-brand-gold/10 p-4 rounded-xl border border-brand-gold/20 font-bold">
                   <Info size={20} className="shrink-0 mt-0.5" />
-
                   <span>{cruise.note}</span>
                 </div>
               )}
             </div>
 
             {/* Itinerary Details */}
-
             <div className="mb-16">
               <h2 className="text-2xl font-serif font-bold text-brand-emerald mb-8 flex items-center gap-3">
                 <Calendar className="text-brand-gold" /> Itinerary Schedule
@@ -346,7 +377,6 @@ export const NileCruiseDetailPage: React.FC = () => {
             </div>
 
             {/* Policies (Inclusions / Exclusions) */}
-
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-8">
               <div className="bg-emerald-50 border border-emerald-100 p-8 rounded-3xl">
                 <h4 className="text-brand-emerald font-bold uppercase tracking-widest text-xs mb-6 flex items-center gap-2">
@@ -395,7 +425,6 @@ export const NileCruiseDetailPage: React.FC = () => {
             </div>
 
             {/* Children Policy */}
-
             <div className="bg-gray-50 border border-gray-200 p-8 rounded-3xl mb-16">
               <h4 className="text-brand-emerald font-bold uppercase tracking-widest text-xs mb-6 flex items-center gap-2">
                 <Info size={18} className="text-brand-gold" /> Children Policy
@@ -417,7 +446,6 @@ export const NileCruiseDetailPage: React.FC = () => {
           </div>
 
           {/* Sticky Form */}
-
           <div className="lg:col-span-4 h-fit sticky top-32">
             <div className="bg-white border border-gray-100 shadow-2xl rounded-[3rem] p-8 md:p-10">
               <div className="mb-8">
@@ -482,13 +510,9 @@ export const NileCruiseDetailPage: React.FC = () => {
                       className="bg-gray-50 border border-gray-100 rounded-2xl px-3 py-4 text-sm focus:ring-2 focus:ring-brand-emerald/20 transition-all outline-none cursor-pointer"
                     >
                       <option value="+20">EG (+20)</option>
-
                       <option value="+1">US (+1)</option>
-
                       <option value="+44">UK (+44)</option>
-
                       <option value="+966">SA (+966)</option>
-
                       <option value="+971">UAE (+971)</option>
                     </select>
 
