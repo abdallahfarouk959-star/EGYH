@@ -80,10 +80,12 @@ const Footer: React.FC = () => {
               </a>
             </div>
           </div>
+          
+          {/* تم ربط النصوص هنا بدالة الترجمة */}
           <div className="flex-1 flex items-center justify-center">
             <div className="flex flex-col items-center text-center">
               <p className="text-sm font-semibold text-emerald-800">
-                Travel With Confidence
+                {t("home.trust_title")}
               </p>
               <a
                 href="https://ised-isde.canada.ca/cbr-rec/en/search/results?search=%7BEgypt%20Holiday%20Aswan%20ltd%7D"
@@ -91,7 +93,7 @@ const Footer: React.FC = () => {
                 rel="noopener noreferrer"
                 className="text-[10px] text-emerald-800/60 hover:text-emerald-600 transition-colors underline decoration-dotted"
               >
-                Canada's Business Registries
+                {t("home.canada_reg")}
               </a>
             </div>
           </div>
@@ -104,7 +106,7 @@ const Footer: React.FC = () => {
                 className="h-5 w-auto grayscale opacity-70"
               />
               <span className="text-[11px] font-bold text-emerald-800/50 tracking-wide">
-                Payments Are Processed Securely By Square
+                {t("home.square_pay")}
               </span>
             </div>
             <div className="flex flex-wrap items-center justify-center gap-3 sm:gap-4 mt-2">
@@ -120,6 +122,7 @@ const Footer: React.FC = () => {
             </div>
           </div>
         </div>
+        
         <div className="pt-8 border-t border-emerald-200/60 flex flex-col xl:flex-row items-center justify-between gap-8">
           <div className="text-center xl:text-left">
             <p className="text-xs text-emerald-800/60 mb-1">
@@ -131,19 +134,19 @@ const Footer: React.FC = () => {
               to="/policies#privacy"
               className="hover:text-emerald-700 transition-colors"
             >
-              Privacy Policy
+              {t("footer.privacy")}
             </Link>
             <Link
               to="/policies#terms"
               className="hover:text-emerald-700 transition-colors"
             >
-              Terms of Use
+              {t("footer.terms")}
             </Link>
             <Link
               to="/policies#cancellation"
               className="hover:text-emerald-700 transition-colors"
             >
-              Cancellation Policy
+              {t("footer.cancellation")}
             </Link>
           </div>
         </div>

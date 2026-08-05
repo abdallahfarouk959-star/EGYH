@@ -1,22 +1,10 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
-import { motion, AnimatePresence } from "motion/react";
-import i18n from "i18next";
+import { motion, AnimatePresence } from "framer-motion";
+import { useTranslation } from "react-i18next";
 import { ChevronDown, Menu, X, Globe, CheckCircle } from "lucide-react";
-import { NILE_CRUISE, NavItem } from "../data/toursData";
+import { NavItem } from "../data/toursData";
 import LogoImg from "../assets/Primary icon logo.svg";
-
-// Configured exactly to match the category values in DestinationPage
-const ALL_TOURS_ITEMS: NavItem[] = [
-  { name: "Aswan Tours", link: "/destination/aswan" },
-  { name: "Luxor Tours", link: "/destination/luxor" },
-  { name: "Cairo Tours", link: "/destination/cairo" },
-  { name: "Abu Simbel Tours", link: "/destination/abu-simbel" },
-];
-
-const SIMPLIFIED_PACKAGES: NavItem[] = [
-  { name: "Historical Wonders", link: "/destination/historical-wonders" },
-];
 
 const MobileNavItem: React.FC<{
   item: NavItem;
@@ -34,7 +22,7 @@ const MobileNavItem: React.FC<{
             {item.name}
           </span>
         ) : (
-          item.name === "Home" ? (
+          item.link === "/" ? (
             <a href="/" onClick={closeMenu} className={`text-gray-800 ${depth === 0 ? "text-lg font-medium" : "text-sm"}`}>
               {item.name}
             </a>
@@ -44,14 +32,12 @@ const MobileNavItem: React.FC<{
             </Link>
           )
         )}
-
         {hasSubItems && (
           <button onClick={() => setIsOpen(!isOpen)} className="p-2 -mr-2 text-gray-600 hover:text-emerald-600 transition-colors">
             <ChevronDown className={`w-5 h-5 transition-transform duration-300 ${isOpen ? "rotate-180" : ""}`} />
           </button>
         )}
       </div>
-
       <AnimatePresence>
         {hasSubItems && isOpen && (
           <motion.div
@@ -78,21 +64,19 @@ const Dropdown = ({
   title: string; items: NavItem[]; activeDropdown: string | null; setActiveDropdown: (title: string | null) => void;
 }) => {
   const isOpen = activeDropdown === title;
-
   return (
     <div className="relative group" onMouseEnter={() => setActiveDropdown(title)} onMouseLeave={() => setActiveDropdown(null)}>
       <button className="flex items-center gap-1 py-4 text-sm font-semibold text-gray-800 hover:text-brand-emerald transition-colors cursor-pointer capitalize">
         {title}
         <ChevronDown className={`w-4 h-4 transition-transform duration-200 ${isOpen ? "rotate-180" : ""}`} />
       </button>
-
       <AnimatePresence>
         {isOpen && (
           <motion.div
             initial={{ opacity: 0, y: 10 }}
             animate={{ opacity: 1, y: 0 }}
             exit={{ opacity: 0, y: 10 }}
-            className="absolute left-0 top-full bg-white border border-emerald-50 shadow-xl rounded-lg py-1 min-w-[260px] z-50"
+            className="absolute left-0 top-full bg-white border border-emerald-50 shadow-xl rounded-lg py-1 min-w-[240px] z-50"
           >
             {items.map((item) => (
               <div key={item.name} className="relative group/sub">
@@ -110,20 +94,37 @@ const Dropdown = ({
 };
 
 export const Navbar: React.FC = () => {
+  const { t, i18n } = useTranslation();
   const [activeDropdown, setActiveDropdown] = useState<string | null>(null);
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
-  const currentLanguage = i18n.language === "fr" ? "French" : "English";
   const [isLangDropdownOpen, setIsLangDropdownOpen] = useState(false);
+  
+  const currentLanguage = i18n.language?.startsWith("fr") ? "Français" : "English";
 
   const handleLanguageChange = (langCode: string) => {
     i18n.changeLanguage(langCode);
     setIsLangDropdownOpen(false);
   };
 
+  const ALL_TOURS_ITEMS = [
+    { name: t('nav.aswan_tours', 'Aswan Tours'), link: "/destination/aswan" },
+    { name: t('nav.luxor_tours', 'Luxor Tours'), link: "/destination/luxor" },
+    { name: t('nav.cairo_tours', 'Cairo Tours'), link: "/destination/cairo" },
+    { name: t('nav.abu_simbel_tours', 'Abu Simbel Tours'), link: "/destination/abu-simbel" },
+  ];
+
+  const SIMPLIFIED_PACKAGES = [
+    { name: t('nav.historical_wonders', 'Historical Wonders'), link: "/destination/historical-wonders" },
+  ];
+
+  // النيل كروز فيها اختيار واحد فقط الآن بناءً على طلبك
+  const NILE_CRUISE_ITEMS = [
+    { name: t('nav.all_nile_cruises', 'All Nile Cruises'), link: "/nile-cruise" },
+  ];
+
   return (
     <nav className="fixed top-0 left-0 right-0 z-[100] bg-emerald-50/95 backdrop-blur-md shadow-sm border-b border-emerald-100">
       <div className="max-w-7xl mx-auto px-4 h-24 flex items-center justify-between">
-        
         <Link to="/" className="flex items-center gap-3 group cursor-pointer">
           <div className="relative w-32 h-32 flex items-center justify-center">
             <img src={LogoImg} alt="Egypt Holiday Aswan Logo" className="w-full h-full object-contain" referrerPolicy="no-referrer" />
@@ -135,15 +136,12 @@ export const Navbar: React.FC = () => {
         </Link>
 
         <div className="hidden lg:flex items-center gap-8">
-          <a href="/" className="text-sm font-semibold text-gray-800 hover:text-brand-emerald transition-colors">Home</a>
-          
-          {/* All Tours Main Component dropdown */}
-          <Dropdown title={"All Tours"} items={ALL_TOURS_ITEMS} activeDropdown={activeDropdown} setActiveDropdown={setActiveDropdown} />
-          <Dropdown title={"Packages"} items={SIMPLIFIED_PACKAGES} activeDropdown={activeDropdown} setActiveDropdown={setActiveDropdown} />
-          <Dropdown title={"Nile cruise"} items={NILE_CRUISE} activeDropdown={activeDropdown} setActiveDropdown={setActiveDropdown} />
-          
-          <Link to="/about" className="text-sm font-semibold text-gray-800 hover:text-brand-emerald transition-colors">About Us</Link>
-          <Link to="/contact" className="text-sm font-semibold text-gray-800 hover:text-brand-emerald transition-colors">Contact Us</Link>
+          <a href="/" className="text-sm font-semibold text-gray-800 hover:text-brand-emerald transition-colors">{t('nav.home', 'Home')}</a>
+          <Dropdown title={t('nav.all_tours', 'All Tours')} items={ALL_TOURS_ITEMS} activeDropdown={activeDropdown} setActiveDropdown={setActiveDropdown} />
+          <Dropdown title={t('nav.tours', 'Packages')} items={SIMPLIFIED_PACKAGES} activeDropdown={activeDropdown} setActiveDropdown={setActiveDropdown} />
+          <Dropdown title={t('nav.nile_cruise', 'Nile Cruise')} items={NILE_CRUISE_ITEMS} activeDropdown={activeDropdown} setActiveDropdown={setActiveDropdown} />
+          <Link to="/about" className="text-sm font-semibold text-gray-800 hover:text-brand-emerald transition-colors">{t('nav.about', 'About Us')}</Link>
+          <Link to="/contact" className="text-sm font-semibold text-gray-800 hover:text-brand-emerald transition-colors">{t('nav.contact', 'Contact Us')}</Link>
         </div>
 
         <div className="hidden md:flex items-center gap-4">
@@ -153,12 +151,11 @@ export const Navbar: React.FC = () => {
               {currentLanguage}
               <ChevronDown size={12} className={`transition-transform duration-200 ${isLangDropdownOpen ? "rotate-180" : ""}`} />
             </button>
-
             <AnimatePresence>
               {isLangDropdownOpen && (
-                <motion.div initial={{ opacity: 0, scale: 0.95 }} animate={{ opacity: 1, scale: 1 }} exit={{ opacity: 0, scale: 0.95 }} className="absolute right-0 mt-2 bg-white border border-emerald-100 shadow-xl rounded-xl py-1 z-[110] min-w-[120px]">
-                  {[{ name: "English", code: "en" }, { name: "French", code: "fr" }].map((lang) => (
-                    <button key={lang.code} onClick={() => handleLanguageChange(lang.code)} className={`w-full text-left px-4 py-2 text-xs hover:bg-emerald-50 transition-colors ${i18n.language === lang.code ? "text-emerald-600 font-bold" : "text-gray-600"}`}>
+                <motion.div initial={{ opacity: 0, y: 10 }} animate={{ opacity: 1, y: 0 }} exit={{ opacity: 0, y: 10 }} className="absolute right-0 mt-2 bg-white border border-emerald-100 shadow-xl rounded-xl py-1 z-[110] min-w-[120px]">
+                  {[{ name: "English", code: "en" }, { name: "Français", code: "fr" }].map((lang) => (
+                    <button key={lang.code} onClick={() => handleLanguageChange(lang.code)} className={`w-full text-left px-4 py-2 text-xs hover:bg-emerald-50 transition-colors ${i18n.language?.startsWith(lang.code) ? "text-emerald-600 font-bold" : "text-gray-600"}`}>
                       {lang.name}
                     </button>
                   ))}
@@ -168,7 +165,11 @@ export const Navbar: React.FC = () => {
           </div>
         </div>
 
-        <button className="lg:hidden p-2 text-gray-600 hover:text-emerald-600" onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}>
+        <button 
+          className="lg:hidden p-2 text-gray-600 hover:text-emerald-600" 
+          onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
+          aria-label={isMobileMenuOpen ? "Close menu" : "Open menu"}
+        >
           {isMobileMenuOpen ? <X size={24} /> : <Menu size={24} />}
         </button>
       </div>
@@ -177,12 +178,12 @@ export const Navbar: React.FC = () => {
         {isMobileMenuOpen && (
           <motion.div initial={{ height: 0, opacity: 0 }} animate={{ height: "auto", opacity: 1 }} exit={{ height: 0, opacity: 0 }} className="lg:hidden bg-emerald-50/95 backdrop-blur-md border-t border-emerald-100 overflow-hidden">
             <div className="p-4 space-y-1">
-              <MobileNavItem item={{ name: "Home", link: "/" }} closeMenu={() => setIsMobileMenuOpen(false)} />
-              <MobileNavItem item={{ name: "All Tours", link: "#", subItems: ALL_TOURS_ITEMS} } closeMenu={() => setIsMobileMenuOpen(false)} />
-              <MobileNavItem item={{ name: "Packages", link: "#", subItems: SIMPLIFIED_PACKAGES }} closeMenu={() => setIsMobileMenuOpen(false)} />
-              <MobileNavItem item={{ name: "Nile cruise", link: "#", subItems: NILE_CRUISE }} closeMenu={() => setIsMobileMenuOpen(false)} />
-              <MobileNavItem item={{ name: "About Us", link: "/about" }} closeMenu={() => setIsMobileMenuOpen(false)} />
-              <MobileNavItem item={{ name: "Contact Us", link: "/contact" }} closeMenu={() => setIsMobileMenuOpen(false)} />
+              <MobileNavItem item={{ name: t('nav.home', 'Home'), link: "/" }} closeMenu={() => setIsMobileMenuOpen(false)} />
+              <MobileNavItem item={{ name: t('nav.all_tours', 'All Tours'), link: "#", subItems: ALL_TOURS_ITEMS }} closeMenu={() => setIsMobileMenuOpen(false)} />
+              <MobileNavItem item={{ name: t('nav.tours', 'Packages'), link: "#", subItems: SIMPLIFIED_PACKAGES }} closeMenu={() => setIsMobileMenuOpen(false)} />
+              <MobileNavItem item={{ name: t('nav.nile_cruise', 'Nile Cruise'), link: "/nile-cruise" }} closeMenu={() => setIsMobileMenuOpen(false)} />
+              <MobileNavItem item={{ name: t('nav.about', 'About Us'), link: "/about" }} closeMenu={() => setIsMobileMenuOpen(false)} />
+              <MobileNavItem item={{ name: t('nav.contact', 'Contact Us'), link: "/contact" }} closeMenu={() => setIsMobileMenuOpen(false)} />
             </div>
           </motion.div>
         )}

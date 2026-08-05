@@ -1,10 +1,12 @@
 import React, { useEffect } from 'react';
 import { useLocation } from 'react-router-dom';
 import { motion } from 'framer-motion';
+import { useTranslation } from 'react-i18next';
 import { Shield, FileText, XCircle, Info } from 'lucide-react';
-import { POLICIES_CONTENT } from '../data/toursData';
+import { getPoliciesContent } from '../data/toursData';
 
 export const PoliciesPage: React.FC = () => {
+  const { t, i18n } = useTranslation();
   const location = useLocation();
 
   useEffect(() => {
@@ -20,10 +22,13 @@ export const PoliciesPage: React.FC = () => {
     }
   }, [location.hash]);
 
+  // بنجيب المحتوى بناءً على اللغة الحالية (إنجليزي أو فرنساوي)
+  const currentPolicies = getPoliciesContent(i18n.language);
+
   const sections = [
-    { id: 'privacy', icon: Shield, ...POLICIES_CONTENT.privacy },
-    { id: 'terms', icon: FileText, ...POLICIES_CONTENT.terms },
-    { id: 'cancellation', icon: XCircle, ...POLICIES_CONTENT.cancellation },
+    { id: 'privacy', icon: Shield, ...currentPolicies.privacy },
+    { id: 'terms', icon: FileText, ...currentPolicies.terms },
+    { id: 'cancellation', icon: XCircle, ...currentPolicies.cancellation },
   ];
 
   return (
@@ -39,7 +44,7 @@ export const PoliciesPage: React.FC = () => {
             animate={{ opacity: 1, y: 0 }}
             className="text-4xl md:text-5xl lg:text-6xl font-serif font-bold text-white mb-6"
           >
-            Our Policies
+            {t('policies.title', 'Our Policies')}
           </motion.h1>
           <motion.p 
             initial={{ opacity: 0, y: 20 }}
@@ -47,7 +52,7 @@ export const PoliciesPage: React.FC = () => {
             transition={{ delay: 0.1 }}
             className="text-white/80 text-lg max-w-2xl mx-auto"
           >
-            Transparency and fairness across all our services. Please review our guidelines for bookings, privacy, and cancellations.
+            {t('policies.subtitle', 'Transparency and fairness across all our services. Please review our guidelines for bookings, privacy, and cancellations.')}
           </motion.p>
         </div>
       </section>
@@ -97,8 +102,7 @@ export const PoliciesPage: React.FC = () => {
                   {section.content.split('\n').map((line, i) => {
                     if (!line.trim()) return <br key={i} />;
                     
-                    // Header-like lines (starting with numbers or just being bold titles)
-                    if (line.match(/^\d+\./) || line.match(/^[A-Z][a-z]+ & [A-Z][a-z]+/) || line.match(/^[A-Z][A-Za-z ]+$/)) {
+                    if (line.match(/^\d+\./) || line.match(/^[A-Z][a-zà-ÿ]+ (?:&|et) [A-Z][a-zà-ÿ]+/) || line.match(/^[A-Z][A-Za-zà-ÿ \éèê]+$/)) {
                       return (
                         <h3 key={i} className="text-lg font-bold text-emerald-800 mt-8 mb-4 first:mt-0">
                           {line}
@@ -106,7 +110,6 @@ export const PoliciesPage: React.FC = () => {
                       );
                     }
                     
-                    // Bullet points
                     if (line.trim().startsWith('-')) {
                       return (
                         <div key={i} className="flex items-start gap-3 mb-2 pl-4">
@@ -141,9 +144,9 @@ export const PoliciesPage: React.FC = () => {
           <div className="inline-flex items-center justify-center w-16 h-16 bg-emerald-100 rounded-full mb-8">
             <Info size={32} className="text-emerald-600" />
           </div>
-          <h3 className="text-2xl font-serif font-bold text-gray-900 mb-4">Need help understanding our policies?</h3>
+          <h3 className="text-2xl font-serif font-bold text-gray-900 mb-4">{t('policies.contact_help', 'Need help understanding our policies?')}</h3>
           <p className="text-gray-500 mb-8 max-w-xl mx-auto">
-            Our team is here to help you with any questions you might have regarding your booking, privacy, or cancellation terms.
+            {t('policies.contact_desc', 'Our team is here to help you with any questions you might have regarding your booking, privacy, or cancellation terms.')}
           </p>
           <a 
             href={`https://mail.google.com/mail/?view=cm&fs=1&to=${encodeURIComponent('Reservation@egyptholidayaswan.com')}`}
@@ -151,10 +154,12 @@ export const PoliciesPage: React.FC = () => {
             rel="noopener noreferrer"
             className="inline-flex items-center gap-2 px-8 py-4 bg-brand-gold text-white font-bold rounded-xl hover:bg-brand-emerald transition-all shadow-lg shadow-brand-gold/20 uppercase tracking-widest text-xs"
           >
-            Contact Support
+            {t('policies.btn_support', 'Contact Support')}
           </a>
         </div>
       </section>
     </div>
   );
 };
+
+export default PoliciesPage;

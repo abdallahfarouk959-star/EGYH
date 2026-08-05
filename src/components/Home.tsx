@@ -1,11 +1,15 @@
 import React, { useEffect } from "react";
 import { motion } from "framer-motion";
 import { useLocation, Link } from "react-router-dom";
+// استيراد دالة الترجمة
+import { useTranslation } from "react-i18next";
 // استيراد داتا المراكب الجديدة
 import { cruises } from "../data/cruisesData";
 
 export const Home: React.FC = () => {
   const location = useLocation();
+  // تشغيل الهوك بتاع الترجمة
+  const { t } = useTranslation();
 
   useEffect(() => {
     if (location.hash) {
@@ -50,18 +54,17 @@ export const Home: React.FC = () => {
             transition={{ delay: 0.5, duration: 1 }}
           >
             <h2 className="text-5xl md:text-7xl font-bold text-white mb-6 drop-shadow-2xl leading-tight">
-              Experience the True Essence of Egypt
+              {t("hero.title")}
             </h2>
             <p className="text-lg md:text-2xl text-white max-w-3xl mx-auto font-medium  py-3 px-6 inline-block mb-10">
-              Discover historical wonders, hidden treasures, and unforgettable
-              journeys tailored just for you.
+              {t("hero.subtitle")}
             </p>
             <div>
               <a
                 href="mailto:reservation@egyptholidaysaswan.com?subject=Website%20Inquiry"
                 className="bg-emerald-600 text-white px-8 py-4 rounded-full text-lg font-bold hover:bg-emerald-700 transition duration-300 shadow-xl inline-block cursor-pointer"
               >
-                Book Your Adventure
+                {t("hero.btn_book")}
               </a>
             </div>
           </motion.div>
@@ -76,7 +79,7 @@ export const Home: React.FC = () => {
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 mb-20 items-end">
           <div className="lg:col-span-8">
             <h2 className="text-4xl md:text-5xl lg:text-6xl font-serif font-bold text-gray-900 mb-8 tracking-tight">
-              Top-Rated Nile Cruise in Egypt
+              {t("hero.top_cruise")}
             </h2>
           </div>
         </div>
@@ -116,17 +119,17 @@ export const Home: React.FC = () => {
                     <div className="pt-6 border-t border-gray-50 flex items-center justify-between">
                       <div>
                         <span className="block text-[10px] text-gray-600 uppercase font-bold tracking-widest mb-1">
-                          Start From
+                          {t("common.start_from")}
                         </span>
                         <span className="text-2xl font-bold text-gray-900">
                           ${startingPrice}{" "}
                           <span className="text-sm text-gray-600 font-normal">
-                            / USD
+                            {t("common.per_person")}
                           </span>
                         </span>
                       </div>
                       <button type="button" className="px-6 py-3 bg-white border-2 border-brand-gold text-brand-gold font-bold rounded-xl hover:bg-brand-gold hover:text-white transition-all text-xs uppercase tracking-widest shadow-md hover:shadow-brand-gold/20">
-                        Book Now
+                        {t("common.book_now")}
                       </button>
                     </div>
                   </div>
@@ -142,29 +145,29 @@ export const Home: React.FC = () => {
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 mb-20 items-end">
           <div className="lg:col-span-8">
             <h2 className="text-4xl md:text-5xl lg:text-6xl font-serif font-bold text-gray-900 mb-8 tracking-tight">
-              Discover Our Great Packages
+              {t("hero.discover_packages")}
             </h2>
           </div>
         </div>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {[
             {
-              name: "Essential Egypt (7 Days)",
-              type: "Cairo, Aswan & Luxor",
+              name: t("home.pkg1_name", "Essential Egypt (7 Days)"),
+              type: t("home.pkg1_type", "Cairo, Aswan & Luxor"),
               price: "$1,250",
               img: "https://plus.unsplash.com/premium_photo-1728561809541-1620be0f4004?w=800&auto=format&fit=crop&q=80&fmt=webp&w=800&q=75",
               link: "/destination/historical-wonders/1",
             },
             {
-              name: "Nile & Red Sea Magic (10 Days)",
-              type: "Cairo, Aswan, Luxor & Hurghada",
+              name: t("home.pkg2_name", "Nile & Red Sea Magic (10 Days)"),
+              type: t("home.pkg2_type", "Cairo, Aswan, Luxor & Hurghada"),
               price: "$1,725",
               img: "https://images.unsplash.com/photo-1553913861-c46db5573ced?w=800&auto=format&fit=crop&q=80&fmt=webp&w=800&q=75",
               link: "/destination/historical-wonders/2",
             },
             {
-              name: "The Grand Explorer (12 Days)",
-              type: "Cairo, Aswan, Luxor & Alexandria",
+              name: t("home.pkg3_name", "The Grand Explorer (12 Days)"),
+              type: t("home.pkg3_type", "Cairo, Aswan, Luxor & Alexandria"),
               price: "$2,365",
               img: "https://images.unsplash.com/photo-1628503218283-6ddeac69dfea?w=800&auto=format&fit=crop&q=80&fmt=webp&w=800&q=75",
               link: "/destination/historical-wonders/3",
@@ -200,17 +203,17 @@ export const Home: React.FC = () => {
                   <div className="pt-6 border-t border-gray-50 flex items-center justify-between">
                     <div>
                       <span className="block text-[10px] text-gray-600 uppercase font-bold tracking-widest mb-1">
-                        Start From
+                        {t("common.start_from")}
                       </span>
                       <span className="text-2xl font-bold text-gray-900">
                         {packageTour.price}{" "}
                         <span className="text-sm text-gray-600 font-normal">
-                          / USD
+                          {t("common.per_person")}
                         </span>
                       </span>
                     </div>
                     <button type="button" className="px-6 py-3 bg-white border-2 border-brand-gold text-brand-gold font-bold rounded-xl hover:bg-brand-gold hover:text-white transition-all text-xs uppercase tracking-widest shadow-md hover:shadow-brand-gold/20">
-                      Book Now
+                      {t("common.book_now")}
                     </button>
                   </div>
                 </div>
@@ -240,14 +243,14 @@ export const Home: React.FC = () => {
                   <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
                 </svg>
               ))}
-              <span className="ml-3 text-sm font-bold text-gray-800 uppercase tracking-widest">Excellent</span>
+              <span className="ml-3 text-sm font-bold text-gray-800 uppercase tracking-widest">{t("common.excellent")}</span>
             </div>
 
             <h3 className="text-2xl md:text-3xl font-bold text-gray-900 mb-2 font-serif">
               Egypt Holiday Tours
             </h3>
             <p className="text-gray-500 text-sm md:text-base leading-relaxed">
-              Every Journey We Create Is Designed With Care And Delivered By People Who Truly Know Egypt . See What Our Guests Say About Traveling With Us
+              {t("home.reviews_title")}
             </p>
           </div>
 
@@ -258,7 +261,7 @@ export const Home: React.FC = () => {
               rel="noopener noreferrer"
               className="px-6 py-3.5 bg-gray-900 text-white rounded-xl font-bold text-sm shadow-md hover:bg-[#34E0A1] hover:text-gray-900 hover:shadow-lg transition-all duration-300 text-center whitespace-nowrap"
             >
-              SEE OUR REVIEWS ON TRIPADVISOR
+              {t("home.see_reviews")}
             </a>
           </div>
         </div>

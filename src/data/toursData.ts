@@ -402,7 +402,7 @@ export const DESTINATIONS: Record<string, DestinationContent> = {
       {
         id: 2,
         title: "West Bank of Luxor",
-        images: ["https://plus.unsplash.com/premium_photo-16612355663-2a435ccf844d?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTN8fGVneXB0fGVufDB8fDB8fHww&fmt=webp&w=800&q=75"],
+        images: ["https://plus.unsplash.com/premium_photo-1661956893568-a6e305457ea9?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8THV4b3J8ZW58MHx8MHx8fDA%3Dfmt=webp&w=800&q=75"],
         highlights: "Experience the wonders of Luxor’s West Bank, where the Valley of the Kings, Hatshepsut Temple, and Colossi await.",
         inclusions: ["Duration: 5-6 hours", "Private air-conditioned transport", "English-speaking tour guide", "Entrance fees"],
         exclusions: ["Personal expenses", "Gratuities"],
@@ -464,7 +464,7 @@ export const DESTINATIONS: Record<string, DestinationContent> = {
       {
         id: 5,
         title: "Dendera Temple Experience",
-        images: ["https://images.unsplash.com/photo-16329443398987-494eebe663be?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8bHV4b3J8ZW58MHx8MHx8fDA%3D&fmt=webp&w=800&q=75"],
+        images: ["https://images.unsplash.com/photo-1644159406175-3b91e94c7f7e?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NDJ8fEx1eG9yfGVufDB8fDB8fHwwfmt=webp&w=800&q=75"],
         highlights: "Embark on a captivating journey to the Temple of Dendera, located 60 kilometers north of Luxor.",
         inclusions: ["Duration: 4 hours of exploration", "Private transport in an air-conditioned car/minivan", "Experienced tour guide", "All entrance fees"],
         exclusions: ["Personal expenses", "Gratuities"],
@@ -1226,7 +1226,11 @@ export const DESTINATIONS: Record<string, DestinationContent> = {
   }
 };
 
-export const POLICIES_CONTENT = {
+// ============================================
+// 📜 POLICIES CONTENT (EN & FR)
+// ============================================
+
+const POLICIES_EN = {
   privacy: {
     title: "Privacy Policy",
     content: `At Egypt Holiday Aswan, we value your privacy and are committed to protecting your personal information. This Privacy Policy outlines how we collect, use, and safeguard your data when you visit our website or use our services.
@@ -1281,7 +1285,7 @@ Booking & Payment
 - Prices are subject to change based on availability and supplier adjustments.
 
 Travel Documents & Requirements
-- It it the traveler’s responsibility to ensure they have valid passports, visas, and any required health documentation.
+- It is the traveler’s responsibility to ensure they have valid passports, visas, and any required health documentation.
 - We are not responsible for denied entry due to incomplete or incorrect documentation.
 
 Itinerary & Changes
@@ -1349,4 +1353,133 @@ Due to high demand and limited availability, Nile cruises typically have strict 
 - Refunds will be issued using the original payment method.
 - Some suppliers may take longer to process refunds, which is beyond our control.`
   }
+};
+
+const POLICIES_FR = {
+  privacy: {
+    title: "Politique de confidentialité",
+    content: `Chez Egypt Holiday Aswan, nous accordons une grande importance à votre vie privée et nous nous engageons à protéger vos informations personnelles. Cette politique de confidentialité décrit comment nous collectons, utilisons et protégeons vos données lorsque vous visitez notre site Web ou utilisez nos services.
+
+1. Informations que nous collectons
+Nous pouvons collecter les types d'informations suivants :
+- Informations personnelles : nom, adresse e-mail, numéro de téléphone, détails de facturation et toute autre information que vous fournissez lors de la réservation d'un service.
+- Informations de paiement : lors d'un achat, nous pouvons collecter des données de paiement, mais les transactions sont traitées en toute sécurité via des passerelles de paiement tierces.
+- Données techniques : adresse IP, type de navigateur, informations sur l'appareil et données d'utilisation collectées via des cookies et des outils d'analyse.
+
+2. Comment nous utilisons vos informations
+Nous utilisons les informations collectées pour :
+- Traiter les réservations et les transactions.
+- Améliorer notre site Web, nos services et l'expérience client.
+- Communiquer avec vous concernant des demandes, confirmations ou mises à jour.
+- Respecter les exigences légales et réglementaires.
+
+3. Partage de vos informations
+Nous ne vendons ni ne louons vos informations personnelles. Cependant, nous pouvons les partager avec :
+- Prestataires de services : fournisseurs tiers, tels que les hôtels, les compagnies aériennes ou les voyagistes, pour exécuter votre réservation.
+- Autorités légales : si la loi l'exige ou pour protéger nos droits et notre sécurité.
+
+4. Sécurité des données
+Nous mettons en œuvre des mesures de sécurité pour protéger vos informations personnelles. Cependant, aucune méthode de transmission sur Internet n'est sécurisée à 100 %. Nous vous encourageons à prendre des précautions lors du partage de données personnelles en ligne.
+
+5. Cookies et technologies de suivi
+Nous utilisons des cookies et des outils d'analyse pour améliorer votre expérience de navigation. Vous pouvez contrôler les paramètres des cookies via votre navigateur.
+
+6. Vos droits
+Vous avez le droit de :
+- Accéder à vos informations personnelles, les mettre à jour ou les supprimer.
+- Vous désinscrire des communications marketing.
+- Demander des informations sur l'utilisation de vos données.
+
+7. Liens tiers
+Notre site Web peut contenir des liens vers des sites Web tiers. Nous ne sommes pas responsables de leurs pratiques de confidentialité et vous encourageons à consulter leurs politiques.
+
+8. Mises à jour de cette politique
+Nous pouvons mettre à jour cette politique de confidentialité de temps à autre. Tout changement sera publié sur cette page.
+
+9. Contactez-nous
+Si vous avez des questions ou des préoccupations concernant cette politique de confidentialité, veuillez nous contacter à Reservation@egyptholidayaswan.com.`
+  },
+  terms: {
+    title: "Conditions Générales",
+    content: `Bienvenue chez Egypt Holiday Aswan. En réservant avec nous, vous acceptez les conditions générales suivantes. Veuillez les lire attentivement avant de faire une réservation.
+
+Réservation et paiement
+- Un acompte est exigé au moment de la réservation pour confirmer votre demande.
+- Le solde restant doit être réglé avant le départ selon les conditions spécifiques du circuit.
+- Le non-règlement du paiement à la date d'échéance peut entraîner l'annulation de votre réservation sans remboursement.
+- Les prix sont sujets à modification en fonction de la disponibilité et des ajustements des fournisseurs.
+
+Documents de voyage et exigences
+- Il incombe au voyageur de s'assurer qu'il possède un passeport valide, des visas et toute documentation sanitaire requise.
+- Nous ne sommes pas responsables du refus d'entrée dû à des documents incomplets ou incorrects.
+
+Itinéraire et modifications
+- Nos itinéraires sont sujets à modification en raison de circonstances imprévues telles que la météo, les réglementations gouvernementales ou les exigences opérationnelles.
+- Nous ferons tous les efforts possibles pour fournir des alternatives adéquates sans frais supplémentaires pour le client dans la mesure du possible.
+
+Politique concernant les enfants
+- Les tarifs pour les enfants varient en fonction des services inclus dans le forfait, tels que l'hébergement, le transport et les visites.
+- Des réductions peuvent être disponibles selon les politiques des fournisseurs.
+- Les nourrissons (généralement de moins de 2 ans) peuvent voyager gratuitement ou à un tarif minime.
+- Les enfants de moins d'un certain âge peuvent bénéficier d'un tarif réduit lorsqu'ils partagent l'hébergement avec des adultes.
+- La tarification exacte pour les enfants sera fournie au moment de la réservation, en fonction des conditions applicables du fournisseur.
+
+Responsabilité
+- Nous agissons en tant qu'intermédiaire entre les voyageurs et les prestataires de services (compagnies aériennes, hôtels, croisiéristes, etc.).
+- Nous ne sommes pas responsables des retards, pertes, accidents ou dommages causés par des prestataires de services tiers.
+- Nous vous recommandons vivement de souscrire une assurance voyage pour couvrir les situations imprévues.
+
+Santé et sécurité
+- Les voyageurs doivent déclarer toute condition médicale pouvant affecter leur participation aux activités.
+- Nous ne sommes pas responsables des problèmes de santé qui surviennent pendant le voyage.
+
+Réclamations et litiges
+- Toute réclamation doit être signalée pendant le voyage pour une résolution immédiate.
+- Les litiges seront réglés conformément aux lois du Canada.`
+  },
+  cancellation: {
+    title: "Politique d'Annulation et de Remboursement",
+    content: `Chez Egypt Holiday Aswan, nous nous efforçons d'offrir de la flexibilité tout en garantissant l'équité pour toutes les parties impliquées. Notre politique d'annulation varie en fonction du type de service réservé, car chaque fournisseur (vols, croisières sur le Nil, hôtels, excursions, etc.) peut avoir des conditions d'annulation différentes.
+
+1. Directives générales d'annulation
+- Les demandes d'annulation doivent être soumises par écrit par e-mail à Reservation@egyptholidayaswan.com.
+- L'éligibilité au remboursement dépend des conditions du fournisseur et du calendrier d'annulation.
+- Tous les frais bancaires ou de transaction applicables seront déduits du montant remboursé.
+- Les non-présentations et les annulations de dernière minute peuvent entraîner la facturation de la totalité des frais sans remboursement.
+
+2. Annulations de vols
+- Les billets d'avion sont soumis aux politiques d'annulation et de remboursement de la compagnie aérienne.
+- Certains tarifs ne sont pas remboursables, tandis que d'autres peuvent permettre des modifications ou des annulations avec des pénalités.
+- Nous vous recommandons de souscrire une assurance voyage pour couvrir les annulations imprévues.
+
+3. Annulations de croisières sur le Nil
+En raison de la forte demande et de la disponibilité limitée, les croisières sur le Nil ont généralement des politiques d'annulation strictes. Voici une directive générale, mais les frais d'annulation réels peuvent varier selon le croisiériste :
+- Plus de 90 jours avant le départ : 25 % du coût total sera facturé.
+- De 60 à 89 jours avant le départ : 50 % du coût total sera facturé.
+- De 30 à 59 jours avant le départ : 75 % du coût total sera facturé.
+- Moins de 30 jours avant le départ : Aucun remboursement ne sera effectué.
+
+4. Annulations d'hôtels
+- Les hôtels suivent leurs propres politiques d'annulation, qui varient selon la saison et le type de chambre.
+- Certains hôtels permettent l'annulation gratuite jusqu'à une certaine période, tandis que d'autres imposent des pénalités.
+- Nous vous informerons des conditions d'annulation spécifiques de votre hôtel au moment de la réservation.
+
+5. Annulations d'excursions
+- Les visites et excursions sont généralement plus flexibles.
+- L'annulation gratuite est souvent disponible si elle est effectuée au moins 48 heures avant la visite prévue.
+- Les annulations de dernière minute peuvent être soumises à une pénalité, selon le fournisseur.
+
+6. Force majeure et circonstances imprévues
+- En cas de force majeure (ex. catastrophes naturelles, pandémies, troubles politiques), nous travaillerons avec les fournisseurs pour proposer des options de report ou des remboursements partiels lorsque cela est possible.
+- Cependant, nous ne sommes pas responsables des pertes dues à des circonstances indépendantes de notre volonté.
+
+7. Processus de remboursement
+- Les remboursements approuvés seront traités dans un délai de 7 à 14 jours ouvrables après confirmation.
+- Les remboursements seront effectués en utilisant le mode de paiement d'origine.
+- Certains fournisseurs peuvent prendre plus de temps pour traiter les remboursements, ce qui échappe à notre contrôle.`
+  }
+};
+
+export const getPoliciesContent = (lang: string) => {
+  return lang.startsWith('fr') ? POLICIES_FR : POLICIES_EN;
 };
