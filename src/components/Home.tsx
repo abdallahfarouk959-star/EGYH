@@ -22,8 +22,15 @@ export const Home: React.FC = () => {
     }
   }, [location.hash]);
 
-  // هناخد أول 6 رحلات بس نعرضهم في الصفحة الرئيسية
-  const topCruises = cruises.slice(0, 6);
+  const topCruiseIds = [
+    "ms-esplanade",
+    "ms-historia",
+    "steigenberger-omar",
+    "ms-renaissance",
+    "ms-sonesta",
+    "ms-sunrise"
+  ];
+  const topCruises = cruises.filter(c => topCruiseIds.includes(c.id));
 
   return (
     <main>

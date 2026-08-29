@@ -133,9 +133,8 @@ export default function App() {
             <Route path="/destination/:category/:tourId" element={<DestinationPage />} />
 
             <Route path="/nile-cruise" element={<NileCruiseListPage />} />
-
+            <Route path="/nile-cruise/category/:categoryId" element={<NileCruiseListPage />} />
             {/* التعديل هنا: استخدام cruiseId بدل destId/tourId ليتوافق مع الداتا الجديدة */}
-
             <Route path="/nile-cruise/:cruiseId" element={<NileCruiseDetailPage />} />
 
             <Route path="/policies" element={<PoliciesPage />} />

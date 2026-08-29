@@ -114,12 +114,18 @@ export const Navbar: React.FC = () => {
   ];
 
   const SIMPLIFIED_PACKAGES = [
-    { name: t('nav.historical_wonders', 'Historical Wonders'), link: "/destination/historical-wonders" },
+    { name: t('nav.6_nights', '6 Nights'), link: "/destination/historical-wonders/1" },
+    { name: t('nav.9_nights', '9 Nights'), link: "/destination/historical-wonders/2" },
+    { name: t('nav.11_nights', '11 Nights'), link: "/destination/historical-wonders/3" },
+    { name: t('nav.14_nights', '14 Nights'), link: "/destination/historical-wonders/4" },
   ];
 
-  // النيل كروز فيها اختيار واحد فقط الآن بناءً على طلبك
   const NILE_CRUISE_ITEMS = [
     { name: t('nav.all_nile_cruises', 'All Nile Cruises'), link: "/nile-cruise" },
+    { name: t('nav.luxury_cruises', 'Luxury Cruises'), link: "/nile-cruise/category/luxury" },
+    { name: t('nav.ultra_deluxe_cruises', 'Ultra Deluxe Cruises'), link: "/nile-cruise/category/ultra-deluxe" },
+    { name: t('nav.deluxe_cruises', 'Deluxe Cruises'), link: "/nile-cruise/category/deluxe" },
+    { name: t('nav.standard_cruises', 'Standard Cruises'), link: "/nile-cruise/category/standard" },
   ];
 
   return (

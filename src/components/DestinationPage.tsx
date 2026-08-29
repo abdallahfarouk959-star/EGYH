@@ -266,13 +266,29 @@ export default function DestinationPage() {
                 </div>
               )}
 
+              {singleTourDetail.prices && singleTourDetail.prices.length > 0 && (
+                <div className="mt-8 bg-slate-50 border border-slate-200 rounded-3xl p-6 md:p-8">
+                  <h3 className="text-lg font-bold text-slate-900 mb-6">
+                    {t('tours_ui.pricing_tiers', 'Pricing Options (Per Person)')}
+                  </h3>
+                  <div className="grid grid-cols-2 sm:grid-cols-3 gap-4">
+                    {singleTourDetail.prices.map((priceItem: any, idx: number) => (
+                      <div key={idx} className="bg-white p-4 rounded-xl border border-slate-100 shadow-sm flex flex-col items-center justify-center text-center hover:border-[#004d33] hover:shadow-md transition-all">
+                        <span className="text-xs font-bold text-slate-500 uppercase tracking-wider mb-2">{priceItem.label}</span>
+                        <span className="text-xl font-black text-[#004d33]">{priceItem.price}</span>
+                      </div>
+                    ))}
+                  </div>
+                </div>
+              )}
+
               <div className="pt-6 border-t border-slate-100 flex flex-col sm:flex-row justify-between items-center gap-4">
                 <div>
                   <span className="text-xs text-slate-400 block font-medium uppercase tracking-wider">
-                    {t('tours_ui.prices_starting', 'Prices Tier Starting From')}
+                    {t('tours_ui.prices_starting', 'Starting From')}
                   </span>
                   <span className="text-2xl font-black text-[#004d33]">
-                    {singleTourDetail.prices[1]?.price || singleTourDetail.prices[0]?.price} 
+                    {singleTourDetail.prices[0]?.price} 
                     <span className="text-xs font-medium text-slate-500"> {t('tours_ui.per_person', '/ per person')}</span>
                   </span>
                 </div>
@@ -348,7 +364,7 @@ export default function DestinationPage() {
                         {t('common.price_from', 'Price From')}
                       </span>
                       <span className="text-base font-extrabold text-[#004d33]">
-                        {tour.prices[1]?.price ? `${tour.prices[1].price}` : `${tour.prices[0]?.price || 'N/A'}`}
+                        {tour.prices[0]?.price || 'N/A'}
                       </span>
                     </div>
                     <button 

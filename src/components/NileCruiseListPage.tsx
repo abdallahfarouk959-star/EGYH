@@ -1,24 +1,101 @@
-import React, { useEffect } from "react";
-
+import React, { useEffect, useState } from "react";
 import { motion } from "framer-motion";
-
-import { Link } from "react-router-dom";
-
-import { Star, Clock, MapPin, ChevronRight, Waves } from "lucide-react";
-
-// استيراد الداتا الجديدة
-
+import { useParams, useNavigate } from "react-router-dom";
+import { Filter, Waves } from "lucide-react";
 import { cruises } from "../data/cruisesData";
+import { CruiseCard } from "./CruiseCard";
+import { FilterSidebar, FilterState } from "./FilterSidebar";
+
+const CATEGORIES: { id: string; label: string }[] = [
+  { id: "all", label: "All Cruises" },
+  { id: "luxury", label: "Luxury" },
+  { id: "ultra-deluxe", label: "Ultra Deluxe" },
+  { id: "deluxe", label: "Deluxe" },
+  { id: "standard", label: "Standard" },
+];
 
 export const NileCruiseListPage: React.FC = () => {
+  const { categoryId } = useParams<{ categoryId: string }>();
+  const navigate = useNavigate();
+  
+  const [isMobileFiltersOpen, setIsMobileFiltersOpen] = useState(false);
+  const [sortOrder, setSortOrder] = useState<"default" | "low-to-high" | "high-to-low">("default");
+  const [filters, setFilters] = useState<FilterState>({
+    category: categoryId || "all",
+    minPrice: "",
+    maxPrice: "",
+    duration: "all",
+  });
+
   useEffect(() => {
     window.scrollTo(0, 0);
-  }, []);
+  }, [categoryId]);
+
+  // Sync route param to filter state
+  useEffect(() => {
+    setFilters(prev => ({ ...prev, category: categoryId || "all" }));
+  }, [categoryId]);
+
+  // Sync filter state to route (only for category)
+  useEffect(() => {
+    if (filters.category === "all" && categoryId) {
+      navigate("/nile-cruise");
+    } else if (filters.category !== "all" && filters.category !== categoryId) {
+      navigate(`/nile-cruise/category/${filters.category}`);
+    }
+  }, [filters.category, navigate, categoryId]);
+
+  const getBasePrice = (cruise: any) => {
+    let minPrice = Infinity;
+    if (cruise.itineraries) {
+      for (const itin of cruise.itineraries) {
+        if (itin.pricing) {
+          for (const season of itin.pricing) {
+            if (season.doubleSharing) {
+              const price = Number(season.doubleSharing);
+              if (price < minPrice) minPrice = price;
+            }
+          }
+        }
+      }
+    }
+    return minPrice === Infinity ? 999999 : minPrice;
+  };
+
+  const filteredCruises = cruises.filter(cruise => {
+    // Category Filter
+    if (filters.category !== "all" && cruise.category !== filters.category) {
+      return false;
+    }
+    
+    // Price Filter
+    const price = getBasePrice(cruise);
+    if (filters.minPrice && price < Number(filters.minPrice)) return false;
+    if (filters.maxPrice && price > Number(filters.maxPrice) && price !== 999999) return false;
+
+    // Duration Filter
+    if (filters.duration !== "all") {
+        if (!cruise.itineraries) return false;
+        const matchesDuration = cruise.itineraries.some(it => {
+            const match = it.durationName.match(/(\d+)\s*NIGHT/i);
+            return match && match[1] === filters.duration;
+        });
+        if (!matchesDuration) return false;
+    }
+
+    return true;
+  }).sort((a, b) => {
+    if (sortOrder === "low-to-high") {
+      return getBasePrice(a) - getBasePrice(b);
+    } else if (sortOrder === "high-to-low") {
+      return getBasePrice(b) - getBasePrice(a);
+    }
+    return 0;
+  });
 
   return (
     <div className="pt-24 min-h-screen bg-gray-50">
       {/* Hero */}
-
       <section className="bg-brand-emerald py-20 text-white relative overflow-hidden">
         <div className="absolute inset-0 opacity-10">
           <img
@@ -27,7 +104,6 @@ export const NileCruiseListPage: React.FC = () => {
             className="w-full h-full object-cover"
           />
         </div>
-
         <div className="max-w-7xl mx-auto px-4 relative z-10 text-center">
           <motion.h1
             initial={{ opacity: 0, y: 20 }}
@@ -36,7 +112,6 @@ export const NileCruiseListPage: React.FC = () => {
           >
             Nile River Cruises
           </motion.h1>
-
           <p className="text-xl opacity-90 max-w-2xl mx-auto">
             Experience the heartbeat of Egypt. From legendary vessels to
             ultra-luxury cruises, discover your perfect journey.
@@ -44,96 +119,76 @@ export const NileCruiseListPage: React.FC = () => {
         </div>
       </section>
 
-      {/* Cruise Grid */}
+      {/* Main Content */}
+      <section className="py-12 max-w-7xl mx-auto px-4">
+        <div className="flex flex-col lg:flex-row gap-8">
+          {/* Sidebar (Desktop & Mobile Modal) */}
+          <FilterSidebar 
+            filters={filters} 
+            setFilters={setFilters} 
+            categories={CATEGORIES}
+            isOpen={isMobileFiltersOpen}
+            onClose={() => setIsMobileFiltersOpen(false)}
+          />
 
-      <section className="py-20 max-w-7xl mx-auto px-4">
-        <div className="relative">
-          <div className="flex items-center gap-4 mb-10">
-            <div className="w-12 h-12 bg-brand-gold/10 rounded-2xl flex items-center justify-center text-brand-gold">
-              <Waves size={24} />
+          {/* Grid Area */}
+          <div className="flex-1">
+            <div className="flex flex-col sm:flex-row items-start sm:items-center justify-between mb-8 gap-4">
+              <div className="flex items-center gap-4">
+                <div className="w-12 h-12 bg-brand-gold/10 rounded-2xl flex items-center justify-center text-brand-gold">
+                  <Waves size={24} />
+                </div>
+                <h2 className="text-3xl font-serif font-bold text-brand-emerald">
+                  {CATEGORIES.find(c => c.id === filters.category)?.label} Cruises
+                </h2>
+              </div>
+
+              <div className="flex items-center gap-4 w-full sm:w-auto">
+                <button 
+                    onClick={() => setIsMobileFiltersOpen(true)}
+                    className="lg:hidden flex items-center gap-2 px-4 py-2 border border-gray-200 rounded-lg text-gray-700 font-medium"
+                >
+                    <Filter size={18} />
+                    Filters
+                </button>
+                <div className="flex items-center gap-4 ml-auto">
+                  <p className="text-gray-500 font-medium hidden sm:block">Showing {filteredCruises.length} results</p>
+                  <select 
+                    value={sortOrder} 
+                    onChange={(e) => setSortOrder(e.target.value as any)}
+                    className="bg-white border border-gray-200 text-gray-700 text-sm rounded-lg focus:ring-brand-emerald focus:border-brand-emerald block px-3 py-2 outline-none shadow-sm cursor-pointer"
+                  >
+                    <option value="default">Sort by Default</option>
+                    <option value="low-to-high">Price: Low to High</option>
+                    <option value="high-to-low">Price: High to Low</option>
+                  </select>
+                </div>
+              </div>
             </div>
 
-            <h2 className="text-3xl font-serif font-bold text-brand-emerald">
-              Our Luxury Nile Cruises
-            </h2>
-          </div>
-
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-            {cruises.map((cruise) => (
-              <motion.div
-                key={cruise.id}
-                whileHover={{ y: -10 }}
-                className="bg-white rounded-[2.5rem] overflow-hidden border border-gray-100 shadow-xl group cursor-pointer h-full flex flex-col"
-              >
-                <Link
-                  to={`/nile-cruise/${cruise.id}`}
-                  className="flex flex-col h-full"
-                >
-                  <div className="aspect-[4/3] overflow-hidden relative">
-                    <img
-                      src={cruise.gallery[0]}
-                      alt={cruise.name}
-                      className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
-                      referrerPolicy="no-referrer"
-                    />
-
-                    <div className="absolute top-4 right-4 bg-white/90 backdrop-blur-md px-3 py-1 rounded-full text-[10px] font-bold text-brand-emerald uppercase tracking-widest flex items-center gap-1">
-                      <Star
-                        size={10}
-                        className="fill-brand-gold text-brand-gold"
-                      />
-                      5-Star Luxury
-                    </div>
-                  </div>
-
-                  <div className="p-8 flex-grow">
-                    <h3 className="text-xl font-serif font-bold text-gray-900 mb-2 group-hover:text-brand-emerald transition-colors line-clamp-2">
-                      {cruise.name}
-                    </h3>
-
-                    <p className="text-xs text-brand-gold uppercase tracking-widest font-bold mb-4">
-                      {cruise.type}
-                    </p>
-
-                    <div className="space-y-3 mb-8">
-                      <div className="flex items-center gap-2 text-xs text-gray-500">
-                        <MapPin size={14} className="text-brand-gold" />
-                        Aswan / Luxor (Multiple Itineraries)
-                      </div>
-
-                      <div className="flex items-center gap-2 text-xs text-gray-500">
-                        <Clock size={14} className="text-brand-gold" />
-                        3, 4 or 7 Nights Available
-                      </div>
-                    </div>
-
-                    <div className="pt-6 border-t border-gray-50 flex items-center justify-between mt-auto">
-                      <div>
-                        <span className="block text-[10px] text-gray-600 uppercase font-bold tracking-widest mb-1">
-                          Starting from
-                        </span>
-
-                        {/* بناخد أقل سعر في المركب عشان نعرضه كبداية */}
-
-                        <span className="text-2xl font-bold text-brand-emerald">
-                          ${cruise.itineraries[0].pricing[0].doubleSharing}{" "}
-                          <span className="text-sm font-normal text-gray-600">
-                            / USD
-                          </span>
-                        </span>
-                      </div>
-
-                      <div className="w-10 h-10 rounded-full bg-brand-gold/5 flex items-center justify-center text-brand-gold group-hover:bg-brand-gold group-hover:text-white transition-all">
-                        <ChevronRight size={20} />
-                      </div>
-                    </div>
-                  </div>
-                </Link>
-              </motion.div>
-            ))}
+            {filteredCruises.length === 0 ? (
+                <div className="text-center py-20 bg-white rounded-3xl border border-gray-100">
+                    <h3 className="text-2xl font-serif font-bold text-gray-900 mb-2">No cruises found</h3>
+                    <p className="text-gray-500">Try adjusting your filters to find what you're looking for.</p>
+                    <button 
+                        onClick={() => setFilters({category: 'all', minPrice: '', maxPrice: '', duration: 'all'})}
+                        className="mt-6 px-6 py-2 bg-brand-emerald text-white font-bold rounded-lg hover:bg-brand-emerald/90 transition-colors"
+                    >
+                        Clear all filters
+                    </button>
+                </div>
+            ) : (
+                <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-8">
+                {filteredCruises.map((cruise) => (
+                    <CruiseCard key={cruise.id} cruise={cruise} />
+                ))}
+                </div>
+            )}
           </div>
         </div>
       </section>
     </div>
   );
 };
+
+export default NileCruiseListPage;
