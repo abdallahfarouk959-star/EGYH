@@ -1,0 +1,3865 @@
+[
+  {
+    "id": "ms-sonesta-star-goddess",
+    "name": "ms. sonesta star goddess",
+    "type": "Nile Cruise",
+    "category": "luxury",
+    "subType": "nile-cruise",
+    "featured": false,
+    "gallery": [],
+    "inclusions": [
+      "We provide seamless pickup and drop-off services at both Luxor International Airport (LXR) and Aswan International Airport (ASW).",
+      "04 or 03 nights’ accommodation on board the Nile cruises. on FB basis.",
+      "Meet and assist service upon arrival & departure.",
+      "Assistance of our personnel during your stay and excursions.",
+      "All transfers are made by a modern, air-conditioned, private deluxe vehicle.",
+      "All Nile Cruise excursions, as mentioned in the itinerary private.",
+      "Entrance fees to all sights in and between Luxor and Aswan."
+    ],
+    "exclusions": [
+      "Any Extra meals and beverages.",
+      "Personal expenses.",
+      "Tipping.",
+      "Optional tours."
+    ],
+    "childrenPolicy": [
+      "Less than 06years old: will be accommodated free of charge sharing parents’ cabin",
+      "From 6years till 11.99 years: Sharing parent’s cabins and will be charged as a half adult with a maximum of one child.",
+      "Children from 12 years & over will be charged full fare.",
+      "In case of 01 Child between 06 and 11.99 years accommodated with one adult only, cabin will be charged as 01 Double cabin."
+    ],
+    "note": "Rates to be applied for Standard Cabins (Main deck). A supplement to be added for bookings in Upper Deck cabins -connected cabins and cabins with veranda",
+    "itineraries": [
+      {
+        "id": "ms-sonesta-star-goddess-3nights-aswan-to-luxor",
+        "durationName": "3NIGHTS  ASWAN TO LUXOR",
+        "departureDay": "Every wednesday",
+        "pricing": [
+          {
+            "seasonName": "Summer Price May & September",
+            "applicableDates": [],
+            "tripleSharing": 990,
+            "doubleSharing": 1020,
+            "singleCabin": 1720
+          },
+          {
+            "seasonName": "Winter Price October to April",
+            "applicableDates": [],
+            "tripleSharing": 2055,
+            "doubleSharing": 2175,
+            "singleCabin": 3420
+          },
+          {
+            "seasonName": "Peak winter Price",
+            "applicableDates": [
+              "21-12-2026 till 04-01-2026",
+              "22-3-2027 till 29-03-2027"
+            ],
+            "tripleSharing": 2360,
+            "doubleSharing": 2285,
+            "singleCabin": 3980
+          }
+        ],
+        "days": [
+          {
+            "dayNumber": 1,
+            "title": "Aswan Arrival & Sightseeing",
+            "activities": [
+              "Pick-up from Aswan (airport, train station, or hotel) – Meet & Greet",
+              "Transfer to Nile cruise boat & embarkation",
+              "1:00 PM – Lunch on board",
+              "Visit Philae Temple & High Dam",
+              "Dinner & overnight in Aswan"
+            ]
+          },
+          {
+            "dayNumber": 2,
+            "title": "Optional Abu Simbel & Sailing to Kom Ombo",
+            "activities": [
+              "Breakfast on board",
+              "Visit Abu Simbel Temples (5:00 AM - 1:00 PM by land)",
+              "Visit Nubian Village by motorboat",
+              "Lunch on board",
+              "2:00 PM – Sail to Kom Ombo & visit the temple",
+              "Sail to Edfu & dinner on board",
+              "Overnight in Edfu"
+            ]
+          },
+          {
+            "dayNumber": 3,
+            "title": "Edfu & Luxor",
+            "activities": [
+              "Visit Edfu Temple by horse carriage",
+              "Breakfast on board",
+              "Sail to Esna, cross the lock, then sail to Luxor",
+              "Evening – Optional Sound & Light Show at Karnak Temple",
+              "Dinner & overnight in Luxor"
+            ]
+          },
+          {
+            "dayNumber": 4,
+            "title": "Luxor West & East Bank",
+            "activities": [
+              "Optional: Hot Air Balloon Ride",
+              "Breakfast & Disembarkation at 8:00 AM",
+              "Visit Valley of the Kings, Hatshepsut Temple & Colossi of Memnon",
+              "Visit Karnak & Luxor Temples",
+              "Departure transfer to airport, train station, or hotel"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "ms-sonesta-star-goddess-4nights-luxor-to-aswan",
+        "durationName": "4NIGHTS  luxor to aswan",
+        "departureDay": "Every saturday",
+        "pricing": [
+          {
+            "seasonName": "Summer Price May & September",
+            "applicableDates": [],
+            "tripleSharing": 1210,
+            "doubleSharing": 1270,
+            "singleCabin": 2120
+          },
+          {
+            "seasonName": "Winter Price October to April",
+            "applicableDates": [],
+            "tripleSharing": 2755,
+            "doubleSharing": 2880,
+            "singleCabin": 4500
+          },
+          {
+            "seasonName": "Peak winter Price",
+            "applicableDates": [
+              "21-12-2026 till 31-12-2026",
+              "22-3-2027 till 1/4/2027"
+            ],
+            "tripleSharing": 3230,
+            "doubleSharing": 3490,
+            "singleCabin": 5310
+          }
+        ],
+        "days": [
+          {
+            "dayNumber": 1,
+            "title": "Luxor Arrival & East Bank Exploration",
+            "activities": [
+              "Pick-up from Luxor (airport, train station, or hotel) – Meet & Greet",
+              "Transfer to Nile cruise boat & embarkation",
+              "1:00 PM – Lunch on board",
+              "Afternoon – Visit Luxor and Karnak Temples",
+              "Evening – Optional: Sound & Light Show at Karnak Temple",
+              "Dinner & onboard entertainment",
+              "Overnight in Luxor"
+            ]
+          },
+          {
+            "dayNumber": 2,
+            "title": "West Bank & Sailing to Edfu",
+            "activities": [
+              "Optional: Hot Air Balloon Ride at sunrise",
+              "Breakfast on board",
+              "Visit Valley of the Kings, Hatshepsut Temple & Colossi of Memnon",
+              "Lunch on board & sail to Esna (cross the lock), then continue to Edfu",
+              "Dinner & overnight in Edfu"
+            ]
+          },
+          {
+            "dayNumber": 3,
+            "title": "Edfu & Kom Ombo",
+            "activities": [
+              "Breakfast on board",
+              "Horse carriage ride to visit Edfu Temple",
+              "Sail to Kom Ombo & Lunch on board",
+              "Visit Kom Ombo Temple",
+              "Sail to Aswan & Dinner on board",
+              "Overnight in Aswan"
+            ]
+          },
+          {
+            "dayNumber": 4,
+            "title": "Aswan Highlights",
+            "activities": [
+              "Breakfast on board",
+              "Visit the High Dam & Philae Temple",
+              "Lunch on board",
+              "Visit Nubian Village by motorboat",
+              "Sunset Felucca Ride",
+              "Sound & Light Show at Philae Temple",
+              "Dinner & overnight in Aswan"
+            ]
+          },
+          {
+            "dayNumber": 5,
+            "title": "Disembarkation & Optional Abu Simbel Tour",
+            "activities": [
+              "Disembarkation",
+              "Optional: Visit Abu Simbel Temples (8-9 hours by land or 5 hours by flight round trip)",
+              "Departure transfer to airport, train station, or hotel"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ms-soleil",
+    "name": "ms. soleil",
+    "type": "Nile Cruise",
+    "category": "luxury",
+    "subType": "nile-cruise",
+    "featured": false,
+    "gallery": [],
+    "inclusions": [
+      "We provide seamless pickup and drop-off services at both Luxor International Airport (LXR) and Aswan International Airport (ASW).",
+      "04 or 03 nights’ accommodation on board the Nile cruises. on FB basis.",
+      "Meet and assist service upon arrival & departure.",
+      "Assistance of our personnel during your stay and excursions.",
+      "All transfers are made by a modern, air-conditioned, private deluxe vehicle.",
+      "All Nile Cruise excursions, as mentioned in the itinerary private.",
+      "Entrance fees to all sights in and between Luxor and Aswan."
+    ],
+    "exclusions": [
+      "Any Extra meals and beverages.",
+      "Personal expenses.",
+      "Tipping.",
+      "Optional tours."
+    ],
+    "childrenPolicy": [
+      ". Children under 7 years old are not allowed on soleil",
+      "From 7 years till 11.99 years: Sharing parent’s cabins and will be charged as a half adult with a maximum of one child",
+      "( available in suites only )",
+      "Children from 12 years & over will be charged full fare.",
+      "In case of 01 Child between 07and 11.99 years accommodated with one adult only, cabin will be charged as 01 Double cabin."
+    ],
+    "note": "Rates to be applied for Cabins (Main deck). A supplement to be added for bookings in Cabins (Upper Deck & connected cabins) usd 20 per person per night .",
+    "itineraries": [
+      {
+        "id": "ms-soleil-3nights-aswan-to-luxor",
+        "durationName": "3NIGHTS  ASWAN TO LUXOR",
+        "departureDay": "Every Friday",
+        "pricing": [
+          {
+            "seasonName": "Summer Price May & September",
+            "applicableDates": [],
+            "tripleSharing": 990,
+            "doubleSharing": 1020,
+            "singleCabin": 1720
+          },
+          {
+            "seasonName": "Winter Price October to April",
+            "applicableDates": [],
+            "tripleSharing": 2130,
+            "doubleSharing": 2250,
+            "singleCabin": 3424
+          },
+          {
+            "seasonName": "Peak winter Price",
+            "applicableDates": [
+              "21-12-2026 till 04-01-2026",
+              "22-3-2027 till 29-03-2027"
+            ],
+            "tripleSharing": 2420,
+            "doubleSharing": 2345,
+            "singleCabin": 4340
+          }
+        ],
+        "days": [
+          {
+            "dayNumber": 1,
+            "title": "",
+            "activities": [
+              "Pick up from Aswan (airport, train station or hotel)",
+              "Meet & greet",
+              "Transfer to Nile cruise boat",
+              "Embarkation on cruise boat",
+              "01:00 PM Lunch on board",
+              "Visit to philia temple and high dam",
+              "Dinner on board",
+              "Over night on boat in aswan"
+            ]
+          },
+          {
+            "dayNumber": 2,
+            "title": "",
+            "activities": [
+              "Sail to KomOmbo 03:00 AM.",
+              "Breakfast and visit to KomOmbo Temple",
+              "Sail to Edfu Lunch on board",
+              "Visit EdfuTemple.",
+              "Sail to Luxor",
+              "Dinner on board",
+              "Overnight Esna or Luxor"
+            ]
+          },
+          {
+            "dayNumber": 3,
+            "title": "",
+            "activities": [
+              "Optional tour (hot air balloon)",
+              "Breakfast on board",
+              "Visit the West Bank – The Valley of the Kings -The temple of Queen Hatshepsut at El-Deir El-Bahari and the Colossi Memnon.",
+              "Lunch on board",
+              "Visit East Bank (Karnak and Luxor Temples)",
+              "Dinner on board",
+              "Party",
+              "Overnight in Luxor"
+            ]
+          },
+          {
+            "dayNumber": 4,
+            "title": "",
+            "activities": [
+              "Breakfast on board",
+              "Disembarkation at 08:00 am.",
+              "Departure transfer to ( airport ,train station or hotel)"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "ms-soleil-4nights-luxor-to-aswan",
+        "durationName": "4NIGHTS  luxor to aswan",
+        "departureDay": "Every Monday",
+        "pricing": [
+          {
+            "seasonName": "Summer Price May & September",
+            "applicableDates": [],
+            "tripleSharing": 1210,
+            "doubleSharing": 1270,
+            "singleCabin": 2120
+          },
+          {
+            "seasonName": "Winter Price October to April",
+            "applicableDates": [],
+            "tripleSharing": 2855,
+            "doubleSharing": 2980,
+            "singleCabin": 4512
+          },
+          {
+            "seasonName": "Peak winter Price",
+            "applicableDates": [
+              "21-12-2026 till 31-12-2026",
+              "22-3-2027 till 1/4/2027"
+            ],
+            "tripleSharing": 3310,
+            "doubleSharing": 3570,
+            "singleCabin": 6000
+          }
+        ],
+        "days": [
+          {
+            "dayNumber": 1,
+            "title": "",
+            "activities": [
+              "Pick up from Luxor ( airport ,train station or hotel)",
+              "Meet & greet",
+              "Transfer to Nile cruise boat",
+              "Embarkation on cruise boat",
+              "1pm Lunch on board",
+              "East Luxor",
+              "Visit to Luxor and Karnak Temples.",
+              "Optional tour ( sound& light show in karnak temple).",
+              "Dinner and show on board.",
+              "Overnight on board in Luxor ·"
+            ]
+          },
+          {
+            "dayNumber": 2,
+            "title": "",
+            "activities": [
+              "Optional tour (hot air balloon)",
+              "Breakfast",
+              "West Luxor",
+              "Visit to Valley of the Kings, Hatshepsut Temple, and Memnon Colossi.",
+              "Lunch on board",
+              "Sail to Esna. Cross the lock. Sail to Edfu.",
+              "Dinner",
+              "Overnight on board in Edfu"
+            ]
+          },
+          {
+            "dayNumber": 3,
+            "title": "",
+            "activities": [
+              "Breakfast on board",
+              "Visit to Edfu Temple by hors carriage",
+              "Sail to komombo temple",
+              "Lunch on board",
+              "Visit to komombo temple",
+              "Sail to Aswan",
+              "Dinner",
+              "Arrival to Aswan",
+              "Over night on board in Aswan"
+            ]
+          },
+          {
+            "dayNumber": 4,
+            "title": "",
+            "activities": [
+              "Breakfast",
+              "Visit to High Dam and Philae Temple",
+              "Lunch on board",
+              "Optional tour( visit to Nubian village by motor boat or felucca ride sun set time).",
+              "Optional tour (sound& light show in philia temple).",
+              "Dinner on board",
+              "Overnight on board in Aswan"
+            ]
+          },
+          {
+            "dayNumber": 5,
+            "title": "",
+            "activities": [
+              "Disembarkation from cruise ship.",
+              "Optional tour (visit to Abu simple temples) 8-9 hours by land or 5hours by flight round trip.",
+              "Departure transfer to ( airport ,train station or hotel)"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ms-mazaj-tulip",
+    "name": "ms. mazaj tulip",
+    "type": "Nile Cruise",
+    "category": "luxury",
+    "subType": "nile-cruise",
+    "featured": false,
+    "gallery": [],
+    "inclusions": [
+      "We provide seamless pickup and drop-off services at both Luxor International Airport (LXR) and Aswan International Airport (ASW).",
+      "04 or 03 nights’ accommodation on board the Nile cruises. on FB basis.",
+      "Meet and assist service upon arrival & departure.",
+      "Assistance of our personnel during your stay and excursions.",
+      "All transfers are made by a modern, air-conditioned, private deluxe vehicle.",
+      "All Nile Cruise excursions, as mentioned in the itinerary private.",
+      "Entrance fees to all sights in and between Luxor and Aswan."
+    ],
+    "exclusions": [
+      "Any Extra meals and beverages.",
+      "Personal expenses.",
+      "Tipping.",
+      "Optional tours."
+    ],
+    "childrenPolicy": [
+      "Less than 06years old: will be accommodated free of charge sharing parents’ cabin",
+      "From 6years till 11.99 years: Sharing parent’s cabins and will be charged as a half adult with a maximum of one child.",
+      "Children from 12 years & over will be charged full fare.",
+      "In case of 01 Child between 06 and 11.99 years accommodated with one adult only, cabin will be charged as 01 Double cabin."
+    ],
+    "note": "Rates to be applied for Standard Cabins (Main deck). A supplement to be added for bookings in Upper Deck cabins -connected cabins and cabins with veranda",
+    "itineraries": [
+      {
+        "id": "ms-mazaj-tulip-3nights-aswan-to-luxor",
+        "durationName": "3NIGHTS  ASWAN TO LUXOR",
+        "departureDay": "Every Friday",
+        "pricing": [
+          {
+            "seasonName": "Summer Price May & September",
+            "applicableDates": [],
+            "tripleSharing": 715,
+            "doubleSharing": 730,
+            "singleCabin": 1240
+          },
+          {
+            "seasonName": "Winter Price October to April",
+            "applicableDates": [],
+            "tripleSharing": 1470,
+            "doubleSharing": 1485,
+            "singleCabin": 2410
+          },
+          {
+            "seasonName": "Peak winter Price",
+            "applicableDates": [
+              "21-12-2026 till 31-12-2026",
+              "22-3-2027 till 1/4/2027"
+            ],
+            "tripleSharing": 1850,
+            "doubleSharing": 1865,
+            "singleCabin": 3100
+          }
+        ],
+        "days": [
+          {
+            "dayNumber": 1,
+            "title": "",
+            "activities": [
+              "Pick up from Aswan (airport, train station or hotel)",
+              "Meet & greet",
+              "Transfer to Nile cruise boat",
+              "Embarkation on cruise boat",
+              "01:00 PM Lunch on board",
+              "Visit to philia temple and high dam",
+              "Dinner on board",
+              "Over night on boat in aswan"
+            ]
+          },
+          {
+            "dayNumber": 2,
+            "title": "",
+            "activities": [
+              "Sail to KomOmbo 03:00 AM.",
+              "Breakfast and visit to KomOmbo Temple",
+              "Sail to Edfu Lunch on board",
+              "Visit EdfuTemple.",
+              "Sail to Luxor",
+              "Dinner on board",
+              "Overnight Esna or Luxor"
+            ]
+          },
+          {
+            "dayNumber": 3,
+            "title": "",
+            "activities": [
+              "Optional tour (hot air balloon)",
+              "Breakfast on board",
+              "Visit the West Bank – The Valley of the Kings -The temple of Queen Hatshepsut at El-Deir El-Bahari and the Colossi Memnon.",
+              "Lunch on board",
+              "Visit East Bank (Karnak and Luxor Temples)",
+              "Dinner on board",
+              "Party",
+              "Overnight in Luxor"
+            ]
+          },
+          {
+            "dayNumber": 4,
+            "title": "",
+            "activities": [
+              "Breakfast on board",
+              "Disembarkation at 08:00 am.",
+              "Departure transfer to ( airport ,train station or hotel)"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "ms-mazaj-tulip-4nights-luxor-to-aswan",
+        "durationName": "4NIGHTS  luxor to aswan",
+        "departureDay": "Every Monday",
+        "pricing": [
+          {
+            "seasonName": "Summer Price May & September",
+            "applicableDates": [],
+            "tripleSharing": 850,
+            "doubleSharing": 870,
+            "singleCabin": 1480
+          },
+          {
+            "seasonName": "Winter Price October to April",
+            "applicableDates": [],
+            "tripleSharing": 1915,
+            "doubleSharing": 1895,
+            "singleCabin": 3070
+          },
+          {
+            "seasonName": "Peak winter Price",
+            "applicableDates": [
+              "21-12-2026 till 31-12-2026",
+              "22-3-2027 till 1/4/2027"
+            ],
+            "tripleSharing": 2385,
+            "doubleSharing": 2405,
+            "singleCabin": 3965
+          }
+        ],
+        "days": [
+          {
+            "dayNumber": 1,
+            "title": "",
+            "activities": [
+              "Pick up from Luxor ( airport ,train station or hotel)",
+              "Meet & greet",
+              "Transfer to Nile cruise boat",
+              "Embarkation on cruise boat",
+              "1pm Lunch on board",
+              "East Luxor",
+              "Visit to Luxor and Karnak Temples.",
+              "Optional tour ( sound& light show in karnak temple).",
+              "Dinner and show on board.",
+              "Overnight on board in Luxor ·"
+            ]
+          },
+          {
+            "dayNumber": 2,
+            "title": "",
+            "activities": [
+              "Optional tour (hot air balloon)",
+              "Breakfast",
+              "West Luxor",
+              "Visit to Valley of the Kings, Hatshepsut Temple, and Memnon Colossi.",
+              "Lunch on board",
+              "Sail to Esna. Cross the lock. Sail to Edfu.",
+              "Dinner",
+              "Overnight on board in Edfu"
+            ]
+          },
+          {
+            "dayNumber": 3,
+            "title": "",
+            "activities": [
+              "Breakfast on board",
+              "Visit to Edfu Temple by hors carriage",
+              "Sail to komombo temple",
+              "Lunch on board",
+              "Visit to komombo temple",
+              "Sail to Aswan",
+              "Dinner",
+              "Arrival to Aswan",
+              "Over night on board in Aswan"
+            ]
+          },
+          {
+            "dayNumber": 4,
+            "title": "",
+            "activities": [
+              "Breakfast",
+              "Visit to High Dam and Philae Temple",
+              "Lunch on board",
+              "Optional tour( visit to Nubian village by motor boat or felucca ride sun set time).",
+              "Optional tour (sound& light show in philia temple).",
+              "Dinner on board",
+              "Overnight on board in Aswan"
+            ]
+          },
+          {
+            "dayNumber": 5,
+            "title": "",
+            "activities": [
+              "Disembarkation from cruise ship.",
+              "Optional tour (visit to Abu simple temples) 8-9 hours by land or 5hours by flight round trip.",
+              "Departure transfer to ( airport ,train station or hotel)"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ms-le-fayan",
+    "name": "ms. le fayan",
+    "type": "Nile Cruise",
+    "category": "luxury",
+    "subType": "nile-cruise",
+    "featured": false,
+    "gallery": [],
+    "inclusions": [
+      "We provide seamless pickup and drop-off services at both Luxor International Airport (LXR) and Aswan International Airport (ASW).",
+      "04 or 03 nights’ accommodation on board the Nile cruises. on FB basis.",
+      "Meet and assist service upon arrival & departure.",
+      "Assistance of our personnel during your stay and excursions.",
+      "All transfers are made by a modern, air-conditioned, private deluxe vehicle.",
+      "All Nile Cruise excursions, as mentioned in the itinerary private.",
+      "Entrance fees to all sights in and between Luxor and Aswan."
+    ],
+    "exclusions": [
+      "Any Extra meals and beverages.",
+      "Personal expenses.",
+      "Tipping.",
+      "Optional tours."
+    ],
+    "childrenPolicy": [
+      "Less than 06years old: will be accommodated free of charge sharing parents’ cabin",
+      "From 6years till 11.99 years: Sharing parent’s cabins and will be charged as a half adult with a maximum of one child.",
+      "Children from 12 years & over will be charged full fare.",
+      "In case of 01 Child between 06 and 11.99 years accommodated with one adult only, cabin will be charged as 01 Double cabin."
+    ],
+    "note": "Rates to be applied for Standard Cabins (Main deck). A supplement to be added for bookings in Upper Deck cabins -connected cabins and cabins with veranda",
+    "itineraries": [
+      {
+        "id": "ms-le-fayan-3nights-aswan-to-luxor",
+        "durationName": "3NIGHTS  ASWAN TO LUXOR",
+        "departureDay": "Every Monday",
+        "pricing": [
+          {
+            "seasonName": "Summer Price May & September",
+            "applicableDates": [],
+            "tripleSharing": 715,
+            "doubleSharing": 730,
+            "singleCabin": 1240
+          },
+          {
+            "seasonName": "Winter Price October to April",
+            "applicableDates": [],
+            "tripleSharing": 1470,
+            "doubleSharing": 1485,
+            "singleCabin": 2410
+          },
+          {
+            "seasonName": "Peak winter Price",
+            "applicableDates": [
+              "21-12-2026 till 31-12-2026",
+              "22-3-2027 till 1/4/2027"
+            ],
+            "tripleSharing": 1850,
+            "doubleSharing": 1865,
+            "singleCabin": 3100
+          }
+        ],
+        "days": [
+          {
+            "dayNumber": 1,
+            "title": "",
+            "activities": [
+              "Pick up from Aswan (airport, train station or hotel)",
+              "Meet & greet",
+              "Transfer to Nile cruise boat",
+              "Embarkation on cruise boat",
+              "01:00 PM Lunch on board",
+              "Visit to philia temple and high dam",
+              "Dinner on board",
+              "Over night on boat in aswan"
+            ]
+          },
+          {
+            "dayNumber": 2,
+            "title": "",
+            "activities": [
+              "Sail to KomOmbo 03:00 AM.",
+              "Breakfast and visit to KomOmbo Temple",
+              "Sail to Edfu Lunch on board",
+              "Visit EdfuTemple.",
+              "Sail to Luxor",
+              "Dinner on board",
+              "Overnight Esna or Luxor"
+            ]
+          },
+          {
+            "dayNumber": 3,
+            "title": "",
+            "activities": [
+              "Optional tour (hot air balloon)",
+              "Breakfast on board",
+              "Visit the West Bank – The Valley of the Kings -The temple of Queen Hatshepsut at El-Deir El-Bahari and the Colossi Memnon.",
+              "Lunch on board",
+              "Visit East Bank (Karnak and Luxor Temples)",
+              "Dinner on board",
+              "Party",
+              "Overnight in Luxor"
+            ]
+          },
+          {
+            "dayNumber": 4,
+            "title": "",
+            "activities": [
+              "Breakfast on board",
+              "Disembarkation at 08:00 am.",
+              "Departure transfer to ( airport ,train station or hotel)"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "ms-le-fayan-4nights-luxor-to-aswan",
+        "durationName": "4NIGHTS  luxor to aswan",
+        "departureDay": "Every thursday",
+        "pricing": [
+          {
+            "seasonName": "Summer Price May & September",
+            "applicableDates": [],
+            "tripleSharing": 850,
+            "doubleSharing": 870,
+            "singleCabin": 1480
+          },
+          {
+            "seasonName": "Winter Price October to April",
+            "applicableDates": [],
+            "tripleSharing": 1915,
+            "doubleSharing": 1895,
+            "singleCabin": 3070
+          },
+          {
+            "seasonName": "Peak winter Price",
+            "applicableDates": [
+              "21-12-2026 till 31-12-2026",
+              "22-3-2027 till 1/4/2027"
+            ],
+            "tripleSharing": 2385,
+            "doubleSharing": 2405,
+            "singleCabin": 3965
+          }
+        ],
+        "days": [
+          {
+            "dayNumber": 1,
+            "title": "",
+            "activities": [
+              "Pick up from Luxor ( airport ,train station or hotel)",
+              "Meet & greet",
+              "Transfer to Nile cruise boat",
+              "Embarkation on cruise boat",
+              "1pm Lunch on board",
+              "East Luxor",
+              "Visit to Luxor and Karnak Temples.",
+              "Optional tour ( sound& light show in karnak temple).",
+              "Dinner and show on board.",
+              "Overnight on board in Luxor ·"
+            ]
+          },
+          {
+            "dayNumber": 2,
+            "title": "",
+            "activities": [
+              "Optional tour (hot air balloon)",
+              "Breakfast",
+              "West Luxor",
+              "Visit to Valley of the Kings, Hatshepsut Temple, and Memnon Colossi.",
+              "Lunch on board",
+              "Sail to Esna. Cross the lock. Sail to Edfu.",
+              "Dinner",
+              "Overnight on board in Edfu"
+            ]
+          },
+          {
+            "dayNumber": 3,
+            "title": "",
+            "activities": [
+              "Breakfast on board",
+              "Visit to Edfu Temple by hors carriage",
+              "Sail to komombo temple",
+              "Lunch on board",
+              "Visit to komombo temple",
+              "Sail to Aswan",
+              "Dinner",
+              "Arrival to Aswan",
+              "Over night on board in Aswan"
+            ]
+          },
+          {
+            "dayNumber": 4,
+            "title": "",
+            "activities": [
+              "Breakfast",
+              "Visit to High Dam and Philae Temple",
+              "Lunch on board",
+              "Optional tour( visit to Nubian village by motor boat or felucca ride sun set time).",
+              "Optional tour (sound& light show in philia temple).",
+              "Dinner on board",
+              "Overnight on board in Aswan"
+            ]
+          },
+          {
+            "dayNumber": 5,
+            "title": "",
+            "activities": [
+              "Disembarkation from cruise ship.",
+              "Optional tour (visit to Abu simple temples) 8-9 hours by land or 5hours by flight round trip.",
+              "Departure transfer to ( airport ,train station or hotel)"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ms-le-fayan-suites",
+    "name": "ms. le fayan suites",
+    "type": "Nile Cruise",
+    "category": "luxury",
+    "subType": "nile-cruise",
+    "featured": false,
+    "gallery": [],
+    "inclusions": [
+      "We provide seamless pickup and drop-off services at both Luxor International Airport (LXR) and Aswan International Airport (ASW).",
+      "04 or 03 nights’ accommodation on board the Nile cruises. on FB basis.",
+      "Meet and assist service upon arrival & departure.",
+      "Assistance of our personnel during your stay and excursions.",
+      "All transfers are made by a modern, air-conditioned, private deluxe vehicle.",
+      "All Nile Cruise excursions, as mentioned in the itinerary private.",
+      "Entrance fees to all sights in and between Luxor and Aswan."
+    ],
+    "exclusions": [
+      "Any Extra meals and beverages.",
+      "Personal expenses.",
+      "Tipping.",
+      "Optional tours."
+    ],
+    "childrenPolicy": [
+      ". Children under 6 years old are not allowed on soleil",
+      "From 6 years till 11.99 years: Sharing parent’s cabins and will be charged as a half adult with a maximum of one child",
+      "Children from 12 years & over will be charged full fare.",
+      "In case of 01 Child between 07and 11.99 years accommodated with one adult only, cabin will be charged as 01 Double cabin."
+    ],
+    "note": "Rates to be applied for Cabins (Main deck). A supplement to be added for bookings in Cabins (Upper Deck & connected cabins) usd 20 per person per night .",
+    "itineraries": [
+      {
+        "id": "ms-le-fayan-suites-3nights-aswan-to-luxor",
+        "durationName": "3NIGHTS  ASWAN TO LUXOR",
+        "departureDay": "Every Friday",
+        "pricing": [
+          {
+            "seasonName": "Summer Price May & September",
+            "applicableDates": [],
+            "tripleSharing": 990,
+            "doubleSharing": 1020,
+            "singleCabin": 1720
+          },
+          {
+            "seasonName": "Winter Price October to April",
+            "applicableDates": [],
+            "tripleSharing": 2430,
+            "doubleSharing": 2550,
+            "singleCabin": 3724
+          },
+          {
+            "seasonName": "Peak winter Price",
+            "applicableDates": [
+              "21-12-2026 till 04-01-2026",
+              "22-3-2027 till 29-03-2027"
+            ],
+            "tripleSharing": 2850,
+            "doubleSharing": 2800,
+            "singleCabin": 4840
+          }
+        ],
+        "days": [
+          {
+            "dayNumber": 1,
+            "title": "",
+            "activities": [
+              "Pick up from Aswan (airport, train station or hotel)",
+              "Meet & greet",
+              "Transfer to Nile cruise boat",
+              "Embarkation on cruise boat",
+              "01:00 PM Lunch on board",
+              "Visit to philia temple and high dam",
+              "Dinner on board",
+              "Over night on boat in aswan"
+            ]
+          },
+          {
+            "dayNumber": 2,
+            "title": "",
+            "activities": [
+              "Sail to KomOmbo 03:00 AM.",
+              "Breakfast and visit to KomOmbo Temple",
+              "Sail to Edfu Lunch on board",
+              "Visit EdfuTemple.",
+              "Sail to Luxor",
+              "Dinner on board",
+              "Overnight Esna or Luxor"
+            ]
+          },
+          {
+            "dayNumber": 3,
+            "title": "",
+            "activities": [
+              "Optional tour (hot air balloon)",
+              "Breakfast on board",
+              "Visit the West Bank – The Valley of the Kings -The temple of Queen Hatshepsut at El-Deir El-Bahari and the Colossi Memnon.",
+              "Lunch on board",
+              "Visit East Bank (Karnak and Luxor Temples)",
+              "Dinner on board",
+              "Party",
+              "Overnight in Luxor"
+            ]
+          },
+          {
+            "dayNumber": 4,
+            "title": "",
+            "activities": [
+              "Breakfast on board",
+              "Disembarkation at 08:00 am.",
+              "Departure transfer to ( airport ,train station or hotel)"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "ms-le-fayan-suites-4nights-luxor-to-aswan",
+        "durationName": "4NIGHTS  luxor to aswan",
+        "departureDay": "Every Monday",
+        "pricing": [
+          {
+            "seasonName": "Summer Price May & September",
+            "applicableDates": [],
+            "tripleSharing": 1210,
+            "doubleSharing": 1270,
+            "singleCabin": 2120
+          },
+          {
+            "seasonName": "Winter Price October to April",
+            "applicableDates": [],
+            "tripleSharing": 3255,
+            "doubleSharing": 3380,
+            "singleCabin": 4880
+          },
+          {
+            "seasonName": "Peak winter Price",
+            "applicableDates": [
+              "21-12-2026 till 31-12-2026",
+              "22-3-2027 till 1/4/2027"
+            ],
+            "tripleSharing": 3910,
+            "doubleSharing": 4170,
+            "singleCabin": 6680
+          }
+        ],
+        "days": [
+          {
+            "dayNumber": 1,
+            "title": "",
+            "activities": [
+              "Pick up from Luxor ( airport ,train station or hotel)",
+              "Meet & greet",
+              "Transfer to Nile cruise boat",
+              "Embarkation on cruise boat",
+              "1pm Lunch on board",
+              "East Luxor",
+              "Visit to Luxor and Karnak Temples.",
+              "Optional tour ( sound& light show in karnak temple).",
+              "Dinner and show on board.",
+              "Overnight on board in Luxor ·"
+            ]
+          },
+          {
+            "dayNumber": 2,
+            "title": "",
+            "activities": [
+              "Optional tour (hot air balloon)",
+              "Breakfast",
+              "West Luxor",
+              "Visit to Valley of the Kings, Hatshepsut Temple, and Memnon Colossi.",
+              "Lunch on board",
+              "Sail to Esna. Cross the lock. Sail to Edfu.",
+              "Dinner",
+              "Overnight on board in Edfu"
+            ]
+          },
+          {
+            "dayNumber": 3,
+            "title": "",
+            "activities": [
+              "Breakfast on board",
+              "Visit to Edfu Temple by hors carriage",
+              "Sail to komombo temple",
+              "Lunch on board",
+              "Visit to komombo temple",
+              "Sail to Aswan",
+              "Dinner",
+              "Arrival to Aswan",
+              "Over night on board in Aswan"
+            ]
+          },
+          {
+            "dayNumber": 4,
+            "title": "",
+            "activities": [
+              "Breakfast",
+              "Visit to High Dam and Philae Temple",
+              "Lunch on board",
+              "Optional tour( visit to Nubian village by motor boat or felucca ride sun set time).",
+              "Optional tour (sound& light show in philia temple).",
+              "Dinner on board",
+              "Overnight on board in Aswan"
+            ]
+          },
+          {
+            "dayNumber": 5,
+            "title": "",
+            "activities": [
+              "Disembarkation from cruise ship.",
+              "Optional tour (visit to Abu simple temples) 8-9 hours by land or 5hours by flight round trip.",
+              "Departure transfer to ( airport ,train station or hotel)"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ms-gaz-elite-viceroy",
+    "name": "ms. gaz elite viceroy",
+    "type": "Nile Cruise",
+    "category": "luxury",
+    "subType": "nile-cruise",
+    "featured": false,
+    "gallery": [],
+    "inclusions": [
+      "We provide seamless pickup and drop-off services at both Luxor International Airport (LXR) and Aswan International Airport (ASW).",
+      "04 or 03 nights’ accommodation on board the Nile cruises. on FB basis.",
+      "Meet and assist service upon arrival & departure.",
+      "Assistance of our personnel during your stay and excursions.",
+      "All transfers are made by a modern, air-conditioned, private deluxe vehicle.",
+      "All Nile Cruise excursions, as mentioned in the itinerary private.",
+      "Entrance fees to all sights in and between Luxor and Aswan."
+    ],
+    "exclusions": [
+      "Any Extra meals and beverages.",
+      "Personal expenses.",
+      "Tipping.",
+      "Optional tours."
+    ],
+    "childrenPolicy": [
+      "Less than 06years old: will be accommodated free of charge sharing parents’ cabin",
+      "From 6years till 11.99 years: Sharing parent’s cabins and will be charged as a half adult with a maximum of one child.",
+      "Children from 12 years & over will be charged full fare.",
+      "In case of 01 Child between 06 and 11.99 years accommodated with one adult only, cabin will be charged as 01 Double cabin."
+    ],
+    "note": "Rates to be applied for Standard Cabins (Main deck). A supplement to be added for bookings in Upper Deck cabins -connected cabins and cabins with veranda",
+    "itineraries": [
+      {
+        "id": "ms-gaz-elite-viceroy-3nights-aswan-to-luxor",
+        "durationName": "3NIGHTS  ASWAN TO LUXOR",
+        "departureDay": "Every wednesday",
+        "pricing": [
+          {
+            "seasonName": "Summer Price May & September",
+            "applicableDates": [],
+            "tripleSharing": 715,
+            "doubleSharing": 730,
+            "singleCabin": 1240
+          },
+          {
+            "seasonName": "Winter Price October to April",
+            "applicableDates": [],
+            "tripleSharing": 1470,
+            "doubleSharing": 1485,
+            "singleCabin": 2410
+          },
+          {
+            "seasonName": "Peak winter Price",
+            "applicableDates": [
+              "21-12-2026 till 31-12-2026",
+              "22-3-2027 till 1/4/2027"
+            ],
+            "tripleSharing": 1790,
+            "doubleSharing": 1805,
+            "singleCabin": 2795
+          }
+        ],
+        "days": [
+          {
+            "dayNumber": 1,
+            "title": "Aswan Arrival & Sightseeing",
+            "activities": [
+              "Pick-up from Aswan (airport, train station, or hotel) – Meet & Greet",
+              "Transfer to Nile cruise boat & embarkation",
+              "1:00 PM – Lunch on board",
+              "Visit Philae Temple & High Dam",
+              "Dinner & overnight in Aswan"
+            ]
+          },
+          {
+            "dayNumber": 2,
+            "title": "Optional Abu Simbel & Sailing to Kom Ombo",
+            "activities": [
+              "Breakfast on board",
+              "Visit Abu Simbel Temples (5:00 AM - 1:00 PM by land)",
+              "Visit Nubian Village by motorboat",
+              "Lunch on board",
+              "2:00 PM – Sail to Kom Ombo & visit the temple",
+              "Sail to Edfu & dinner on board",
+              "Overnight in Edfu"
+            ]
+          },
+          {
+            "dayNumber": 3,
+            "title": "Edfu & Luxor",
+            "activities": [
+              "Visit Edfu Temple by horse carriage",
+              "Breakfast on board",
+              "Sail to Esna, cross the lock, then sail to Luxor",
+              "Evening – Optional Sound & Light Show at Karnak Temple",
+              "Dinner & overnight in Luxor"
+            ]
+          },
+          {
+            "dayNumber": 4,
+            "title": "Luxor West & East Bank",
+            "activities": [
+              "Optional: Hot Air Balloon Ride",
+              "Breakfast & Disembarkation at 8:00 AM",
+              "Visit Valley of the Kings, Hatshepsut Temple & Colossi of Memnon",
+              "Visit Karnak & Luxor Temples",
+              "Departure transfer to airport, train station, or hotel"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "ms-gaz-elite-viceroy-4nights-luxor-to-aswan",
+        "durationName": "4NIGHTS  luxor to aswan",
+        "departureDay": "Every saturday",
+        "pricing": [
+          {
+            "seasonName": "Summer Price May & September",
+            "applicableDates": [],
+            "tripleSharing": 850,
+            "doubleSharing": 870,
+            "singleCabin": 1480
+          },
+          {
+            "seasonName": "Winter Price October to April",
+            "applicableDates": [],
+            "tripleSharing": 1915,
+            "doubleSharing": 1895,
+            "singleCabin": 3070
+          },
+          {
+            "seasonName": "Peak winter Price",
+            "applicableDates": [
+              "21-12-2026 till 31-12-2026",
+              "22-3-2027 till 1/4/2027"
+            ],
+            "tripleSharing": 2305,
+            "doubleSharing": 2325,
+            "singleCabin": 3560
+          }
+        ],
+        "days": [
+          {
+            "dayNumber": 1,
+            "title": "Luxor Arrival & East Bank Exploration",
+            "activities": [
+              "Pick-up from Luxor (airport, train station, or hotel) – Meet & Greet",
+              "Transfer to Nile cruise boat & embarkation",
+              "1:00 PM – Lunch on board",
+              "Afternoon – Visit Luxor and Karnak Temples",
+              "Evening – Optional: Sound & Light Show at Karnak Temple",
+              "Dinner & onboard entertainment",
+              "Overnight in Luxor"
+            ]
+          },
+          {
+            "dayNumber": 2,
+            "title": "West Bank & Sailing to Edfu",
+            "activities": [
+              "Optional: Hot Air Balloon Ride at sunrise",
+              "Breakfast on board",
+              "Visit Valley of the Kings, Hatshepsut Temple & Colossi of Memnon",
+              "Lunch on board & sail to Esna (cross the lock), then continue to Edfu",
+              "Dinner & overnight in Edfu"
+            ]
+          },
+          {
+            "dayNumber": 3,
+            "title": "Edfu & Kom Ombo",
+            "activities": [
+              "Breakfast on board",
+              "Horse carriage ride to visit Edfu Temple",
+              "Sail to Kom Ombo & Lunch on board",
+              "Visit Kom Ombo Temple",
+              "Sail to Aswan & Dinner on board",
+              "Overnight in Aswan"
+            ]
+          },
+          {
+            "dayNumber": 4,
+            "title": "Aswan Highlights",
+            "activities": [
+              "Breakfast on board",
+              "Visit the High Dam & Philae Temple",
+              "Lunch on board",
+              "Visit Nubian Village by motorboat",
+              "Sunset Felucca Ride",
+              "Sound & Light Show at Philae Temple",
+              "Dinner & overnight in Aswan"
+            ]
+          },
+          {
+            "dayNumber": 5,
+            "title": "Disembarkation & Optional Abu Simbel Tour",
+            "activities": [
+              "Disembarkation",
+              "Optional: Visit Abu Simbel Temples (8-9 hours by land or 5 hours by flight round trip)",
+              "Departure transfer to airport, train station, or hotel"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ms-gaz-elite-regent",
+    "name": "ms. gaz elite regent",
+    "type": "Nile Cruise",
+    "category": "luxury",
+    "subType": "nile-cruise",
+    "featured": false,
+    "gallery": [],
+    "inclusions": [
+      "We provide seamless pickup and drop-off services at both Luxor International Airport (LXR) and Aswan International Airport (ASW).",
+      "04 or 03 nights’ accommodation on board the Nile cruises. on FB basis.",
+      "Meet and assist service upon arrival & departure.",
+      "Assistance of our personnel during your stay and excursions.",
+      "All transfers are made by a modern, air-conditioned, private deluxe vehicle.",
+      "All Nile Cruise excursions, as mentioned in the itinerary private.",
+      "Entrance fees to all sights in and between Luxor and Aswan."
+    ],
+    "exclusions": [
+      "Any Extra meals and beverages.",
+      "Personal expenses.",
+      "Tipping.",
+      "Optional tours."
+    ],
+    "childrenPolicy": [
+      "Less than 06years old: will be accommodated free of charge sharing parents’ cabin",
+      "From 6years till 11.99 years: Sharing parent’s cabins and will be charged as a half adult with a maximum of one child.",
+      "Children from 12 years & over will be charged full fare.",
+      "In case of 01 Child between 06 and 11.99 years accommodated with one adult only, cabin will be charged as 01 Double cabin."
+    ],
+    "note": "Rates to be applied for Standard Cabins (Main deck). A supplement to be added for bookings in Upper Deck cabins -connected cabins and cabins with veranda",
+    "itineraries": [
+      {
+        "id": "ms-gaz-elite-regent-3nights-aswan-to-luxor",
+        "durationName": "3NIGHTS  ASWAN TO LUXOR",
+        "departureDay": "Every Friday",
+        "pricing": [
+          {
+            "seasonName": "Summer Price May & September",
+            "applicableDates": [],
+            "tripleSharing": 715,
+            "doubleSharing": 730,
+            "singleCabin": 1240
+          },
+          {
+            "seasonName": "Winter Price October to April",
+            "applicableDates": [],
+            "tripleSharing": 1470,
+            "doubleSharing": 1485,
+            "singleCabin": 2410
+          },
+          {
+            "seasonName": "Peak winter Price",
+            "applicableDates": [
+              "21-12-2026 till 31-12-2026",
+              "22-3-2027 till 1/4/2027"
+            ],
+            "tripleSharing": 1790,
+            "doubleSharing": 1805,
+            "singleCabin": 2795
+          }
+        ],
+        "days": [
+          {
+            "dayNumber": 1,
+            "title": "Aswan Arrival & Sightseeing",
+            "activities": [
+              "Pick-up from Aswan (airport, train station, or hotel) – Meet & Greet",
+              "Transfer to Nile cruise boat & embarkation",
+              "1:00 PM – Lunch on board",
+              "Visit Philae Temple & High Dam",
+              "Dinner & overnight in Aswan"
+            ]
+          },
+          {
+            "dayNumber": 2,
+            "title": "Optional Abu Simbel & Sailing to Kom Ombo",
+            "activities": [
+              "Breakfast on board",
+              "Visit Abu Simbel Temples (5:00 AM - 1:00 PM by land)",
+              "Visit Nubian Village by motorboat",
+              "Lunch on board",
+              "2:00 PM – Sail to Kom Ombo & visit the temple",
+              "Sail to Edfu & dinner on board",
+              "Overnight in Edfu"
+            ]
+          },
+          {
+            "dayNumber": 3,
+            "title": "Edfu & Luxor",
+            "activities": [
+              "Visit Edfu Temple by horse carriage",
+              "Breakfast on board",
+              "Sail to Esna, cross the lock, then sail to Luxor",
+              "Evening – Optional Sound & Light Show at Karnak Temple",
+              "Dinner & overnight in Luxor"
+            ]
+          },
+          {
+            "dayNumber": 4,
+            "title": "Luxor West & East Bank",
+            "activities": [
+              "Optional: Hot Air Balloon Ride",
+              "Breakfast & Disembarkation at 8:00 AM",
+              "Visit Valley of the Kings, Hatshepsut Temple & Colossi of Memnon",
+              "Visit Karnak & Luxor Temples",
+              "Departure transfer to airport, train station, or hotel"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "ms-gaz-elite-regent-4nights-luxor-to-aswan",
+        "durationName": "4NIGHTS  luxor to aswan",
+        "departureDay": "Every Monday",
+        "pricing": [
+          {
+            "seasonName": "Summer Price May & September",
+            "applicableDates": [],
+            "tripleSharing": 850,
+            "doubleSharing": 870,
+            "singleCabin": 1480
+          },
+          {
+            "seasonName": "Winter Price October to April",
+            "applicableDates": [],
+            "tripleSharing": 1915,
+            "doubleSharing": 1895,
+            "singleCabin": 3070
+          },
+          {
+            "seasonName": "Peak winter Price",
+            "applicableDates": [
+              "21-12-2026 till 31-12-2026",
+              "22-3-2027 till 1/4/2027"
+            ],
+            "tripleSharing": 2305,
+            "doubleSharing": 2325,
+            "singleCabin": 3560
+          }
+        ],
+        "days": [
+          {
+            "dayNumber": 1,
+            "title": "Luxor Arrival & East Bank Exploration",
+            "activities": [
+              "Pick-up from Luxor (airport, train station, or hotel) – Meet & Greet",
+              "Transfer to Nile cruise boat & embarkation",
+              "1:00 PM – Lunch on board",
+              "Afternoon – Visit Luxor and Karnak Temples",
+              "Evening – Optional: Sound & Light Show at Karnak Temple",
+              "Dinner & onboard entertainment",
+              "Overnight in Luxor"
+            ]
+          },
+          {
+            "dayNumber": 2,
+            "title": "West Bank & Sailing to Edfu",
+            "activities": [
+              "Optional: Hot Air Balloon Ride at sunrise",
+              "Breakfast on board",
+              "Visit Valley of the Kings, Hatshepsut Temple & Colossi of Memnon",
+              "Lunch on board & sail to Esna (cross the lock), then continue to Edfu",
+              "Dinner & overnight in Edfu"
+            ]
+          },
+          {
+            "dayNumber": 3,
+            "title": "Edfu & Kom Ombo",
+            "activities": [
+              "Breakfast on board",
+              "Horse carriage ride to visit Edfu Temple",
+              "Sail to Kom Ombo & Lunch on board",
+              "Visit Kom Ombo Temple",
+              "Sail to Aswan & Dinner on board",
+              "Overnight in Aswan"
+            ]
+          },
+          {
+            "dayNumber": 4,
+            "title": "Aswan Highlights",
+            "activities": [
+              "Breakfast on board",
+              "Visit the High Dam & Philae Temple",
+              "Lunch on board",
+              "Visit Nubian Village by motorboat",
+              "Sunset Felucca Ride",
+              "Sound & Light Show at Philae Temple",
+              "Dinner & overnight in Aswan"
+            ]
+          },
+          {
+            "dayNumber": 5,
+            "title": "Disembarkation & Optional Abu Simbel Tour",
+            "activities": [
+              "Disembarkation",
+              "Optional: Visit Abu Simbel Temples (8-9 hours by land or 5 hours by flight round trip)",
+              "Departure transfer to airport, train station, or hotel"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ms-farah",
+    "name": "ms. farah",
+    "type": "Nile Cruise",
+    "category": "luxury",
+    "subType": "nile-cruise",
+    "featured": false,
+    "gallery": [],
+    "inclusions": [
+      "We provide seamless pickup and drop-off services at both Luxor International Airport (LXR) and Aswan International Airport (ASW).",
+      "04 or 03 nights’ accommodation on board the Nile cruises. on FB basis.",
+      "Meet and assist service upon arrival & departure.",
+      "Assistance of our personnel during your stay and excursions.",
+      "All transfers are made by a modern, air-conditioned, private deluxe vehicle.",
+      "All Nile Cruise excursions, as mentioned in the itinerary private.",
+      "Entrance fees to all sights in and between Luxor and Aswan."
+    ],
+    "exclusions": [
+      "Any Extra meals and beverages.",
+      "Personal expenses.",
+      "Tipping.",
+      "Optional tours."
+    ],
+    "childrenPolicy": [
+      "Less than 06 years old: will be accommodated free of charge sharing parents’ cabin.",
+      "From 6 years till 11.99 years: Sharing parent’s cabins and will be charged as a half adult with a maximum of one child.",
+      "Children from 12 years & over will be charged full fare.",
+      "In case of 01 Child between 06 and 11.99 years accommodated with one adult only, cabin will be charged as 01 Double cabin."
+    ],
+    "note": "Rates to be applied for Cabins (Main deck). A supplement to be added for bookings in Cabins (Upper Deck & connected cabins) usd 20 per person per night .",
+    "itineraries": [
+      {
+        "id": "ms-farah-3nights-aswan-to-luxor",
+        "durationName": "3NIGHTS  ASWAN TO LUXOR",
+        "departureDay": "Every Friday",
+        "pricing": [
+          {
+            "seasonName": "Summer Price May & September",
+            "applicableDates": [],
+            "tripleSharing": 990,
+            "doubleSharing": 1020,
+            "singleCabin": 1720
+          },
+          {
+            "seasonName": "Winter Price October to April",
+            "applicableDates": [],
+            "tripleSharing": 1725,
+            "doubleSharing": 1845,
+            "singleCabin": 2860
+          },
+          {
+            "seasonName": "Peak winter Price",
+            "applicableDates": [
+              "21-12-2026 till 04-01-2026",
+              "22-3-2027 till 29-03-2027"
+            ],
+            "tripleSharing": 2330,
+            "doubleSharing": 2255,
+            "singleCabin": 3980
+          }
+        ],
+        "days": [
+          {
+            "dayNumber": 1,
+            "title": "",
+            "activities": [
+              "Pick up from Aswan (airport, train station or hotel)",
+              "Meet & greet",
+              "Transfer to Nile cruise boat",
+              "Embarkation on cruise boat",
+              "01:00 PM Lunch on board",
+              "Visit to philia temple and high dam",
+              "Dinner on board",
+              "Over night on boat in aswan"
+            ]
+          },
+          {
+            "dayNumber": 2,
+            "title": "",
+            "activities": [
+              "Sail to KomOmbo 03:00 AM.",
+              "Breakfast and visit to KomOmbo Temple",
+              "Sail to Edfu Lunch on board",
+              "Visit EdfuTemple.",
+              "Sail to Luxor",
+              "Dinner on board",
+              "Overnight Esna or Luxor"
+            ]
+          },
+          {
+            "dayNumber": 3,
+            "title": "",
+            "activities": [
+              "Optional tour (hot air balloon)",
+              "Breakfast on board",
+              "Visit the West Bank – The Valley of the Kings -The temple of Queen Hatshepsut at El-Deir El-Bahari and the Colossi Memnon.",
+              "Lunch on board",
+              "Visit East Bank (Karnak and Luxor Temples)",
+              "Dinner on board",
+              "Party",
+              "Overnight in Luxor"
+            ]
+          },
+          {
+            "dayNumber": 4,
+            "title": "",
+            "activities": [
+              "Breakfast on board",
+              "Disembarkation at 08:00 am.",
+              "Departure transfer to ( airport ,train station or hotel)"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "ms-farah-4nights-luxor-to-aswan",
+        "durationName": "4NIGHTS  luxor to aswan",
+        "departureDay": "Every Monday",
+        "pricing": [
+          {
+            "seasonName": "Summer Price May & September",
+            "applicableDates": [],
+            "tripleSharing": 1210,
+            "doubleSharing": 1270,
+            "singleCabin": 2120
+          },
+          {
+            "seasonName": "Winter Price October to April",
+            "applicableDates": [],
+            "tripleSharing": 2315,
+            "doubleSharing": 2440,
+            "singleCabin": 3760
+          },
+          {
+            "seasonName": "Peak winter Price",
+            "applicableDates": [
+              "21-12-2026 till 31-12-2026",
+              "22-3-2027 till 1/4/2027"
+            ],
+            "tripleSharing": 3190,
+            "doubleSharing": 3450,
+            "singleCabin": 5250
+          }
+        ],
+        "days": [
+          {
+            "dayNumber": 1,
+            "title": "",
+            "activities": [
+              "Pick up from Luxor ( airport ,train station or hotel)",
+              "Meet & greet",
+              "Transfer to Nile cruise boat",
+              "Embarkation on cruise boat",
+              "1pm Lunch on board",
+              "East Luxor",
+              "Visit to Luxor and Karnak Temples.",
+              "Optional tour ( sound& light show in karnak temple).",
+              "Dinner and show on board.",
+              "Overnight on board in Luxor ·"
+            ]
+          },
+          {
+            "dayNumber": 2,
+            "title": "",
+            "activities": [
+              "Optional tour (hot air balloon)",
+              "Breakfast",
+              "West Luxor",
+              "Visit to Valley of the Kings, Hatshepsut Temple, and Memnon Colossi.",
+              "Lunch on board",
+              "Sail to Esna. Cross the lock. Sail to Edfu.",
+              "Dinner",
+              "Overnight on board in Edfu"
+            ]
+          },
+          {
+            "dayNumber": 3,
+            "title": "",
+            "activities": [
+              "Breakfast on board",
+              "Visit to Edfu Temple by hors carriage",
+              "Sail to komombo temple",
+              "Lunch on board",
+              "Visit to komombo temple",
+              "Sail to Aswan",
+              "Dinner",
+              "Arrival to Aswan",
+              "Over night on board in Aswan"
+            ]
+          },
+          {
+            "dayNumber": 4,
+            "title": "",
+            "activities": [
+              "Breakfast",
+              "Visit to High Dam and Philae Temple",
+              "Lunch on board",
+              "Optional tour( visit to Nubian village by motor boat or felucca ride sun set time).",
+              "Optional tour (sound& light show in philia temple).",
+              "Dinner on board",
+              "Overnight on board in Aswan"
+            ]
+          },
+          {
+            "dayNumber": 5,
+            "title": "",
+            "activities": [
+              "Disembarkation from cruise ship.",
+              "Optional tour (visit to Abu simple temples) 8-9 hours by land or 5hours by flight round trip.",
+              "Departure transfer to ( airport ,train station or hotel)"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ms-sonesta-sun-goddess",
+    "name": "ms sonesta sun goddess",
+    "type": "Nile Cruise",
+    "category": "luxury",
+    "subType": "nile-cruise",
+    "featured": false,
+    "gallery": [],
+    "inclusions": [
+      "We provide seamless pickup and drop-off services at both Luxor International Airport (LXR) and Aswan International Airport (ASW).",
+      "04 or 03 nights’ accommodation on board the Nile cruises. on FB basis.",
+      "Meet and assist service upon arrival & departure.",
+      "Assistance of our personnel during your stay and excursions.",
+      "All transfers are made by a modern, air-conditioned, private deluxe vehicle.",
+      "All Nile Cruise excursions, as mentioned in the itinerary private.",
+      "Entrance fees to all sights in and between Luxor and Aswan."
+    ],
+    "exclusions": [
+      "Any Extra meals and beverages.",
+      "Personal expenses.",
+      "Tipping.",
+      "Optional tours."
+    ],
+    "childrenPolicy": [
+      "Less than 06 years old: will be accommodated free of charge sharing parents’ cabin.",
+      "From 6 years till 11.99 years: Sharing parent’s cabins and will be charged as a half adult with a maximum of one child.",
+      "Children from 12 years & over will be charged full fare.",
+      "In case of 01 Child between 06 and 11.99 years accommodated with one adult only, cabin will be charged as 01 Double cabin."
+    ],
+    "note": "Rates to be applied for Cabins (Main deck). A supplement to be added for bookings in Cabins (Upper Deck & connected cabins) usd 20 per person per night .",
+    "itineraries": [
+      {
+        "id": "ms-sonesta-sun-goddess-3nights-aswan-to-luxor",
+        "durationName": "3NIGHTS  ASWAN TO LUXOR",
+        "departureDay": "Every Friday",
+        "pricing": [
+          {
+            "seasonName": "Summer Price May & September",
+            "applicableDates": [],
+            "tripleSharing": 990,
+            "doubleSharing": 1020,
+            "singleCabin": 1720
+          },
+          {
+            "seasonName": "Winter Price October to April",
+            "applicableDates": [],
+            "tripleSharing": 1725,
+            "doubleSharing": 1845,
+            "singleCabin": 2860
+          },
+          {
+            "seasonName": "Peak winter Price",
+            "applicableDates": [
+              "21-12-2026 till 04-01-2026",
+              "22-3-2027 till 29-03-2027"
+            ],
+            "tripleSharing": 2330,
+            "doubleSharing": 2255,
+            "singleCabin": 3980
+          }
+        ],
+        "days": [
+          {
+            "dayNumber": 1,
+            "title": "",
+            "activities": [
+              "Pick up from Aswan (airport, train station or hotel)",
+              "Meet & greet",
+              "Transfer to Nile cruise boat",
+              "Embarkation on cruise boat",
+              "01:00 PM Lunch on board",
+              "Visit to philia temple and high dam",
+              "Dinner on board",
+              "Over night on boat in aswan"
+            ]
+          },
+          {
+            "dayNumber": 2,
+            "title": "",
+            "activities": [
+              "Sail to KomOmbo 03:00 AM.",
+              "Breakfast and visit to KomOmbo Temple",
+              "Sail to Edfu Lunch on board",
+              "Visit EdfuTemple.",
+              "Sail to Luxor",
+              "Dinner on board",
+              "Overnight Esna or Luxor"
+            ]
+          },
+          {
+            "dayNumber": 3,
+            "title": "",
+            "activities": [
+              "Optional tour (hot air balloon)",
+              "Breakfast on board",
+              "Visit the West Bank – The Valley of the Kings -The temple of Queen Hatshepsut at El-Deir El-Bahari and the Colossi Memnon.",
+              "Lunch on board",
+              "Visit East Bank (Karnak and Luxor Temples)",
+              "Dinner on board",
+              "Party",
+              "Overnight in Luxor"
+            ]
+          },
+          {
+            "dayNumber": 4,
+            "title": "",
+            "activities": [
+              "Breakfast on board",
+              "Disembarkation at 08:00 am.",
+              "Departure transfer to ( airport ,train station or hotel)"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "ms-sonesta-sun-goddess-4nights-luxor-to-aswan",
+        "durationName": "4NIGHTS  luxor to aswan",
+        "departureDay": "Every Monday",
+        "pricing": [
+          {
+            "seasonName": "Summer Price May & September",
+            "applicableDates": [],
+            "tripleSharing": 1210,
+            "doubleSharing": 1270,
+            "singleCabin": 2120
+          },
+          {
+            "seasonName": "Winter Price October to April",
+            "applicableDates": [],
+            "tripleSharing": 2315,
+            "doubleSharing": 2440,
+            "singleCabin": 3760
+          },
+          {
+            "seasonName": "Peak winter Price",
+            "applicableDates": [
+              "21-12-2026 till 31-12-2026",
+              "22-3-2027 till 1/4/2027"
+            ],
+            "tripleSharing": 3190,
+            "doubleSharing": 3450,
+            "singleCabin": 5250
+          }
+        ],
+        "days": [
+          {
+            "dayNumber": 1,
+            "title": "",
+            "activities": [
+              "Pick up from Luxor ( airport ,train station or hotel)",
+              "Meet & greet",
+              "Transfer to Nile cruise boat",
+              "Embarkation on cruise boat",
+              "1pm Lunch on board",
+              "East Luxor",
+              "Visit to Luxor and Karnak Temples.",
+              "Optional tour ( sound& light show in karnak temple).",
+              "Dinner and show on board.",
+              "Overnight on board in Luxor ·"
+            ]
+          },
+          {
+            "dayNumber": 2,
+            "title": "",
+            "activities": [
+              "Optional tour (hot air balloon)",
+              "Breakfast",
+              "West Luxor",
+              "Visit to Valley of the Kings, Hatshepsut Temple, and Memnon Colossi.",
+              "Lunch on board",
+              "Sail to Esna. Cross the lock. Sail to Edfu.",
+              "Dinner",
+              "Overnight on board in Edfu"
+            ]
+          },
+          {
+            "dayNumber": 3,
+            "title": "",
+            "activities": [
+              "Breakfast on board",
+              "Visit to Edfu Temple by hors carriage",
+              "Sail to komombo temple",
+              "Lunch on board",
+              "Visit to komombo temple",
+              "Sail to Aswan",
+              "Dinner",
+              "Arrival to Aswan",
+              "Over night on board in Aswan"
+            ]
+          },
+          {
+            "dayNumber": 4,
+            "title": "",
+            "activities": [
+              "Breakfast",
+              "Visit to High Dam and Philae Temple",
+              "Lunch on board",
+              "Optional tour( visit to Nubian village by motor boat or felucca ride sun set time).",
+              "Optional tour (sound& light show in philia temple).",
+              "Dinner on board",
+              "Overnight on board in Aswan"
+            ]
+          },
+          {
+            "dayNumber": 5,
+            "title": "",
+            "activities": [
+              "Disembarkation from cruise ship.",
+              "Optional tour (visit to Abu simple temples) 8-9 hours by land or 5hours by flight round trip.",
+              "Departure transfer to ( airport ,train station or hotel)"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ms-sonesta-st-george",
+    "name": "ms sonesta st.george",
+    "type": "Nile Cruise",
+    "category": "luxury",
+    "subType": "nile-cruise",
+    "featured": false,
+    "gallery": [],
+    "inclusions": [
+      "We provide seamless pickup and drop-off services at both Luxor International Airport (LXR) and Aswan International Airport (ASW).",
+      "04 or 03 nights’ accommodation on board the Nile cruises. on FB basis.",
+      "Meet and assist service upon arrival & departure.",
+      "Assistance of our personnel during your stay and excursions.",
+      "All transfers are made by a modern, air-conditioned, private deluxe vehicle.",
+      "All Nile Cruise excursions, as mentioned in the itinerary private.",
+      "Entrance fees to all sights in and between Luxor and Aswan."
+    ],
+    "exclusions": [
+      "Any Extra meals and beverages.",
+      "Personal expenses.",
+      "Tipping.",
+      "Optional tours."
+    ],
+    "childrenPolicy": [
+      "Less than 06 years old: will be accommodated free of charge sharing parents’ cabin.",
+      "From 6 years till 11.99 years: Sharing parent’s cabins and will be charged as a half adult with a maximum of one child.",
+      "Children from 12 years & over will be charged full fare.",
+      "In case of 01 Child between 06 and 11.99 years accommodated with one adult only, cabin will be charged as 01 Double cabin."
+    ],
+    "note": "Rates to be applied for Cabins (Main deck). A supplement to be added for bookings in Cabins (Upper Deck & connected cabins) usd 20 per person per night .",
+    "itineraries": [
+      {
+        "id": "ms-sonesta-st-george-3nights-aswan-to-luxor",
+        "durationName": "3NIGHTS  ASWAN TO LUXOR",
+        "departureDay": "Every Friday",
+        "pricing": [
+          {
+            "seasonName": "Summer Price May & September",
+            "applicableDates": [],
+            "tripleSharing": 990,
+            "doubleSharing": 1020,
+            "singleCabin": 1720
+          },
+          {
+            "seasonName": "Winter Price October to April",
+            "applicableDates": [],
+            "tripleSharing": 1725,
+            "doubleSharing": 1845,
+            "singleCabin": 2860
+          },
+          {
+            "seasonName": "Peak winter Price",
+            "applicableDates": [
+              "21-12-2026 till 04-01-2026",
+              "22-3-2027 till 29-03-2027"
+            ],
+            "tripleSharing": 2330,
+            "doubleSharing": 2255,
+            "singleCabin": 3980
+          }
+        ],
+        "days": [
+          {
+            "dayNumber": 1,
+            "title": "",
+            "activities": [
+              "Pick up from Aswan (airport, train station or hotel)",
+              "Meet & greet",
+              "Transfer to Nile cruise boat",
+              "Embarkation on cruise boat",
+              "01:00 PM Lunch on board",
+              "Visit to philia temple and high dam",
+              "Dinner on board",
+              "Over night on boat in aswan"
+            ]
+          },
+          {
+            "dayNumber": 2,
+            "title": "",
+            "activities": [
+              "Sail to KomOmbo 03:00 AM.",
+              "Breakfast and visit to KomOmbo Temple",
+              "Sail to Edfu Lunch on board",
+              "Visit EdfuTemple.",
+              "Sail to Luxor",
+              "Dinner on board",
+              "Overnight Esna or Luxor"
+            ]
+          },
+          {
+            "dayNumber": 3,
+            "title": "",
+            "activities": [
+              "Optional tour (hot air balloon)",
+              "Breakfast on board",
+              "Visit the West Bank – The Valley of the Kings -The temple of Queen Hatshepsut at El-Deir El-Bahari and the Colossi Memnon.",
+              "Lunch on board",
+              "Visit East Bank (Karnak and Luxor Temples)",
+              "Dinner on board",
+              "Party",
+              "Overnight in Luxor"
+            ]
+          },
+          {
+            "dayNumber": 4,
+            "title": "",
+            "activities": [
+              "Breakfast on board",
+              "Disembarkation at 08:00 am.",
+              "Departure transfer to ( airport ,train station or hotel)"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "ms-sonesta-st-george-4nights-luxor-to-aswan",
+        "durationName": "4NIGHTS  luxor to aswan",
+        "departureDay": "Every Monday",
+        "pricing": [
+          {
+            "seasonName": "Summer Price May & September",
+            "applicableDates": [],
+            "tripleSharing": 1210,
+            "doubleSharing": 1270,
+            "singleCabin": 2120
+          },
+          {
+            "seasonName": "Winter Price October to April",
+            "applicableDates": [],
+            "tripleSharing": 2315,
+            "doubleSharing": 2440,
+            "singleCabin": 3760
+          },
+          {
+            "seasonName": "Peak winter Price",
+            "applicableDates": [
+              "21-12-2026 till 31-12-2026",
+              "22-3-2027 till 1/4/2027"
+            ],
+            "tripleSharing": 3190,
+            "doubleSharing": 3450,
+            "singleCabin": 5250
+          }
+        ],
+        "days": [
+          {
+            "dayNumber": 1,
+            "title": "",
+            "activities": [
+              "Pick up from Luxor ( airport ,train station or hotel)",
+              "Meet & greet",
+              "Transfer to Nile cruise boat",
+              "Embarkation on cruise boat",
+              "1pm Lunch on board",
+              "East Luxor",
+              "Visit to Luxor and Karnak Temples.",
+              "Optional tour ( sound& light show in karnak temple).",
+              "Dinner and show on board.",
+              "Overnight on board in Luxor ·"
+            ]
+          },
+          {
+            "dayNumber": 2,
+            "title": "",
+            "activities": [
+              "Optional tour (hot air balloon)",
+              "Breakfast",
+              "West Luxor",
+              "Visit to Valley of the Kings, Hatshepsut Temple, and Memnon Colossi.",
+              "Lunch on board",
+              "Sail to Esna. Cross the lock. Sail to Edfu.",
+              "Dinner",
+              "Overnight on board in Edfu"
+            ]
+          },
+          {
+            "dayNumber": 3,
+            "title": "",
+            "activities": [
+              "Breakfast on board",
+              "Visit to Edfu Temple by hors carriage",
+              "Sail to komombo temple",
+              "Lunch on board",
+              "Visit to komombo temple",
+              "Sail to Aswan",
+              "Dinner",
+              "Arrival to Aswan",
+              "Over night on board in Aswan"
+            ]
+          },
+          {
+            "dayNumber": 4,
+            "title": "",
+            "activities": [
+              "Breakfast",
+              "Visit to High Dam and Philae Temple",
+              "Lunch on board",
+              "Optional tour( visit to Nubian village by motor boat or felucca ride sun set time).",
+              "Optional tour (sound& light show in philia temple).",
+              "Dinner on board",
+              "Overnight on board in Aswan"
+            ]
+          },
+          {
+            "dayNumber": 5,
+            "title": "",
+            "activities": [
+              "Disembarkation from cruise ship.",
+              "Optional tour (visit to Abu simple temples) 8-9 hours by land or 5hours by flight round trip.",
+              "Departure transfer to ( airport ,train station or hotel)"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ms-movenpick-sunray",
+    "name": "ms movenpick  sunray",
+    "type": "Nile Cruise",
+    "category": "luxury",
+    "subType": "nile-cruise",
+    "featured": false,
+    "gallery": [],
+    "inclusions": [
+      "We provide seamless pickup and drop-off services at both Luxor International Airport (LXR) and Aswan International Airport (ASW).",
+      "04 or 03 nights’ accommodation on board the Nile cruises. on FB basis.",
+      "Meet and assist service upon arrival & departure.",
+      "Assistance of our personnel during your stay and excursions.",
+      "All transfers are made by a modern, air-conditioned, private deluxe vehicle.",
+      "All Nile Cruise excursions, as mentioned in the itinerary private.",
+      "Entrance fees to all sights in and between Luxor and Aswan."
+    ],
+    "exclusions": [
+      "Any Extra meals and beverages.",
+      "Personal expenses.",
+      "Tipping.",
+      "Optional tours."
+    ],
+    "childrenPolicy": [
+      "Less than 05 years old: will be accommodated free of charge sharing parents’ cabin, extra bed can provided with extra charge of USD 100 per night.",
+      "From 5 years till 11.99 years: Sharing parent’s cabins and will be charged as a half adult with a maximum of one child.",
+      "Children from 12 years & over will be charged full fare.",
+      "In case of 01 Child between 05 and 11.99 years accommodated with one adult only, cabin will be charged as 01 Double cabin."
+    ],
+    "note": "Rates to be applied for Standard Cabins (Main deck). A supplement to be added for bookings in Superior Cabins (Upper Deck)",
+    "itineraries": [
+      {
+        "id": "ms-movenpick-sunray-3nights-aswan-to-luxor",
+        "durationName": "3NIGHTS  ASWAN TO LUXOR",
+        "departureDay": "Every Monday",
+        "pricing": [
+          {
+            "seasonName": "Summer Price 03/09/2026 to 30/09/2026",
+            "applicableDates": [],
+            "tripleSharing": 955,
+            "doubleSharing": 970,
+            "singleCabin": 1660
+          },
+          {
+            "seasonName": "Winter Price October to April",
+            "applicableDates": [],
+            "tripleSharing": 1770,
+            "doubleSharing": 1785,
+            "singleCabin": 2925
+          },
+          {
+            "seasonName": "Peak winter Price",
+            "applicableDates": [
+              "24-12-2026 till 30-12-2026",
+              "22-3-2027 till 31/03/2027"
+            ],
+            "tripleSharing": 2030,
+            "doubleSharing": 2045,
+            "singleCabin": 3355
+          },
+          {
+            "seasonName": "Rates are Not applicable during the new year trip",
+            "applicableDates": [],
+            "tripleSharing": 150,
+            "doubleSharing": 0,
+            "singleCabin": 230
+          }
+        ],
+        "days": [
+          {
+            "dayNumber": 1,
+            "title": "",
+            "activities": [
+              "Pick up from Aswan (airport, train station or hotel)",
+              "Meet & greet",
+              "Transfer to Nile cruise boat",
+              "Embarkation on cruise boat",
+              "01:00 PM Lunch on board",
+              "Visit to philia temple and high dam",
+              "Dinner on board",
+              "Over night on boat in aswan"
+            ]
+          },
+          {
+            "dayNumber": 2,
+            "title": "",
+            "activities": [
+              "Sail to KomOmbo 03:00 AM.",
+              "Breakfast and visit to KomOmbo Temple",
+              "Sail to Edfu Lunch on board",
+              "Visit EdfuTemple.",
+              "Sail to Luxor",
+              "Dinner on board",
+              "Overnight Esna or Luxor"
+            ]
+          },
+          {
+            "dayNumber": 3,
+            "title": "",
+            "activities": [
+              "Optional tour (hot air balloon)",
+              "Breakfast on board",
+              "Visit the West Bank – The Valley of the Kings -The temple of Queen Hatshepsut at El-Deir El-Bahari and the Colossi Memnon.",
+              "Lunch on board",
+              "Visit East Bank (Karnak and Luxor Temples)",
+              "Dinner on board",
+              "Party",
+              "Overnight in Luxor"
+            ]
+          },
+          {
+            "dayNumber": 4,
+            "title": "",
+            "activities": [
+              "Breakfast on board",
+              "Disembarkation at 08:00 am.",
+              "Departure transfer to ( airport ,train station or hotel)"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "ms-movenpick-sunray-4nights-luxor-to-aswan",
+        "durationName": "4NIGHTS  luxor to aswan",
+        "departureDay": "Every Thursday",
+        "pricing": [
+          {
+            "seasonName": "Summer Price May & September",
+            "applicableDates": [],
+            "tripleSharing": 1170,
+            "doubleSharing": 1190,
+            "singleCabin": 2020
+          },
+          {
+            "seasonName": "Winter Price October to April",
+            "applicableDates": [],
+            "tripleSharing": 2315,
+            "doubleSharing": 2295,
+            "singleCabin": 3760
+          },
+          {
+            "seasonName": "Peak winter Price",
+            "applicableDates": [
+              "21-12-2026 till 31-12-2026",
+              "22-3-2027 till 1/4/2027"
+            ],
+            "tripleSharing": 2625,
+            "doubleSharing": 2645,
+            "singleCabin": 4310
+          },
+          {
+            "seasonName": "Rates are Not applicable during the new year trip",
+            "applicableDates": [],
+            "tripleSharing": 200,
+            "doubleSharing": 0,
+            "singleCabin": 300
+          }
+        ],
+        "days": [
+          {
+            "dayNumber": 1,
+            "title": "",
+            "activities": [
+              "Pick up from Luxor ( airport ,train station or hotel)",
+              "Meet & greet",
+              "Transfer to Nile cruise boat",
+              "Embarkation on cruise boat",
+              "1pm Lunch on board",
+              "East Luxor",
+              "Visit to Luxor and Karnak Temples.",
+              "Optional tour ( sound& light show in karnak temple).",
+              "Dinner and show on board.",
+              "Overnight on board in Luxor ·"
+            ]
+          },
+          {
+            "dayNumber": 2,
+            "title": "",
+            "activities": [
+              "Optional tour (hot air balloon)",
+              "Breakfast",
+              "West Luxor",
+              "Visit to Valley of the Kings, Hatshepsut Temple, and Memnon Colossi.",
+              "Lunch on board",
+              "Sail to Esna. Cross the lock. Sail to Edfu.",
+              "Dinner",
+              "Overnight on board in Edfu"
+            ]
+          },
+          {
+            "dayNumber": 3,
+            "title": "",
+            "activities": [
+              "Breakfast on board",
+              "Visit to Edfu Temple by hors carriage",
+              "Sail to komombo temple",
+              "Lunch on board",
+              "Visit to komombo temple",
+              "Sail to Aswan",
+              "Dinner",
+              "Arrival to Aswan",
+              "Over night on board in Aswan"
+            ]
+          },
+          {
+            "dayNumber": 4,
+            "title": "",
+            "activities": [
+              "Breakfast",
+              "Visit to High Dam and Philae Temple",
+              "Lunch on board",
+              "Optional tour( visit to Nubian village by motor boat or felucca ride sun set time).",
+              "Optional tour (sound& light show in philia temple).",
+              "Dinner on board",
+              "Overnight on board in Aswan"
+            ]
+          },
+          {
+            "dayNumber": 5,
+            "title": "",
+            "activities": [
+              "Disembarkation from cruise ship.",
+              "Optional tour (visit to Abu simple temples) 8-9 hours by land or 5hours by flight round trip.",
+              "Departure transfer to ( airport ,train station or hotel)"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ms-mayflower",
+    "name": "ms mayflower",
+    "type": "Nile Cruise",
+    "category": "luxury",
+    "subType": "nile-cruise",
+    "featured": false,
+    "gallery": [],
+    "inclusions": [
+      "We provide seamless pickup and drop-off services at both Luxor International Airport (LXR) and Aswan International Airport (ASW).",
+      "04 or 03 nights’ accommodation on board the Nile cruises. on FB basis.",
+      "Meet and assist service upon arrival & departure.",
+      "Assistance of our personnel during your stay and excursions.",
+      "All transfers are made by a modern, air-conditioned, private deluxe vehicle.",
+      "All Nile Cruise excursions, as mentioned in the itinerary private.",
+      "Entrance fees to all sights in and between Luxor and Aswan."
+    ],
+    "exclusions": [
+      "Any Extra meals and beverages.",
+      "Personal expenses.",
+      "Tipping.",
+      "Optional tours."
+    ],
+    "childrenPolicy": [
+      "Less than 06years old: will be accommodated free of charge sharing parents’ cabin",
+      "From 6years till 11.99 years: Sharing parent’s cabins and will be charged as a half adult with a maximum of one child.",
+      "Children from 12 years & over will be charged full fare.",
+      "In case of 01 Child between 06 and 11.99 years accommodated with one adult only, cabin will be charged as 01 Double cabin."
+    ],
+    "note": "Rates to be applied for Standard Cabins (Main deck). A supplement to be added for bookings in Upper Deck cabins -connected cabins and cabins with veranda",
+    "itineraries": [
+      {
+        "id": "ms-mayflower-3nights-aswan-to-luxor",
+        "durationName": "3NIGHTS  ASWAN TO LUXOR",
+        "departureDay": "Every Friday",
+        "pricing": [
+          {
+            "seasonName": "Summer Price 02/09/2026 to 30/09/2026",
+            "applicableDates": [],
+            "tripleSharing": 895,
+            "doubleSharing": 955,
+            "singleCabin": 1630
+          },
+          {
+            "seasonName": "Winter Price October to April",
+            "applicableDates": [],
+            "tripleSharing": 1265,
+            "doubleSharing": 1325,
+            "singleCabin": 2260
+          },
+          {
+            "seasonName": "Peak winter Price",
+            "applicableDates": [
+              "20-12-2026 till 31-12-2026",
+              "01-04-2027 till 10/04/2027"
+            ],
+            "tripleSharing": 1750,
+            "doubleSharing": 1810,
+            "singleCabin": 2800
+          }
+        ],
+        "days": [
+          {
+            "dayNumber": 1,
+            "title": "",
+            "activities": [
+              "Pick up from Aswan (airport, train station or hotel)",
+              "Meet & greet",
+              "Transfer to Nile cruise boat",
+              "Embarkation on cruise boat",
+              "01:00 PM Lunch on board",
+              "Visit to philia temple and high dam",
+              "Dinner on board",
+              "Over night on boat in aswan"
+            ]
+          },
+          {
+            "dayNumber": 2,
+            "title": "",
+            "activities": [
+              "Sail to KomOmbo 03:00 AM.",
+              "Breakfast and visit to KomOmbo Temple",
+              "Sail to Edfu Lunch on board",
+              "Visit EdfuTemple.",
+              "Sail to Luxor",
+              "Dinner on board",
+              "Overnight Esna or Luxor"
+            ]
+          },
+          {
+            "dayNumber": 3,
+            "title": "",
+            "activities": [
+              "Optional tour (hot air balloon)",
+              "Breakfast on board",
+              "Visit the West Bank – The Valley of the Kings -The temple of Queen Hatshepsut at El-Deir El-Bahari and the Colossi Memnon.",
+              "Lunch on board",
+              "Visit East Bank (Karnak and Luxor Temples)",
+              "Dinner on board",
+              "Party",
+              "Overnight in Luxor"
+            ]
+          },
+          {
+            "dayNumber": 4,
+            "title": "",
+            "activities": [
+              "Breakfast on board",
+              "Disembarkation at 08:00 am.",
+              "Departure transfer to ( airport ,train station or hotel)"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "ms-mayflower-4nights-luxor-to-aswan",
+        "durationName": "4NIGHTS  luxor to aswan",
+        "departureDay": "Every Monday",
+        "pricing": [
+          {
+            "seasonName": "Summer Price 02/09/2026 to 30/09/2026",
+            "applicableDates": [],
+            "tripleSharing": 1080,
+            "doubleSharing": 1160,
+            "singleCabin": 1880
+          },
+          {
+            "seasonName": "Winter Price October to April",
+            "applicableDates": [],
+            "tripleSharing": 1555,
+            "doubleSharing": 1635,
+            "singleCabin": 2770
+          },
+          {
+            "seasonName": "Peak winter Price",
+            "applicableDates": [
+              "20-12-2026 till 31-12-2026",
+              "01-04-2027 till 10/04/2027"
+            ],
+            "tripleSharing": 2170,
+            "doubleSharing": 2250,
+            "singleCabin": 3410
+          }
+        ],
+        "days": [
+          {
+            "dayNumber": 1,
+            "title": "",
+            "activities": [
+              "Pick up from Luxor ( airport ,train station or hotel)",
+              "Meet & greet",
+              "Transfer to Nile cruise boat",
+              "Embarkation on cruise boat",
+              "1pm Lunch on board",
+              "East Luxor",
+              "Visit to Luxor and Karnak Temples.",
+              "Optional tour ( sound& light show in karnak temple).",
+              "Dinner and show on board.",
+              "Overnight on board in Luxor ·"
+            ]
+          },
+          {
+            "dayNumber": 2,
+            "title": "",
+            "activities": [
+              "Optional tour (hot air balloon)",
+              "Breakfast",
+              "West Luxor",
+              "Visit to Valley of the Kings, Hatshepsut Temple, and Memnon Colossi.",
+              "Lunch on board",
+              "Sail to Esna. Cross the lock. Sail to Edfu.",
+              "Dinner",
+              "Overnight on board in Edfu"
+            ]
+          },
+          {
+            "dayNumber": 3,
+            "title": "",
+            "activities": [
+              "Breakfast on board",
+              "Visit to Edfu Temple by hors carriage",
+              "Sail to komombo temple",
+              "Lunch on board",
+              "Visit to komombo temple",
+              "Sail to Aswan",
+              "Dinner",
+              "Arrival to Aswan",
+              "Over night on board in Aswan"
+            ]
+          },
+          {
+            "dayNumber": 4,
+            "title": "",
+            "activities": [
+              "Breakfast",
+              "Visit to High Dam and Philae Temple",
+              "Lunch on board",
+              "Optional tour( visit to Nubian village by motor boat or felucca ride sun set time).",
+              "Optional tour (sound& light show in philia temple).",
+              "Dinner on board",
+              "Overnight on board in Aswan"
+            ]
+          },
+          {
+            "dayNumber": 5,
+            "title": "",
+            "activities": [
+              "Disembarkation from cruise ship.",
+              "Optional tour (visit to Abu simple temples) 8-9 hours by land or 5hours by flight round trip.",
+              "Departure transfer to ( airport ,train station or hotel)"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ms-mayfair",
+    "name": "ms mayfair",
+    "type": "Nile Cruise",
+    "category": "luxury",
+    "subType": "nile-cruise",
+    "featured": false,
+    "gallery": [],
+    "inclusions": [
+      "We provide seamless pickup and drop-off services at both Luxor International Airport (LXR) and Aswan International Airport (ASW).",
+      "04 or 03 nights’ accommodation on board the Nile cruises. on FB basis.",
+      "Meet and assist service upon arrival & departure.",
+      "Assistance of our personnel during your stay and excursions.",
+      "All transfers are made by a modern, air-conditioned, private deluxe vehicle.",
+      "All Nile Cruise excursions, as mentioned in the itinerary private.",
+      "Entrance fees to all sights in and between Luxor and Aswan."
+    ],
+    "exclusions": [
+      "Any Extra meals and beverages.",
+      "Personal expenses.",
+      "Tipping.",
+      "Optional tours."
+    ],
+    "childrenPolicy": [
+      "Less than 06years old: will be accommodated free of charge sharing parents’ cabin",
+      "From 6years till 11.99 years: Sharing parent’s cabins and will be charged as a half adult with a maximum of one child.",
+      "Children from 12 years & over will be charged full fare.",
+      "In case of 01 Child between 06 and 11.99 years accommodated with one adult only, cabin will be charged as 01 Double cabin."
+    ],
+    "note": "Rates to be applied for Standard Cabins (Main deck). A supplement to be added for bookings in Upper Deck cabins -connected cabins and cabins with veranda",
+    "itineraries": [
+      {
+        "id": "ms-mayfair-3nights-aswan-to-luxor",
+        "durationName": "3NIGHTS  ASWAN TO LUXOR",
+        "departureDay": "Every Friday",
+        "pricing": [
+          {
+            "seasonName": "Summer Price 02/09/2026 to 30/09/2026",
+            "applicableDates": [],
+            "tripleSharing": 895,
+            "doubleSharing": 955,
+            "singleCabin": 1630
+          },
+          {
+            "seasonName": "Winter Price October to April",
+            "applicableDates": [],
+            "tripleSharing": 1265,
+            "doubleSharing": 1325,
+            "singleCabin": 2260
+          },
+          {
+            "seasonName": "Peak winter Price",
+            "applicableDates": [
+              "20-12-2026 till 31-12-2026",
+              "01-04-2027 till 10/04/2027"
+            ],
+            "tripleSharing": 1750,
+            "doubleSharing": 1810,
+            "singleCabin": 2800
+          }
+        ],
+        "days": [
+          {
+            "dayNumber": 1,
+            "title": "Aswan Arrival & Sightseeing",
+            "activities": [
+              "Pick-up from Aswan (airport, train station, or hotel) – Meet & Greet",
+              "Transfer to Nile cruise boat & embarkation",
+              "1:00 PM – Lunch on board",
+              "Visit Philae Temple & High Dam",
+              "Dinner & overnight in Aswan"
+            ]
+          },
+          {
+            "dayNumber": 2,
+            "title": "Optional Abu Simbel & Sailing to Kom Ombo",
+            "activities": [
+              "Breakfast on board",
+              "Visit Abu Simbel Temples (5:00 AM - 1:00 PM by land)",
+              "Visit Nubian Village by motorboat",
+              "Lunch on board",
+              "2:00 PM – Sail to Kom Ombo & visit the temple",
+              "Sail to Edfu & dinner on board",
+              "Overnight in Edfu"
+            ]
+          },
+          {
+            "dayNumber": 3,
+            "title": "Edfu & Luxor",
+            "activities": [
+              "Visit Edfu Temple by horse carriage",
+              "Breakfast on board",
+              "Sail to Esna, cross the lock, then sail to Luxor",
+              "Evening – Optional Sound & Light Show at Karnak Temple",
+              "Dinner & overnight in Luxor"
+            ]
+          },
+          {
+            "dayNumber": 4,
+            "title": "Luxor West & East Bank",
+            "activities": [
+              "Optional: Hot Air Balloon Ride",
+              "Breakfast & Disembarkation at 8:00 AM",
+              "Visit Valley of the Kings, Hatshepsut Temple & Colossi of Memnon",
+              "Visit Karnak & Luxor Temples",
+              "Departure transfer to airport, train station, or hotel"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "ms-mayfair-4nights-luxor-to-aswan",
+        "durationName": "4NIGHTS  luxor to aswan",
+        "departureDay": "Every Monday",
+        "pricing": [
+          {
+            "seasonName": "Summer Price 02/09/2026 to 30/09/2026",
+            "applicableDates": [],
+            "tripleSharing": 1080,
+            "doubleSharing": 1160,
+            "singleCabin": 1880
+          },
+          {
+            "seasonName": "Winter Price October to April",
+            "applicableDates": [],
+            "tripleSharing": 1555,
+            "doubleSharing": 1635,
+            "singleCabin": 2770
+          },
+          {
+            "seasonName": "Peak winter Price",
+            "applicableDates": [
+              "20-12-2026 till 31-12-2026",
+              "01-04-2027 till 10/04/2027"
+            ],
+            "tripleSharing": 2170,
+            "doubleSharing": 2250,
+            "singleCabin": 3410
+          }
+        ],
+        "days": [
+          {
+            "dayNumber": 1,
+            "title": "Luxor Arrival & East Bank Exploration",
+            "activities": [
+              "Pick-up from Luxor (airport, train station, or hotel) – Meet & Greet",
+              "Transfer to Nile cruise boat & embarkation",
+              "1:00 PM – Lunch on board",
+              "Afternoon – Visit Luxor and Karnak Temples",
+              "Evening – Optional: Sound & Light Show at Karnak Temple",
+              "Dinner & onboard entertainment",
+              "Overnight in Luxor"
+            ]
+          },
+          {
+            "dayNumber": 2,
+            "title": "West Bank & Sailing to Edfu",
+            "activities": [
+              "Optional: Hot Air Balloon Ride at sunrise",
+              "Breakfast on board",
+              "Visit Valley of the Kings, Hatshepsut Temple & Colossi of Memnon",
+              "Lunch on board & sail to Esna (cross the lock), then continue to Edfu",
+              "Dinner & overnight in Edfu"
+            ]
+          },
+          {
+            "dayNumber": 3,
+            "title": "Edfu & Kom Ombo",
+            "activities": [
+              "Breakfast on board",
+              "Horse carriage ride to visit Edfu Temple",
+              "Sail to Kom Ombo & Lunch on board",
+              "Visit Kom Ombo Temple",
+              "Sail to Aswan & Dinner on board",
+              "Overnight in Aswan"
+            ]
+          },
+          {
+            "dayNumber": 4,
+            "title": "Aswan Highlights",
+            "activities": [
+              "Breakfast on board",
+              "Visit the High Dam & Philae Temple",
+              "Lunch on board",
+              "Visit Nubian Village by motorboat",
+              "Sunset Felucca Ride",
+              "Sound & Light Show at Philae Temple",
+              "Dinner & overnight in Aswan"
+            ]
+          },
+          {
+            "dayNumber": 5,
+            "title": "Disembarkation & Optional Abu Simbel Tour",
+            "activities": [
+              "Disembarkation",
+              "Optional: Visit Abu Simbel Temples (8-9 hours by land or 5 hours by flight round trip)",
+              "Departure transfer to airport, train station, or hotel"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ms-historia",
+    "name": "ms historia",
+    "type": "Nile Cruise",
+    "category": "luxury",
+    "subType": "nile-cruise",
+    "featured": false,
+    "gallery": [],
+    "inclusions": [
+      "We provide seamless pickup and drop-off services at both Luxor International Airport (LXR) and Aswan International Airport (ASW).",
+      "04 or 03 nights’ accommodation on board the Nile cruises. on FB basis.",
+      "Meet and assist service upon arrival & departure.",
+      "Assistance of our personnel during your stay and excursions.",
+      "All transfers are made by a modern, air-conditioned, private deluxe vehicle.",
+      "All Nile Cruise excursions, as mentioned in the itinerary private.",
+      "Entrance fees to all sights in and between Luxor and Aswan."
+    ],
+    "exclusions": [
+      "Any Extra meals and beverages.",
+      "Personal expenses.",
+      "Tipping.",
+      "Optional tours."
+    ],
+    "childrenPolicy": [
+      "Less than 07years old: will be accommodated free of charge sharing parents’ cabin.",
+      "From 7years till 11.99 years: Sharing parent’s cabins and will be charged as a half adult with a maximum of one child.",
+      "Children from 12 years & over will be charged full fare.",
+      "In case of 01 Child between 07and 11.99 years accommodated with one adult only, cabin will be charged as 01 Double cabin."
+    ],
+    "note": "Rates to be applied for (Main deck). A 10% supplement to be added for Upper DecK & connected cabins .",
+    "itineraries": [
+      {
+        "id": "ms-historia-3nights-aswan-to-luxor",
+        "durationName": "3NIGHTS  ASWAN TO LUXOR",
+        "departureDay": "Every Friday",
+        "pricing": [
+          {
+            "seasonName": "Main season",
+            "applicableDates": [],
+            "tripleSharing": null,
+            "doubleSharing": 2445,
+            "singleCabin": 4040
+          },
+          {
+            "seasonName": "Peak season",
+            "applicableDates": [
+              "26-3-2027 till 01/04/2027"
+            ],
+            "tripleSharing": null,
+            "doubleSharing": 3615,
+            "singleCabin": 6035
+          },
+          {
+            "seasonName": "shoulder season",
+            "applicableDates": [],
+            "tripleSharing": null,
+            "doubleSharing": 2045,
+            "singleCabin": 3430
+          }
+        ],
+        "days": [
+          {
+            "dayNumber": 1,
+            "title": "",
+            "activities": [
+              "Pick up from Aswan (airport, train station or hotel)",
+              "Meet & greet",
+              "Transfer to Nile cruise boat",
+              "Embarkation on cruise boat",
+              "01:00 PM Lunch on board",
+              "Visit to philia temple and high dam",
+              "Dinner on board",
+              "Over night on boat in aswan"
+            ]
+          },
+          {
+            "dayNumber": 2,
+            "title": "",
+            "activities": [
+              "Sail to KomOmbo 03:00 AM.",
+              "Breakfast and visit to KomOmbo Temple",
+              "Sail to Edfu Lunch on board",
+              "Visit EdfuTemple.",
+              "Sail to Luxor",
+              "Dinner on board",
+              "Overnight Esna or Luxor"
+            ]
+          },
+          {
+            "dayNumber": 3,
+            "title": "",
+            "activities": [
+              "Optional tour (hot air balloon)",
+              "Breakfast on board",
+              "Visit the West Bank – The Valley of the Kings -The temple of Queen Hatshepsut at El-Deir El-Bahari and the Colossi Memnon.",
+              "Lunch on board",
+              "Visit East Bank (Karnak and Luxor Temples)",
+              "Dinner on board",
+              "Party",
+              "Overnight in Luxor"
+            ]
+          },
+          {
+            "dayNumber": 4,
+            "title": "Monday",
+            "activities": [
+              "Breakfast on board",
+              "Disembarkation at 08:00 am.",
+              "Departure transfer to ( airport ,train station or hotel)"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "ms-historia-4nights-luxor-toaswan",
+        "durationName": "4NIGHTS  LUXOR TOASWAN",
+        "departureDay": "Every MONDAY",
+        "pricing": [
+          {
+            "seasonName": "Main season",
+            "applicableDates": [],
+            "tripleSharing": null,
+            "doubleSharing": 3335,
+            "singleCabin": 5475
+          },
+          {
+            "seasonName": "Peak season",
+            "applicableDates": [
+              "26-3-2027 till 01/04/2027"
+            ],
+            "tripleSharing": null,
+            "doubleSharing": 4655,
+            "singleCabin": 7770
+          },
+          {
+            "seasonName": "shoulder season",
+            "applicableDates": [],
+            "tripleSharing": null,
+            "doubleSharing": 2595,
+            "singleCabin": 4380
+          }
+        ],
+        "days": [
+          {
+            "dayNumber": 1,
+            "title": "",
+            "activities": [
+              "Pick up from Luxor ( airport ,train station or hotel)",
+              "Meet & greet",
+              "Transfer to Nile cruise boat",
+              "Embarkation on cruise boat",
+              "1pm Lunch on board",
+              "East Luxor",
+              "Visit to Luxor and Karnak Temples.",
+              "Optional tour ( sound& light show in karnak temple).",
+              "Dinner and show on board.",
+              "Overnight on board in Luxor ·"
+            ]
+          },
+          {
+            "dayNumber": 2,
+            "title": "",
+            "activities": [
+              "Optional tour (hot air balloon)",
+              "Breakfast",
+              "West Luxor",
+              "Visit to Valley of the Kings, Hatshepsut Temple, and Memnon Colossi.",
+              "Lunch on board",
+              "Sail to Esna. Cross the lock. Sail to Edfu.",
+              "Dinner",
+              "Overnight on board in Edfu"
+            ]
+          },
+          {
+            "dayNumber": 3,
+            "title": "",
+            "activities": [
+              "Breakfast on board",
+              "Visit to Edfu Temple by hors carriage",
+              "Sail to komombo temple",
+              "Lunch on board",
+              "Visit to komombo temple",
+              "Sail to Aswan",
+              "Dinner",
+              "Arrival to Aswan",
+              "Over night on board in Aswan"
+            ]
+          },
+          {
+            "dayNumber": 4,
+            "title": "",
+            "activities": [
+              "Breakfast",
+              "Visit to High Dam and Philae Temple",
+              "Lunch on board",
+              "Optional tour( visit to Nubian village by motor boat or felucca ride sun set time).",
+              "Optional tour (sound& light show in philia temple).",
+              "Dinner on board",
+              "Overnight on board in Aswan"
+            ]
+          },
+          {
+            "dayNumber": 5,
+            "title": "",
+            "activities": [
+              "Disembarkation from cruise ship.",
+              "Optional tour (visit to Abu simple temples) 8-9 hours by land or 5hours by flight round trip.",
+              "Departure transfer to ( airport ,train station or hotel)"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ms-hamees",
+    "name": "ms hamees",
+    "type": "Nile Cruise",
+    "category": "luxury",
+    "subType": "nile-cruise",
+    "featured": false,
+    "gallery": [],
+    "inclusions": [
+      "We provide seamless pickup and drop-off services at both Luxor International Airport (LXR) and Aswan International Airport (ASW).",
+      "04 or 03 nights’ accommodation on board the Nile cruises. on FB basis.",
+      "Meet and assist service upon arrival & departure.",
+      "Assistance of our personnel during your stay and excursions.",
+      "All transfers are made by a modern, air-conditioned, private deluxe vehicle.",
+      "All Nile Cruise excursions, as mentioned in the itinerary private.",
+      "Entrance fees to all sights in and between Luxor and Aswan."
+    ],
+    "exclusions": [
+      "Any Extra meals and beverages.",
+      "Personal expenses.",
+      "Tipping.",
+      "Optional tours."
+    ],
+    "childrenPolicy": [
+      "Less than 05 years old: will be accommodated free of charge sharing parents’ cabin, extra bed can provided with extra charge of USD 100 per night.",
+      "From 5 years till 11.99 years: Sharing parent’s cabins and will be charged as a half adult with a maximum of one child.",
+      "Children from 12 years & over will be charged full fare.",
+      "In case of 01 Child between 05 and 11.99 years accommodated with one adult only, cabin will be charged as 01 Double cabin."
+    ],
+    "note": "Rates to be applied for Standard Cabins (Main deck). A supplement to be added for bookings in Superior Cabins (Upper Deck) and deluxe cabins( top deck ).",
+    "itineraries": [
+      {
+        "id": "ms-hamees-3nights-aswan-to-luxor",
+        "durationName": "3NIGHTS  ASWAN TO LUXOR",
+        "departureDay": "Every Friday",
+        "pricing": [
+          {
+            "seasonName": "Summer Price May & September",
+            "applicableDates": [],
+            "tripleSharing": 925,
+            "doubleSharing": 940,
+            "singleCabin": 1600
+          },
+          {
+            "seasonName": "Winter Price October to April",
+            "applicableDates": [],
+            "tripleSharing": 1680,
+            "doubleSharing": 1695,
+            "singleCabin": 2770
+          },
+          {
+            "seasonName": "Peak winter Price",
+            "applicableDates": [
+              "21-12-2026 till 31-12-2026",
+              "22-3-2027 till 1/4/2027"
+            ],
+            "tripleSharing": 1940,
+            "doubleSharing": 1955,
+            "singleCabin": 3200
+          },
+          {
+            "seasonName": "Rates are Not applicable during the new year trip",
+            "applicableDates": [],
+            "tripleSharing": 150,
+            "doubleSharing": 0,
+            "singleCabin": 230
+          }
+        ],
+        "days": [
+          {
+            "dayNumber": 1,
+            "title": "",
+            "activities": [
+              "Pick up from Aswan (airport, train station or hotel)",
+              "Meet & greet",
+              "Transfer to Nile cruise boat",
+              "Embarkation on cruise boat",
+              "01:00 PM Lunch on board",
+              "Visit to philia temple and high dam",
+              "Dinner on board",
+              "Over night on boat in aswan"
+            ]
+          },
+          {
+            "dayNumber": 2,
+            "title": "",
+            "activities": [
+              "Sail to KomOmbo 03:00 AM.",
+              "Breakfast and visit to KomOmbo Temple",
+              "Sail to Edfu Lunch on board",
+              "Visit EdfuTemple.",
+              "Sail to Luxor",
+              "Dinner on board",
+              "Overnight Esna or Luxor"
+            ]
+          },
+          {
+            "dayNumber": 3,
+            "title": "",
+            "activities": [
+              "Optional tour (hot air balloon)",
+              "Breakfast on board",
+              "Visit the West Bank – The Valley of the Kings -The temple of Queen Hatshepsut at El-Deir El-Bahari and the Colossi Memnon.",
+              "Lunch on board",
+              "Visit East Bank (Karnak and Luxor Temples)",
+              "Dinner on board",
+              "Party",
+              "Overnight in Luxor"
+            ]
+          },
+          {
+            "dayNumber": 4,
+            "title": "Monday",
+            "activities": [
+              "Breakfast on board",
+              "Disembarkation at 08:00 am.",
+              "Departure transfer to ( airport ,train station or hotel)"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "ms-hamees-4nights-luxor-to-aswan",
+        "durationName": "4NIGHTS  luxor to aswan",
+        "departureDay": "Every Monday",
+        "pricing": [
+          {
+            "seasonName": "Summer Price May & September",
+            "applicableDates": [],
+            "tripleSharing": 1130,
+            "doubleSharing": 1150,
+            "singleCabin": 1960
+          },
+          {
+            "seasonName": "Winter Price October to April",
+            "applicableDates": [],
+            "tripleSharing": 2195,
+            "doubleSharing": 2175,
+            "singleCabin": 3550
+          },
+          {
+            "seasonName": "Peak winter Price",
+            "applicableDates": [
+              "21-12-2026 till 31-12-2026",
+              "22-3-2027 till 1/4/2027"
+            ],
+            "tripleSharing": 2505,
+            "doubleSharing": 2525,
+            "singleCabin": 4100
+          },
+          {
+            "seasonName": "Rates are Not applicable during the new year trip",
+            "applicableDates": [],
+            "tripleSharing": 200,
+            "doubleSharing": 0,
+            "singleCabin": 300
+          }
+        ],
+        "days": [
+          {
+            "dayNumber": 1,
+            "title": "",
+            "activities": [
+              "Pick up from Luxor ( airport ,train station or hotel)",
+              "Meet & greet",
+              "Transfer to Nile cruise boat",
+              "Embarkation on cruise boat",
+              "1pm Lunch on board",
+              "East Luxor",
+              "Visit to Luxor and Karnak Temples.",
+              "Optional tour ( sound& light show in karnak temple).",
+              "Dinner and show on board.",
+              "Overnight on board in Luxor ·"
+            ]
+          },
+          {
+            "dayNumber": 2,
+            "title": "",
+            "activities": [
+              "Optional tour (hot air balloon)",
+              "Breakfast",
+              "West Luxor",
+              "Visit to Valley of the Kings, Hatshepsut Temple, and Memnon Colossi.",
+              "Lunch on board",
+              "Sail to Esna. Cross the lock. Sail to Edfu.",
+              "Dinner",
+              "Overnight on board in Edfu"
+            ]
+          },
+          {
+            "dayNumber": 3,
+            "title": "",
+            "activities": [
+              "Breakfast on board",
+              "Visit to Edfu Temple by hors carriage",
+              "Sail to komombo temple",
+              "Lunch on board",
+              "Visit to komombo temple",
+              "Sail to Aswan",
+              "Dinner",
+              "Arrival to Aswan",
+              "Over night on board in Aswan"
+            ]
+          },
+          {
+            "dayNumber": 4,
+            "title": "",
+            "activities": [
+              "Breakfast",
+              "Visit to High Dam and Philae Temple",
+              "Lunch on board",
+              "Optional tour( visit to Nubian village by motor boat or felucca ride sun set time).",
+              "Optional tour (sound& light show in philia temple).",
+              "Dinner on board",
+              "Overnight on board in Aswan"
+            ]
+          },
+          {
+            "dayNumber": 5,
+            "title": "",
+            "activities": [
+              "Disembarkation from cruise ship.",
+              "Optional tour (visit to Abu simple temples) 8-9 hours by land or 5hours by flight round trip.",
+              "Departure transfer to ( airport ,train station or hotel)"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ms-espelanad",
+    "name": "ms espelanad",
+    "type": "Nile Cruise",
+    "category": "luxury",
+    "subType": "nile-cruise",
+    "featured": false,
+    "gallery": [],
+    "inclusions": [
+      "We provide seamless pickup and drop-off services at both Luxor International Airport (LXR) and Aswan International Airport (ASW).",
+      "04 or 03 nights’ accommodation on board the Nile cruises. on FB basis.",
+      "Meet and assist service upon arrival & departure.",
+      "Assistance of our personnel during your stay and excursions.",
+      "All transfers are made by a modern, air-conditioned, private deluxe vehicle.",
+      "All Nile Cruise excursions, as mentioned in the itinerary private.",
+      "Entrance fees to all sights in and between Luxor and Aswan."
+    ],
+    "exclusions": [
+      "Any Extra meals and beverages.",
+      "Personal expenses.",
+      "Tipping.",
+      "Optional tours."
+    ],
+    "childrenPolicy": [
+      "Less than 06years old: will be accommodated free of charge sharing parents’ cabin",
+      "From 6years till 11.99 years: Sharing parent’s cabins and will be charged as a half adult with a maximum of one child.",
+      "Children from 12 years & over will be charged full fare.",
+      "In case of 01 Child between 06 and 11.99 years accommodated with one adult only, cabin will be charged as 01 Double cabin."
+    ],
+    "note": "Rates to be applied for Standard Cabins (Main deck). A supplement to be added for bookings in Upper Deck cabins -connected cabins and cabins with veranda",
+    "itineraries": [
+      {
+        "id": "ms-espelanad-3nights-aswan-to-luxor",
+        "durationName": "3NIGHTS  ASWAN TO LUXOR",
+        "departureDay": "Every Wednesday",
+        "pricing": [
+          {
+            "seasonName": "Summer Price 02/09/2026 to 30/09/2026",
+            "applicableDates": [],
+            "tripleSharing": 895,
+            "doubleSharing": 955,
+            "singleCabin": 1630
+          },
+          {
+            "seasonName": "Winter Price October to April",
+            "applicableDates": [],
+            "tripleSharing": 1265,
+            "doubleSharing": 1325,
+            "singleCabin": 2260
+          },
+          {
+            "seasonName": "Peak winter Price",
+            "applicableDates": [
+              "20-12-2026 till 31-12-2026",
+              "01-04-2027 till 10/04/2027"
+            ],
+            "tripleSharing": 1750,
+            "doubleSharing": 1810,
+            "singleCabin": 2800
+          }
+        ],
+        "days": [
+          {
+            "dayNumber": 1,
+            "title": "",
+            "activities": [
+              "Pick up from Aswan (airport, train station or hotel)",
+              "Meet & greet",
+              "Transfer to Nile cruise boat",
+              "Embarkation on cruise boat",
+              "01:00 PM Lunch on board",
+              "Visit to philia temple and high dam",
+              "Dinner on board",
+              "Over night on boat in aswan"
+            ]
+          },
+          {
+            "dayNumber": 2,
+            "title": "",
+            "activities": [
+              "Sail to KomOmbo 03:00 AM.",
+              "Breakfast and visit to KomOmbo Temple",
+              "Sail to Edfu Lunch on board",
+              "Visit EdfuTemple.",
+              "Sail to Luxor",
+              "Dinner on board",
+              "Overnight Esna or Luxor"
+            ]
+          },
+          {
+            "dayNumber": 3,
+            "title": "",
+            "activities": [
+              "Optional tour (hot air balloon)",
+              "Breakfast on board",
+              "Visit the West Bank – The Valley of the Kings -The temple of Queen Hatshepsut at El-Deir El-Bahari and the Colossi Memnon.",
+              "Lunch on board",
+              "Visit East Bank (Karnak and Luxor Temples)",
+              "Dinner on board",
+              "Party",
+              "Overnight in Luxor"
+            ]
+          },
+          {
+            "dayNumber": 4,
+            "title": "",
+            "activities": [
+              "Breakfast on board",
+              "Disembarkation at 08:00 am.",
+              "Departure transfer to ( airport ,train station or hotel)"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "ms-espelanad-4nights-luxor-to-aswan",
+        "durationName": "4NIGHTS  luxor to aswan",
+        "departureDay": "Every Saturday",
+        "pricing": [
+          {
+            "seasonName": "Summer Price 02/09/2026 to 30/09/2026",
+            "applicableDates": [],
+            "tripleSharing": 1080,
+            "doubleSharing": 1160,
+            "singleCabin": 1880
+          },
+          {
+            "seasonName": "Winter Price October to April",
+            "applicableDates": [],
+            "tripleSharing": 1555,
+            "doubleSharing": 1635,
+            "singleCabin": 2770
+          },
+          {
+            "seasonName": "Peak winter Price",
+            "applicableDates": [
+              "20-12-2026 till 31-12-2026",
+              "01-04-2027 till 10/04/2027"
+            ],
+            "tripleSharing": 2170,
+            "doubleSharing": 2250,
+            "singleCabin": 3410
+          }
+        ],
+        "days": [
+          {
+            "dayNumber": 1,
+            "title": "",
+            "activities": [
+              "Pick up from Luxor ( airport ,train station or hotel)",
+              "Meet & greet",
+              "Transfer to Nile cruise boat",
+              "Embarkation on cruise boat",
+              "1pm Lunch on board",
+              "East Luxor",
+              "Visit to Luxor and Karnak Temples.",
+              "Optional tour ( sound& light show in karnak temple).",
+              "Dinner and show on board.",
+              "Overnight on board in Luxor ·"
+            ]
+          },
+          {
+            "dayNumber": 2,
+            "title": "",
+            "activities": [
+              "Optional tour (hot air balloon)",
+              "Breakfast",
+              "West Luxor",
+              "Visit to Valley of the Kings, Hatshepsut Temple, and Memnon Colossi.",
+              "Lunch on board",
+              "Sail to Esna. Cross the lock. Sail to Edfu.",
+              "Dinner",
+              "Overnight on board in Edfu"
+            ]
+          },
+          {
+            "dayNumber": 3,
+            "title": "",
+            "activities": [
+              "Breakfast on board",
+              "Visit to Edfu Temple by hors carriage",
+              "Sail to komombo temple",
+              "Lunch on board",
+              "Visit to komombo temple",
+              "Sail to Aswan",
+              "Dinner",
+              "Arrival to Aswan",
+              "Over night on board in Aswan"
+            ]
+          },
+          {
+            "dayNumber": 4,
+            "title": "",
+            "activities": [
+              "Breakfast",
+              "Visit to High Dam and Philae Temple",
+              "Lunch on board",
+              "Optional tour( visit to Nubian village by motor boat or felucca ride sun set time).",
+              "Optional tour (sound& light show in philia temple).",
+              "Dinner on board",
+              "Overnight on board in Aswan"
+            ]
+          },
+          {
+            "dayNumber": 5,
+            "title": "",
+            "activities": [
+              "Disembarkation from cruise ship.",
+              "Optional tour (visit to Abu simple temples) 8-9 hours by land or 5hours by flight round trip.",
+              "Departure transfer to ( airport ,train station or hotel)"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "movenpick-royal-lotus",
+    "name": "movenpick royal lotus",
+    "type": "Nile Cruise",
+    "category": "luxury",
+    "subType": "nile-cruise",
+    "featured": false,
+    "gallery": [],
+    "inclusions": [
+      "We provide seamless pickup and drop-off services at both Luxor International Airport (LXR) and Aswan International Airport (ASW).",
+      "04 or 03 nights’ accommodation on board the Nile cruises. on FB basis.",
+      "Meet and assist service upon arrival & departure.",
+      "Assistance of our personnel during your stay and excursions.",
+      "All transfers are made by a modern, air-conditioned, private deluxe vehicle.",
+      "All Nile Cruise excursions, as mentioned in the itinerary private.",
+      "Entrance fees to all sights in and between Luxor and Aswan."
+    ],
+    "exclusions": [
+      "Any Extra meals and beverages.",
+      "Personal expenses.",
+      "Tipping.",
+      "Optional tours."
+    ],
+    "childrenPolicy": [
+      "Less than 06 years old: will be accommodated free of charge sharing parents’ cabin.",
+      "From 6 years till 11.99 years: Sharing parent’s cabins and will be charged as a half adult with a maximum of one child.",
+      "Children from 12 years & over will be charged full fare.",
+      "In case of 01 Child between 06 and 11.99 years accommodated with one adult only, cabin will be charged as 01 Double cabin."
+    ],
+    "note": "Rates to be applied for Cabins (Main deck). A supplement to be added for bookings in Cabins (Upper Deck & connected cabins) usd 20 per person per night .",
+    "itineraries": [
+      {
+        "id": "movenpick-royal-lotus-3nights-aswan-to-luxor",
+        "durationName": "3NIGHTS  ASWAN TO LUXOR",
+        "departureDay": "Every Friday",
+        "pricing": [
+          {
+            "seasonName": "Summer Price 02/09/2026 to 30/09/2026",
+            "applicableDates": [],
+            "tripleSharing": 895,
+            "doubleSharing": 955,
+            "singleCabin": 1630
+          },
+          {
+            "seasonName": "Winter Price October to April",
+            "applicableDates": [],
+            "tripleSharing": 1310,
+            "doubleSharing": 1370,
+            "singleCabin": 2305
+          },
+          {
+            "seasonName": "Peak winter Price",
+            "applicableDates": [
+              "20-12-2026 till 31-12-2026",
+              "01-04-2027 till 10/04/2027"
+            ],
+            "tripleSharing": 1750,
+            "doubleSharing": 1810,
+            "singleCabin": 2800
+          }
+        ],
+        "days": [
+          {
+            "dayNumber": 1,
+            "title": "",
+            "activities": [
+              "Pick up from Aswan (airport, train station or hotel)",
+              "Meet & greet",
+              "Transfer to Nile cruise boat",
+              "Embarkation on cruise boat",
+              "01:00 PM Lunch on board",
+              "Visit to philia temple and high dam",
+              "Dinner on board",
+              "Over night on boat in aswan"
+            ]
+          },
+          {
+            "dayNumber": 2,
+            "title": "",
+            "activities": [
+              "Sail to KomOmbo 03:00 AM.",
+              "Breakfast and visit to KomOmbo Temple",
+              "Sail to Edfu Lunch on board",
+              "Visit EdfuTemple.",
+              "Sail to Luxor",
+              "Dinner on board",
+              "Overnight Esna or Luxor"
+            ]
+          },
+          {
+            "dayNumber": 3,
+            "title": "",
+            "activities": [
+              "Optional tour (hot air balloon)",
+              "Breakfast on board",
+              "Visit the West Bank – The Valley of the Kings -The temple of Queen Hatshepsut at El-Deir El-Bahari and the Colossi Memnon.",
+              "Lunch on board",
+              "Visit East Bank (Karnak and Luxor Temples)",
+              "Dinner on board",
+              "Party",
+              "Overnight in Luxor"
+            ]
+          },
+          {
+            "dayNumber": 4,
+            "title": "",
+            "activities": [
+              "Breakfast on board",
+              "Disembarkation at 08:00 am.",
+              "Departure transfer to ( airport ,train station or hotel)"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "movenpick-royal-lotus-4nights-luxor-to-aswan",
+        "durationName": "4NIGHTS  luxor to aswan",
+        "departureDay": "Every Monday",
+        "pricing": [
+          {
+            "seasonName": "Summer Price 02/09/2026 to 30/09/2026",
+            "applicableDates": [],
+            "tripleSharing": 1080,
+            "doubleSharing": 1160,
+            "singleCabin": 1880
+          },
+          {
+            "seasonName": "Winter Price October to April",
+            "applicableDates": [],
+            "tripleSharing": 1615,
+            "doubleSharing": 1705,
+            "singleCabin": 2830
+          },
+          {
+            "seasonName": "Peak winter Price",
+            "applicableDates": [
+              "20-12-2026 till 31-12-2026",
+              "01-04-2027 till 10/04/2027"
+            ],
+            "tripleSharing": 2170,
+            "doubleSharing": 2250,
+            "singleCabin": 3410
+          }
+        ],
+        "days": [
+          {
+            "dayNumber": 1,
+            "title": "",
+            "activities": [
+              "Pick up from Luxor ( airport ,train station or hotel)",
+              "Meet & greet",
+              "Transfer to Nile cruise boat",
+              "Embarkation on cruise boat",
+              "1pm Lunch on board",
+              "East Luxor",
+              "Visit to Luxor and Karnak Temples.",
+              "Optional tour ( sound& light show in karnak temple).",
+              "Dinner and show on board.",
+              "Overnight on board in Luxor ·"
+            ]
+          },
+          {
+            "dayNumber": 2,
+            "title": "",
+            "activities": [
+              "Optional tour (hot air balloon)",
+              "Breakfast",
+              "West Luxor",
+              "Visit to Valley of the Kings, Hatshepsut Temple, and Memnon Colossi.",
+              "Lunch on board",
+              "Sail to Esna. Cross the lock. Sail to Edfu.",
+              "Dinner",
+              "Overnight on board in Edfu"
+            ]
+          },
+          {
+            "dayNumber": 3,
+            "title": "",
+            "activities": [
+              "Breakfast on board",
+              "Visit to Edfu Temple by hors carriage",
+              "Sail to komombo temple",
+              "Lunch on board",
+              "Visit to komombo temple",
+              "Sail to Aswan",
+              "Dinner",
+              "Arrival to Aswan",
+              "Over night on board in Aswan"
+            ]
+          },
+          {
+            "dayNumber": 4,
+            "title": "",
+            "activities": [
+              "Breakfast",
+              "Visit to High Dam and Philae Temple",
+              "Lunch on board",
+              "Optional tour( visit to Nubian village by motor boat or felucca ride sun set time).",
+              "Optional tour (sound& light show in philia temple).",
+              "Dinner on board",
+              "Overnight on board in Aswan"
+            ]
+          },
+          {
+            "dayNumber": 5,
+            "title": "",
+            "activities": [
+              "Disembarkation from cruise ship.",
+              "Optional tour (visit to Abu simple temples) 8-9 hours by land or 5hours by flight round trip.",
+              "Departure transfer to ( airport ,train station or hotel)"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "movenpick-royal-lily",
+    "name": "movenpick royal lily",
+    "type": "Nile Cruise",
+    "category": "luxury",
+    "subType": "nile-cruise",
+    "featured": false,
+    "gallery": [],
+    "inclusions": [
+      "We provide seamless pickup and drop-off services at both Luxor International Airport (LXR) and Aswan International Airport (ASW).",
+      "04 or 03 nights’ accommodation on board the Nile cruises. on FB basis.",
+      "Meet and assist service upon arrival & departure.",
+      "Assistance of our personnel during your stay and excursions.",
+      "All transfers are made by a modern, air-conditioned, private deluxe vehicle.",
+      "All Nile Cruise excursions, as mentioned in the itinerary private.",
+      "Entrance fees to all sights in and between Luxor and Aswan."
+    ],
+    "exclusions": [
+      "Any Extra meals and beverages.",
+      "Personal expenses.",
+      "Tipping.",
+      "Optional tours."
+    ],
+    "childrenPolicy": [
+      "Less than 06 years old: will be accommodated free of charge sharing parents’ cabin.",
+      "From 6 years till 11.99 years: Sharing parent’s cabins and will be charged as a half adult with a maximum of one child.",
+      "Children from 12 years & over will be charged full fare.",
+      "In case of 01 Child between 06 and 11.99 years accommodated with one adult only, cabin will be charged as 01 Double cabin."
+    ],
+    "note": "Rates to be applied for Cabins (Main deck). A supplement to be added for bookings in Cabins (Upper Deck & connected cabins) usd 20 per person per night .",
+    "itineraries": [
+      {
+        "id": "movenpick-royal-lily-3nights-aswan-to-luxor",
+        "durationName": "3NIGHTS  ASWAN TO LUXOR",
+        "departureDay": "Every Friday",
+        "pricing": [
+          {
+            "seasonName": "Summer Price 02/09/2026 to 30/09/2026",
+            "applicableDates": [],
+            "tripleSharing": 895,
+            "doubleSharing": 955,
+            "singleCabin": 1630
+          },
+          {
+            "seasonName": "Winter Price October to April",
+            "applicableDates": [],
+            "tripleSharing": 1310,
+            "doubleSharing": 1370,
+            "singleCabin": 2305
+          },
+          {
+            "seasonName": "Peak winter Price",
+            "applicableDates": [
+              "20-12-2026 till 31-12-2026",
+              "01-04-2027 till 10/04/2027"
+            ],
+            "tripleSharing": 1750,
+            "doubleSharing": 1810,
+            "singleCabin": 2800
+          }
+        ],
+        "days": [
+          {
+            "dayNumber": 1,
+            "title": "",
+            "activities": [
+              "Pick up from Aswan (airport, train station or hotel)",
+              "Meet & greet",
+              "Transfer to Nile cruise boat",
+              "Embarkation on cruise boat",
+              "01:00 PM Lunch on board",
+              "Visit to philia temple and high dam",
+              "Dinner on board",
+              "Over night on boat in aswan"
+            ]
+          },
+          {
+            "dayNumber": 2,
+            "title": "",
+            "activities": [
+              "Sail to KomOmbo 03:00 AM.",
+              "Breakfast and visit to KomOmbo Temple",
+              "Sail to Edfu Lunch on board",
+              "Visit EdfuTemple.",
+              "Sail to Luxor",
+              "Dinner on board",
+              "Overnight Esna or Luxor"
+            ]
+          },
+          {
+            "dayNumber": 3,
+            "title": "",
+            "activities": [
+              "Optional tour (hot air balloon)",
+              "Breakfast on board",
+              "Visit the West Bank – The Valley of the Kings -The temple of Queen Hatshepsut at El-Deir El-Bahari and the Colossi Memnon.",
+              "Lunch on board",
+              "Visit East Bank (Karnak and Luxor Temples)",
+              "Dinner on board",
+              "Party",
+              "Overnight in Luxor"
+            ]
+          },
+          {
+            "dayNumber": 4,
+            "title": "",
+            "activities": [
+              "Breakfast on board",
+              "Disembarkation at 08:00 am.",
+              "Departure transfer to ( airport ,train station or hotel)"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "movenpick-royal-lily-4nights-luxor-to-aswan",
+        "durationName": "4NIGHTS  luxor to aswan",
+        "departureDay": "Every Monday",
+        "pricing": [
+          {
+            "seasonName": "Summer Price 02/09/2026 to 30/09/2026",
+            "applicableDates": [],
+            "tripleSharing": 1080,
+            "doubleSharing": 1160,
+            "singleCabin": 1880
+          },
+          {
+            "seasonName": "Winter Price October to April",
+            "applicableDates": [],
+            "tripleSharing": 1615,
+            "doubleSharing": 1705,
+            "singleCabin": 2830
+          },
+          {
+            "seasonName": "Peak winter Price",
+            "applicableDates": [
+              "20-12-2026 till 31-12-2026",
+              "01-04-2027 till 10/04/2027"
+            ],
+            "tripleSharing": 2170,
+            "doubleSharing": 2250,
+            "singleCabin": 3410
+          }
+        ],
+        "days": [
+          {
+            "dayNumber": 1,
+            "title": "",
+            "activities": [
+              "Pick up from Luxor ( airport ,train station or hotel)",
+              "Meet & greet",
+              "Transfer to Nile cruise boat",
+              "Embarkation on cruise boat",
+              "1pm Lunch on board",
+              "East Luxor",
+              "Visit to Luxor and Karnak Temples.",
+              "Optional tour ( sound& light show in karnak temple).",
+              "Dinner and show on board.",
+              "Overnight on board in Luxor ·"
+            ]
+          },
+          {
+            "dayNumber": 2,
+            "title": "",
+            "activities": [
+              "Optional tour (hot air balloon)",
+              "Breakfast",
+              "West Luxor",
+              "Visit to Valley of the Kings, Hatshepsut Temple, and Memnon Colossi.",
+              "Lunch on board",
+              "Sail to Esna. Cross the lock. Sail to Edfu.",
+              "Dinner",
+              "Overnight on board in Edfu"
+            ]
+          },
+          {
+            "dayNumber": 3,
+            "title": "",
+            "activities": [
+              "Breakfast on board",
+              "Visit to Edfu Temple by hors carriage",
+              "Sail to komombo temple",
+              "Lunch on board",
+              "Visit to komombo temple",
+              "Sail to Aswan",
+              "Dinner",
+              "Arrival to Aswan",
+              "Over night on board in Aswan"
+            ]
+          },
+          {
+            "dayNumber": 4,
+            "title": "",
+            "activities": [
+              "Breakfast",
+              "Visit to High Dam and Philae Temple",
+              "Lunch on board",
+              "Optional tour( visit to Nubian village by motor boat or felucca ride sun set time).",
+              "Optional tour (sound& light show in philia temple).",
+              "Dinner on board",
+              "Overnight on board in Aswan"
+            ]
+          },
+          {
+            "dayNumber": 5,
+            "title": "",
+            "activities": [
+              "Disembarkation from cruise ship.",
+              "Optional tour (visit to Abu simple temples) 8-9 hours by land or 5hours by flight round trip.",
+              "Departure transfer to ( airport ,train station or hotel)"
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

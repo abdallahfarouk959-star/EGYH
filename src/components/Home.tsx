@@ -23,12 +23,12 @@ export const Home: React.FC = () => {
   }, [location.hash]);
 
   const topCruiseIds = [
-    "ms-esplanade",
+    "ms-sonesta-st-george",
     "ms-historia",
-    "steigenberger-omar",
-    "ms-renaissance",
-    "ms-sonesta",
-    "ms-sunrise"
+    "ms-movenpick-sunray",
+    "ms-omar-el-khayam",
+    "ms-espelanad",
+    "ms-renaissance"
   ];
   const topCruises = cruises.filter(c => topCruiseIds.includes(c.id));
 
