@@ -189,7 +189,7 @@ export const Navbar: React.FC = () => {
               <MobileNavItem item={{ name: t('nav.home', 'Home'), link: "/" }} closeMenu={() => setIsMobileMenuOpen(false)} />
               <MobileNavItem item={{ name: t('nav.all_tours', 'All Tours'), link: "#", subItems: ALL_TOURS_ITEMS }} closeMenu={() => setIsMobileMenuOpen(false)} />
               <MobileNavItem item={{ name: t('nav.tours', 'Packages'), link: "#", subItems: SIMPLIFIED_PACKAGES }} closeMenu={() => setIsMobileMenuOpen(false)} />
-              <MobileNavItem item={{ name: t('nav.nile_cruise', 'Nile Cruise'), link: "/nile-cruise" }} closeMenu={() => setIsMobileMenuOpen(false)} />
+              <MobileNavItem item={{ name: t('nav.nile_cruise', 'Nile Cruise'), link: "#", subItems: NILE_CRUISE_ITEMS }} closeMenu={() => setIsMobileMenuOpen(false)} />
               <MobileNavItem item={{ name: t('nav.about', 'About Us'), link: "/about" }} closeMenu={() => setIsMobileMenuOpen(false)} />
               <MobileNavItem item={{ name: t('nav.contact', 'Contact Us'), link: "/contact" }} closeMenu={() => setIsMobileMenuOpen(false)} />
             </div>
