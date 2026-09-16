@@ -254,7 +254,7 @@ export const Home: React.FC = () => {
             </div>
 
             <h3 className="text-2xl md:text-3xl font-bold text-gray-900 mb-2 font-serif">
-              Egypt Holiday Tours
+              Egypt Holiday Aswan
             </h3>
             <p className="text-gray-500 text-sm md:text-base leading-relaxed">
               {t("home.reviews_title")}
