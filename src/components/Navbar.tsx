@@ -126,6 +126,8 @@ export const Navbar: React.FC = () => {
     { name: t('nav.ultra_deluxe_cruises', 'Ultra Deluxe Cruises'), link: "/nile-cruise/category/ultra-deluxe" },
     { name: t('nav.deluxe_cruises', 'Deluxe Cruises'), link: "/nile-cruise/category/deluxe" },
     { name: t('nav.standard_cruises', 'Standard Cruises'), link: "/nile-cruise/category/standard" },
+    { name: t('nav.lake_nasser_cruises', 'Lake Nasser Cruises'), link: "/nile-cruise/category/lake-nasser-cruises" },
+    { name: t('nav.cruise_by_felucca', 'Cruise by Felucca'), link: "/nile-cruise/category/cruise-by-felucca" },
   ];
 
   return (

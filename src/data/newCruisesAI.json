@@ -16255,7 +16255,7 @@
     "id": "ms-omar-el-khayam",
     "name": "ms omar el khayam",
     "type": "Lake Nasser Cruise",
-    "category": "luxury",
+    "category": "lake-nasser-cruises",
     "subType": "lake-nasser-cruise",
     "featured": false,
     "gallery": [
@@ -16471,6 +16471,416 @@
             "activities": [
               "09:00 – Check-out.",
               "Private transfer from Abu Simbel to Aswan (Cruise, train station, or hotel), approximately 3 hours."
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "prince-abbas",
+    "name": "Prince Abbas",
+    "type": "Lake Nasser Cruise",
+    "category": "lake-nasser-cruises",
+    "subType": "lake-nasser-cruise",
+    "featured": false,
+    "gallery": [
+      "/cruises/Prince Abbas/WhatsApp Image 2026-09-16 at 7.23.15 PM.webp",
+      "/cruises/Prince Abbas/Screenshot 2026-09-16 200854.webp",
+      "/cruises/Prince Abbas/Screenshot 2026-09-16 200918.webp",
+      "/cruises/Prince Abbas/Screenshot 2026-09-16 200939.webp",
+      "/cruises/Prince Abbas/Screenshot 2026-09-16 200952.webp",
+      "/cruises/Prince Abbas/Screenshot 2026-09-16 201007.webp",
+      "/cruises/Prince Abbas/Screenshot 2026-09-16 201038.webp",
+      "/cruises/Prince Abbas/Screenshot 2026-09-16 201047.webp",
+      "/cruises/Prince Abbas/Screenshot 2026-09-16 201054.webp",
+      "/cruises/Prince Abbas/WhatsApp Image 2026-09-16 at 7.23.14 PM (1).webp",
+      "/cruises/Prince Abbas/WhatsApp Image 2026-09-16 at 7.23.14 PM.webp",
+      "/cruises/Prince Abbas/WhatsApp Image 2026-09-16 at 7.23.15 PM (1).webp",
+      "/cruises/Prince Abbas/WhatsApp Image 2026-09-16 at 7.23.15 PM (2).webp",
+      "/cruises/Prince Abbas/WhatsApp Image 2026-09-16 at 7.23.16 PM.webp"
+    ],
+    "inclusions": [
+      "Meet and assist service upon arrival and departure.",
+      "Personal assistance during your stay and excursions.",
+      "All transfers by modern air-conditioned deluxe vehicle.",
+      "Accommodation on a 5-star cruise on a full-board basis.",
+      "All sightseeing excursions as mentioned in the itinerary.",
+      "Entrance fees to all sites between Aswan and Abu Simbel.",
+      "Egyptologist guide for all excursions.",
+      "All service charges and taxes."
+    ],
+    "exclusions": [
+      "Personal expenses and extras.",
+      "Gratuities."
+    ],
+    "note": "Rates to be applied for Standard Cabins (Main deck). A supplement to be added for bookings in Superior Cabins (Upper Deck)\nOther language Guide:\nGuides speaking other language than English can be provided subject to availability with supplement of USD 200.00 per cruise trip",
+    "childrenPolicy": [
+      "Less than 05 years old: will be accommodated free of charge sharing parents' cabin",
+      "From 05 years till 11.99 years: Sharing parent's cabins and will be charged as a half adult with a maximum of one child.",
+      "Children from 12 years & over will be charged full fare.",
+      "In case of 01 Child between 05 and 11.99 years accommodated with one adult only, cabin will be charged as 01 Double cabin."
+    ],
+    "itineraries": [
+      {
+        "id": "prince-abbas-3nights-aswan-to-luxor",
+        "durationName": "3NIGHTS ASWAN TO LUXOR",
+        "departureDay": "Every Friday",
+        "pricing": [
+          {
+            "seasonName": "Summer Price",
+            "applicableDates": [
+              "May & September"
+            ],
+            "tripleSharing": 1055,
+            "doubleSharing": 1070,
+            "singleCabin": 1870
+          },
+          {
+            "seasonName": "Winter Price",
+            "applicableDates": [
+              "October to April"
+            ],
+            "tripleSharing": 1110,
+            "doubleSharing": 1125,
+            "singleCabin": 1875
+          },
+          {
+            "seasonName": "Peak winter Price",
+            "applicableDates": [
+              "21-12-2026 till 31-12-2026",
+              "22-3-2027 till 1/4/2027"
+            ],
+            "tripleSharing": 1275,
+            "doubleSharing": 1290,
+            "singleCabin": 2175
+          }
+        ],
+        "days": [
+          {
+            "dayNumber": 1,
+            "title": "Day 1 - Friday:",
+            "activities": [
+              "08:00 – Pickup from Aswan airport, train station, or hotel to Abu Simbel (3 hours private transfer).",
+              "13:00 – Check-in and embarkation.",
+              "13:30 – Lunch on board.",
+              "14:00 – Visit Abu Simbel Temple.",
+              "16:00 – Tea time.",
+              "20:00 – Optional Sound & Light Show at Abu Simbel.",
+              "21:00 – Dinner on board.",
+              "Overnight in Abu Simbel."
+            ]
+          },
+          {
+            "dayNumber": 2,
+            "title": "Day 2 - Saturday:",
+            "activities": [
+              "07:30 – Sail to Kasr Ibrim.",
+              "11:30 – Kasr Ibrim Overview (15-minute photo stop from the sundeck).",
+              "16:30 – Visit Amada (Amada, Derr, and Tomb of Pennut).",
+              "18:30 – Sail to Wadi El Seboua.",
+              "19:15 – Cocktail Party (Head Departments Presentation).",
+              "21:30 – Nubian Show by the staff.",
+              "Overnight at Wadi El Seboua."
+            ]
+          },
+          {
+            "dayNumber": 3,
+            "title": "Day 3 - Sunday:",
+            "activities": [
+              "07:00 – Visit Wadi El Seboua Temples.",
+              "09:00 – Sail to Aswan.",
+              "Overnight in Aswan."
+            ]
+          },
+          {
+            "dayNumber": 4,
+            "title": "Day 4 - Monday:",
+            "activities": [
+              "07:00 – Visit Kalabsha Temples.",
+              "09:00 – Check-out.",
+              "Private transfer to Aswan airport, train station, cruise or hotel."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "prince-abbas-4nights-luxor-to-aswan",
+        "durationName": "4NIGHTS luxor to aswan",
+        "departureDay": "Every Monday",
+        "pricing": [
+          {
+            "seasonName": "Summer Price",
+            "applicableDates": [
+              "May & September"
+            ],
+            "tripleSharing": 1320,
+            "doubleSharing": 1340,
+            "singleCabin": 2350
+          },
+          {
+            "seasonName": "Winter Price",
+            "applicableDates": [
+              "October to April"
+            ],
+            "tripleSharing": 1410,
+            "doubleSharing": 1430,
+            "singleCabin": 2400
+          },
+          {
+            "seasonName": "Peak winter Price",
+            "applicableDates": [
+              "21-12-2026 till 31-12-2026",
+              "22-3-2027 till 1/4/2027"
+            ],
+            "tripleSharing": 1640,
+            "doubleSharing": 1660,
+            "singleCabin": 5725
+          }
+        ],
+        "days": [
+          {
+            "dayNumber": 1,
+            "title": "Day 1 - Monday:",
+            "activities": [
+              "Morning pickup from hotel, airport, or train station in Aswan. Check-in and embarkation.",
+              "13:00 – Lunch on board.",
+              "17:00 – Tea time.",
+              "20:00 – Dinner on board.",
+              "Overnight in Aswan."
+            ]
+          },
+          {
+            "dayNumber": 2,
+            "title": "Day 2 - Tuesday:",
+            "activities": [
+              "08:00 – Visit Kalabsha Temples.",
+              "10:30 – Sail to Wadi El Seboua.",
+              "13:00 – Lunch on board.",
+              "17:00 – Tea time.",
+              "19:15 – Cocktail Party (Head Departments Presentation).",
+              "20:00 – Dinner on board.",
+              "Overnight at Wadi El Seboua."
+            ]
+          },
+          {
+            "dayNumber": 3,
+            "title": "Day 3 - Wednesday:",
+            "activities": [
+              "08:00 – Visit Wadi El Seboua Temples.",
+              "10:30 – Sail to Amada.",
+              "16:00 – Visit Amada (Amada, Derr, and Tomb of Pennut).",
+              "21:30 – Nubian Show by the staff.",
+              "Overnight at Amada."
+            ]
+          },
+          {
+            "dayNumber": 4,
+            "title": "Day 4 - Thursday:",
+            "activities": [
+              "06:30 – Sail to Kasr Ibrim.",
+              "08:45 – Kasr Ibrim Overview (15-minute photo stop from the sundeck).",
+              "12:15 – Abu Simbel Temple Panorama (15-minute photo stop from the sundeck).",
+              "12:30 – Visit Abu Simbel Temple.",
+              "20:00 – Optional Sound & Light Show at Abu Simbel.",
+              "Overnight at Abu Simbel."
+            ]
+          },
+          {
+            "dayNumber": 5,
+            "title": "Day 5 - Friday:",
+            "activities": [
+              "09:00 – Check-out.",
+              "Private transfer from Abu Simbel to Aswan (Cruise, train station, or hotel), approximately 3 hours."
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "felucca-aswan-daraw",
+    "name": "Felucca: Aswan to Daraw (1 Night)",
+    "type": "Felucca Cruise",
+    "category": "cruise-by-felucca",
+    "subType": "cruise-by-felucca",
+    "featured": false,
+    "gallery": [
+      "/cruises/Cruise by Felucca/WhatsApp Image 2026-09-16 at 7.27.45 PM (3).webp",
+      "/cruises/Cruise by Felucca/WhatsApp Image 2026-09-16 at 7.27.44 PM.webp",
+      "/cruises/Cruise by Felucca/WhatsApp Image 2026-09-16 at 7.27.45 PM (1).webp",
+      "/cruises/Cruise by Felucca/WhatsApp Image 2026-09-16 at 7.27.45 PM (2).webp",
+      "/cruises/Cruise by Felucca/WhatsApp Image 2026-09-16 at 7.27.45 PM.webp",
+      "/cruises/Cruise by Felucca/WhatsApp Image 2026-09-16 at 7.27.46 PM (1).webp",
+      "/cruises/Cruise by Felucca/WhatsApp Image 2026-09-16 at 7.27.46 PM (2).webp",
+      "/cruises/Cruise by Felucca/WhatsApp Image 2026-09-16 at 7.27.46 PM (3).webp",
+      "/cruises/Cruise by Felucca/WhatsApp Image 2026-09-16 at 7.27.46 PM.webp",
+      "/cruises/Cruise by Felucca/WhatsApp Image 2026-09-16 at 7.27.47 PM (1).webp",
+      "/cruises/Cruise by Felucca/WhatsApp Image 2026-09-16 at 7.27.47 PM (2).webp",
+      "/cruises/Cruise by Felucca/WhatsApp Image 2026-09-16 at 7.27.47 PM (3).webp",
+      "/cruises/Cruise by Felucca/WhatsApp Image 2026-09-16 at 7.27.47 PM.webp",
+      "/cruises/Cruise by Felucca/WhatsApp Image 2026-09-16 at 7.27.48 PM (1).webp",
+      "/cruises/Cruise by Felucca/WhatsApp Image 2026-09-16 at 7.27.48 PM.webp"
+    ],
+    "inclusions": [
+      "Private transfer from your cruise, hotel, airport, or train station to the felucca",
+      "Three meals per day (breakfast, lunch, and dinner) and mineral water"
+    ],
+    "exclusions": [],
+    "note": "Super Deluxe Felucca Cruises\nSail along the Nile in style aboard an exclusive felucca, offering a blend of tradition and comfort. Relax as you glide through the river, enjoying stunning landscapes, birdwatching, and peaceful moments on the water. Our felucca is equipped with a hard sunroof that doubles as a sundeck, a toilet with a shower, comfortable long mattresses, pillows, and extra sheets. There is ample space for luggage storage, ensuring a comfortable and memorable experience.\n\nBreakfast Menu:\nCheese, Boiled or scrambled eggs, Jam, Bread, Tea or coffee.\nNubian Lunch/Dinner Menu:\nAubergine or vegetable tagen, Chicken, meat, or Bamiya (okra) tagen, Rice, pasta, and a variety of salads, Egyptian bread, Soft drinks and water, Fruits, tea, or coffee. (Tagen is a traditional Nubian stew prepared with tomato and onion sauce, served in a clay pot.)\n\nPrice: 1 Person: $190 | 2-4 Persons: $260 per group | More than 4 Persons: $60 per additional person.",
+    "childrenPolicy": [],
+    "itineraries": [
+      {
+        "id": "felucca-aswan-daraw-itinerary",
+        "durationName": "1 Night / 1 Day",
+        "departureDay": "Everyday",
+        "pricing": [
+          {
+            "seasonName": "All Year",
+            "applicableDates": [
+              "Anytime"
+            ],
+            "tripleSharing": 86,
+            "doubleSharing": 130,
+            "singleCabin": 190
+          }
+        ],
+        "days": [
+          {
+            "dayNumber": 1,
+            "title": "1 Night / 1 Day Aswan to Daraw",
+            "activities": [
+              "Since feluccas rely on the wind, there is no fixed schedule. The itinerary is tailored to your preferences.",
+              "10:00 – Depart from Aswan and sail downstream throughout the day.",
+              "Meals are served either onshore or onboard.",
+              "Evening: Gather under the stars with a campfire, traditional Nubian music, and dance performed by the captains and crew.",
+              "After reaching Daraw, continue your journey by car or minivan either to Luxor or back to Aswan."
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "felucca-aswan-kom-ombo",
+    "name": "Felucca: Aswan to Kom Ombo (2 Nights)",
+    "type": "Felucca Cruise",
+    "category": "cruise-by-felucca",
+    "subType": "cruise-by-felucca",
+    "featured": false,
+    "gallery": [
+      "/cruises/Cruise by Felucca/WhatsApp Image 2026-09-16 at 7.27.45 PM (2).webp",
+      "/cruises/Cruise by Felucca/WhatsApp Image 2026-09-16 at 7.27.44 PM.webp",
+      "/cruises/Cruise by Felucca/WhatsApp Image 2026-09-16 at 7.27.45 PM (1).webp",
+      "/cruises/Cruise by Felucca/WhatsApp Image 2026-09-16 at 7.27.45 PM (3).webp",
+      "/cruises/Cruise by Felucca/WhatsApp Image 2026-09-16 at 7.27.45 PM.webp",
+      "/cruises/Cruise by Felucca/WhatsApp Image 2026-09-16 at 7.27.46 PM (1).webp",
+      "/cruises/Cruise by Felucca/WhatsApp Image 2026-09-16 at 7.27.46 PM (2).webp",
+      "/cruises/Cruise by Felucca/WhatsApp Image 2026-09-16 at 7.27.46 PM (3).webp",
+      "/cruises/Cruise by Felucca/WhatsApp Image 2026-09-16 at 7.27.46 PM.webp",
+      "/cruises/Cruise by Felucca/WhatsApp Image 2026-09-16 at 7.27.47 PM (1).webp",
+      "/cruises/Cruise by Felucca/WhatsApp Image 2026-09-16 at 7.27.47 PM (2).webp",
+      "/cruises/Cruise by Felucca/WhatsApp Image 2026-09-16 at 7.27.47 PM (3).webp",
+      "/cruises/Cruise by Felucca/WhatsApp Image 2026-09-16 at 7.27.47 PM.webp",
+      "/cruises/Cruise by Felucca/WhatsApp Image 2026-09-16 at 7.27.48 PM (1).webp",
+      "/cruises/Cruise by Felucca/WhatsApp Image 2026-09-16 at 7.27.48 PM.webp"
+    ],
+    "inclusions": [
+      "Private transfer from your cruise, hotel, airport, or train station to the felucca",
+      "Three meals per day (breakfast, lunch, and dinner) and mineral water"
+    ],
+    "exclusions": [],
+    "note": "Super Deluxe Felucca Cruises\nSail along the Nile in style aboard an exclusive felucca, offering a blend of tradition and comfort. Relax as you glide through the river, enjoying stunning landscapes, birdwatching, and peaceful moments on the water. Our felucca is equipped with a hard sunroof that doubles as a sundeck, a toilet with a shower, comfortable long mattresses, pillows, and extra sheets. There is ample space for luggage storage, ensuring a comfortable and memorable experience.\n\nBreakfast Menu:\nCheese, Boiled or scrambled eggs, Jam, Bread, Tea or coffee.\nNubian Lunch/Dinner Menu:\nAubergine or vegetable tagen, Chicken, meat, or Bamiya (okra) tagen, Rice, pasta, and a variety of salads, Egyptian bread, Soft drinks and water, Fruits, tea, or coffee. (Tagen is a traditional Nubian stew prepared with tomato and onion sauce, served in a clay pot.)\n\nPrice: 1 Person: $350 | 2-4 Persons: $480 per group | More than 4 Persons: $100 per additional person.",
+    "childrenPolicy": [],
+    "itineraries": [
+      {
+        "id": "felucca-aswan-kom-ombo-itinerary",
+        "durationName": "2 Nights / 2 Days",
+        "departureDay": "Everyday",
+        "pricing": [
+          {
+            "seasonName": "All Year",
+            "applicableDates": [
+              "Anytime"
+            ],
+            "tripleSharing": 160,
+            "doubleSharing": 240,
+            "singleCabin": 350
+          }
+        ],
+        "days": [
+          {
+            "dayNumber": 1,
+            "title": "Day 1 & 2: Aswan to Kom Ombo",
+            "activities": [
+              "As with all felucca journeys, the itinerary is flexible and depends on the wind.",
+              "10:00 – Set sail from Aswan in the morning and cruise downstream until sunset.",
+              "Meals are enjoyed onshore or onboard.",
+              "At night, guests will gather for an unforgettable evening of Nubian music, dance, and storytelling under the stars.",
+              "After reaching Kom Ombo, you can continue your journey by car or minivan either to Luxor or back to Aswan."
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "felucca-aswan-edfu",
+    "name": "Felucca: Aswan to Edfu (3 Nights)",
+    "type": "Felucca Cruise",
+    "category": "cruise-by-felucca",
+    "subType": "cruise-by-felucca",
+    "featured": false,
+    "gallery": [
+      "/cruises/Cruise by Felucca/WhatsApp Image 2026-09-16 at 7.27.47 PM.webp",
+      "/cruises/Cruise by Felucca/WhatsApp Image 2026-09-16 at 7.27.47 PM (3).webp",
+      "/cruises/Cruise by Felucca/WhatsApp Image 2026-09-16 at 7.27.44 PM.webp",
+      "/cruises/Cruise by Felucca/WhatsApp Image 2026-09-16 at 7.27.45 PM (1).webp",
+      "/cruises/Cruise by Felucca/WhatsApp Image 2026-09-16 at 7.27.45 PM (2).webp",
+      "/cruises/Cruise by Felucca/WhatsApp Image 2026-09-16 at 7.27.45 PM (3).webp",
+      "/cruises/Cruise by Felucca/WhatsApp Image 2026-09-16 at 7.27.45 PM.webp",
+      "/cruises/Cruise by Felucca/WhatsApp Image 2026-09-16 at 7.27.46 PM (1).webp",
+      "/cruises/Cruise by Felucca/WhatsApp Image 2026-09-16 at 7.27.46 PM (2).webp",
+      "/cruises/Cruise by Felucca/WhatsApp Image 2026-09-16 at 7.27.46 PM (3).webp",
+      "/cruises/Cruise by Felucca/WhatsApp Image 2026-09-16 at 7.27.46 PM.webp",
+      "/cruises/Cruise by Felucca/WhatsApp Image 2026-09-16 at 7.27.47 PM (1).webp",
+      "/cruises/Cruise by Felucca/WhatsApp Image 2026-09-16 at 7.27.47 PM (2).webp",
+      "/cruises/Cruise by Felucca/WhatsApp Image 2026-09-16 at 7.27.48 PM (1).webp",
+      "/cruises/Cruise by Felucca/WhatsApp Image 2026-09-16 at 7.27.48 PM.webp"
+    ],
+    "inclusions": [
+      "Private transfer from your cruise, hotel, airport, or train station to the felucca",
+      "Three meals per day (breakfast, lunch, and dinner) and mineral water"
+    ],
+    "exclusions": [],
+    "note": "Super Deluxe Felucca Cruises\nSail along the Nile in style aboard an exclusive felucca, offering a blend of tradition and comfort. Relax as you glide through the river, enjoying stunning landscapes, birdwatching, and peaceful moments on the water. Our felucca is equipped with a hard sunroof that doubles as a sundeck, a toilet with a shower, comfortable long mattresses, pillows, and extra sheets. There is ample space for luggage storage, ensuring a comfortable and memorable experience.\n\nBreakfast Menu:\nCheese, Boiled or scrambled eggs, Jam, Bread, Tea or coffee.\nNubian Lunch/Dinner Menu:\nAubergine or vegetable tagen, Chicken, meat, or Bamiya (okra) tagen, Rice, pasta, and a variety of salads, Egyptian bread, Soft drinks and water, Fruits, tea, or coffee. (Tagen is a traditional Nubian stew prepared with tomato and onion sauce, served in a clay pot.)\n\nPrice: 1 Person: $350 | 2-4 Persons: $640 per group | More than 4 Persons: $135 per additional person.",
+    "childrenPolicy": [],
+    "itineraries": [
+      {
+        "id": "felucca-aswan-edfu-itinerary",
+        "durationName": "3 Nights / 3-4 Days",
+        "departureDay": "Everyday",
+        "pricing": [
+          {
+            "seasonName": "All Year",
+            "applicableDates": [
+              "Anytime"
+            ],
+            "tripleSharing": 213,
+            "doubleSharing": 320,
+            "singleCabin": 350
+          }
+        ],
+        "days": [
+          {
+            "dayNumber": 1,
+            "title": "Days 1 to 3/4: Aswan to Edfu",
+            "activities": [
+              "With no motor, the felucca journey is fully dependent on wind conditions.",
+              "10:00 – Begin from Aswan, sailing and sightseeing along the Nile.",
+              "Each day is spent cruising at a leisurely pace, stopping for meals and exploring the surroundings.",
+              "As night falls, experience the magic of the Nile with Nubian music and dance under a sky full of stars.",
+              "After reaching Edfu, you can continue your journey by car or minivan either to Luxor or back to Aswan."
             ]
           }
         ]

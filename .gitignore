@@ -9,3 +9,4 @@ coverage/
 .env
 node_modules/
 dist/
+pdf_files/

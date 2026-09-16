@@ -12,6 +12,8 @@ const CATEGORIES: { id: string; label: string }[] = [
   { id: "ultra-deluxe", label: "Ultra Deluxe" },
   { id: "deluxe", label: "Deluxe" },
   { id: "standard", label: "Standard" },
+  { id: "lake-nasser-cruises", label: "Lake Nasser Cruises" },
+  { id: "cruise-by-felucca", label: "Cruise by Felucca" },
 ];
 
 export const NileCruiseListPage: React.FC = () => {
