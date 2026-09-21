@@ -20,8 +20,8 @@ export interface CruiseItinerary {
   days: ItineraryDay[];
 }
 
-export type CruiseCategory = "luxury" | "ultra-deluxe" | "deluxe" | "standard";
-export type CruiseSubType = "nile-cruise" | "felucca" | "lake-nasser" | "dahabia";
+export type CruiseCategory = "luxury" | "ultra-deluxe" | "deluxe" | "standard" | "lake-nasser-cruises" | "cruise-by-felucca" | "dahabiya-nile-cruise-boat";
+export type CruiseSubType = "nile-cruise" | "felucca" | "lake-nasser" | "dahabia" | "dahabiya-cruise";
 
 export interface CruiseData {
   id: string;

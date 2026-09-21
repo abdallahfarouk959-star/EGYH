@@ -18704,7 +18704,7 @@
     "id": "fatima-dahabia",
     "name": "fatima dahabia",
     "type": "Nile Cruise",
-    "category": "Dahabiya Nile Cruise Boat",
+    "category": "dahabiya-nile-cruise-boat",
     "subType": "dahabiya-cruise",
     "featured": false,
     "gallery": [
@@ -18931,7 +18931,7 @@
     "id": "nayera-dahabia",
     "name": "nayera dahabia",
     "type": "Nile Cruise",
-    "category": "Dahabiya Nile Cruise Boat",
+    "category": "dahabiya-nile-cruise-boat",
     "subType": "dahabiya-cruise",
     "featured": false,
     "gallery": [
