@@ -1,7 +1,7 @@
 [
   {
     "id": "ms-sonesta-star-goddess",
-    "name": "ms. sonesta star goddess",
+    "name": "MS Sonesta Star Goddess",
     "type": "Nile Cruise",
     "category": "luxury",
     "subType": "nile-cruise",
@@ -228,7 +228,7 @@
   },
   {
     "id": "ms-soleil",
-    "name": "ms. soleil",
+    "name": "MS Soleil",
     "type": "Nile Cruise",
     "category": "luxury",
     "subType": "nile-cruise",
@@ -495,7 +495,7 @@
   },
   {
     "id": "ms-mazaj-tulip",
-    "name": "ms. mazaj tulip",
+    "name": "MS Mazaj Tulip",
     "type": "Nile Cruise",
     "category": "luxury",
     "subType": "nile-cruise",
@@ -867,7 +867,7 @@
   },
   {
     "id": "ms-le-fayan",
-    "name": "ms. le fayan",
+    "name": "MS Le Fayan",
     "type": "Nile Cruise",
     "category": "luxury",
     "subType": "nile-cruise",
@@ -1131,7 +1131,7 @@
   },
   {
     "id": "ms-le-fayan-suites",
-    "name": "ms. le fayan suites",
+    "name": "MS Le Fayan Suites",
     "type": "Nile Cruise",
     "category": "luxury",
     "subType": "nile-cruise",
@@ -1395,7 +1395,7 @@
   },
   {
     "id": "ms-gaz-elite-viceroy",
-    "name": "ms. gaz elite viceroy",
+    "name": "MS Gaz Elite Viceroy",
     "type": "Nile Cruise",
     "category": "luxury",
     "subType": "nile-cruise",
@@ -1616,7 +1616,7 @@
   },
   {
     "id": "ms-gaz-elite-regent",
-    "name": "ms. gaz elite regent",
+    "name": "MS Gaz Elite Regent",
     "type": "Nile Cruise",
     "category": "luxury",
     "subType": "nile-cruise",
@@ -1837,7 +1837,7 @@
   },
   {
     "id": "ms-farah",
-    "name": "ms. farah",
+    "name": "MS Farah",
     "type": "Nile Cruise",
     "category": "luxury",
     "subType": "nile-cruise",
@@ -2095,7 +2095,7 @@
   },
   {
     "id": "ms-sonesta-sun-goddess",
-    "name": "ms sonesta sun goddess",
+    "name": "MS Sonesta Sun Goddess",
     "type": "Nile Cruise",
     "category": "luxury",
     "subType": "nile-cruise",
@@ -2339,7 +2339,7 @@
   },
   {
     "id": "ms-sonesta-st-george",
-    "name": "ms sonesta st.george",
+    "name": "MS Sonesta St.George",
     "type": "Nile Cruise",
     "category": "luxury",
     "subType": "nile-cruise",
@@ -2565,7 +2565,7 @@
   },
   {
     "id": "ms-movenpick-sunray",
-    "name": "ms movenpick  sunray",
+    "name": "MS Movenpick  Sunray",
     "type": "Nile Cruise",
     "category": "luxury",
     "subType": "nile-cruise",
@@ -2815,7 +2815,7 @@
   },
   {
     "id": "ms-mayflower",
-    "name": "ms mayflower",
+    "name": "MS Mayflower",
     "type": "Nile Cruise",
     "category": "luxury",
     "subType": "nile-cruise",
@@ -3048,7 +3048,7 @@
   },
   {
     "id": "ms-mayfair",
-    "name": "ms mayfair",
+    "name": "MS Mayfair",
     "type": "Nile Cruise",
     "category": "luxury",
     "subType": "nile-cruise",
@@ -3269,7 +3269,7 @@
   },
   {
     "id": "ms-historia",
-    "name": "ms historia",
+    "name": "MS Historia",
     "type": "Nile Cruise",
     "category": "luxury",
     "subType": "nile-cruise",
@@ -3498,7 +3498,7 @@
   },
   {
     "id": "ms-hamees",
-    "name": "ms hamees",
+    "name": "MS Hamees",
     "type": "Nile Cruise",
     "category": "luxury",
     "subType": "nile-cruise",
@@ -3767,7 +3767,7 @@
   },
   {
     "id": "ms-espelanad",
-    "name": "ms espelanad",
+    "name": "MS Espelanad",
     "type": "Nile Cruise",
     "category": "luxury",
     "subType": "nile-cruise",
@@ -3991,7 +3991,7 @@
   },
   {
     "id": "movenpick-royal-lotus",
-    "name": "movenpick royal lotus",
+    "name": "MS Movenpick Royal Lotus",
     "type": "Nile Cruise",
     "category": "luxury",
     "subType": "nile-cruise",
@@ -4219,7 +4219,7 @@
   },
   {
     "id": "movenpick-royal-lily",
-    "name": "movenpick royal lily",
+    "name": "MS Movenpick Royal Lily",
     "type": "Nile Cruise",
     "category": "luxury",
     "subType": "nile-cruise",
@@ -4450,7 +4450,7 @@
   },
   {
     "id": "ms-steigerbuger-legacy",
-    "name": "ms.steigerbuger legacy",
+    "name": "MS Steigerbuger Legacy",
     "type": "Nile Cruise",
     "category": "ultra-deluxe",
     "subType": "nile-cruise",
@@ -4683,7 +4683,7 @@
   },
   {
     "id": "ms-salima",
-    "name": "ms.salima",
+    "name": "MS Salima",
     "type": "Nile Cruise",
     "category": "ultra-deluxe",
     "subType": "nile-cruise",
@@ -4901,7 +4901,7 @@
   },
   {
     "id": "ms-nile-stayle",
-    "name": "ms.nile stayle",
+    "name": "MS Nile Stayle",
     "type": "Nile Cruise",
     "category": "ultra-deluxe",
     "subType": "nile-cruise",
@@ -5128,7 +5128,7 @@
   },
   {
     "id": "ms-nile-capital",
-    "name": "ms.nile capital",
+    "name": "MS Nile Capital",
     "type": "Nile Cruise",
     "category": "ultra-deluxe",
     "subType": "nile-cruise",
@@ -5358,7 +5358,7 @@
   },
   {
     "id": "ms-steigenburger-regency",
-    "name": "ms. steigenburger regency",
+    "name": "MS Steigenburger Regency",
     "type": "Nile Cruise",
     "category": "ultra-deluxe",
     "subType": "nile-cruise",
@@ -5592,7 +5592,7 @@
   },
   {
     "id": "ms-steigenburger-minerva",
-    "name": "ms. steigenburger minerva",
+    "name": "MS Steigenburger Minerva",
     "type": "Nile Cruise",
     "category": "ultra-deluxe",
     "subType": "nile-cruise",
@@ -5828,7 +5828,7 @@
   },
   {
     "id": "ms-sonesta-moon-goddess",
-    "name": "ms. sonesta moon goddess",
+    "name": "MS Sonesta Moon Goddess",
     "type": "Nile Cruise",
     "category": "ultra-deluxe",
     "subType": "nile-cruise",
@@ -6056,7 +6056,7 @@
   },
   {
     "id": "ms-royal-princess-amira",
-    "name": "ms. royal princess amira",
+    "name": "MS Royal Princess Amira",
     "type": "Nile Cruise",
     "category": "ultra-deluxe",
     "subType": "nile-cruise",
@@ -6300,7 +6300,7 @@
   },
   {
     "id": "ms-nile-serenity",
-    "name": "ms. nile serenity",
+    "name": "MS Nile Serenity",
     "type": "Nile Cruise",
     "category": "ultra-deluxe",
     "subType": "nile-cruise",
@@ -6520,7 +6520,7 @@
   },
   {
     "id": "ms-nile-premium",
-    "name": "ms. nile premium",
+    "name": "MS Nile Premium",
     "type": "Nile Cruise",
     "category": "ultra-deluxe",
     "subType": "nile-cruise",
@@ -6760,7 +6760,7 @@
   },
   {
     "id": "ms-nile-excellence",
-    "name": "ms. nile excellence",
+    "name": "MS Nile Excellence",
     "type": "Nile Cruise",
     "category": "ultra-deluxe",
     "subType": "nile-cruise",
@@ -6987,7 +6987,7 @@
   },
   {
     "id": "ms-medea",
-    "name": "ms. medea",
+    "name": "MS Medea",
     "type": "Nile Cruise",
     "category": "ultra-deluxe",
     "subType": "nile-cruise",
@@ -7211,7 +7211,7 @@
   },
   {
     "id": "ms-mariam",
-    "name": "ms. mariam",
+    "name": "MS Mariam",
     "type": "Nile Cruise",
     "category": "ultra-deluxe",
     "subType": "nile-cruise",
@@ -7440,7 +7440,7 @@
   },
   {
     "id": "ms-farida",
-    "name": "ms. farida",
+    "name": "MS Farida",
     "type": "Nile Cruise",
     "category": "ultra-deluxe",
     "subType": "nile-cruise",
@@ -7661,7 +7661,7 @@
   },
   {
     "id": "ms-ellie",
-    "name": "ms. ellie",
+    "name": "MS Ellie",
     "type": "Nile Cruise",
     "category": "ultra-deluxe",
     "subType": "nile-cruise",
@@ -7888,7 +7888,7 @@
   },
   {
     "id": "ms-amwaj-living-stone",
-    "name": "ms. amwaj living stone",
+    "name": "MS Amwaj Living Stone",
     "type": "Nile Cruise",
     "category": "ultra-deluxe",
     "subType": "nile-cruise",
@@ -8120,7 +8120,7 @@
   },
   {
     "id": "ms-royal-liberty",
-    "name": "ms.  royal liberty",
+    "name": "MS Royal Liberty",
     "type": "Nile Cruise",
     "category": "ultra-deluxe",
     "subType": "nile-cruise",
@@ -8351,7 +8351,7 @@
   },
   {
     "id": "ms-sunrise-semirames1",
-    "name": "ms.sunrise semirames1",
+    "name": "MS Sunrise Semirames1",
     "type": "Nile Cruise",
     "category": "deluxe",
     "subType": "nile-cruise",
@@ -8577,7 +8577,7 @@
   },
   {
     "id": "ms-royal-viking",
-    "name": "ms.royal viking",
+    "name": "MS Royal Viking",
     "type": "Nile Cruise",
     "category": "deluxe",
     "subType": "nile-cruise",
@@ -8807,7 +8807,7 @@
   },
   {
     "id": "ms-royal-signature",
-    "name": "ms.royal signature",
+    "name": "MS Royal Signature",
     "type": "Nile Cruise",
     "category": "deluxe",
     "subType": "nile-cruise",
@@ -9044,7 +9044,7 @@
   },
   {
     "id": "ms-royal-ruby-1",
-    "name": "ms.royal ruby 1",
+    "name": "MS Royal Ruby 1",
     "type": "Nile Cruise",
     "category": "deluxe",
     "subType": "nile-cruise",
@@ -9259,7 +9259,7 @@
   },
   {
     "id": "ms-royal-elite",
-    "name": "ms.royal elite",
+    "name": "MS Royal Elite",
     "type": "Nile Cruise",
     "category": "deluxe",
     "subType": "nile-cruise",
@@ -9502,7 +9502,7 @@
   },
   {
     "id": "ms-magic2",
-    "name": "ms.magic2",
+    "name": "MS Magic2",
     "type": "Nile Cruise",
     "category": "deluxe",
     "subType": "nile-cruise",
@@ -9728,7 +9728,7 @@
   },
   {
     "id": "ms-lady-mary",
-    "name": "ms.lady mary",
+    "name": "MS Lady Mary",
     "type": "Nile Cruise",
     "category": "deluxe",
     "subType": "nile-cruise",
@@ -9954,7 +9954,7 @@
   },
   {
     "id": "ms-kahila",
-    "name": "ms.kahila",
+    "name": "MS Kahila",
     "type": "Nile Cruise",
     "category": "deluxe",
     "subType": "nile-cruise",
@@ -10186,7 +10186,7 @@
   },
   {
     "id": "ms-jamila",
-    "name": "ms.jamila",
+    "name": "MS Jamila",
     "type": "Nile Cruise",
     "category": "deluxe",
     "subType": "nile-cruise",
@@ -10406,7 +10406,7 @@
   },
   {
     "id": "ms-crpwn-emberor",
-    "name": "ms.crpwn emberor",
+    "name": "MS Crpwn Emberor",
     "type": "Nile Cruise",
     "category": "deluxe",
     "subType": "nile-cruise",
@@ -10636,7 +10636,7 @@
   },
   {
     "id": "ms-crown-jewel",
-    "name": "ms.crown jewel",
+    "name": "MS Crown Jewel",
     "type": "Nile Cruise",
     "category": "deluxe",
     "subType": "nile-cruise",
@@ -10858,7 +10858,7 @@
   },
   {
     "id": "ms-ciela",
-    "name": "ms.ciela",
+    "name": "MS Ciela",
     "type": "Nile Cruise",
     "category": "deluxe",
     "subType": "nile-cruise",
@@ -11080,7 +11080,7 @@
   },
   {
     "id": "ms-sunrise-semirames-2",
-    "name": "ms. sunrise semirames 2",
+    "name": "MS Sunrise Semirames 2",
     "type": "Nile Cruise",
     "category": "deluxe",
     "subType": "nile-cruise",
@@ -11317,7 +11317,7 @@
   },
   {
     "id": "ms-royal-beurivage",
-    "name": "ms. royal beurivage",
+    "name": "MS Royal Beurivage",
     "type": "Nile Cruise",
     "category": "deluxe",
     "subType": "nile-cruise",
@@ -11537,7 +11537,7 @@
   },
   {
     "id": "ms-radamis1",
-    "name": "ms. radamis1",
+    "name": "MS Radamis1",
     "type": "Nile Cruise",
     "category": "deluxe",
     "subType": "nile-cruise",
@@ -11757,7 +11757,7 @@
   },
   {
     "id": "ms-magic1",
-    "name": "ms. magic1",
+    "name": "MS Magic1",
     "type": "Nile Cruise",
     "category": "deluxe",
     "subType": "nile-cruise",
@@ -11987,7 +11987,7 @@
   },
   {
     "id": "ms-lady-carol",
-    "name": "ms. lady carol",
+    "name": "MS Lady Carol",
     "type": "Nile Cruise",
     "category": "deluxe",
     "subType": "nile-cruise",
@@ -12213,7 +12213,7 @@
   },
   {
     "id": "ms-la-travieta",
-    "name": "ms. la travieta",
+    "name": "MS La Travieta",
     "type": "Nile Cruise",
     "category": "deluxe",
     "subType": "nile-cruise",
@@ -12429,7 +12429,7 @@
   },
   {
     "id": "ms-gaz-nile-monarch",
-    "name": "ms. gaz nile monarch",
+    "name": "MS Gaz Nile Monarch",
     "type": "Nile Cruise",
     "category": "deluxe",
     "subType": "nile-cruise",
@@ -12654,7 +12654,7 @@
   },
   {
     "id": "ms-gaz-celebrity",
-    "name": "ms. gaz celebrity",
+    "name": "MS Gaz Celebrity",
     "type": "Nile Cruise",
     "category": "deluxe",
     "subType": "nile-cruise",
@@ -12867,7 +12867,7 @@
   },
   {
     "id": "ms-crown-jubilee",
-    "name": "ms. crown jubilee",
+    "name": "MS Crown Jubilee",
     "type": "Nile Cruise",
     "category": "deluxe",
     "subType": "nile-cruise",
@@ -13097,7 +13097,7 @@
   },
   {
     "id": "ms-carnival",
-    "name": "ms. carnival",
+    "name": "MS Carnival",
     "type": "Nile Cruise",
     "category": "deluxe",
     "subType": "nile-cruise",
@@ -13319,7 +13319,7 @@
   },
   {
     "id": "ms-blue-shodow-4",
-    "name": "ms. blue shodow 4",
+    "name": "MS Blue Shodow 4",
     "type": "Nile Cruise",
     "category": "deluxe",
     "subType": "nile-cruise",
@@ -13543,7 +13543,7 @@
   },
   {
     "id": "ms-blue-shadow-1",
-    "name": "ms. blue shadow 1",
+    "name": "MS Blue Shadow 1",
     "type": "Nile Cruise",
     "category": "deluxe",
     "subType": "nile-cruise",
@@ -13763,7 +13763,7 @@
   },
   {
     "id": "ms-zeina",
-    "name": "ms zeina",
+    "name": "MS Zeina",
     "type": "Nile Cruise",
     "category": "deluxe",
     "subType": "nile-cruise",
@@ -13989,7 +13989,7 @@
   },
   {
     "id": "ms-renaissance",
-    "name": "ms renaissance",
+    "name": "MS Renaissance",
     "type": "Nile Cruise",
     "category": "deluxe",
     "subType": "nile-cruise",
@@ -14237,7 +14237,7 @@
   },
   {
     "id": "ms-crown-prince",
-    "name": "ms crown prince",
+    "name": "MS Crown Prince",
     "type": "Nile Cruise",
     "category": "deluxe",
     "subType": "nile-cruise",
@@ -14450,7 +14450,7 @@
   },
   {
     "id": "ms-blue-shadow-3",
-    "name": "ms blue shadow 3",
+    "name": "MS Blue Shadow 3",
     "type": "Nile Cruise",
     "category": "deluxe",
     "subType": "nile-cruise",
@@ -14667,7 +14667,7 @@
   },
   {
     "id": "ms-sunrise-semirames3",
-    "name": "ms.sunrise semirames3",
+    "name": "MS Sunrise Semirames3",
     "type": "Nile Cruise",
     "category": "standard",
     "subType": "nile-cruise",
@@ -14894,7 +14894,7 @@
   },
   {
     "id": "ms-monica",
-    "name": "ms.monica",
+    "name": "MS Monica",
     "type": "Nile Cruise",
     "category": "standard",
     "subType": "nile-cruise",
@@ -15124,7 +15124,7 @@
   },
   {
     "id": "ms-sunrise-nile-saray",
-    "name": "ms. sunrise nile saray",
+    "name": "MS Sunrise Nile Saray",
     "type": "Nile Cruise",
     "category": "standard",
     "subType": "nile-cruise",
@@ -15343,7 +15343,7 @@
   },
   {
     "id": "ms-stephanie",
-    "name": "ms. stephanie",
+    "name": "MS Stephanie",
     "type": "Nile Cruise",
     "category": "standard",
     "subType": "nile-cruise",
@@ -15574,7 +15574,7 @@
   },
   {
     "id": "ms-solaris2",
-    "name": "ms. solaris2",
+    "name": "MS Solaris2",
     "type": "Nile Cruise",
     "category": "standard",
     "subType": "nile-cruise",
@@ -15817,7 +15817,7 @@
   },
   {
     "id": "ms-royal-ruby2",
-    "name": "ms. royal ruby2",
+    "name": "MS Royal Ruby2",
     "type": "Nile Cruise",
     "category": "standard",
     "subType": "nile-cruise",
@@ -16046,7 +16046,7 @@
   },
   {
     "id": "ms-radamis2",
-    "name": "ms. radamis2",
+    "name": "MS Radamis2",
     "type": "Nile Cruise",
     "category": "standard",
     "subType": "nile-cruise",
@@ -16261,7 +16261,7 @@
   },
   {
     "id": "ms-queen-tiyi",
-    "name": "ms. queen tiyi",
+    "name": "MS Queen Tiyi",
     "type": "Nile Cruise",
     "category": "standard",
     "subType": "nile-cruise",
@@ -16502,7 +16502,7 @@
   },
   {
     "id": "ms-nile-shams",
-    "name": "ms. nile shams",
+    "name": "MS Nile Shams",
     "type": "Nile Cruise",
     "category": "standard",
     "subType": "nile-cruise",
@@ -16718,7 +16718,7 @@
   },
   {
     "id": "ms-nile-jewel",
-    "name": "ms. nile jewel",
+    "name": "MS Nile Jewel",
     "type": "Nile Cruise",
     "category": "standard",
     "subType": "nile-cruise",
@@ -16933,7 +16933,7 @@
   },
   {
     "id": "ms-nile-dolphin",
-    "name": "ms. nile dolphin",
+    "name": "MS Nile Dolphin",
     "type": "Nile Cruise",
     "category": "standard",
     "subType": "nile-cruise",
@@ -17164,7 +17164,7 @@
   },
   {
     "id": "ms-monte-carlo",
-    "name": "ms. monte carlo",
+    "name": "MS Monte Carlo",
     "type": "Nile Cruise",
     "category": "standard",
     "subType": "nile-cruise",
@@ -17394,7 +17394,7 @@
   },
   {
     "id": "ms-la-terrasse",
-    "name": "ms. la terrasse",
+    "name": "MS La Terrasse",
     "type": "Nile Cruise",
     "category": "standard",
     "subType": "nile-cruise",
@@ -17618,7 +17618,7 @@
   },
   {
     "id": "ms-kleos",
-    "name": "ms. kleos",
+    "name": "MS Kleos",
     "type": "Nile Cruise",
     "category": "standard",
     "subType": "nile-cruise",
@@ -17857,7 +17857,7 @@
   },
   {
     "id": "ms-sunrise-el-mahrousa",
-    "name": "ms sunrise el mahrousa",
+    "name": "MS Sunrise El Mahrousa",
     "type": "Nile Cruise",
     "category": "standard",
     "subType": "nile-cruise",
@@ -18065,7 +18065,7 @@
   },
   {
     "id": "ms-omar-el-khayam",
-    "name": "ms omar el khayam",
+    "name": "MS Omar El Khayam",
     "type": "Lake Nasser Cruise",
     "category": "lake-nasser-cruises",
     "subType": "lake-nasser-cruise",
@@ -18291,7 +18291,7 @@
   },
   {
     "id": "prince-abbas",
-    "name": "Prince Abbas",
+    "name": "MS Prince Abbas",
     "type": "Lake Nasser Cruise",
     "category": "lake-nasser-cruises",
     "subType": "lake-nasser-cruise",
@@ -18513,7 +18513,7 @@
   },
   {
     "id": "felucca-aswan-daraw",
-    "name": "Felucca: Aswan to Daraw (1 Night)",
+    "name": "MS Felucca: Aswan To Daraw (1 Night)",
     "type": "Felucca Cruise",
     "category": "cruise-by-felucca",
     "subType": "cruise-by-felucca",
@@ -18576,7 +18576,7 @@
   },
   {
     "id": "felucca-aswan-kom-ombo",
-    "name": "Felucca: Aswan to Kom Ombo (2 Nights)",
+    "name": "MS Felucca: Aswan To Kom Ombo (2 Nights)",
     "type": "Felucca Cruise",
     "category": "cruise-by-felucca",
     "subType": "cruise-by-felucca",
@@ -18639,7 +18639,7 @@
   },
   {
     "id": "felucca-aswan-edfu",
-    "name": "Felucca: Aswan to Edfu (3 Nights)",
+    "name": "MS Felucca: Aswan To Edfu (3 Nights)",
     "type": "Felucca Cruise",
     "category": "cruise-by-felucca",
     "subType": "cruise-by-felucca",
@@ -18702,7 +18702,7 @@
   },
   {
     "id": "fatima-dahabia",
-    "name": "fatima dahabia",
+    "name": "MS Fatima Dahabia",
     "type": "Nile Cruise",
     "category": "dahabiya-nile-cruise-boat",
     "subType": "dahabiya-cruise",
@@ -18929,7 +18929,7 @@
   },
   {
     "id": "nayera-dahabia",
-    "name": "nayera dahabia",
+    "name": "MS Nayera Dahabia",
     "type": "Nile Cruise",
     "category": "dahabiya-nile-cruise-boat",
     "subType": "dahabiya-cruise",
