@@ -64,6 +64,25 @@ export const NileCruiseDetailPage: React.FC = () => {
     agreed: false,
   });
 
+  const [dateError, setDateError] = useState("");
+
+  const getValidDays = (departureDayStr: string) => {
+    if (!departureDayStr) return [];
+    const str = departureDayStr.toLowerCase();
+    if (str.includes('everyday')) return [0, 1, 2, 3, 4, 5, 6];
+    
+    const validDays = [];
+    if (str.includes('sunday')) validDays.push(0);
+    if (str.includes('monday')) validDays.push(1);
+    if (str.includes('tuesday')) validDays.push(2);
+    if (str.includes('wednesday')) validDays.push(3);
+    if (str.includes('thursday') || str.includes('thursady')) validDays.push(4);
+    if (str.includes('friday') || str.includes('fiday')) validDays.push(5);
+    if (str.includes('saturday')) validDays.push(6);
+    
+    return validDays;
+  };
+
   const [submitStatus, setSubmitStatus] = useState<
     "idle" | "submitting" | "success" | "error"
   >("idle");
@@ -84,6 +103,35 @@ export const NileCruiseDetailPage: React.FC = () => {
       setMainImage(cruise.gallery[0]);
     }
   }, [cruise]);
+
+  useEffect(() => {
+    setFormData(prev => ({ ...prev, date: "" }));
+    setDateError("");
+  }, [selectedItineraryIdx]);
+
+  const handleDateChange = (e: React.ChangeEvent<HTMLInputElement>) => {
+    const selectedDate = e.target.value;
+    if (!selectedDate) {
+      setFormData({ ...formData, date: "" });
+      setDateError("");
+      return;
+    }
+    
+    const itinerary = cruise?.itineraries[selectedItineraryIdx];
+    if (!itinerary) return;
+
+    const validDays = getValidDays(itinerary.departureDay);
+    const dateObj = new Date(selectedDate);
+    const dayOfWeek = dateObj.getDay();
+    
+    if (validDays.length > 0 && validDays.length < 7 && !validDays.includes(dayOfWeek)) {
+      setDateError(`Departures are only available on ${itinerary.departureDay}`);
+      setFormData({ ...formData, date: "" });
+    } else {
+      setDateError("");
+      setFormData({ ...formData, date: selectedDate });
+    }
+  };
 
   const updateCounter = (
     field: "adults" | "childrenUnder6" | "children6To12",
@@ -402,7 +450,13 @@ export const NileCruiseDetailPage: React.FC = () => {
                 <div className="grid grid-cols-2 gap-4">
                   <div>
                     <label className="block text-[10px] uppercase font-bold text-gray-600 mb-2 ml-1">Select Date</label>
-                    <input type="date" required min={minDate} value={formData.date} onChange={(e) => setFormData({ ...formData, date: e.target.value })} className="w-full bg-gray-50 border border-gray-100 rounded-2xl px-4 py-4 text-sm focus:ring-2 focus:ring-[#004d33]/20 transition-all outline-none" />
+                    <input type="date" required min={minDate} value={formData.date} onChange={handleDateChange} className={`w-full bg-gray-50 border ${dateError ? 'border-red-400 focus:ring-red-200' : 'border-gray-100 focus:ring-[#004d33]/20'} rounded-2xl px-4 py-4 text-sm focus:ring-2 transition-all outline-none`} />
+                    {dateError && <p className="text-red-500 text-xs mt-2 ml-1 font-medium">{dateError}</p>}
+                    {cruise?.itineraries[selectedItineraryIdx]?.departureDay && !dateError && (
+                      <p className="text-gray-400 text-[10px] mt-2 ml-1 italic">
+                        Departs: {cruise.itineraries[selectedItineraryIdx].departureDay}
+                      </p>
+                    )}
                   </div>
                   <div>
                     <label className="block text-[10px] uppercase font-bold text-gray-400 mb-2 ml-1">Cabins</label>
