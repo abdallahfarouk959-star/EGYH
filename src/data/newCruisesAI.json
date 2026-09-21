@@ -18699,5 +18699,460 @@
         ]
       }
     ]
+  },
+  {
+    "id": "fatima-dahabia",
+    "name": "fatima dahabia",
+    "type": "Nile Cruise",
+    "category": "Dahabiya Nile Cruise Boat",
+    "subType": "dahabiya-cruise",
+    "featured": false,
+    "gallery": [
+      "/cruises/fatima standard dahabia/01.webp",
+      "/cruises/fatima standard dahabia/02.webp",
+      "/cruises/fatima standard dahabia/03.webp",
+      "/cruises/fatima standard dahabia/04.webp",
+      "/cruises/fatima standard dahabia/05.webp",
+      "/cruises/fatima standard dahabia/06.webp",
+      "/cruises/fatima standard dahabia/07.webp",
+      "/cruises/fatima standard dahabia/08.webp",
+      "/cruises/fatima standard dahabia/09.webp",
+      "/cruises/fatima standard dahabia/10.webp",
+      "/cruises/fatima standard dahabia/11.webp",
+      "/cruises/fatima standard dahabia/12.webp",
+      "/cruises/fatima standard dahabia/13.webp",
+      "/cruises/fatima standard dahabia/14.webp",
+      "/cruises/fatima standard dahabia/15.webp",
+      "/cruises/fatima standard dahabia/16.webp",
+      "/cruises/fatima standard dahabia/17.webp",
+      "/cruises/fatima standard dahabia/18.webp",
+      "/cruises/fatima standard dahabia/19.webp",
+      "/cruises/fatima standard dahabia/20.webp",
+      "/cruises/fatima standard dahabia/21.webp",
+      "/cruises/fatima standard dahabia/22.webp",
+      "/cruises/fatima standard dahabia/23.webp",
+      "/cruises/fatima standard dahabia/24.webp",
+      "/cruises/fatima standard dahabia/25.webp",
+      "/cruises/fatima standard dahabia/26.webp",
+      "/cruises/fatima standard dahabia/27.webp",
+      "/cruises/fatima standard dahabia/28.webp",
+      "/cruises/fatima standard dahabia/29.webp",
+      "/cruises/fatima standard dahabia/30.webp",
+      "/cruises/fatima standard dahabia/31.webp",
+      "/cruises/fatima standard dahabia/32.webp",
+      "/cruises/fatima standard dahabia/33.webp",
+      "/cruises/fatima standard dahabia/34.webp",
+      "/cruises/fatima standard dahabia/35.webp",
+      "/cruises/fatima standard dahabia/36.webp",
+      "/cruises/fatima standard dahabia/37.webp",
+      "/cruises/fatima standard dahabia/38.webp",
+      "/cruises/fatima standard dahabia/39.webp",
+      "/cruises/fatima standard dahabia/40.webp",
+      "/cruises/fatima standard dahabia/41.webp",
+      "/cruises/fatima standard dahabia/45.webp"
+    ],
+    "inclusions": [
+      "Full-board accommodation.",
+      "Meet-and-assist service upon arrival & departure.",
+      "All sightseeing as per itinerary with an air-conditioned vehicle, Egyptologist tour guide, and entrance fees."
+    ],
+    "exclusions": [
+      "Any optional tours.",
+      "Gratuities.",
+      "Any extras and personal expenses."
+    ],
+    "note": "Other language Guide:\nGuides speaking other language than English can be provided subject to availability with supplement of USD 200.00 per cruise trip",
+    "childrenPolicy": [
+      "Less than 06years old: will be accommodated free of charge sharing parents’ cabin",
+      "From 6years till 11.99 years: Sharing parent’s cabins and will be charged as a half adult with a maximum of one child.",
+      "Children from 12 years & over will be charged full fare.",
+      "In case of 01 Child between 06 and 11.99 years accommodated with one adult only, cabin will be charged as 01 Double cabin."
+    ],
+    "itineraries": [
+      {
+        "id": "fatima-dahabia-4nights-esna-to-aswan",
+        "durationName": "4 Nights Dahabiya Cruise Esna to Aswan",
+        "departureDay": "Every saturday",
+        "pricing": [
+          {
+            "seasonName": "Summer Price May & September",
+            "applicableDates": [],
+            "tripleSharing": 1635,
+            "doubleSharing": 1635,
+            "singleCabin": 2700
+          },
+          {
+            "seasonName": "Winter Price October to April",
+            "applicableDates": [],
+            "tripleSharing": 1715,
+            "doubleSharing": 1715,
+            "singleCabin": 2800
+          },
+          {
+            "seasonName": "Peak winter Price",
+            "applicableDates": [
+              "21-12-2026 till 31-12-2026",
+              "22-3-2027 till 1/4/2027"
+            ],
+            "tripleSharing": 2510,
+            "doubleSharing": 2510,
+            "singleCabin": 4130
+          }
+        ],
+        "days": [
+          {
+            "dayNumber": 1,
+            "title": "Embarkation & Luxor Sightseeing",
+            "activities": [
+              "Pickup from your hotel or Luxor Airport with our expert tour guide.",
+              "Visit the Valley of the Kings, including the famous tomb of Tutankhamun.",
+              "Explore the magnificent rock-cut temple of Queen Hatshepsut.",
+              "Stop by an Alabaster Factory to see traditional stone carving.",
+              "Admire the Colossi of Memnon and the vast Amon-Ra complex at Karnak.",
+              "Transfer to Esna for embarkation and sail to El Hegz Island for overnight."
+            ]
+          },
+          {
+            "dayNumber": 2,
+            "title": "Sail to the Temple of Horus in Edfu, Fawaza, Serag, El Ramady, Bassaw Village",
+            "activities": [
+              "Enjoy breakfast while sailing to Edfu.",
+              "Visit the best-preserved temple in Egypt, the Greco-Roman Temple of Horus.",
+              "Continue sailing past serene Nile landscapes and local village life.",
+              "Arrive at Bassaw Village, home to 500 residents cultivating their own food.",
+              "Experience traditional life and possibly bake sun bread.",
+              "Enjoy a special Egyptian folklore night on the island."
+            ]
+          },
+          {
+            "dayNumber": 3,
+            "title": "Sail to Selsila Temple, Bashier, Maliha, Kom Ombo Temple, Herdiab, and Aswan",
+            "activities": [
+              "Visit Hormoheb Temple / Selsila Temple.",
+              "Sail past breathtaking Nile islands, including Bashier and Maliha.",
+              "Explore the unique double-temple of Kom Ombo, dedicated to Sobek and Haeroris.",
+              "Continue sailing towards Aswan."
+            ]
+          },
+          {
+            "dayNumber": 4,
+            "title": "Philae Temple, Aswan Souq, Optional Nubian Village Visit",
+            "activities": [
+              "Visit the Temple of Philae, relocated to Agilka Island to preserve it from flooding.",
+              "Stroll through Aswan’s vibrant Souq (market) to shop for spices and souvenirs.",
+              "Optional Visit to the Nubian Village or take a scenic felucca ride around Aswan’s islands."
+            ]
+          },
+          {
+            "dayNumber": 5,
+            "title": "Disembarkation",
+            "activities": [
+              "Enjoy breakfast before disembarking.",
+              "Transfer to Aswan Airport or your hotel."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "fatima-dahabia-3nights-aswan-to-esna",
+        "durationName": "3 Night Dahabiya Cruise Aswan to Esna",
+        "departureDay": "Every wednesday",
+        "pricing": [
+          {
+            "seasonName": "Summer Price May & September",
+            "applicableDates": [],
+            "tripleSharing": 1340,
+            "doubleSharing": 1340,
+            "singleCabin": 2190
+          },
+          {
+            "seasonName": "Winter Price October to April",
+            "applicableDates": [],
+            "tripleSharing": 1415,
+            "doubleSharing": 1415,
+            "singleCabin": 2290
+          },
+          {
+            "seasonName": "Peak winter Price",
+            "applicableDates": [
+              "21-12-2026 till 31-12-2026",
+              "22-3-2027 till 1/4/2027"
+            ],
+            "tripleSharing": 2030,
+            "doubleSharing": 2030,
+            "singleCabin": 3300
+          }
+        ],
+        "days": [
+          {
+            "dayNumber": 1,
+            "title": "Aswan, Herdiab, Komombo, Maliha, Bashier",
+            "activities": [
+              "Pickup from your hotel or Aswan Airport.",
+              "Visit the Temple of Philae, one of Egypt’s most beautiful sanctuaries.",
+              "Browse Aswan Souq and enjoy a refreshing sugarcane juice.",
+              "Embark the Dahabiya, enjoy lunch, and sail toward Kom Ombo.",
+              "Explore the twin-temple of Kom Ombo, dedicated to two gods.",
+              "Overnight at Bashier Island."
+            ]
+          },
+          {
+            "dayNumber": 2,
+            "title": "Temple of Gebel el Silsila, Bassaw Village Cultural Experience",
+            "activities": [
+              "Visit the lesser-known but stunning Gebel el Silsila Temple.",
+              "Continue sailing to Bassaw Village, where you can interact with local families.",
+              "Enjoy a unique Egyptian folklore night on the island."
+            ]
+          },
+          {
+            "dayNumber": 3,
+            "title": "Temple of Horus at Edfu, Elhegz, Esna",
+            "activities": [
+              "Visit the majestic Edfu Temple, one of the best-preserved ancient sites.",
+              "Sail to Esna for overnight stay."
+            ]
+          },
+          {
+            "dayNumber": 4,
+            "title": "Disembarkation & Luxor Sightseeing",
+            "activities": [
+              "Disembark the ship and transfer to Luxor.",
+              "Enjoy sightseeing",
+              "Visit to Valley of the Kings, Hatshepsut Temple, Karnak Temple, Colossi of Memnon",
+              "Drop off to luxor airport"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "nayera-dahabia",
+    "name": "nayera dahabia",
+    "type": "Nile Cruise",
+    "category": "Dahabiya Nile Cruise Boat",
+    "subType": "dahabiya-cruise",
+    "featured": false,
+    "gallery": [
+      "/cruises/nayara luxury dahabia/01.webp",
+      "/cruises/nayara luxury dahabia/02.webp",
+      "/cruises/nayara luxury dahabia/03.webp",
+      "/cruises/nayara luxury dahabia/04(1).webp",
+      "/cruises/nayara luxury dahabia/04.webp",
+      "/cruises/nayara luxury dahabia/05.webp",
+      "/cruises/nayara luxury dahabia/08.webp",
+      "/cruises/nayara luxury dahabia/09.webp",
+      "/cruises/nayara luxury dahabia/10.webp",
+      "/cruises/nayara luxury dahabia/11.webp",
+      "/cruises/nayara luxury dahabia/12.webp",
+      "/cruises/nayara luxury dahabia/14(1).webp",
+      "/cruises/nayara luxury dahabia/14(2).webp",
+      "/cruises/nayara luxury dahabia/14(3).webp",
+      "/cruises/nayara luxury dahabia/14(4).webp",
+      "/cruises/nayara luxury dahabia/14.webp",
+      "/cruises/nayara luxury dahabia/15.webp",
+      "/cruises/nayara luxury dahabia/17.webp",
+      "/cruises/nayara luxury dahabia/18.webp",
+      "/cruises/nayara luxury dahabia/19.webp",
+      "/cruises/nayara luxury dahabia/20.webp",
+      "/cruises/nayara luxury dahabia/21.webp",
+      "/cruises/nayara luxury dahabia/22(1).webp",
+      "/cruises/nayara luxury dahabia/22.webp",
+      "/cruises/nayara luxury dahabia/24.webp",
+      "/cruises/nayara luxury dahabia/25(1).webp",
+      "/cruises/nayara luxury dahabia/25.webp",
+      "/cruises/nayara luxury dahabia/26(1).webp",
+      "/cruises/nayara luxury dahabia/26.webp",
+      "/cruises/nayara luxury dahabia/27.webp",
+      "/cruises/nayara luxury dahabia/28.webp",
+      "/cruises/nayara luxury dahabia/29.webp",
+      "/cruises/nayara luxury dahabia/30.webp",
+      "/cruises/nayara luxury dahabia/31.webp",
+      "/cruises/nayara luxury dahabia/32.webp",
+      "/cruises/nayara luxury dahabia/33.webp",
+      "/cruises/nayara luxury dahabia/34(1).webp",
+      "/cruises/nayara luxury dahabia/34.webp",
+      "/cruises/nayara luxury dahabia/35(1).webp",
+      "/cruises/nayara luxury dahabia/35.webp",
+      "/cruises/nayara luxury dahabia/36.webp",
+      "/cruises/nayara luxury dahabia/DSC02102.webp",
+      "/cruises/nayara luxury dahabia/DSC02123.webp"
+    ],
+    "inclusions": [
+      "Full-board accommodation.",
+      "Meet-and-assist service upon arrival & departure.",
+      "All sightseeing as per itinerary with an air-conditioned vehicle, Egyptologist tour guide, and entrance fees."
+    ],
+    "exclusions": [
+      "Any optional tours.",
+      "Gratuities.",
+      "Any extras and personal expenses."
+    ],
+    "note": "Other language Guide:\nGuides speaking other language than English can be provided subject to availability with supplement of USD 200.00 per cruise trip",
+    "childrenPolicy": [
+      "Less than 06years old: will be accommodated free of charge sharing parents’ cabin",
+      "From 6years till 11.99 years: Sharing parent’s cabins and will be charged as a half adult with a maximum of one child.",
+      "Children from 12 years & over will be charged full fare.",
+      "In case of 01 Child between 06 and 11.99 years accommodated with one adult only, cabin will be charged as 01 Double cabin."
+    ],
+    "itineraries": [
+      {
+        "id": "nayera-dahabia-4nights-esna-to-aswan",
+        "durationName": "4 Nights Dahabiya Cruise Esna to Aswan",
+        "departureDay": "Every Monday",
+        "pricing": [
+          {
+            "seasonName": "Summer Price May & September",
+            "applicableDates": [],
+            "tripleSharing": 3215,
+            "doubleSharing": 3215,
+            "singleCabin": 5500
+          },
+          {
+            "seasonName": "Winter Price October to April",
+            "applicableDates": [],
+            "tripleSharing": 3815,
+            "doubleSharing": 3815,
+            "singleCabin": 6255
+          },
+          {
+            "seasonName": "Peak winter Price",
+            "applicableDates": [
+              "21-12-2026 till 31-12-2026",
+              "22-3-2027 till 1/4/2027"
+            ],
+            "tripleSharing": 4690,
+            "doubleSharing": 4690,
+            "singleCabin": 8700
+          }
+        ],
+        "days": [
+          {
+            "dayNumber": 1,
+            "title": "Embarkation & Luxor Sightseeing",
+            "activities": [
+              "Pickup from your hotel or Luxor Airport with our expert tour guide.",
+              "Visit the Valley of the Kings, including the famous tomb of Tutankhamun.",
+              "Explore the magnificent rock-cut temple of Queen Hatshepsut.",
+              "Stop by an Alabaster Factory to see traditional stone carving.",
+              "Admire the Colossi of Memnon and the vast Amon-Ra complex at Karnak.",
+              "Transfer to Esna for embarkation and sail to El Hegz Island for overnight."
+            ]
+          },
+          {
+            "dayNumber": 2,
+            "title": "Sail to the Temple of Horus in Edfu, Fawaza, Serag, El Ramady, Bassaw Village",
+            "activities": [
+              "Enjoy breakfast while sailing to Edfu.",
+              "Visit the best-preserved temple in Egypt, the Greco-Roman Temple of Horus.",
+              "Continue sailing past serene Nile landscapes and local village life.",
+              "Arrive at Bassaw Village, home to 500 residents cultivating their own food.",
+              "Experience traditional life and possibly bake sun bread.",
+              "Enjoy a special Egyptian folklore night on the island."
+            ]
+          },
+          {
+            "dayNumber": 3,
+            "title": "Sail to Selsila Temple, Bashier, Maliha, Kom Ombo Temple, Herdiab, and Aswan",
+            "activities": [
+              "Visit Hormoheb Temple / Selsila Temple.",
+              "Sail past breathtaking Nile islands, including Bashier and Maliha.",
+              "Explore the unique double-temple of Kom Ombo, dedicated to Sobek and Haeroris.",
+              "Continue sailing towards Aswan."
+            ]
+          },
+          {
+            "dayNumber": 4,
+            "title": "Philae Temple, Aswan Souq, Optional Nubian Village Visit",
+            "activities": [
+              "Visit the Temple of Philae, relocated to Agilka Island to preserve it from flooding.",
+              "Stroll through Aswan’s vibrant Souq (market) to shop for spices and souvenirs.",
+              "Optional Visit to the Nubian Village or take a scenic felucca ride around Aswan’s islands."
+            ]
+          },
+          {
+            "dayNumber": 5,
+            "title": "Disembarkation",
+            "activities": [
+              "Enjoy breakfast before disembarking.",
+              "Transfer to Aswan Airport or your hotel."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "nayera-dahabia-3nights-aswan-to-esna",
+        "durationName": "3 Night Dahabiya Cruise Aswan to Esna",
+        "departureDay": "Every Friday",
+        "pricing": [
+          {
+            "seasonName": "Summer Price May & September",
+            "applicableDates": [],
+            "tripleSharing": 2400,
+            "doubleSharing": 2400,
+            "singleCabin": 4100
+          },
+          {
+            "seasonName": "Winter Price October to April",
+            "applicableDates": [],
+            "tripleSharing": 3000,
+            "doubleSharing": 3000,
+            "singleCabin": 4895
+          },
+          {
+            "seasonName": "Peak winter Price",
+            "applicableDates": [
+              "21-12-2026 till 31-12-2026",
+              "22-3-2027 till 1/4/2027"
+            ],
+            "tripleSharing": 3690,
+            "doubleSharing": 3690,
+            "singleCabin": 6850
+          }
+        ],
+        "days": [
+          {
+            "dayNumber": 1,
+            "title": "Aswan, Herdiab, Komombo, Maliha, Bashier",
+            "activities": [
+              "Pickup from your hotel or Aswan Airport.",
+              "Visit the Temple of Philae, one of Egypt’s most beautiful sanctuaries.",
+              "Browse Aswan Souq and enjoy a refreshing sugarcane juice.",
+              "Embark the Dahabiya, enjoy lunch, and sail toward Kom Ombo.",
+              "Explore the twin-temple of Kom Ombo, dedicated to two gods.",
+              "Overnight at Bashier Island."
+            ]
+          },
+          {
+            "dayNumber": 2,
+            "title": "Temple of Gebel el Silsila, Bassaw Village Cultural Experience",
+            "activities": [
+              "Visit the lesser-known but stunning Gebel el Silsila Temple.",
+              "Continue sailing to Bassaw Village, where you can interact with local families.",
+              "Enjoy a unique Egyptian folklore night on the island."
+            ]
+          },
+          {
+            "dayNumber": 3,
+            "title": "Temple of Horus at Edfu, Elhegz, Esna",
+            "activities": [
+              "Visit the majestic Edfu Temple, one of the best-preserved ancient sites.",
+              "Sail to Esna for overnight stay."
+            ]
+          },
+          {
+            "dayNumber": 4,
+            "title": "Disembarkation & Luxor Sightseeing",
+            "activities": [
+              "Disembark the ship and transfer to Luxor.",
+              "Enjoy sightseeing",
+              "Visit to Valley of the Kings, Hatshepsut Temple, Karnak Temple, Colossi of Memnon",
+              "Drop off to luxor airport"
+            ]
+          }
+        ]
+      }
+    ]
   }
 ]
