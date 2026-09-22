@@ -27,7 +27,6 @@ export const NileCruiseListPage: React.FC = () => {
     category: categoryId || "all",
     minPrice: "",
     maxPrice: "",
-    duration: "all",
   });
 
   useEffect(() => {
@@ -76,15 +75,7 @@ export const NileCruiseListPage: React.FC = () => {
     if (filters.minPrice && price < Number(filters.minPrice)) return false;
     if (filters.maxPrice && price > Number(filters.maxPrice) && price !== 999999) return false;
 
-    // Duration Filter
-    if (filters.duration !== "all") {
-        if (!cruise.itineraries) return false;
-        const matchesDuration = cruise.itineraries.some(it => {
-            const match = it.durationName.match(/(\d+)\s*NIGHT/i);
-            return match && match[1] === filters.duration;
-        });
-        if (!matchesDuration) return false;
-    }
+
 
     return true;
   }).sort((a, b) => {
@@ -174,7 +165,7 @@ export const NileCruiseListPage: React.FC = () => {
                     <h3 className="text-2xl font-serif font-bold text-gray-900 mb-2">No cruises found</h3>
                     <p className="text-gray-500">Try adjusting your filters to find what you're looking for.</p>
                     <button 
-                        onClick={() => setFilters({category: 'all', minPrice: '', maxPrice: '', duration: 'all'})}
+                        onClick={() => setFilters({category: 'all', minPrice: '', maxPrice: ''})}
                         className="mt-6 px-6 py-2 bg-brand-emerald text-white font-bold rounded-lg hover:bg-brand-emerald/90 transition-colors"
                     >
                         Clear all filters

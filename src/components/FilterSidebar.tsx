@@ -5,7 +5,6 @@ export interface FilterState {
   category: string;
   minPrice: number | '';
   maxPrice: number | '';
-  duration: string;
 }
 
 interface FilterSidebarProps {
@@ -33,7 +32,6 @@ export const FilterSidebar: React.FC<FilterSidebarProps> = ({
       category: 'all',
       minPrice: '',
       maxPrice: '',
-      duration: 'all',
     });
   };
 
@@ -112,23 +110,6 @@ export const FilterSidebar: React.FC<FilterSidebarProps> = ({
                 className="w-full px-3 py-2 border border-gray-200 rounded-lg text-sm focus:outline-none focus:border-brand-emerald focus:ring-1 focus:ring-brand-emerald"
               />
             </div>
-          </div>
-
-          {/* Duration */}
-          <div>
-            <h3 className="text-sm font-bold text-gray-900 uppercase tracking-widest mb-4">
-              Duration
-            </h3>
-            <select
-              name="duration"
-              value={filters.duration}
-              onChange={handleChange}
-              className="w-full px-3 py-2 border border-gray-200 rounded-lg text-sm focus:outline-none focus:border-brand-emerald focus:ring-1 focus:ring-brand-emerald bg-white"
-            >
-              <option value="all">Any Duration</option>
-              <option value="3">3 Nights</option>
-              <option value="4">4 Nights</option>
-            </select>
           </div>
         </div>
 
