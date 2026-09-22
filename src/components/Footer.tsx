@@ -51,9 +51,11 @@ const Footer: React.FC = () => {
                 href={CONTACT_INFO.FACEBOOK}
                 target="_blank"
                 rel="noopener noreferrer"
+                aria-label="Visit our Facebook page"
               >
                 <Facebook
                   size={18}
+                  aria-hidden="true"
                   className="text-emerald-700/60 hover:text-blue-600 transition-colors"
                 />
               </a>
@@ -61,9 +63,11 @@ const Footer: React.FC = () => {
                 href={CONTACT_INFO.INSTAGRAM}
                 target="_blank"
                 rel="noopener noreferrer"
+                aria-label="Visit our Instagram page"
               >
                 <Instagram
                   size={18}
+                  aria-hidden="true"
                   className="text-emerald-700/60 hover:text-pink-600 transition-colors"
                 />
               </a>
@@ -75,6 +79,7 @@ const Footer: React.FC = () => {
               >
                 <SiTiktok
                   size={18}
+                  aria-hidden="true"
                   className="text-emerald-700/60 hover:text-black transition-colors"
                 />
               </a>
@@ -103,6 +108,8 @@ const Footer: React.FC = () => {
               <img
                 src={SquareLogo}
                 alt="Square"
+                width="49"
+                height="20"
                 className="h-5 w-auto grayscale opacity-70"
               />
               <span className="text-[11px] font-bold text-emerald-800/50 tracking-wide">
@@ -116,6 +123,8 @@ const Footer: React.FC = () => {
                   src={method.url}
                   alt={method.name}
                   title={method.name}
+                  width="50"
+                  height="28"
                   className="h-6 sm:h-7 w-auto object-contain grayscale opacity-60 hover:grayscale-0 hover:opacity-100 transition-all duration-300 drop-shadow-sm"
                 />
               ))}

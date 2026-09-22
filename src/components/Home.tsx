@@ -47,6 +47,7 @@ export const Home: React.FC = () => {
           <img
             src="https://images.unsplash.com/photo-1539768942893-daf53e448371?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8RWd5cHRpYW4lMjBDcnVpc2VzfGVufDB8fDB8fHww&fmt=webp&w=800&q=75"
             alt="Egyptian Cruises - Nile River Experience"
+            fetchPriority="high"
             width="800"
             height="600"
             className="w-full h-full object-cover"
