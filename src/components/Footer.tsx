@@ -96,7 +96,7 @@ const Footer: React.FC = () => {
                 href="https://ised-isde.canada.ca/cbr-rec/en/search/results?search=%7BEgypt%20Holiday%20Aswan%20ltd%7D"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-[10px] text-emerald-800/60 hover:text-emerald-600 transition-colors underline decoration-dotted"
+                className="text-[10px] text-emerald-800 hover:text-emerald-600 transition-colors underline decoration-dotted"
               >
                 {t("home.canada_reg")}
               </a>
@@ -134,11 +134,11 @@ const Footer: React.FC = () => {
         
         <div className="pt-8 border-t border-emerald-200/60 flex flex-col xl:flex-row items-center justify-between gap-8">
           <div className="text-center xl:text-left">
-            <p className="text-xs text-emerald-800/60 mb-1">
+            <p className="text-xs text-emerald-800 mb-1">
               {t("footer.copyright")}
             </p>
           </div>
-          <div className="flex flex-wrap gap-x-8 gap-y-4 text-sm text-emerald-800/70 font-medium">
+          <div className="flex flex-wrap gap-x-8 gap-y-4 text-sm text-emerald-900 font-medium">
             <Link
               to="/policies#privacy"
               className="hover:text-emerald-700 transition-colors"

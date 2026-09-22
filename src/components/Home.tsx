@@ -36,7 +36,7 @@ export const Home: React.FC = () => {
     <main>
       {/* --- Hero Section --- */}
       <section className="relative h-screen w-full overflow-hidden pt-24 bg-black">
-        <motion.div
+        <motion.div viewport={{ once: true }}
           initial={{ opacity: 0, scale: 1.05 }}
           animate={{ opacity: 1, scale: 1 }}
           transition={{ duration: 1.2, ease: "easeOut" }}
@@ -56,7 +56,7 @@ export const Home: React.FC = () => {
         </motion.div>
 
         <div className="relative z-20 h-full flex flex-col items-center justify-center text-center px-4 max-w-5xl mx-auto">
-          <motion.div
+          <motion.div viewport={{ once: true }}
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.5, duration: 1 }}
@@ -70,7 +70,7 @@ export const Home: React.FC = () => {
             <div>
               <a
                 href="mailto:reservation@egyptholidaysaswan.com?subject=Website%20Inquiry"
-                className="bg-emerald-600 text-white px-8 py-4 rounded-full text-lg font-bold hover:bg-emerald-700 transition duration-300 shadow-xl inline-block cursor-pointer"
+                className="bg-emerald-700 text-white px-8 py-4 rounded-full text-lg font-bold hover:bg-emerald-800 transition duration-300 shadow-xl inline-block cursor-pointer"
               >
                 {t("hero.btn_book")}
               </a>
@@ -97,11 +97,10 @@ export const Home: React.FC = () => {
             const startingPrice = cruise.itineraries[0]?.pricing[0]?.doubleSharing || 0;
 
             return (
-              <motion.div
+              <motion.div viewport={{ once: true }}
                 key={cruise.id}
                 initial={{ opacity: 0, y: 30 }}
                 whileInView={{ opacity: 1, y: 0 }}
-                viewport={{ once: true }}
                 transition={{ delay: i * 0.1 }}
                 className="bg-white group overflow-hidden rounded-[2.5rem] border border-gray-100 shadow-xl hover:shadow-2xl transition-all duration-500"
               >
@@ -181,11 +180,10 @@ export const Home: React.FC = () => {
               link: "/destination/historical-wonders/3",
             },
           ].map((packageTour, i) => (
-            <motion.div
+            <motion.div viewport={{ once: true }}
               key={i}
               initial={{ opacity: 0, y: 30 }}
               whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true }}
               transition={{ delay: i * 0.1 }}
               className="bg-white group overflow-hidden rounded-[2.5rem] border border-gray-100 shadow-xl hover:shadow-2xl transition-all duration-500"
             >
