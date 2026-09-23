@@ -262,7 +262,7 @@ export const NileCruiseDetailPage: React.FC = () => {
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
                 {cruise.itineraries.map((itin, idx) => {
                   const isSelected = selectedItineraryIdx === idx;
-                  const startingPrice = itin.pricing[0]?.doubleSharing || 0;
+                  const startingPrice = itin.pricing[0]?.tripleSharing || itin.pricing[0]?.doubleSharing || 0;
                   const cardImg = cruise.gallery[idx + 1] || cruise.gallery[0];
 
                   return (

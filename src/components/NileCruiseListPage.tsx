@@ -54,8 +54,9 @@ export const NileCruiseListPage: React.FC = () => {
       for (const itin of cruise.itineraries) {
         if (itin.pricing) {
           for (const season of itin.pricing) {
-            if (season.doubleSharing) {
-              const price = Number(season.doubleSharing);
+            const baseVal = season.tripleSharing || season.doubleSharing || season.singleCabin;
+            if (baseVal) {
+              const price = Number(baseVal);
               if (price < minPrice) minPrice = price;
             }
           }

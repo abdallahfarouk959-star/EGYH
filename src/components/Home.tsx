@@ -95,7 +95,7 @@ export const Home: React.FC = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {topCruises.map((cruise, i) => {
             // استخراج أقل سعر يبدأ منه المركب (أول سعر في أول مسار)
-            const startingPrice = cruise.itineraries[0]?.pricing[0]?.doubleSharing || 0;
+            const startingPrice = cruise.itineraries[0]?.pricing[0]?.tripleSharing || cruise.itineraries[0]?.pricing[0]?.doubleSharing || 0;
 
             return (
               <motion.div viewport={{ once: true }}
