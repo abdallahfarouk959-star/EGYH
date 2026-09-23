@@ -4,12 +4,13 @@ import { useLocation, Link } from "react-router-dom";
 // استيراد دالة الترجمة
 import { useTranslation } from "react-i18next";
 // استيراد داتا المراكب الجديدة
-import { cruises } from "../data/cruisesData";
+import { getCruises } from "../data/cruisesData";
 
 export const Home: React.FC = () => {
   const location = useLocation();
   // تشغيل الهوك بتاع الترجمة
-  const { t } = useTranslation();
+  const { t, i18n } = useTranslation();
+  const cruises = getCruises(i18n.language);
 
   useEffect(() => {
     if (location.hash) {

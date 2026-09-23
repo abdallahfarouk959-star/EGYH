@@ -41,5 +41,10 @@ export interface CruiseData {
 }
 
 import aiCruises from './newCruisesAI.json';
+import aiCruisesFr from './newCruisesAI_fr.json';
+
+export const getCruises = (lang: string): CruiseData[] => {
+  return (lang.startsWith('fr') ? aiCruisesFr : aiCruises) as unknown as CruiseData[];
+};
 
 export const cruises: CruiseData[] = aiCruises as unknown as CruiseData[];

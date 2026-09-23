@@ -1,5 +1,6 @@
 import React from 'react';
 import { Filter, X } from 'lucide-react';
+import { useTranslation } from 'react-i18next';
 
 export interface FilterState {
   category: string;
@@ -22,6 +23,8 @@ export const FilterSidebar: React.FC<FilterSidebarProps> = ({
   isOpen,
   onClose,
 }) => {
+  const { t } = useTranslation();
+
   const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLSelectElement>) => {
     const { name, value } = e.target;
     setFilters(prev => ({ ...prev, [name]: value }));
@@ -54,7 +57,7 @@ export const FilterSidebar: React.FC<FilterSidebarProps> = ({
         <div className="flex items-center justify-between p-6 border-b border-gray-100">
           <div className="flex items-center gap-2 text-brand-emerald font-bold">
             <Filter size={20} />
-            Filters
+            {t('cruises_list.filters', 'Filters')}
           </div>
           <button onClick={onClose} className="lg:hidden text-gray-500 hover:text-gray-900">
             <X size={24} />
@@ -65,7 +68,7 @@ export const FilterSidebar: React.FC<FilterSidebarProps> = ({
           {/* Category Filter */}
           <div>
             <h3 className="text-sm font-bold text-gray-900 uppercase tracking-widest mb-4">
-              Category
+              {t('cruises_list.category', 'Category')}
             </h3>
             <div className="space-y-3">
               {categories.map(cat => (
@@ -89,7 +92,7 @@ export const FilterSidebar: React.FC<FilterSidebarProps> = ({
           {/* Price Range */}
           <div>
             <h3 className="text-sm font-bold text-gray-900 uppercase tracking-widest mb-4">
-              Price Range (USD)
+              {t('cruises_list.price_range', 'Price Range (USD)')}
             </h3>
             <div className="flex items-center gap-3">
               <input
@@ -118,7 +121,7 @@ export const FilterSidebar: React.FC<FilterSidebarProps> = ({
             onClick={handleClear}
             className="w-full py-3 bg-gray-50 text-gray-600 font-bold rounded-xl hover:bg-gray-100 transition-colors"
           >
-            Clear Filters
+            {t('cruises_list.clear_filters', 'Clear Filters')}
           </button>
         </div>
       </div>

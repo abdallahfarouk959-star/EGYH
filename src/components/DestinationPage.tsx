@@ -31,8 +31,10 @@ const COUNTRY_CODES = [
   { code: "+27", name: "South Africa", flag: "🇿🇦" }
 ];
 
+import toursFr from '../data/toursData_fr.json';
+
 export default function DestinationPage() {
-  const { t } = useTranslation();
+  const { t, i18n } = useTranslation();
   const { category, tourId } = useParams<{ category: string; tourId?: string }>();
   const [selectedTour, setSelectedTour] = useState<any>(null);
   const [isBookingOpen, setIsBookingOpen] = useState(false);
@@ -56,7 +58,8 @@ export default function DestinationPage() {
   };
   const minDate = getTodayDateString();
 
-  const currentCategoryData = category && DESTINATIONS[category.toLowerCase()] ? DESTINATIONS[category.toLowerCase()] : null;
+  const currentDestinations = i18n.language.startsWith('fr') ? toursFr.DESTINATIONS : DESTINATIONS;
+  const currentCategoryData = category && currentDestinations[category.toLowerCase()] ? currentDestinations[category.toLowerCase()] : null;
   const filteredTours = currentCategoryData ? currentCategoryData.tours : [];
 
   const singleTourDetail = tourId && filteredTours.length > 0 
@@ -111,7 +114,7 @@ export default function DestinationPage() {
   const handleBookingSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     if (!formData.agreed) {
-      setErrorMsg('You must agree to the privacy policy to submit.');
+      setErrorMsg(t('tours_ui.agree_required', 'You must agree to the privacy policy to submit.'));
       return;
     }
 
@@ -132,16 +135,16 @@ export default function DestinationPage() {
 
       const resData = await response.json();
       if (response.ok && resData.success) {
-        setSuccessMsg('Your booking request was submitted successfully!');
+        setSuccessMsg(t('tours_ui.booking_success', 'Your booking request was submitted successfully!'));
         setFormData({
           name: '', email: '', phone: '', countryCode: '+20', date: '',
           adults: 1, childrenUnder6: 0, children6To12: 0, message: '', agreed: false
         });
       } else {
-        setErrorMsg(resData.message || 'Something went wrong.');
+        setErrorMsg(resData.message || t('tours_ui.booking_error', 'Something went wrong.'));
       }
     } catch (err) {
-      setErrorMsg('Failed to connect to the server.');
+      setErrorMsg(t('tours_ui.booking_connect_error', 'Failed to connect to the server.'));
     } finally {
       setLoading(false);
     }
@@ -249,7 +252,7 @@ export default function DestinationPage() {
                         >
                           <div className="flex items-center justify-between">
                             <span className={`text-xs font-bold uppercase tracking-widest ${supp.isPeak ? 'text-rose-600' : 'text-amber-600'}`}>
-                              {supp.isPeak ? 'Peak Season' : 'High Season'}
+                              {supp.isPeak ? t('tours_ui.peak_season', 'Peak Season') : t('tours_ui.high_season', 'High Season')}
                             </span>
                             <span className={`text-lg font-bold ${supp.isPeak ? 'text-rose-700' : 'text-amber-700'}`}>
                               +{supp.increase}
@@ -398,7 +401,7 @@ export default function DestinationPage() {
           
           <div className="bg-[#004d33] text-white px-5 md:px-6 py-4 flex justify-between items-center shrink-0">
             <div className="pr-4">
-              <span className="text-[10px] md:text-xs font-bold text-[#d4af37] uppercase tracking-wider block mb-0.5">Booking Request</span>
+              <span className="text-[10px] md:text-xs font-bold text-[#d4af37] uppercase tracking-wider block mb-0.5">{t('tours_ui.booking_request', 'Booking Request')}</span>
               <h3 className="text-sm md:text-lg font-bold line-clamp-1">{selectedTour?.title || singleTourDetail?.title}</h3>
             </div>
             <button type="button" onClick={() => setIsBookingOpen(false)} className="p-1.5 md:p-2 hover:bg-white/20 rounded-full transition-colors text-white shrink-0">
@@ -414,18 +417,18 @@ export default function DestinationPage() {
 
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
                 <div>
-                  <label className="block text-xs font-bold text-slate-500 uppercase mb-1.5">Your Full Name</label>
+                  <label className="block text-xs font-bold text-slate-500 uppercase mb-1.5">{t('tours_ui.your_full_name', 'Your Full Name')}</label>
                   <input type="text" name="name" required value={formData.name} onChange={handleInputChange} className="w-full px-4 py-2.5 bg-slate-50 border border-slate-200 rounded-xl text-slate-800 focus:outline-none focus:border-[#004d33] text-sm" placeholder="John Doe" />
                 </div>
                 <div>
-                  <label className="block text-xs font-bold text-slate-500 uppercase mb-1.5">Email Address</label>
+                  <label className="block text-xs font-bold text-slate-500 uppercase mb-1.5">{t('contact.info_email', 'Email Address')}</label>
                   <input type="email" name="email" required value={formData.email} onChange={handleInputChange} className="w-full px-4 py-2.5 bg-slate-50 border border-slate-200 rounded-xl text-slate-800 focus:outline-none focus:border-[#004d33] text-sm" placeholder="john@example.com" />
                 </div>
               </div>
 
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
                 <div>
-                  <label className="block text-xs font-bold text-slate-500 uppercase mb-1.5">Phone Number</label>
+                  <label className="block text-xs font-bold text-slate-500 uppercase mb-1.5">{t('contact.info_phone', 'Phone Number')}</label>
                   <div className="flex gap-2">
                     <div className="relative w-28 shrink-0">
                       <input 
@@ -469,16 +472,16 @@ export default function DestinationPage() {
                   </div>
                 </div>
                 <div>
-                  <label className="block text-xs font-bold text-slate-500 uppercase mb-1.5">Desired Travel Date</label>
+                  <label className="block text-xs font-bold text-slate-500 uppercase mb-1.5">{t('tours_ui.desired_travel_date', 'Desired Travel Date')}</label>
                   <input type="date" name="date" required min={minDate} value={formData.date} onChange={handleInputChange} className="w-full px-4 py-2.5 bg-slate-50 border border-slate-200 rounded-xl text-slate-800 focus:outline-none focus:border-[#004d33] text-sm" />
                 </div>
               </div>
 
               <div className="bg-slate-50 p-3 md:p-4 rounded-2xl border border-slate-200/60 space-y-3">
-                <h4 className="text-xs font-bold text-slate-400 uppercase tracking-wider flex items-center gap-1"><Users size={14}/> Number of Travelers</h4>
+                <h4 className="text-xs font-bold text-slate-400 uppercase tracking-wider flex items-center gap-1"><Users size={14}/> {t('tours_ui.number_of_travelers', 'Number of Travelers')}</h4>
                 <div className="grid grid-cols-1 xs:grid-cols-3 gap-2 md:gap-3 text-center">
                   <div className="bg-white p-2 md:p-2.5 rounded-xl border flex flex-row xs:flex-col justify-between items-center">
-                    <span className="text-[11px] md:text-xs font-semibold text-slate-600 block mb-0 xs:mb-1">Adults</span>
+                    <span className="text-[11px] md:text-xs font-semibold text-slate-600 block mb-0 xs:mb-1">{t('cruises_ui.adults', 'Adults')}</span>
                     <div className="flex items-center gap-3">
                       <button type="button" onClick={() => updateCounter('adults', -1)} className="w-6 h-6 md:w-7 md:h-7 bg-slate-100 hover:bg-slate-200 rounded-full font-bold text-sm flex items-center justify-center">-</button>
                       <span className="font-bold text-sm w-4">{formData.adults}</span>
@@ -486,7 +489,7 @@ export default function DestinationPage() {
                     </div>
                   </div>
                   <div className="bg-white p-2 md:p-2.5 rounded-xl border flex flex-row xs:flex-col justify-between items-center">
-                    <span className="text-[11px] md:text-xs font-semibold text-slate-600 block mb-0 xs:mb-1">Kids (0-6)</span>
+                    <span className="text-[11px] md:text-xs font-semibold text-slate-600 block mb-0 xs:mb-1">{t('tours_ui.kids_0_6', 'Kids (0-6)')}</span>
                     <div className="flex items-center gap-3">
                       <button type="button" onClick={() => updateCounter('childrenUnder6', -1)} className="w-6 h-6 md:w-7 md:h-7 bg-slate-100 hover:bg-slate-200 rounded-full font-bold text-sm flex items-center justify-center">-</button>
                       <span className="font-bold text-sm w-4">{formData.childrenUnder6}</span>
@@ -494,7 +497,7 @@ export default function DestinationPage() {
                     </div>
                   </div>
                   <div className="bg-white p-2 md:p-2.5 rounded-xl border flex flex-row xs:flex-col justify-between items-center">
-                    <span className="text-[11px] md:text-xs font-semibold text-slate-600 block mb-0 xs:mb-1">Kids (6-12)</span>
+                    <span className="text-[11px] md:text-xs font-semibold text-slate-600 block mb-0 xs:mb-1">{t('tours_ui.kids_6_12', 'Kids (6-12)')}</span>
                     <div className="flex items-center gap-3">
                       <button type="button" onClick={() => updateCounter('children6To12', -1)} className="w-6 h-6 md:w-7 md:h-7 bg-slate-100 hover:bg-slate-200 rounded-full font-bold text-sm flex items-center justify-center">-</button>
                       <span className="font-bold text-sm w-4">{formData.children6To12}</span>
@@ -505,21 +508,21 @@ export default function DestinationPage() {
               </div>
 
               <div>
-                <label className="block text-xs font-bold text-slate-500 uppercase mb-1.5 flex items-center gap-1"><MessageSquare size={14}/> Special Requests / Notes</label>
+                <label className="block text-xs font-bold text-slate-500 uppercase mb-1.5 flex items-center gap-1"><MessageSquare size={14}/> {t('tours_ui.special_requests', 'Special Requests / Notes')}</label>
                 <textarea name="message" value={formData.message} onChange={handleInputChange} rows={3} className="w-full px-4 py-2.5 bg-slate-50 border border-slate-200 rounded-xl text-slate-800 focus:outline-none focus:border-[#004d33] text-sm resize-none" placeholder="Any details or preferences..."></textarea>
               </div>
 
               <div className="flex items-start gap-2.5 pt-1 pb-2">
                 <input type="checkbox" id="agreed" checked={formData.agreed} onChange={handleCheckboxChange} className="mt-1 accent-[#004d33] shrink-0" />
                 <label htmlFor="agreed" className="text-xs text-slate-500 leading-relaxed cursor-pointer">
-                  I agree to the terms of booking, privacy policy, and confirm that all data typed above is correct.
+                  {t('tours_ui.agree_booking_terms', 'I agree to the terms of booking, privacy policy, and confirm that all data typed above is correct.')}
                 </label>
               </div>
             </div>
 
             <div className="bg-white p-4 md:p-6 border-t border-slate-100 shrink-0">
               <button type="submit" disabled={loading} className="w-full bg-[#004d33] hover:bg-[#003322] disabled:bg-slate-300 disabled:cursor-not-allowed text-white font-bold py-3.5 rounded-xl transition-colors shadow-md text-sm md:text-base tracking-wide flex justify-center items-center">
-                {loading ? 'Sending Request...' : 'Confirm & Request Booking'}
+                {loading ? t('cruises_ui.sending_request', 'Sending Request...') : t('tours_ui.confirm_request', 'Confirm & Request Booking')}
               </button>
             </div>
           </form>

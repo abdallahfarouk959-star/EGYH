@@ -99,7 +99,9 @@ export const Navbar: React.FC = () => {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
   const [isLangDropdownOpen, setIsLangDropdownOpen] = useState(false);
   
-  const currentLanguage = i18n.language?.startsWith("fr") ? "Français" : "English";
+  // نعتمد على لغة الموقع الحالية مباشرةً
+  const activeLang = i18n.language || 'en';
+  const currentLanguage = activeLang.startsWith('fr') ? 'Français' : 'English';
 
   const handleLanguageChange = (langCode: string) => {
     i18n.changeLanguage(langCode);
@@ -111,6 +113,7 @@ export const Navbar: React.FC = () => {
     { name: t('nav.luxor_tours', 'Luxor Tours'), link: "/destination/luxor" },
     { name: t('nav.cairo_tours', 'Cairo Tours'), link: "/destination/cairo" },
     { name: t('nav.abu_simbel_tours', 'Abu Simbel Tours'), link: "/destination/abu-simbel" },
+    { name: t('nav.historical_wonders', 'Historical Wonders'), link: "/destination/historical-wonders" },
   ];
 
   const SIMPLIFIED_PACKAGES = [
@@ -164,7 +167,7 @@ export const Navbar: React.FC = () => {
               {isLangDropdownOpen && (
                 <motion.div initial={{ opacity: 0, y: 10 }} animate={{ opacity: 1, y: 0 }} exit={{ opacity: 0, y: 10 }} className="absolute right-0 mt-2 bg-white border border-emerald-100 shadow-xl rounded-xl py-1 z-[110] min-w-[120px]">
                   {[{ name: "English", code: "en" }, { name: "Français", code: "fr" }].map((lang) => (
-                    <button key={lang.code} onClick={() => handleLanguageChange(lang.code)} className={`w-full text-left px-4 py-2 text-xs hover:bg-emerald-50 transition-colors ${i18n.language?.startsWith(lang.code) ? "text-emerald-600 font-bold" : "text-gray-600"}`}>
+                    <button key={lang.code} onClick={() => handleLanguageChange(lang.code)} className={`w-full text-left px-4 py-2 text-xs hover:bg-emerald-50 transition-colors ${activeLang.startsWith(lang.code) ? "text-emerald-600 font-bold" : "text-gray-600"}`}>
                       {lang.name}
                     </button>
                   ))}
@@ -193,6 +196,27 @@ export const Navbar: React.FC = () => {
               <MobileNavItem item={{ name: t('nav.nile_cruise', 'Nile Cruise'), link: "#", subItems: NILE_CRUISE_ITEMS }} closeMenu={() => setIsMobileMenuOpen(false)} />
               <MobileNavItem item={{ name: t('nav.about', 'About Us'), link: "/about" }} closeMenu={() => setIsMobileMenuOpen(false)} />
               <MobileNavItem item={{ name: t('nav.contact', 'Contact Us'), link: "/contact" }} closeMenu={() => setIsMobileMenuOpen(false)} />
+              
+              <div className="mt-4 pt-4 border-t border-emerald-100 flex items-center justify-between px-4">
+                <span className="text-sm font-semibold text-emerald-800 flex items-center gap-2">
+                  <Globe size={16} /> {t('nav.language', 'Language')}
+                </span>
+                <div className="flex gap-2">
+                  {[{ name: "EN", code: "en" }, { name: "FR", code: "fr" }].map((lang) => (
+                    <button 
+                      key={lang.code} 
+                      onClick={() => { handleLanguageChange(lang.code); setIsMobileMenuOpen(false); }}
+                      className={`px-3 py-1 text-xs font-bold rounded-full border transition-colors ${
+                        activeLang.startsWith(lang.code) 
+                          ? "bg-emerald-600 text-white border-emerald-600" 
+                          : "bg-white text-emerald-700 border-emerald-200 hover:bg-emerald-50"
+                      }`}
+                    >
+                      {lang.name}
+                    </button>
+                  ))}
+                </div>
+              </div>
             </div>
           </motion.div>
         )}

@@ -12,7 +12,7 @@ import {
   Info,
 } from "lucide-react";
 
-import { cruises } from "../data/cruisesData";
+import { getCruises } from "../data/cruisesData";
 
 const COUNTRY_CODES = [
   { code: "+20", name: "Egypt", flag: "🇪🇬" },
@@ -42,9 +42,10 @@ const COUNTRY_CODES = [
 ];
 
 export const NileCruiseDetailPage: React.FC = () => {
-  const { t } = useTranslation();
+  const { t, i18n } = useTranslation();
   const { cruiseId } = useParams<{ cruiseId: string }>();
 
+  const cruises = getCruises(i18n.language);
   const cruise = cruises.find((c) => c.id === cruiseId);
   const [selectedItineraryIdx, setSelectedItineraryIdx] = useState(0);
   const [mainImage, setMainImage] = useState("");
@@ -125,7 +126,7 @@ export const NileCruiseDetailPage: React.FC = () => {
     const dayOfWeek = dateObj.getDay();
     
     if (validDays.length > 0 && validDays.length < 7 && !validDays.includes(dayOfWeek)) {
-      setDateError(`Departures are only available on ${itinerary.departureDay}`);
+      setDateError(`${t('cruises_ui.departures_only_on', 'Departures are only available on')} ${itinerary.departureDay}`);
       setFormData({ ...formData, date: "" });
     } else {
       setDateError("");
@@ -189,9 +190,9 @@ export const NileCruiseDetailPage: React.FC = () => {
   if (!cruise) {
     return (
       <div className="pt-32 pb-24 text-center">
-        <h2 className="text-2xl font-serif">Cruise not found</h2>
+        <h2 className="text-2xl font-serif">{t('cruises_ui.cruise_not_found', 'Cruise not found')}</h2>
         <Link to="/nile-cruise" className="text-emerald-600 mt-4 inline-block font-bold">
-          View All Cruises
+          {t('cruises_ui.view_all_cruises', 'View All Cruises')}
         </Link>
       </div>
     );
@@ -227,7 +228,7 @@ export const NileCruiseDetailPage: React.FC = () => {
               {cruise.name}
             </h1>
             <p className="text-xl md:text-2xl italic text-white/90 border-l-4 border-[#d4af37] pl-6 leading-relaxed">
-              Experience the ultimate journey on board {cruise.name}
+              {t('cruises_ui.experience_journey', 'Experience the ultimate journey on board')} {cruise.name}
             </p>
           </motion.div>
         </div>
@@ -318,21 +319,21 @@ export const NileCruiseDetailPage: React.FC = () => {
                         ))}
                       </div>
                     )}
-                    <span className="block text-[10px] text-gray-400 mb-4 italic">* Price is per person</span>
+                    <span className="block text-[10px] text-gray-400 mb-4 italic">{t('cruises_ui.price_per_person', '* Price is per person')}</span>
                     <div className="space-y-3 text-sm text-gray-300">
                       {p.doubleSharing && (
                         <div className="flex justify-between items-center border-b border-white/5 pb-2">
-                          <span>Double Cabin:</span><span className="text-white font-bold text-xl">${p.doubleSharing}</span>
+                          <span>{t('cruises_ui.double_cabin', 'Double Cabin:')}</span><span className="text-white font-bold text-xl">${p.doubleSharing}</span>
                         </div>
                       )}
                       {p.singleCabin && (
                         <div className="flex justify-between items-center border-b border-white/5 pb-2">
-                          <span>Single Cabin:</span><span className="text-white font-bold text-xl">${p.singleCabin}</span>
+                          <span>{t('cruises_ui.single_cabin', 'Single Cabin:')}</span><span className="text-white font-bold text-xl">${p.singleCabin}</span>
                         </div>
                       )}
                       {p.tripleSharing && (
                         <div className="flex justify-between items-center pb-2">
-                          <span>Triple Cabin:</span><span className="text-white font-bold text-xl">${p.tripleSharing}</span>
+                          <span>{t('cruises_ui.triple_cabin', 'Triple Cabin:')}</span><span className="text-white font-bold text-xl">${p.tripleSharing}</span>
                         </div>
                       )}
                     </div>
@@ -354,7 +355,7 @@ export const NileCruiseDetailPage: React.FC = () => {
                 {selectedItinerary.days.map((day, idx) => (
                   <div key={idx} className="relative pl-14 group">
                     <div className="absolute left-3 top-0 w-4 h-4 rounded-full border-2 border-[#d4af37] bg-white group-hover:bg-[#004d33] transition-colors" />
-                    <span className="text-xs font-bold text-[#d4af37] uppercase tracking-widest block mb-1">Day {day.dayNumber}</span>
+                    <span className="text-xs font-bold text-[#d4af37] uppercase tracking-widest block mb-1">{t('cruises_ui.day', 'Day')} {day.dayNumber}</span>
                     <h4 className="text-xl font-bold text-[#004d33] mb-3">{day.title}</h4>
                     <ul className="text-gray-500 text-sm leading-relaxed space-y-2">
                       {day.activities.map((act, i) => (
@@ -404,16 +405,16 @@ export const NileCruiseDetailPage: React.FC = () => {
 
               <form className="space-y-5" onSubmit={handleSubmit}>
                 <div>
-                  <label className="block text-[10px] uppercase font-bold text-gray-600 mb-2 ml-1">Full Name</label>
-                  <input type="text" required placeholder="Enter your full name" value={formData.name} onChange={(e) => setFormData({ ...formData, name: e.target.value })} className="w-full bg-gray-50 border border-gray-100 rounded-2xl px-5 py-4 text-sm focus:ring-2 focus:ring-[#004d33]/20 transition-all outline-none" />
+                  <label className="block text-[10px] uppercase font-bold text-gray-600 mb-2 ml-1">{t('contact.form_name', 'Full Name')}</label>
+                  <input type="text" required placeholder={t('contact.name_placeholder', 'Enter your full name')} value={formData.name} onChange={(e) => setFormData({ ...formData, name: e.target.value })} className="w-full bg-gray-50 border border-gray-100 rounded-2xl px-5 py-4 text-sm focus:ring-2 focus:ring-[#004d33]/20 transition-all outline-none" />
                 </div>
                 <div>
-                  <label className="block text-[10px] uppercase font-bold text-gray-600 mb-2 ml-1">Email Address</label>
-                  <input type="email" required placeholder="Enter your email" value={formData.email} onChange={(e) => setFormData({ ...formData, email: e.target.value })} className="w-full bg-gray-50 border border-gray-100 rounded-2xl px-5 py-4 text-sm focus:ring-2 focus:ring-[#004d33]/20 transition-all outline-none" />
+                  <label className="block text-[10px] uppercase font-bold text-gray-600 mb-2 ml-1">{t('contact.form_email', 'Email Address')}</label>
+                  <input type="email" required placeholder={t('contact.form_email', 'Email Address')} value={formData.email} onChange={(e) => setFormData({ ...formData, email: e.target.value })} className="w-full bg-gray-50 border border-gray-100 rounded-2xl px-5 py-4 text-sm focus:ring-2 focus:ring-[#004d33]/20 transition-all outline-none" />
                 </div>
 
                 <div>
-                  <label className="block text-[10px] uppercase font-bold text-gray-600 mb-2 ml-1">Phone Number</label>
+                  <label className="block text-[10px] uppercase font-bold text-gray-600 mb-2 ml-1">{t('contact.info_phone', 'Phone Number')}</label>
                   <div className="flex gap-2">
                     <div className="relative w-[110px] shrink-0">
                       <input 
@@ -446,32 +447,32 @@ export const NileCruiseDetailPage: React.FC = () => {
                               <span className="text-gray-500 text-xs truncate">{country.name}</span>
                             </div>
                           )) : (
-                            <div className="px-4 py-3 text-xs text-gray-400">No matches found</div>
+                            <div className="px-4 py-3 text-xs text-gray-400">{t('cruises_ui.no_matches_found', 'No matches found')}</div>
                           )}
                         </div>
                       )}
                     </div>
 
-                    <input type="tel" required placeholder="Phone number" value={formData.phone} onChange={(e) => setFormData({ ...formData, phone: e.target.value })} className="flex-grow bg-gray-50 border border-gray-100 rounded-2xl px-5 py-4 text-sm focus:ring-2 focus:ring-[#004d33]/20 transition-all outline-none" />
+                    <input type="tel" required placeholder={t('contact.info_phone', 'Phone number')} value={formData.phone} onChange={(e) => setFormData({ ...formData, phone: e.target.value })} className="flex-grow bg-gray-50 border border-gray-100 rounded-2xl px-5 py-4 text-sm focus:ring-2 focus:ring-[#004d33]/20 transition-all outline-none" />
                   </div>
                 </div>
 
                 <div className="grid grid-cols-2 gap-4">
                   <div>
-                    <label className="block text-[10px] uppercase font-bold text-gray-600 mb-2 ml-1">Select Date</label>
+                    <label className="block text-[10px] uppercase font-bold text-gray-600 mb-2 ml-1">{t('cruises_ui.select_date', 'Select Date')}</label>
                     <input type="date" required min={minDate} value={formData.date} onChange={handleDateChange} className={`w-full bg-gray-50 border ${dateError ? 'border-red-400 focus:ring-red-200' : 'border-gray-100 focus:ring-[#004d33]/20'} rounded-2xl px-4 py-4 text-sm focus:ring-2 transition-all outline-none`} />
                     {dateError && <p className="text-red-500 text-xs mt-2 ml-1 font-medium">{dateError}</p>}
                     {cruise?.itineraries[selectedItineraryIdx]?.departureDay && !dateError && (
                       <p className="text-gray-400 text-[10px] mt-2 ml-1 italic">
-                        Departs: {cruise.itineraries[selectedItineraryIdx].departureDay}
+                        {t('cruises_ui.departs', 'Departs:')} {cruise.itineraries[selectedItineraryIdx].departureDay}
                       </p>
                     )}
                   </div>
                   <div>
-                    <label className="block text-[10px] uppercase font-bold text-gray-400 mb-2 ml-1">Cabins</label>
+                    <label className="block text-[10px] uppercase font-bold text-gray-400 mb-2 ml-1">{t('cruises_ui.cabins', 'Cabins')}</label>
                     <select value={formData.cabins} onChange={(e) => setFormData({ ...formData, cabins: e.target.value })} className="w-full bg-gray-50 border border-gray-100 rounded-2xl px-4 py-4 text-sm focus:ring-2 focus:ring-[#004d33]/20 transition-all appearance-none cursor-pointer outline-none">
                       {[1, 2, 3, 4, 5, 6, 7, 8, 9, 10].map((n) => (
-                        <option key={n} value={n}>{n} Cabin{n > 1 ? "s" : ""}</option>
+                        <option key={n} value={n}>{n} {n > 1 ? t('cruises_ui.cabin_plural', 'Cabins') : t('cruises_ui.cabin_singular', 'Cabin')}</option>
                       ))}
                     </select>
                   </div>
@@ -480,8 +481,8 @@ export const NileCruiseDetailPage: React.FC = () => {
                 <div className="space-y-4 pt-2">
                   <div className="flex items-center justify-between bg-gray-50 p-3 rounded-2xl border border-gray-100">
                     <div>
-                      <span className="block text-[11px] font-bold text-[#004d33]">Adults</span>
-                      <span className="text-[9px] text-gray-400 uppercase tracking-tighter">(+12 years)</span>
+                      <span className="block text-[11px] font-bold text-[#004d33]">{t('cruises_ui.adults', 'Adults')}</span>
+                      <span className="text-[9px] text-gray-400 uppercase tracking-tighter">{t('cruises_ui.adults_age', '(+12 years)')}</span>
                     </div>
                     <div className="flex items-center gap-3">
                       <button type="button" onClick={() => updateCounter("adults", -1)} className="w-8 h-8 rounded-lg bg-white flex items-center justify-center text-[#004d33] shadow-sm hover:bg-[#d4af37] hover:text-white transition-all">-</button>
@@ -491,8 +492,8 @@ export const NileCruiseDetailPage: React.FC = () => {
                   </div>
                   <div className="flex items-center justify-between bg-gray-50 p-3 rounded-2xl border border-gray-100">
                     <div>
-                      <span className="block text-[11px] font-bold text-[#004d33]">Children</span>
-                      <span className="text-[9px] text-gray-400 uppercase tracking-tighter">(0 to 5.99 years)</span>
+                      <span className="block text-[11px] font-bold text-[#004d33]">{t('cruises_ui.children', 'Children')}</span>
+                      <span className="text-[9px] text-gray-400 uppercase tracking-tighter">{t('cruises_ui.children_under_6', '(0 to 5.99 years)')}</span>
                     </div>
                     <div className="flex items-center gap-3">
                       <button type="button" onClick={() => updateCounter("childrenUnder6", -1)} className="w-8 h-8 rounded-lg bg-white flex items-center justify-center text-[#004d33] shadow-sm hover:bg-[#d4af37] hover:text-white transition-all">-</button>
@@ -502,8 +503,8 @@ export const NileCruiseDetailPage: React.FC = () => {
                   </div>
                   <div className="flex items-center justify-between bg-gray-50 p-3 rounded-2xl border border-gray-100">
                     <div>
-                      <span className="block text-[11px] font-bold text-[#004d33]">Children</span>
-                      <span className="text-[9px] text-gray-400 uppercase tracking-tighter">(6 to 11.99 years)</span>
+                      <span className="block text-[11px] font-bold text-[#004d33]">{t('cruises_ui.children', 'Children')}</span>
+                      <span className="text-[9px] text-gray-400 uppercase tracking-tighter">{t('cruises_ui.children_6_12', '(6 to 11.99 years)')}</span>
                     </div>
                     <div className="flex items-center gap-3">
                       <button type="button" onClick={() => updateCounter("children6To12", -1)} className="w-8 h-8 rounded-lg bg-white flex items-center justify-center text-[#004d33] shadow-sm hover:bg-[#d4af37] hover:text-white transition-all">-</button>
@@ -514,30 +515,34 @@ export const NileCruiseDetailPage: React.FC = () => {
                 </div>
 
                 <div>
-                  <label className="block text-[10px] uppercase font-bold text-gray-400 mb-2 ml-1">Message</label>
-                  <textarea rows={3} placeholder="Type message" value={formData.message} onChange={(e) => setFormData({ ...formData, message: e.target.value })} className="w-full bg-gray-50 border border-gray-100 rounded-2xl px-5 py-4 text-sm focus:ring-2 focus:ring-[#004d33]/20 transition-all outline-none resize-none" />
+                  <label className="block text-[10px] uppercase font-bold text-gray-400 mb-2 ml-1">{t('contact.form_message', 'Message')}</label>
+                  <textarea rows={3} placeholder={t('contact.form_message', 'Message')} value={formData.message} onChange={(e) => setFormData({ ...formData, message: e.target.value })} className="w-full bg-gray-50 border border-gray-100 rounded-2xl px-5 py-4 text-sm focus:ring-2 focus:ring-[#004d33]/20 transition-all outline-none resize-none" />
                 </div>
 
                 <div className="flex items-start gap-3 px-1">
                   <input type="checkbox" id="agree" required checked={formData.agreed} onChange={(e) => setFormData({ ...formData, agreed: e.target.checked })} className="mt-1 accent-[#004d33] shrink-0" />
                   <label htmlFor="agree" className="text-[10px] text-gray-500 leading-tight cursor-pointer">
-                    I agree to the <Link to="/policies#terms" className="text-[#004d33] font-bold hover:underline">Terms & Conditions</Link>, Payment, and Cancellation Policies.
+                    {t('cruises_ui.agree_terms_part1', 'I agree to the ')}
+                    <Link to="/policies#terms" className="text-[#004d33] font-bold hover:underline">
+                      {t('cruises_ui.terms_and_conditions', 'Terms & Conditions')}
+                    </Link>
+                    {t('cruises_ui.agree_terms_part2', ', Payment, and Cancellation Policies.')}
                   </label>
                 </div>
 
                 <button type="submit" disabled={!isFormValid || submitStatus === "submitting"} className={`w-full py-4 md:py-5 font-bold rounded-2xl shadow-xl transition-all transform uppercase tracking-widest text-xs ${submitStatus === "submitting" ? "bg-gray-400 text-white cursor-wait" : isFormValid ? "bg-[#d4af37] text-white shadow-[#d4af37]/20 hover:bg-[#004d33] hover:scale-[1.02] active:scale-95" : "bg-gray-200 text-gray-400 cursor-not-allowed shadow-none"}`}>
-                  {submitStatus === "submitting" ? "Sending Request..." : t('common.book_now', 'Book Now')}
+                  {submitStatus === "submitting" ? t('cruises_ui.sending_request', 'Sending Request...') : t('common.book_now', 'Book Now')}
                 </button>
 
                 <AnimatePresence>
                   {submitStatus === "success" && (
                     <motion.div initial={{ opacity: 0, height: 0 }} animate={{ opacity: 1, height: "auto" }} exit={{ opacity: 0, height: 0 }} className="bg-emerald-50 text-emerald-700 p-4 rounded-xl text-[11px] font-bold text-center border border-emerald-100">
-                      Request sent! We will contact you shortly.
+                      {t('cruises_ui.request_sent', 'Request sent! We will contact you shortly.')}
                     </motion.div>
                   )}
                   {submitStatus === "error" && (
                     <motion.div initial={{ opacity: 0, height: 0 }} animate={{ opacity: 1, height: "auto" }} exit={{ opacity: 0, height: 0 }} className="bg-red-50 text-red-700 p-4 rounded-xl text-[11px] font-bold text-center border border-red-100">
-                      Something went wrong. Please try again.
+                      {t('cruises_ui.request_error', 'Something went wrong. Please try again.')}
                     </motion.div>
                   )}
                 </AnimatePresence>

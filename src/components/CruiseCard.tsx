@@ -3,12 +3,15 @@ import { Link } from 'react-router-dom';
 import { motion } from 'framer-motion';
 import { Star, Clock, MapPin, ChevronRight } from 'lucide-react';
 import { CruiseData } from '../data/cruisesData';
+import { useTranslation } from 'react-i18next';
 
 interface CruiseCardProps {
   cruise: CruiseData;
 }
 
 export const CruiseCard: React.FC<CruiseCardProps> = ({ cruise }) => {
+  const { t } = useTranslation();
+
   const getBasePrice = () => {
     let minPrice = Infinity;
     if (cruise.itineraries) {
@@ -27,16 +30,16 @@ export const CruiseCard: React.FC<CruiseCardProps> = ({ cruise }) => {
   };
 
   const getDurations = () => {
-    if (!cruise.itineraries || cruise.itineraries.length === 0) return 'Various Durations';
+    if (!cruise.itineraries || cruise.itineraries.length === 0) return t('cruises_list.various_durations', 'Various Durations');
     const nights = Array.from(new Set(cruise.itineraries.map(it => {
         const match = it.durationName.match(/(\d+)\s*NIGHT/i);
         return match ? match[1] : null;
     }))).filter(Boolean);
     
     if (nights.length > 0) {
-        return `${nights.join(', ')} Nights Available`;
+        return `${nights.join(', ')} ${t('cruises_list.nights_available', 'Nights Available')}`;
     }
-    return 'Various Durations';
+    return t('cruises_list.various_durations', 'Various Durations');
   };
 
   const price = getBasePrice();
@@ -73,7 +76,7 @@ export const CruiseCard: React.FC<CruiseCardProps> = ({ cruise }) => {
           <div className="space-y-3 mb-8">
             <div className="flex items-center gap-2 text-xs text-gray-500">
               <MapPin size={14} className="text-brand-gold" />
-              Aswan / Luxor (Multiple Itineraries)
+              {t('cruises_list.multiple_itineraries', 'Aswan / Luxor (Multiple Itineraries)')}
             </div>
             <div className="flex items-center gap-2 text-xs text-gray-500">
               <Clock size={14} className="text-brand-gold" />
@@ -84,7 +87,7 @@ export const CruiseCard: React.FC<CruiseCardProps> = ({ cruise }) => {
           <div className="pt-6 border-t border-gray-50 flex items-center justify-between mt-auto">
             <div>
               <span className="block text-[10px] text-gray-600 uppercase font-bold tracking-widest mb-1">
-                Starting from
+                {t('cruises_list.starting_from', 'Starting from')}
               </span>
               <span className="text-2xl font-bold text-brand-emerald">
                 {price ? `$${price}` : 'N/A'}{' '}

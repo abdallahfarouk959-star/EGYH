@@ -1,0 +1,3065 @@
+{
+  "HERO_IMAGES": [
+    {
+      "url": "https://images.unsplash.com/photo-1539186607619-df476afe1ff1?auto=format&fit=crop&q=80&w=2000&fmt=webp",
+      "title": "Découvrez l'Égypte à votre manière",
+      "subtitle": "Créer une aventure égyptienne inoubliable, du cœur de l'Égypte au monde entier"
+    },
+    {
+      "url": "https://images.unsplash.com/photo-1539650116574-8efeb43e2750?auto=format&fit=crop&q=80&w=2000&fmt=webp",
+      "title": "Les Grandes Pyramides",
+      "subtitle": "Revenez dans le temps et découvrez les merveilles du monde antique"
+    },
+    {
+      "url": "https://images.unsplash.com/photo-1544971587-b842c27f8e14?auto=format&fit=crop&q=80&w=2000&fmt=webp",
+      "title": "Croisières sur le Nil",
+      "subtitle": "Naviguez à travers l'histoire sur le plus long fleuve du monde"
+    }
+  ],
+  "TOURS": [
+    {
+      "name": "Merveilles historiques",
+      "link": "/tours/historical-wonders",
+      "subItems": [
+        {
+          "name": "Égypte essentielle (7 jours)",
+          "link": "/tours/historical-wonders#tour-1"
+        },
+        {
+          "name": "Magie du Nil et de la mer Rouge (10 jours)",
+          "link": "/tours/historical-wonders#tour-2"
+        },
+        {
+          "name": "Le Grand Explorateur (12 jours)",
+          "link": "/tours/historical-wonders#tour-3"
+        },
+        {
+          "name": "Odyssée égyptienne ultime (15 jours)",
+          "link": "/tours/historical-wonders#tour-4"
+        }
+      ]
+    },
+    {
+      "name": "Circuits à Assouan",
+      "link": "/tours/aswan",
+      "subItems": [
+        {
+          "name": "Temple de Philae, Grand Barrage et Obélisque inachevé",
+          "link": "/tours/aswan#tour-1"
+        },
+        {
+          "name": "Temple de Philae avec Grand Barrage ou Obélisque inachevé",
+          "link": "/tours/aswan#tour-2"
+        },
+        {
+          "name": "Spectacle son et lumière au temple de Philae",
+          "link": "/tours/aswan#tour-3"
+        },
+        {
+          "name": "Temple de Kalabsha",
+          "link": "/tours/aswan#tour-4"
+        },
+        {
+          "name": "Village nubien (Gharb Sehel) en bateau à moteur",
+          "link": "/tours/aswan#tour-5"
+        },
+        {
+          "name": "Visite de la Nubie en felouque avec déjeuner exotique",
+          "link": "/tours/aswan#tour-6"
+        },
+        {
+          "name": "Îles d'Éléphantine et de Kitchener en felouque",
+          "link": "/tours/aswan#tour-7"
+        },
+        {
+          "name": "Coucher de soleil en felouque",
+          "link": "/tours/aswan#tour-8"
+        },
+        {
+          "name": "Transfert d'Assouan à Louxor via les temples de Kom Ombo et d'Edfou",
+          "link": "/tours/aswan#tour-9"
+        }
+      ]
+    },
+    {
+      "name": "Visites de Louxor",
+      "link": "/tours/luxor",
+      "subItems": [
+        {
+          "name": "Rive Est de Louxor",
+          "link": "/tours/luxor#tour-1"
+        },
+        {
+          "name": "Rive Ouest de Louxor",
+          "link": "/tours/luxor#tour-2"
+        },
+        {
+          "name": "Vallée des Reines et Temple de Habou",
+          "link": "/tours/luxor#tour-3"
+        },
+        {
+          "name": "Vol en montgolfière au-dessus de Louxor",
+          "link": "/tours/luxor#tour-4"
+        },
+        {
+          "name": "Expérience du Temple de Dendérah",
+          "link": "/tours/luxor#tour-5"
+        },
+        {
+          "name": "Expérience des temples de Dendérah et d'Abydos.",
+          "link": "/tours/luxor#tour-6"
+        },
+        {
+          "name": "Transfert de Louxor à Assouan via les temples de Kom Ombo et d'Edfou",
+          "link": "/tours/luxor#tour-7"
+        },
+        {
+          "name": "Spectacle son et lumière au temple de Karnak",
+          "link": "/tours/luxor#tour-8"
+        }
+      ]
+    },
+    {
+      "name": "Visites du Caire",
+      "link": "/tours/cairo",
+      "subItems": [
+        {
+          "name": "Visite des grandes pyramides, du Sphinx et du Grand Musée égyptien",
+          "link": "/tours/cairo#tour-1"
+        },
+        {
+          "name": "Visite des grandes pyramides, du Sphinx, de Memphis et de Saqqara",
+          "link": "/tours/cairo#tour-2"
+        },
+        {
+          "name": "Citadelle de Saladin, Vieux Caire et Khan El-Khalili",
+          "link": "/tours/cairo#tour-3"
+        },
+        {
+          "name": "Musée égyptien et Musée national de la civilisation égyptienne",
+          "link": "/tours/cairo#tour-4"
+        },
+        {
+          "name": "Spectacle son et lumière aux pyramides de Gizeh",
+          "link": "/tours/cairo#tour-5"
+        },
+        {
+          "name": "Dîner en croisière sur le Nil",
+          "link": "/tours/cairo#tour-6"
+        },
+        {
+          "name": "Excursion d'une journée à Alexandrie depuis Le Caire",
+          "link": "/tours/cairo#tour-7"
+        }
+      ]
+    },
+    {
+      "name": "Visites d'Abou Simbel",
+      "link": "/tours/abu-simbel",
+      "subItems": [
+        {
+          "name": "Abou Simbel par voie terrestre",
+          "link": "/tours/abu-simbel#tour-1"
+        },
+        {
+          "name": "Visite d'une nuit à Abou Simbel avec spectacle son et lumière",
+          "link": "/tours/abu-simbel#tour-2"
+        },
+        {
+          "name": "Abou Simbel par vol",
+          "link": "/tours/abu-simbel#tour-3"
+        }
+      ]
+    }
+  ],
+  "NILE_CRUISE": [
+    {
+      "name": "Toutes les croisières sur le Nil",
+      "link": "/nile-cruise"
+    },
+    {
+      "name": "Croisières sur le Nil",
+      "link": "/nile-cruise#river-nile"
+    },
+    {
+      "name": "Aventures en felouque",
+      "link": "/nile-cruise#felucca"
+    },
+    {
+      "name": "Croisière en dahabeya sur le Nil",
+      "link": "/nile-cruise#dahabiya"
+    },
+    {
+      "name": "Croisière sur le lac Nasser",
+      "link": "/nile-cruise#lake-nasser"
+    }
+  ],
+  "POLICIES": [
+    {
+      "name": "Politique de confidentialité",
+      "link": "/policies#privacy"
+    },
+    {
+      "name": "Conditions générales",
+      "link": "/policies#terms"
+    },
+    {
+      "name": "Politique d'annulation et de remboursement",
+      "link": "/policies#cancellation"
+    }
+  ],
+  "DESTINATIONS": {
+    "aswan": {
+      "id": "aswan",
+      "title": "Circuits à Assouan",
+      "quote": "Aswan is where the magic of the Nile truly comes to life! With its stunning river views, colorful Nubian villages, and incredible temples, this city is the perfect mix of history and relaxation. Sail on a traditional felucca, explore the beautiful Philae Temple, or visit the famous Aswan High Dam. Whether you want adventure or a peaceful escape, Aswan will steal your heart!",
+      "tours": [
+        {
+          "id": 1,
+          "title": "Temple de Philae, Grand Barrage et Obélisque inachevé",
+          "images": [
+            "https://images.unsplash.com/photo-1633033254409-bd538e785f51?q=80&w=871&auto=format&fit=crop&fmt=webp"
+          ],
+          "highlights": "Discover the majestic Philae Temple, one of Egypt’s most revered ancient sites, dedicated to the goddess Isis. This impressive complex, with its grand pylons and intricate carvings, was meticulously relocated to its current island location after the construction of the old dam in 1906, a project supported by UNESCO that took over nine years to complete. Explore the awe-inspiring Unfinished Obelisk, an enormous 42-meter-long monument, believed to be the heaviest obelisk ever attempted, weighing nearly 1,100 tons. Abandoned due to natural cracks in the granite, it offers fascinating insights into ancient stone-cutting techniques.",
+          "inclusions": [
+            "Durée : 5 heures",
+            "Transport privé climatisé",
+            "Frais d'entrée",
+            "Guide touristique anglophone",
+            "Bateau-moteur aller-retour vers le temple de Philae"
+          ],
+          "exclusions": [
+            "Dépenses personnelles",
+            "Pourboires"
+          ],
+          "itinerary": [
+            {
+              "time": "08:00",
+              "event": "Enlèvement depuis votre hôtel, croisière ou gare"
+            },
+            {
+              "time": "Matin",
+              "event": "Visite guidée du temple de Philae, du Grand Barrage et de l'Obélisque Inachevé"
+            },
+            {
+              "time": "13:00",
+              "event": "Transfert de retour et dépôt"
+            }
+          ],
+          "prices": [
+            {
+              "label": "Individuel",
+              "price": "90 $"
+            },
+            {
+              "label": "2 personnes",
+              "price": "65 $"
+            },
+            {
+              "label": "3-5 personnes",
+              "price": "55 $"
+            },
+            {
+              "label": "6-10 personnes",
+              "price": "50 $"
+            },
+            {
+              "label": "11-15 personnes",
+              "price": "45 $"
+            }
+          ],
+          "childPolicy": "Âges 6-11 : 30 $",
+          "note": "Visite privée avec horaires et durée flexibles"
+        },
+        {
+          "id": 2,
+          "title": "Temple de Philae avec Grand Barrage ou Obélisque inachevé",
+          "images": [
+            "https://images.unsplash.com/photo-1738580426867-03fa8c8b5288?q=80&w=871&auto=format&fit=crop&fmt=webp"
+          ],
+          "highlights": "Visit Philae Temple and either the High Dam or the Unfinished Obelisk.",
+          "inclusions": [
+            "Durée : 3 à 4 heures",
+            "Transport privé climatisé",
+            "Frais d'entrée",
+            "Guide touristique anglophone",
+            "Bateau-moteur vers le temple de Philae"
+          ],
+          "exclusions": [
+            "Dépenses personnelles",
+            "Pourboires"
+          ],
+          "itinerary": [
+            {
+              "time": "08:00",
+              "event": "Enlèvement depuis votre hôtel, croisière ou gare"
+            },
+            {
+              "time": "Matin",
+              "event": "Visite guidée du temple de Philae et du site de votre choix"
+            },
+            {
+              "time": "11:00-12:00",
+              "event": "Transfert de retour et dépôt"
+            }
+          ],
+          "prices": [
+            {
+              "label": "Individuel",
+              "price": "85 $"
+            },
+            {
+              "label": "2 personnes",
+              "price": "$60"
+            },
+            {
+              "label": "3-5 personnes",
+              "price": "50 $"
+            },
+            {
+              "label": "6-10 personnes",
+              "price": "45 $"
+            },
+            {
+              "label": "11-15 personnes",
+              "price": "$40"
+            }
+          ],
+          "childPolicy": "Âges 6-11 : $28",
+          "note": "Visite privée avec horaires et durée flexibles"
+        },
+        {
+          "id": 3,
+          "title": "Spectacle son et lumière au temple de Philae",
+          "images": [
+            "https://plus.unsplash.com/premium_photo-1697729731390-0b5f42cb9f44?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8UGhpbGFlJTIwVGVtcGxlfGVufDB8fDB8fHww&fmt=webp&w=800&q=75"
+          ],
+          "highlights": "Mesmerizing Sound & Light Show at Philae Temple.",
+          "inclusions": [
+            "Durée : 2,5 heures",
+            "Transfert privé avec climatisation",
+            "Bateau-moteur vers le temple de Philae",
+            "Frais d'entrée au spectacle"
+          ],
+          "exclusions": [
+            "Dépenses personnelles",
+            "Pourboires"
+          ],
+          "itinerary": [
+            {
+              "time": "18:00",
+              "event": "Prise en charge depuis l'hôtel ou le navire de croisière"
+            },
+            {
+              "time": "Soir",
+              "event": "Assister au spectacle son et lumière"
+            },
+            {
+              "time": "20:30",
+              "event": "Transfert de retour et dépôt"
+            }
+          ],
+          "prices": [
+            {
+              "label": "Individuel",
+              "price": "55 $"
+            },
+            {
+              "label": "2 à 3 personnes",
+              "price": "50 $"
+            },
+            {
+              "label": "4 à 15 personnes",
+              "price": "45 $"
+            }
+          ],
+          "childPolicy": "Âges 6-11 : 30 $",
+          "note": "L'horaire du spectacle varie selon la saison ; consultez le site officiel pour plus de détails"
+        },
+        {
+          "id": 4,
+          "title": "Temple de Kalabsha",
+          "images": [
+            "https://images.unsplash.com/photo-1662655558673-4e628102f545?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8RWd5cHRpYW4lMjBUZW1wbGV8ZW58MHx8MHx8fDA%3D&fmt=webp&w=800&q=75"
+          ],
+          "highlights": "Visit the impressive Kalabsha Temple, dedicated to the god Mandulis. Originally located 50 km south of Aswan, the temple was at risk of submersion due to the construction of the Aswan High Dam. In a remarkable German-financed effort, it was dismantled and relocated to its current position near Lake Nasser.",
+          "inclusions": [
+            "Durée : 3 à 4 heures",
+            "Transport privé climatisé",
+            "Frais d'entrée",
+            "Guide touristique anglophone",
+            "Bateau-moteur aller-retour au temple de Kalabsha"
+          ],
+          "exclusions": [
+            "Dépenses personnelles",
+            "Pourboires"
+          ],
+          "itinerary": [
+            {
+              "time": "09:00",
+              "event": "Enlèvement depuis votre hôtel, croisière ou gare"
+            },
+            {
+              "time": "Matin",
+              "event": "Visite guidée du temple de Kalabsha"
+            },
+            {
+              "time": "12:30",
+              "event": "Transfert de retour et dépôt"
+            }
+          ],
+          "prices": [
+            {
+              "label": "Individuel",
+              "price": "135 $"
+            },
+            {
+              "label": "2 à 3 personnes",
+              "price": "70 $"
+            },
+            {
+              "label": "4 à 15 personnes",
+              "price": "50 $"
+            }
+          ],
+          "childPolicy": "Âges 6-11 : 30 $",
+          "note": "Réservation à l'avance requise (3 jours à l'avance) pour les autorisations nécessaires"
+        },
+        {
+          "id": 5,
+          "title": "Village nubien (Gharb Sehel) en bateau à moteur",
+          "images": [
+            "https://images.unsplash.com/photo-1655163394362-97de2d3c5c85?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8TnViaWFuJTIwVmlsbGFnZXxlbnwwfHwwfHx8MA%3D%3D&fmt=webp&w=800&q=75"
+          ],
+          "highlights": "Discover the vibrant Nubian culture on the west bank of the Nile, opposite Soheil Island. Meet local families, explore their colorful homes, and immerse yourself in their traditions and simple lifestyle.",
+          "inclusions": [
+            "Durée : 3 heures",
+            "Bateau-moteur privé",
+            "Frais de visite d'une maison nubienne",
+            "Guide touristique anglophone"
+          ],
+          "exclusions": [
+            "Dépenses personnelles",
+            "Pourboires"
+          ],
+          "itinerary": [
+            {
+              "time": "14:30",
+              "event": "Enlèvement depuis votre hôtel, croisière ou gare"
+            },
+            {
+              "time": "Après-midi",
+              "event": "Visite du village nubien (Gharb Sehel)"
+            },
+            {
+              "time": "17:30",
+              "event": "Transfert de retour et dépôt"
+            }
+          ],
+          "prices": [
+            {
+              "label": "Individuel",
+              "price": "$60"
+            },
+            {
+              "label": "2 à 3 personnes",
+              "price": "50 $"
+            },
+            {
+              "label": "4 à 9 personnes",
+              "price": "$40"
+            },
+            {
+              "label": "10-15 personnes",
+              "price": "30 $"
+            }
+          ],
+          "childPolicy": "Âges 6-11 : 10 $",
+          "note": "Visite privée avec horaires et durée flexibles"
+        },
+        {
+          "id": 6,
+          "title": "Visite de la Nubie en felouque avec déjeuner exotique",
+          "images": [
+            "https://images.unsplash.com/photo-1644517270263-4112379d97ca?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8YXN3YW58ZW58MHx8MHx8fDA%3D&fmt=webp&w=800&q=75"
+          ],
+          "highlights": "Sail through the serene Nile archipelago on Arabesque felucca. Explore archaeological sites, enjoy an exotic lunch prepared on board, and relax with traditional drinks like Karkadeh (hibiscus tea).",
+          "inclusions": [
+            "Durée de la visite : 3 à 4 heures",
+            "Transport privé climatisé aller-retour vers la felouque",
+            "Guide touristique anglophone",
+            "Balade en felouque",
+            "Déjeuner nubien et boissons non alcoolisées",
+            "Karkadé et eau"
+          ],
+          "exclusions": [
+            "Dépenses personnelles",
+            "Pourboires"
+          ],
+          "itinerary": [
+            {
+              "time": "11:00",
+              "event": "Enlèvement depuis votre hôtel, croisière ou gare"
+            },
+            {
+              "time": "Matin",
+              "event": "Embarquez sur une felouque et naviguez dans l'archipel"
+            },
+            {
+              "time": "Midi",
+              "event": "Déjeuner à bord",
+              "detail": "Karkadé, gâteaux et fruits servis"
+            },
+            {
+              "time": "14:00",
+              "event": "Transfert de retour et dépôt"
+            }
+          ],
+          "prices": [
+            {
+              "label": "Individuel",
+              "price": "85 $"
+            },
+            {
+              "label": "2-4 personnes",
+              "price": "50 $"
+            },
+            {
+              "label": "5-9 personnes",
+              "price": "$40"
+            },
+            {
+              "label": "10-15 personnes",
+              "price": "30 $"
+            }
+          ],
+          "childPolicy": "Âges 6-11 : 10 $",
+          "note": "Optionnel : Visite de l'île d'Éléphantine, de l'île de Kitchener (Jardin botanique), du monastère de Saint-Simon avec balade à dos de chameau, des Tombeaux des Nobles, ou d'un village nubien sur la rive ouest avec balade à dos de chameau"
+        },
+        {
+          "id": 7,
+          "title": "Îles d'Éléphantine et de Kitchener en felouque",
+          "images": [
+            "https://images.unsplash.com/photo-1609254009350-e8802119df6c?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8YXN3YW58ZW58MHx8MHx8fDA%3D&fmt=webp&w=800&q=75"
+          ],
+          "highlights": "Enjoy a scenic felucca ride through the Nile archipelago, visiting the historical Elephantine Island and the lush Botanical Garden on Kitchener’s Island.",
+          "inclusions": [
+            "Durée de la visite : 4 heures",
+            "Balade en felouque",
+            "Guide touristique anglophone",
+            "Frais d'entrée"
+          ],
+          "exclusions": [
+            "Dépenses personnelles",
+            "Pourboires"
+          ],
+          "itinerary": [
+            {
+              "time": "09:00",
+              "event": "Enlèvement depuis votre hôtel, croisière ou gare"
+            },
+            {
+              "time": "Matin",
+              "event": "Visite de l'île d'Éléphantine et navigation en felouque"
+            },
+            {
+              "time": "Matin",
+              "event": "Visite de l'île de Kitchener (Jardin botanique)"
+            },
+            {
+              "time": "13:00",
+              "event": "Transfert de retour et dépôt"
+            }
+          ],
+          "prices": [
+            {
+              "label": "Individuel",
+              "price": "80 $"
+            },
+            {
+              "label": "2-4 personnes",
+              "price": "45 $"
+            },
+            {
+              "label": "5-9 personnes",
+              "price": "30 $"
+            },
+            {
+              "label": "10-15 personnes",
+              "price": "25 $"
+            }
+          ],
+          "childPolicy": "Âges 6-11 : 10 $",
+          "note": "Visite privée avec horaires flexibles"
+        },
+        {
+          "id": 8,
+          "title": "Coucher de soleil en felouque",
+          "images": [
+            "https://images.unsplash.com/photo-1684100096410-fd39cdff91a3?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fGFzd2FufGVufDB8fDB8fHww&fmt=webp&w=800&q=75"
+          ],
+          "highlights": "Experience total relaxation as you sail the Nile by felucca at sunset, enjoying traditional Karkadeh tea, coffee, cakes, and fruits.",
+          "inclusions": [
+            "Durée de la visite : 2 heures",
+            "Balade en felouque",
+            "Karkadé, thé, café avec gâteaux et fruits"
+          ],
+          "exclusions": [
+            "Dépenses personnelles",
+            "Pourboires"
+          ],
+          "itinerary": [
+            {
+              "time": "16:30",
+              "event": "Enlèvement depuis votre hôtel, croisière ou gare"
+            },
+            {
+              "time": "Soir",
+              "event": "Navigation en felouque au coucher du soleil"
+            },
+            {
+              "time": "18:30",
+              "event": "Transfert de retour et dépôt"
+            }
+          ],
+          "prices": [
+            {
+              "label": "Individuel",
+              "price": "70 $"
+            },
+            {
+              "label": "2-4 personnes",
+              "price": "$40"
+            },
+            {
+              "label": "5-9 personnes",
+              "price": "30 $"
+            },
+            {
+              "label": "10-15 personnes",
+              "price": "20 $"
+            }
+          ],
+          "childPolicy": "Âges 6-11 ans : 5 $",
+          "note": "Visite privée avec horaires flexibles"
+        },
+        {
+          "id": 9,
+          "title": "Transfert d'Assouan à Louxor via les temples de Kom Ombo et d'Edfou",
+          "images": [
+            "https://plus.unsplash.com/premium_photo-1661963854938-e69a4e65c1e3?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8bHV4b3IlMjB0ZW1wbGV8ZW58MHwwfDB8fHww&fmt=webp&w=800&q=75"
+          ],
+          "highlights": "Embark on a scenic journey from Aswan to Luxor, blending comfort and history in one unforgettable trip. Travel in a private, air-conditioned vehicle with an expert guide as you explore two of Egypt’s most remarkable temples. Marvel at the unique double temple of Kom Ombo, dedicated to Sobek and Horus, and admire the incredibly well-preserved Edfu Temple, dedicated to the falcon god Horus. This seamless transfer ensures you make the most of your travel time while immersing yourself in Egypt’s rich past.",
+          "inclusions": [
+            "Durée : 8 heures",
+            "Voiture/minivan privée climatisée",
+            "Guide touristique",
+            "Frais d'entrée",
+            "Autorisation routière"
+          ],
+          "exclusions": [
+            "Dépenses personnelles",
+            "Pourboires"
+          ],
+          "itinerary": [
+            {
+              "time": "08:00",
+              "event": "Enlèvement depuis votre hôtel, croisière ou gare"
+            },
+            {
+              "time": "Matin",
+              "event": "Transfert à Kom Ombo et visite guidée du temple de Kom Ombo"
+            },
+            {
+              "time": "Midi",
+              "event": "Transfert à Edfou et visite guidée du temple d'Edfou"
+            },
+            {
+              "time": "16:00",
+              "event": "Transfert à Louxor et dépôt à votre hôtel, croisière, felouque ou gare"
+            }
+          ],
+          "prices": [
+            {
+              "label": "Individuel",
+              "price": "250 $"
+            },
+            {
+              "label": "2 personnes",
+              "price": "130 $"
+            },
+            {
+              "label": "3 personnes",
+              "price": "100 $"
+            },
+            {
+              "label": "4 personnes",
+              "price": "80 $"
+            },
+            {
+              "label": "5 personnes",
+              "price": "70 $"
+            },
+            {
+              "label": "6 personnes",
+              "price": "$60"
+            }
+          ],
+          "note": "Visite privée avec horaires flexibles"
+        }
+      ]
+    },
+    "luxor": {
+      "id": "luxor",
+      "title": "Visites de Louxor",
+      "quote": "Luxor is a dream destination for history lovers! Home to the world’s most breathtaking temples and tombs.",
+      "tours": [
+        {
+          "id": 1,
+          "title": "Rive Est de Louxor",
+          "images": [
+            "https://betamedia.experienceegypt.eg/media/experienceegypt/img/Original/2025/11/9/2025_11_9_17_18_56_856.jpeg?fmt=webp"
+          ],
+          "highlights": "Discover the grandeur of Luxor’s East Bank, home to two of Egypt’s most famous temples—Karnak and Luxor. Marvel at their massive pylons, towering columns, and intricate hieroglyphics, which tell the stories of ancient pharaohs and gods. Karnak Temple is the largest religious complex ever built, while Luxor Temple stands as a masterpiece of Egyptian architecture.",
+          "inclusions": [
+            "Durée : 3 heures",
+            "Transport privé climatisé",
+            "Guide touristique anglophone",
+            "Frais d'entrée"
+          ],
+          "exclusions": [
+            "Dépenses personnelles",
+            "Pourboires"
+          ],
+          "itinerary": [
+            {
+              "time": "14:30",
+              "event": "Prise en charge à l'hôtel, au navire de croisière ou à la gare"
+            },
+            {
+              "time": "Après-midi",
+              "event": "Visite guidée du temple de Karnak"
+            },
+            {
+              "time": "Après-midi",
+              "event": "Visite guidée du temple de Louxor"
+            },
+            {
+              "time": "17:30",
+              "event": "Transfert de retour et dépôt"
+            }
+          ],
+          "prices": [
+            {
+              "label": "Individuel",
+              "price": "85 $"
+            },
+            {
+              "label": "2 personnes",
+              "price": "65 $"
+            },
+            {
+              "label": "3 personnes",
+              "price": "55 $"
+            },
+            {
+              "label": "4 personnes",
+              "price": "50 $"
+            },
+            {
+              "label": "5 personnes",
+              "price": "47 $"
+            },
+            {
+              "label": "6 personnes",
+              "price": "45 $"
+            }
+          ],
+          "note": "Visite privée avec horaires et durée flexibles"
+        },
+        {
+          "id": 2,
+          "title": "Rive Ouest de Louxor",
+          "images": [
+            "https://plus.unsplash.com/premium_photo-1661956893568-a6e305457ea9?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8THV4b3J8ZW58MHx8MHx8fDA%3Dfmt=webp&w=800&q=75"
+          ],
+          "highlights": "Experience the wonders of Luxor’s West Bank, where the Valley of the Kings, Hatshepsut Temple, and the Colossi of Memnon await. Walk through ancient tombs adorned with vivid paintings, visit the mortuary temple of Egypt’s first female pharaoh, and stand before the towering twin statues of Amenhotep III.",
+          "inclusions": [
+            "Durée : 5-6 heures",
+            "Transport privé climatisé",
+            "Guide touristique anglophone",
+            "Frais d'entrée"
+          ],
+          "exclusions": [
+            "Dépenses personnelles",
+            "Pourboires"
+          ],
+          "itinerary": [
+            {
+              "time": "08:00",
+              "event": "Prise en charge à l'hôtel, au navire de croisière ou à la gare"
+            },
+            {
+              "time": "Matin",
+              "event": "Visite de la Vallée des Rois"
+            },
+            {
+              "time": "Matin",
+              "event": "Visite du temple de Hatshepsout"
+            },
+            {
+              "time": "Matin",
+              "event": "Visite des Colosses de Memnon"
+            },
+            {
+              "time": "13:00-14:00",
+              "event": "Transfert de retour et dépôt"
+            }
+          ],
+          "prices": [
+            {
+              "label": "Individuel",
+              "price": "140 $"
+            },
+            {
+              "label": "2 personnes",
+              "price": "105 $"
+            },
+            {
+              "label": "3 personnes",
+              "price": "90 $"
+            },
+            {
+              "label": "4 personnes",
+              "price": "85 $"
+            },
+            {
+              "label": "5 personnes",
+              "price": "80 $"
+            },
+            {
+              "label": "6 personnes",
+              "price": "75 $"
+            }
+          ],
+          "note": "Visite privée avec horaires et durée flexibles"
+        },
+        {
+          "id": 3,
+          "title": "Vallée des Reines et Temple de Habou",
+          "images": [
+            "https://images.unsplash.com/photo-1632944284335-1f80d44244ea?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTV8fGx1eG9yfGVufDB8fDB8fHww&fmt=webp&w=800&q=75"
+          ],
+          "highlights": "Explore the tombs of royal women in the Valley of the Queens and admire the well-preserved carvings of Medinet Habu, the mortuary temple of Ramses III. This tour provides a deeper look into the daily life, beliefs, and artistic achievements of ancient Egypt.",
+          "inclusions": [
+            "Durée : 4-5 heures",
+            "Transport privé climatisé",
+            "Guide touristique anglophone",
+            "Frais d'entrée"
+          ],
+          "exclusions": [
+            "Dépenses personnelles",
+            "Pourboires"
+          ],
+          "itinerary": [
+            {
+              "time": "08:00",
+              "event": "Prise en charge à l'hôtel, au navire de croisière ou à la gare"
+            },
+            {
+              "time": "Matin",
+              "event": "Visite de la Vallée des Reines"
+            },
+            {
+              "time": "Matin",
+              "event": "Visite du temple de Habou"
+            },
+            {
+              "time": "12:00-13:00",
+              "event": "Transfert de retour et dépôt"
+            }
+          ],
+          "prices": [
+            {
+              "label": "Individuel",
+              "price": "$125"
+            },
+            {
+              "label": "2 personnes",
+              "price": "90 $"
+            },
+            {
+              "label": "3 personnes",
+              "price": "75 $"
+            },
+            {
+              "label": "4 personnes",
+              "price": "70 $"
+            },
+            {
+              "label": "5 personnes",
+              "price": "65 $"
+            },
+            {
+              "label": "6 personnes",
+              "price": "$60"
+            }
+          ],
+          "note": "Visite privée avec horaires et durée flexibles"
+        },
+        {
+          "id": 4,
+          "title": "Vol en montgolfière au-dessus de Louxor",
+          "images": [
+            "https://images.unsplash.com/photo-1685616075808-04bb9db4ea1c?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTh8fGx1eG9yfGVufDB8fDB8fHww&fmt=webp&w=800&q=75"
+          ],
+          "highlights": "Experience Luxor from above with a breathtaking sunrise hot air balloon ride. Float over the Nile, temples, and ancient ruins, capturing panoramic views of this historic city.",
+          "inclusions": [
+            "Durée : 3 heures",
+            "Transport privé climatisé",
+            "Vol en montgolfière de 45 minutes",
+            "Certificat de vol",
+            "Frais de service et taxes"
+          ],
+          "exclusions": [
+            "Dépenses personnelles",
+            "Pourboires"
+          ],
+          "itinerary": [
+            {
+              "time": "05:00",
+              "event": "Prise en charge à l'hôtel, au navire de croisière ou à la gare"
+            },
+            {
+              "time": "Matin",
+              "event": "Transfert vers le site des ballons et vol en montgolfière au lever du soleil"
+            },
+            {
+              "time": "07:30",
+              "event": "Transfert de retour et dépôt"
+            }
+          ],
+          "prices": [
+            {
+              "label": "Par personne",
+              "price": "90 $"
+            }
+          ],
+          "note": "Le ballon s'envole entre 3h00 et 4h00 (été) ou entre 4h00 et 5h00 (hiver). Le rendez-vous a lieu 45 minutes avant. **Les vols en montgolfière sont actuellement suspendus jusqu'à nouvel ordre**"
+        },
+        {
+          "id": 5,
+          "title": "Expérience du Temple de Dendérah",
+          "images": [
+            "https://images.unsplash.com/photo-1644159406175-3b91e94c7f7e?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NDJ8fEx1eG9yfGVufDB8fDB8fHwwfmt=webp&w=800&q=75"
+          ],
+          "highlights": "Embark on a captivating journey to the Temple of Dendera, located just 60 kilometers north of Luxor. Discover the ancient wonders of this sacred site with a private, flexible tour designed to make your experience unforgettable.",
+          "inclusions": [
+            "Durée : 4 heures d'exploration",
+            "Transport privé en voiture ou minibus climatisé",
+            "Guide de tour expérimenté",
+            "Tous les droits d'entrée"
+          ],
+          "exclusions": [
+            "Dépenses personnelles",
+            "Pourboires"
+          ],
+          "itinerary": [
+            {
+              "time": "08:00",
+              "event": "Prise en charge depuis votre hôtel, navire de croisière ou gare"
+            },
+            {
+              "time": "Matin",
+              "event": "Route panoramique vers Dendera et exploration du temple"
+            },
+            {
+              "time": "12:00",
+              "event": "Transfert de retour vers la destination"
+            }
+          ],
+          "prices": [
+            {
+              "label": "1 personne",
+              "price": "140 $"
+            },
+            {
+              "label": "2 personnes",
+              "price": "$95"
+            },
+            {
+              "label": "3 personnes",
+              "price": "80 $"
+            },
+            {
+              "label": "4 personnes",
+              "price": "75 $"
+            },
+            {
+              "label": "5 personnes",
+              "price": "70 $"
+            },
+            {
+              "label": "6 personnes",
+              "price": "65 $"
+            }
+          ],
+          "note": "Visite privée avec horaires et durée flexibles"
+        },
+        {
+          "id": 6,
+          "title": "Expérience des temples de Dendérah et d'Abydos",
+          "images": [
+            "https://images.unsplash.com/photo-1663601896596-ee0f9daac04c?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8a2FybmFrfGVufDB8fDB8fHww&fmt=webp&w=800&q=75"
+          ],
+          "highlights": "Immerse yourself in the ancient wonders of both the Dendera and Abydos Temples, two of Egypt's most fascinating archaeological sites. This private tour offers an enriching journey through history with a flexible schedule tailored to you.",
+          "inclusions": [
+            "Durée : 10 à 12 heures de découverte",
+            "Transport privé climatisé",
+            "Guide de tour expert",
+            "Tous les droits d'entrée inclus"
+          ],
+          "exclusions": [
+            "Dépenses personnelles",
+            "Pourboires"
+          ],
+          "itinerary": [
+            {
+              "time": "06:00",
+              "event": "Récupération depuis votre hôtel, navire de croisière ou gare"
+            },
+            {
+              "time": "Matin",
+              "event": "Profitez d'une route pittoresque vers le temple d'Abydos et explorez-le avec un guide"
+            },
+            {
+              "time": "Après-midi",
+              "event": "Voyagez vers le temple de Dendérah et découvrez sa beauté et son mystère"
+            },
+            {
+              "time": "16:00-18:00",
+              "event": "Transfert de retour et dépôt"
+            }
+          ],
+          "prices": [
+            {
+              "label": "1 personne",
+              "price": "$260"
+            },
+            {
+              "label": "2 personnes",
+              "price": "140 $"
+            },
+            {
+              "label": "3 personnes",
+              "price": "100 $"
+            },
+            {
+              "label": "4 personnes",
+              "price": "80 $"
+            },
+            {
+              "label": "5 personnes",
+              "price": "70 $"
+            },
+            {
+              "label": "6 personnes",
+              "price": "$60"
+            }
+          ],
+          "note": "Visite privée avec horaires flexibles"
+        },
+        {
+          "id": 7,
+          "title": "Transfert de Louxor à Assouan via les temples de Kom Ombo et d'Edfou",
+          "images": [
+            "https://plus.unsplash.com/premium_photo-1661963854938-e69a4e65c1e3?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8bHV4b3IlMjB0ZW1wbGV8ZW58MHwwfDB8fHww&fmt=webp&w=800&q=75"
+          ],
+          "highlights": "Experience a smooth transfer from Luxor to Aswan while exploring the magnificent Edfu and Kom Ombo Temples along the way. This private tour ensures comfort and flexibility, with ancient wonders at every stop.",
+          "inclusions": [
+            "Durée : 8 heures de voyage pittoresque et de découverte",
+            "Transport privé en voiture/minibus climatisé",
+            "Guide touristique expérimenté",
+            "Tous les droits d'entrée inclus",
+            "Permis de circulation"
+          ],
+          "exclusions": [
+            "Dépenses personnelles",
+            "Pourboires"
+          ],
+          "itinerary": [
+            {
+              "time": "08:00",
+              "event": "Prise en charge depuis votre hôtel, navire de croisière ou gare"
+            },
+            {
+              "time": "Matin",
+              "event": "Transport et exploration du temple d'Edfou"
+            },
+            {
+              "time": "Midi",
+              "event": "Transport et exploration du temple de Kom Ombo"
+            },
+            {
+              "time": "16:00",
+              "event": "Direction Assouan et dépose finale"
+            }
+          ],
+          "prices": [
+            {
+              "label": "1 personne",
+              "price": "250 $"
+            },
+            {
+              "label": "2 personnes",
+              "price": "130 $"
+            },
+            {
+              "label": "3 personnes",
+              "price": "100 $"
+            },
+            {
+              "label": "4 personnes",
+              "price": "80 $"
+            },
+            {
+              "label": "5 personnes",
+              "price": "70 $"
+            },
+            {
+              "label": "6 personnes",
+              "price": "$60"
+            }
+          ],
+          "note": "Visite privée avec horaires et durée flexibles"
+        },
+        {
+          "id": 8,
+          "title": "Spectacle son et lumière au temple de Karnak",
+          "images": [
+            "https://images.unsplash.com/photo-1662655558673-4e628102f545?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8a2FybmFrfGVufDB8fDB8fHww&fmt=webp&w=800&q=75"
+          ],
+          "highlights": "Witness the spectacular Sound & Light Show at the awe-inspiring Karnak Temple, where history comes to life through an immersive audio-visual experience.",
+          "inclusions": [
+            "Durée : 2,5 heures",
+            "Transport privé en voiture/minibus climatisé",
+            "Frais d'entrée au spectacle",
+            "Représentant accueillant"
+          ],
+          "exclusions": [
+            "Dépenses personnelles",
+            "Pourboires"
+          ],
+          "itinerary": [
+            {
+              "time": "18:00",
+              "event": "Prise en charge au point de rendez-vous"
+            },
+            {
+              "time": "Soir",
+              "event": "Profitez du fascinant spectacle de sons et lumières au temple de Karnak"
+            },
+            {
+              "time": "20:30",
+              "event": "Retour et dépôt"
+            }
+          ],
+          "prices": [
+            {
+              "label": "1 personne",
+              "price": "65 $"
+            },
+            {
+              "label": "2 personnes",
+              "price": "50 $"
+            },
+            {
+              "label": "3 personnes",
+              "price": "45 $"
+            },
+            {
+              "label": "4 personnes",
+              "price": "$40"
+            },
+            {
+              "label": "5 personnes",
+              "price": "35 $"
+            },
+            {
+              "label": "6 personnes",
+              "price": "34 $"
+            }
+          ]
+        }
+      ]
+    },
+    "cairo": {
+      "id": "cairo",
+      "title": "Visites du Caire",
+      "quote": "Cairo, the vibrant capital of Egypt, is the largest city in both Africa and the Arab world.",
+      "tours": [
+        {
+          "id": 1,
+          "title": "Visite des grandes pyramides, du Sphinx et du Grand Musée égyptien",
+          "images": [
+            "https://images.unsplash.com/photo-1553913861-c0fddf2619ee?w=400&auto=format&fit=crop&fmt=webp"
+          ],
+          "highlights": "Experience the wonders of ancient Egypt in one unforgettable day. Visit the Great Pyramids of Giza, see the famous Sphinx up close, and explore the Grand Egyptian Museum. Enjoy a private tour with expert guidance and hassle-free transport.",
+          "inclusions": [
+            "Durée de la visite : 8 heures",
+            "Transport privé climatisé",
+            "Guide touristique anglophone",
+            "Frais d'entrée"
+          ],
+          "exclusions": [
+            "Dépenses personnelles",
+            "Pourboires"
+          ],
+          "itinerary": [
+            {
+              "time": "08:30",
+              "event": "Prise en charge à l'hôtel"
+            },
+            {
+              "time": "Matin",
+              "event": "Transfert et visite des pyramides avec un guide (Optionnel : balade à dos de chameau ou entrée dans la pyramide de Khéops)"
+            },
+            {
+              "time": "Matin",
+              "event": "Visitez la Pyramide"
+            },
+            {
+              "time": "12:30",
+              "event": "Déjeuner à vos frais"
+            },
+            {
+              "time": "Après-midi",
+              "event": "Transfert et découverte des artefacts anciens du Grand Musée Égyptien"
+            },
+            {
+              "time": "16:30",
+              "event": "Retour et dépôt à l'hôtel"
+            }
+          ],
+          "prices": [
+            {
+              "label": "Individuel",
+              "price": "209 $"
+            },
+            {
+              "label": "2 personnes",
+              "price": "129 $"
+            },
+            {
+              "label": "3 personnes",
+              "price": "119 $"
+            },
+            {
+              "label": "4 personnes",
+              "price": "109 $"
+            },
+            {
+              "label": "5 personnes",
+              "price": "99 $"
+            },
+            {
+              "label": "6 personnes",
+              "price": "89 $"
+            }
+          ],
+          "note": "Visite privée avec horaires et durée flexibles"
+        },
+        {
+          "id": 2,
+          "title": "Visite des grandes pyramides, du Sphinx, de Memphis et de Saqqara",
+          "images": [
+            "https://plus.unsplash.com/premium_photo-1661891622579-bee76e28c304?w=400&auto=format&fit=crop&fmt=webp"
+          ],
+          "highlights": "Step back in time and explore Egypt’s most legendary sites. Marvel at the Great Pyramids of Giza, stand before the enigmatic Sphinx, visit the ancient capital of Memphis, and uncover the secrets of Sakkara’s Step Pyramid, the world’s first stone pyramid.",
+          "inclusions": [
+            "Durée de la visite : 7 heures",
+            "Transport privé climatisé",
+            "Guide touristique anglophone",
+            "Frais d'entrée"
+          ],
+          "exclusions": [
+            "Dépenses personnelles",
+            "Pourboires"
+          ],
+          "itinerary": [
+            {
+              "time": "09:00",
+              "event": "Prise en charge à l'hôtel et transfert vers la zone des Grandes Pyramides"
+            },
+            {
+              "time": "Matin",
+              "event": "Visite des Pyramides (balade en chameau facultative et entrée dans la Pyramide de Khéops)"
+            },
+            {
+              "time": "Matin",
+              "event": "Visitez la Pyramide"
+            },
+            {
+              "time": "13:00",
+              "event": "Déjeuner à vos frais"
+            },
+            {
+              "time": "Après-midi",
+              "event": "Visite de Memphis, l'ancienne capitale de l'Égypte"
+            },
+            {
+              "time": "Après-midi",
+              "event": "Visite de Saqqara et de la Pyramide à degrés de Djéser"
+            },
+            {
+              "time": "16:00",
+              "event": "Retour et dépôt à l'hôtel"
+            }
+          ],
+          "prices": [
+            {
+              "label": "Individuel",
+              "price": "225 $"
+            },
+            {
+              "label": "2 personnes",
+              "price": "140 $"
+            },
+            {
+              "label": "3 personnes",
+              "price": "130 $"
+            },
+            {
+              "label": "4 personnes",
+              "price": "120 $"
+            },
+            {
+              "label": "5 personnes",
+              "price": "115 $"
+            },
+            {
+              "label": "6 personnes",
+              "price": "105 $"
+            }
+          ],
+          "note": "Visite privée avec horaires et durée flexibles"
+        },
+        {
+          "id": 3,
+          "title": "Citadelle de Saladin, Le Caire ancien et Khan El-Khalili",
+          "images": [
+            "https://plus.unsplash.com/premium_photo-1694475081350-ec8e3419b2ef?w=400&auto=format&fit=crop&fmt=webp"
+          ],
+          "highlights": "Step into Cairo’s rich history as you explore Saladin’s Citadel, stroll through the ancient streets of Old Cairo, and lose yourself in the vibrant markets of Khan El-Khalili. This tour offers a fascinating journey through Cairo's medieval history and its bustling bazaars.",
+          "inclusions": [
+            "Durée de la visite : 7 heures",
+            "Transport privé climatisé",
+            "Guide touristique anglophone",
+            "Frais d'entrée"
+          ],
+          "exclusions": [
+            "Dépenses personnelles",
+            "Pourboires"
+          ],
+          "itinerary": [
+            {
+              "time": "09:00",
+              "event": "Prise en charge à l'hôtel"
+            },
+            {
+              "time": "Matin",
+              "event": "Visite de la Citadelle de Saladin, avec une vue panoramique sur Le Caire"
+            },
+            {
+              "time": "Matin",
+              "event": "Visite du Vieux Caire : l'Église suspendue et l'Église d'Abu Serga"
+            },
+            {
+              "time": "Après-midi",
+              "event": "Explorez le marché animé de Khan El-Khalili"
+            },
+            {
+              "time": "16:00",
+              "event": "Transfert retour et dépôt à l'hôtel ou à la gare"
+            }
+          ],
+          "prices": [
+            {
+              "label": "Individuel",
+              "price": "190 $"
+            },
+            {
+              "label": "2 personnes",
+              "price": "110 $"
+            },
+            {
+              "label": "3 personnes",
+              "price": "100 $"
+            },
+            {
+              "label": "4 personnes",
+              "price": "90 $"
+            },
+            {
+              "label": "5 personnes",
+              "price": "80 $"
+            },
+            {
+              "label": "6 personnes",
+              "price": "70 $"
+            }
+          ],
+          "note": "Visite privée avec horaires et durée flexibles"
+        },
+        {
+          "id": 4,
+          "title": "Musée égyptien et Musée national de la civilisation égyptienne",
+          "images": [
+            "https://images.unsplash.com/photo-1631713215053-cc2df30dc6e9?w=400&auto=format&fit=crop&fmt=webp"
+          ],
+          "highlights": "Dive into Egypt’s ancient treasures at the Egyptian Museum and the National Museum of Egyptian Civilization. Discover mummies, rare artifacts, and the rich history that shaped the world’s earliest civilizations.",
+          "inclusions": [
+            "Durée de la visite : 6 heures",
+            "Transport privé climatisé",
+            "Guide touristique anglophone",
+            "Frais d'entrée"
+          ],
+          "exclusions": [
+            "Dépenses personnelles",
+            "Pourboires"
+          ],
+          "itinerary": [
+            {
+              "time": "09:00",
+              "event": "Prise en charge à l'hôtel"
+            },
+            {
+              "time": "Matin",
+              "event": "Visitez le Musée égyptien et explorez sa vaste collection d'artefacts anciens"
+            },
+            {
+              "time": "Après-midi",
+              "event": "Transfert au Musée national de la civilisation égyptienne pour découvrir d'autres reliques fascinantes, y compris les momies royales"
+            },
+            {
+              "time": "15:00",
+              "event": "Retour et dépôt à l'hôtel"
+            }
+          ],
+          "prices": [
+            {
+              "label": "Individuel",
+              "price": "190 $"
+            },
+            {
+              "label": "2 personnes",
+              "price": "130 $"
+            },
+            {
+              "label": "3 personnes",
+              "price": "120 $"
+            },
+            {
+              "label": "4 personnes",
+              "price": "115 $"
+            },
+            {
+              "label": "5 personnes",
+              "price": "110 $"
+            },
+            {
+              "label": "6 personnes",
+              "price": "105 $"
+            }
+          ],
+          "note": "Visite privée avec horaires et durée flexibles"
+        },
+        {
+          "id": 5,
+          "title": "Spectacle son et lumière aux pyramides de Gizeh",
+          "images": [
+            "https://images.unsplash.com/photo-1623674587543-9c7564de99d1?w=400&auto=format&fit=crop&fmt=webp"
+          ],
+          "highlights": "Experience the magic of ancient Egypt with the Sound & Light Show at the iconic Giza Pyramids. Marvel at the stunning light displays as the pyramids come to life with captivating stories of Egypt’s glorious past.",
+          "inclusions": [
+            "Durée de la visite : 3 heures",
+            "Transport privé climatisé",
+            "Frais d'entrée pour le spectacle Son et Lumière",
+            "Assistance d'un représentant sur place"
+          ],
+          "exclusions": [
+            "Dépenses personnelles",
+            "Pourboires"
+          ],
+          "itinerary": [
+            {
+              "time": "18:00",
+              "event": "Prise en charge à l'hôtel et transfert aux pyramides de Gizeh"
+            },
+            {
+              "time": "Soir",
+              "event": "Profitez du spectaculaire spectacle Son et Lumière aux pyramides"
+            },
+            {
+              "time": "21:00",
+              "event": "Retour et dépôt à l'hôtel"
+            }
+          ],
+          "prices": [
+            {
+              "label": "Individuel",
+              "price": "120 $"
+            },
+            {
+              "label": "2 personnes",
+              "price": "75 $"
+            },
+            {
+              "label": "3 personnes",
+              "price": "70 $"
+            },
+            {
+              "label": "4 personnes",
+              "price": "65 $"
+            },
+            {
+              "label": "5 personnes",
+              "price": "$60"
+            },
+            {
+              "label": "6 personnes",
+              "price": "55 $"
+            }
+          ],
+          "note": "** Cet itinéraire suit les horaires d'été du spectacle. Pour les horaires les plus à jour, veuillez consulter le site web du spectacle Son et Lumière ou nous contacter pour plus d'informations.**"
+        },
+        {
+          "id": 6,
+          "title": "Dîner en croisière sur le Nil",
+          "images": [
+            "https://plus.unsplash.com/premium_photo-1678131188332-693a503680ae?w=400&auto=format&fit=crop&fmt=webp"
+          ],
+          "highlights": "Savor a delightful dinner on the Nile while enjoying live entertainment, including captivating belly dancing and swirling dervish performances. An unforgettable evening on Egypt’s legendary river.",
+          "inclusions": [
+            "Durée de la visite : 4 heures",
+            "Transport privé climatisé",
+            "Dîner et spectacle pendant la croisière en bateau"
+          ],
+          "exclusions": [
+            "Dépenses personnelles",
+            "Pourboires"
+          ],
+          "itinerary": [
+            {
+              "time": "18:00",
+              "event": "Prise en charge à l'hôtel et transfert vers le bateau de croisière"
+            },
+            {
+              "time": "Soir",
+              "event": "Profitez d'un délicieux dîner et de spectacles en direct pendant la croisière"
+            },
+            {
+              "time": "22:00",
+              "event": "Retour et dépôt à l'hôtel"
+            }
+          ],
+          "prices": [
+            {
+              "label": "Individuel",
+              "price": "120 $"
+            },
+            {
+              "label": "2 personnes",
+              "price": "75 $"
+            },
+            {
+              "label": "3 personnes",
+              "price": "70 $"
+            },
+            {
+              "label": "4 personnes",
+              "price": "65 $"
+            },
+            {
+              "label": "5 personnes",
+              "price": "$60"
+            },
+            {
+              "label": "6 personnes",
+              "price": "55 $"
+            }
+          ]
+        },
+        {
+          "id": 7,
+          "title": "Excursion d'une journée à Alexandrie depuis Le Caire",
+          "images": [
+            "https://images.unsplash.com/photo-1697546889969-27f7b5be8664?w=400&auto=format&fit=crop&fmt=webp"
+          ],
+          "highlights": "Uncover the rich history of Alexandria, Egypt's vibrant second-largest city and a key Mediterranean port. Explore the ancient Catacombs, the impressive Roman Amphitheatre, Pompey’s Pillars, and the iconic Bibliotheca Alexandrina – the modern Library of Alexandria, which pays tribute to its ancient predecessor.",
+          "inclusions": [
+            "Durée de la visite : 11 heures",
+            "Transport privé climatisé aller-retour à Alexandrie",
+            "Frais d'entrée",
+            "Guide touristique anglophone"
+          ],
+          "exclusions": [
+            "Dépenses personnelles",
+            "Pourboires"
+          ],
+          "itinerary": [
+            {
+              "time": "08:00",
+              "event": "Prise en charge à votre hôtel au Caire, transfert vers Alexandrie"
+            },
+            {
+              "time": "11:00",
+              "event": "Arrivée à Alexandrie et visite des sites principaux"
+            },
+            {
+              "time": "13:00",
+              "event": "Déjeuner à vos frais"
+            },
+            {
+              "time": "16:00",
+              "event": "Départ d'Alexandrie, retour au Caire"
+            },
+            {
+              "time": "19:00",
+              "event": "Dépose à votre hôtel au Caire"
+            }
+          ],
+          "prices": [
+            {
+              "label": "Individuel",
+              "price": "270 $"
+            },
+            {
+              "label": "2 personnes",
+              "price": "150 $"
+            },
+            {
+              "label": "3 personnes",
+              "price": "140 $"
+            },
+            {
+              "label": "4 personnes",
+              "price": "135 $"
+            },
+            {
+              "label": "5 personnes",
+              "price": "$125"
+            },
+            {
+              "label": "6 personnes",
+              "price": "120 $"
+            }
+          ]
+        }
+      ]
+    },
+    "abu-simbel": {
+      "id": "abu-simbel",
+      "title": "Visites d'Abou Simbel",
+      "quote": "Abu Simbel is a must-see wonder that will leave you speechless! The massive statues of Ramses II stand tall, guarding one of the most incredible temples ever built. Carved into the rock thousands of years ago, this masterpiece was saved from the rising waters of the Nile and still amazes visitors today. If you want to witness something truly unforgettable, Abu Simbel is the place to be!",
+      "tours": [
+        {
+          "id": 1,
+          "title": "Abou Simbel par voie terrestre",
+          "images": [
+            "https://images.unsplash.com/photo-1702909171830-2c4dca2ac090?w=400&auto=format&fit=crop&fmt=webp"
+          ],
+          "highlights": "Enjoy a full-day excursion to the iconic Abu Simbel site, home to the magnificent temples of Ramses II and Queen Nefertari. Marvel at the colossal statues and intricate carvings, a UNESCO World Heritage Site that was carefully relocated to protect it from the rising waters of Lake Nasser.",
+          "inclusions": [
+            "Durée : 9 heures",
+            "Transport privé climatisé aller-retour à Abou Simbel",
+            "Guide touristique anglophone",
+            "Frais d'entrée au temple d'Abou Simbel"
+          ],
+          "exclusions": [
+            "Dépenses personnelles",
+            "Pourboires"
+          ],
+          "itinerary": [
+            {
+              "time": "04:15",
+              "event": "Prise en charge à l'hôtel, au navire de croisière ou à la gare"
+            },
+            {
+              "time": "08:00",
+              "event": "Visite du site d'Abou Simbel"
+            },
+            {
+              "time": "10:00",
+              "event": "Transfert retour à Assouan"
+            },
+            {
+              "time": "13:00",
+              "event": "Dépose à votre hôtel, croisière, felouque ou gare"
+            }
+          ],
+          "prices": [
+            {
+              "label": "Individuel",
+              "price": "200 $"
+            },
+            {
+              "label": "2 personnes",
+              "price": "150 $"
+            },
+            {
+              "label": "3 personnes",
+              "price": "130 $"
+            },
+            {
+              "label": "4 personnes",
+              "price": "120 $"
+            },
+            {
+              "label": "5 personnes",
+              "price": "110 $"
+            },
+            {
+              "label": "6 personnes",
+              "price": "100 $"
+            }
+          ],
+          "note": "Visite privée avec horaires et durée flexibles"
+        },
+        {
+          "id": 2,
+          "title": "Visite d'une nuit à Abou Simbel avec spectacle son et lumière",
+          "images": [
+            "https://images.unsplash.com/photo-1748292951610-1ed2f59c9c20?w=400&auto=format&fit=crop&fmt=webp"
+          ],
+          "highlights": "Extend your Abu Simbel experience with an overnight stay, allowing you to explore the temples at a relaxed pace. Witness the captivating Sound & Light Show, which brings the history of Ramses II and Queen Nefertari to life with dazzling lights and immersive narration.",
+          "inclusions": [
+            "Durée : 2 jours / 1 nuit",
+            "Transport privé climatisé aller-retour à Abou Simbel",
+            "Frais d'entrée au temple d'Abou Simbel et au spectacle son et lumière",
+            "Transferts à Abou Simbel (hôtel – site – spectacle – retour)",
+            "Guide touristique anglophone",
+            "Permis de circulation pour un voyage sans accroc"
+          ],
+          "exclusions": [
+            "Dépenses personnelles",
+            "Pourboires",
+            "Hébergement à Abou Simbel"
+          ],
+          "itinerary": [
+            {
+              "day": "Day 1",
+              "time": "10:30 AM",
+              "event": "Enlèvement à votre hôtel, croisière ou gare et transfert à Abou Simbel"
+            },
+            {
+              "day": "Day 1",
+              "time": "01:30 PM",
+              "event": "Enregistrement à votre hébergement et moment de repos"
+            },
+            {
+              "day": "Day 1",
+              "time": "03:00 PM",
+              "event": "Visite guidée du site d'Abou Simbel"
+            },
+            {
+              "day": "Day 1",
+              "time": "07:00 PM",
+              "event": "Assister au spectacle son et lumière d'Abou Simbel"
+            },
+            {
+              "day": "Day 1",
+              "time": "08:00 PM",
+              "event": "Transfert retour vers votre hébergement, soirée libre"
+            },
+            {
+              "day": "Day 2",
+              "time": "08:00",
+              "event": "Transfert retour à Assouan"
+            },
+            {
+              "day": "Day 2",
+              "time": "11:30 AM",
+              "event": "Dépose à votre hôtel, croisière ou gare"
+            }
+          ],
+          "prices": [
+            {
+              "label": "Individuel",
+              "price": "$300"
+            },
+            {
+              "label": "2 personnes",
+              "price": "225 $"
+            },
+            {
+              "label": "3 personnes",
+              "price": "$195"
+            },
+            {
+              "label": "4 personnes",
+              "price": "$180"
+            },
+            {
+              "label": "5 personnes",
+              "price": "$165"
+            },
+            {
+              "label": "6 personnes",
+              "price": "150 $"
+            }
+          ],
+          "note": "Visite privée avec horaires et durée flexibles"
+        },
+        {
+          "id": 3,
+          "title": "Abou Simbel par vol",
+          "images": [
+            "https://images.unsplash.com/photo-1761560879601-f44463a523dc?w=400&auto=format&fit=crop&fmt=webp"
+          ],
+          "highlights": "Skip the long drive and fly directly from Aswan to Abu Simbel for a hassle-free and time-saving experience. This option lets you explore the awe-inspiring temples in the morning before flying back, making the most of your time in Egypt.",
+          "inclusions": [
+            "Durée : 5-6 heures",
+            "Billet d'avion aller-retour (Assouan / Abou Simbel / Assouan)",
+            "Prise en charge et dépôt entre l'hébergement à Assouan et l'aéroport",
+            "Guide égyptologue anglophone",
+            "Frais d'entrée au temple d'Abou Simbel",
+            "Assistance sur place"
+          ],
+          "exclusions": [
+            "Dépenses personnelles",
+            "Pourboires"
+          ],
+          "itinerary": [
+            {
+              "time": "18:00",
+              "event": "Prise en charge depuis l'hôtel ou le navire de croisière"
+            },
+            {
+              "time": "Soir",
+              "event": "Assister au spectacle son et lumière"
+            },
+            {
+              "time": "20:30",
+              "event": "Transfert de retour et dépôt"
+            }
+          ],
+          "prices": [
+            {
+              "label": "Individuel",
+              "price": "$450"
+            },
+            {
+              "label": "2 personnes",
+              "price": "$425"
+            },
+            {
+              "label": "3 personnes",
+              "price": "$410"
+            },
+            {
+              "label": "4 personnes",
+              "price": "$400"
+            },
+            {
+              "label": "5 personnes",
+              "price": "$385"
+            },
+            {
+              "label": "6 personnes",
+              "price": "$380"
+            }
+          ]
+        }
+      ]
+    },
+    "historical-wonders": {
+      "id": "historical-wonders",
+      "title": "Merveilles historiques",
+      "quote": "Experience the magic of Egypt with our carefully curated historical itineraries. From the pulse of Cairo to the serenity of the Nile, these journeys offer a perfect blend of history, culture, and relaxation.",
+      "tours": [
+        {
+          "id": 1,
+          "title": "6 nuits / 7 jours – Le Caire, Assouan et Louxor (avec croisière sur le Nil)",
+          "images": [
+            "https://plus.unsplash.com/premium_photo-1728561809541-1620be0f4004?w=400&auto=format&fit=crop&fmt=webp"
+          ],
+          "highlights": "Experience the magic of Egypt with this carefully curated 6-night itinerary.",
+          "inclusions": [
+            "Trois nuits dans un hôtel au Caire (petit-déjeuner inclus)",
+            "Trois nuits/quatre jours sur un croisière du Nil 5 étoiles (pension complète)",
+            "Toutes les visites avec un guide égyptologue",
+            "Tous les droits d'entrée et permis requis",
+            "Vols intérieurs : Le Caire/Assouan & Louxor/Le Caire"
+          ],
+          "exclusions": [
+            "Excursions facultatives",
+            "Dépenses personnelles",
+            "Pourboires"
+          ],
+          "itinerary": [
+            {
+              "day": "Day 1",
+              "time": "Arrivée",
+              "event": "Accueil et transfert privé vers l'hôtel à l'aéroport du Caire"
+            },
+            {
+              "day": "Day 2",
+              "time": "Gizeh",
+              "event": "Visitez les pyramides de Gizeh, la Grande Pyramide, le Sphinx et le Musée égyptien"
+            },
+            {
+              "day": "Day 3",
+              "time": "Assouan",
+              "event": "Volez à Assouan, embarquez pour une croisière, visitez le Barrage haut et le Temple de Philae"
+            },
+            {
+              "day": "Day 4",
+              "time": "Kom Ombo",
+              "event": "Abou Simbel en option, naviguez jusqu'à Kom Ombo, visitez le Temple de Kom Ombo"
+            },
+            {
+              "day": "Day 5",
+              "time": "Louxor",
+              "event": "Visitez le Temple d'Edfou, naviguez par l'écluse d'Esna jusqu'à Louxor"
+            },
+            {
+              "day": "Day 6",
+              "time": "Louxor",
+              "event": "Débarquement, visite de la Rive Ouest et visite de la Rive Est, vol vers Le Caire"
+            },
+            {
+              "day": "Day 7",
+              "time": "Départ",
+              "event": "Petit-déjeuner et départ, transfert vers l'aéroport du Caire"
+            }
+          ],
+          "prices": [
+            {
+              "label": "Chambre double (3 nuits)",
+              "price": "1250 $"
+            },
+            {
+              "label": "Chambre simple (3 nuits)",
+              "price": "1700 $"
+            },
+            {
+              "label": "Chambre double (4 nuits)",
+              "price": "1975 $"
+            },
+            {
+              "label": "Chambre simple (4 nuits)",
+              "price": "2450 $"
+            }
+          ],
+          "pricingPolicy": {
+            "baseRatePeriod": "Les tarifs ci-dessus sont valables du 15/07/2026 au 30/09/2026",
+            "supplements": [
+              {
+                "period": "Du 01/10/2026 au 30/04/2027",
+                "increase": "20%",
+                "isPeak": false
+              },
+              {
+                "period": "Du 21/12/2026 au 03/01/2027",
+                "increase": "35%",
+                "isPeak": true
+              }
+            ]
+          }
+        },
+        {
+          "id": 2,
+          "title": "9 nuits / 10 jours – Le Caire, Assouan, Louxor et Hurghada (incluant une croisière sur le Nil)",
+          "images": [
+            "https://images.unsplash.com/photo-1553913861-c46db5573ced?w=400&auto=format&fit=crop&fmt=webp"
+          ],
+          "highlights": "Combine history and relaxation. Explore Cairo and the Nile before unwinding on Hurghada.",
+          "inclusions": [
+            "3 nuits au Caire (petit-déjeuner inclus)",
+            "3 nuits sur une croisière du Nil 5 étoiles (pension complète)",
+            "3 nuits à Hurghada (tout inclus)",
+            "Vols intérieurs : Le Caire/Assouan & Hurghada/Le Caire"
+          ],
+          "exclusions": [
+            "Excursions facultatives",
+            "Repas pendant les visites (sauf mention contraire)",
+            "Pourboires"
+          ],
+          "itinerary": [
+            {
+              "day": "Day 1",
+              "time": "Arrivée",
+              "event": "Arrivée au Caire, transfert à l'hôtel"
+            },
+            {
+              "day": "Day 2",
+              "time": "Gizeh",
+              "event": "Pyramides, Sphinx et GEM"
+            },
+            {
+              "day": "Day 3",
+              "time": "Croisière",
+              "event": "Vol vers Assouan, visite du Grand Barrage/Philae, embarquement sur le bateau de croisière"
+            },
+            {
+              "day": "Day 4",
+              "time": "Temples",
+              "event": "Abou Simbel facultatif, temple de Kom Ombo"
+            },
+            {
+              "day": "Day 5",
+              "time": "Edfou",
+              "event": "Temple d'Edfou, croisière jusqu'à Louxor"
+            },
+            {
+              "day": "Day 6",
+              "time": "Transfert",
+              "event": "Visite de la rive ouest/est de Louxor, transfert vers Hurghada"
+            },
+            {
+              "day": "Day 7",
+              "time": "Mer Rouge",
+              "event": "Détente ou excursion maritime facultative"
+            },
+            {
+              "day": "Day 8",
+              "time": "Safari",
+              "event": "Détente ou safari dans le désert facultatif"
+            },
+            {
+              "day": "Day 9",
+              "time": "Le Caire",
+              "event": "Vol vers Le Caire, visite facultative du Vieux Caire"
+            },
+            {
+              "day": "Day 10",
+              "time": "Départ",
+              "event": "Départ du Caire"
+            }
+          ],
+          "prices": [
+            {
+              "label": "Basique",
+              "price": "1 725 $"
+            },
+            {
+              "label": "Premium",
+              "price": "2 525 $"
+            },
+            {
+              "label": "Luxe",
+              "price": "3 075 $"
+            },
+            {
+              "label": "Élite",
+              "price": "5 455 $"
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "title": "11 nuits / 12 jours – Le Caire, Assouan, Louxor et Alexandrie (incluant une croisière sur le Nil)",
+          "images": [
+            "https://images.unsplash.com/photo-1628503218283-6ddeac69dfea?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8ZWd5cHQlMjB0ZW1wbGUlMjB3aWRlfGVufDB8fDB8fHww&fmt=webp&w=800&q=75"
+          ],
+          "highlights": "The ultimate cultural circuit. Visit Alexandria alongside Cairo, Luxor, and Aswan.",
+          "inclusions": [
+            "6 nuits au Caire (petit-déjeuner inclus)",
+            "4 nuits en croisière sur le Nil 5 étoiles (pension complète)",
+            "1 nuit à Assouan (petit-déjeuner inclus)",
+            "Vols intérieurs : Le Caire/Louxor & Assouan/Le Caire"
+          ],
+          "exclusions": [
+            "Excursions facultatives",
+            "Repas pendant les visites",
+            "Pourboires"
+          ],
+          "itinerary": [
+            {
+              "day": "Day 1",
+              "time": "Arrivée",
+              "event": "Arrivée au Caire"
+            },
+            {
+              "day": "Day 2",
+              "time": "Gizeh",
+              "event": "Pyramides, Sphinx et GEM"
+            },
+            {
+              "day": "Day 3",
+              "time": "Sites antiques",
+              "event": "Saqqara, Memphis et Dahchour"
+            },
+            {
+              "day": "Day 4",
+              "time": "Alexandrie",
+              "event": "Catacombes, amphithéâtre, colonnes de Pompée, bibliothèque"
+            },
+            {
+              "day": "Day 5",
+              "time": "Le Caire ancien",
+              "event": "Citadelle, NMEC, Le Caire ancien et Khan El Khalili"
+            },
+            {
+              "day": "Day 6",
+              "time": "Louxor",
+              "event": "Vol vers Louxor, rive est (temples de Karnak/Louxor)"
+            },
+            {
+              "day": "Day 7",
+              "time": "Louxor",
+              "event": "Rive ouest (Vallée des Rois, Hatshepsout), croisière vers Edfou"
+            },
+            {
+              "day": "Day 8",
+              "time": "Croisière",
+              "event": "Temples d'Edfou et Kom Ombo"
+            },
+            {
+              "day": "Day 9",
+              "time": "Assouan",
+              "event": "Barrage d'Assouan et temple de Philae"
+            },
+            {
+              "day": "Day 10",
+              "time": "Nubien",
+              "event": "Embarquement, musée nubien, navigation en felouque, village nubien"
+            },
+            {
+              "day": "Day 11",
+              "time": "Retour",
+              "event": "Abou Simbel en option, vol vers Le Caire"
+            },
+            {
+              "day": "Day 12",
+              "time": "Départ",
+              "event": "Départ du Caire"
+            }
+          ],
+          "prices": [
+            {
+              "label": "Basique",
+              "price": "2 365 $"
+            },
+            {
+              "label": "Premium",
+              "price": "3 825 $"
+            },
+            {
+              "label": "Luxe",
+              "price": "4 375 $"
+            },
+            {
+              "label": "Élite",
+              "price": "7 760 $"
+            }
+          ]
+        },
+        {
+          "id": 4,
+          "title": "14 nuits / 15 jours – Le Caire, Oasis et Désert Blanc, Assouan, Louxor et Hurghada (incluant une croisière sur le Nil)",
+          "images": [
+            "https://images.unsplash.com/photo-1594311526185-cdd502eb5d04?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzF8fGVneXB0fGVufDB8fDB8fHww&fmt=webp&w=800&q=75"
+          ],
+          "highlights": "An expansive 15-day journey covering the desert, the Nile, and the Red Sea.",
+          "inclusions": [
+            "5 nuits au Caire (petit-déjeuner inclus)",
+            "1 nuit de camping (pension complète)",
+            "1 nuit à Assouan (petit-déjeuner inclus)",
+            "3 nuits en croisière sur le Nil (pension complète)",
+            "1 nuit à Louxor (petit-déjeuner inclus)",
+            "3 nuits à Hurghada (tout inclus)"
+          ],
+          "exclusions": [
+            "Excursions facultatives",
+            "Dépenses personnelles",
+            "Pourboires"
+          ],
+          "itinerary": [
+            {
+              "day": "Day 1",
+              "time": "Arrivée",
+              "event": "Arrivée au Caire"
+            },
+            {
+              "day": "Day 2",
+              "time": "Gizeh",
+              "event": "Pyramides, Sphinx et GEM"
+            },
+            {
+              "day": "Day 3",
+              "time": "Le Caire ancien",
+              "event": "Citadelle, Vieux Le Caire, Khan El-Khalili"
+            },
+            {
+              "day": "Day 4",
+              "time": "Désert",
+              "event": "Oasis de Bahariya, safari 4x4, camping dans le Désert Blanc"
+            },
+            {
+              "day": "Day 5",
+              "time": "Retour",
+              "event": "Retour au Caire"
+            },
+            {
+              "day": "Day 6",
+              "time": "Assouan",
+              "event": "Vol vers Assouan, excursion d'une journée chez les Nubiens"
+            },
+            {
+              "day": "Day 7",
+              "time": "Croisière",
+              "event": "Barrage d'Assouan / Philae, embarquement sur le bateau de croisière"
+            },
+            {
+              "day": "Day 8",
+              "time": "Temples",
+              "event": "Abou Simbel facultatif, temple de Kom Ombo"
+            },
+            {
+              "day": "Day 9",
+              "time": "Edfou",
+              "event": "Temple d'Edfou, croisière jusqu'à Louxor"
+            },
+            {
+              "day": "Day 10",
+              "time": "Louxor",
+              "event": "Visite de la rive ouest, visite de la rive est"
+            },
+            {
+              "day": "Day 11",
+              "time": "Hurghada",
+              "event": "Transfert vers Hurghada"
+            },
+            {
+              "day": "Day 12",
+              "time": "Mer",
+              "event": "Détente ou excursion maritime facultative"
+            },
+            {
+              "day": "Day 13",
+              "time": "Safari",
+              "event": "Détente ou safari dans le désert facultatif"
+            },
+            {
+              "day": "Day 14",
+              "time": "Le Caire",
+              "event": "Vol retour au Caire"
+            },
+            {
+              "day": "Day 15",
+              "time": "Départ",
+              "event": "Départ du Caire"
+            }
+          ],
+          "prices": [
+            {
+              "label": "Basique",
+              "price": "$2 725"
+            },
+            {
+              "label": "Premium",
+              "price": "3 825 $"
+            },
+            {
+              "label": "Luxe",
+              "price": "$4 800"
+            },
+            {
+              "label": "Élite",
+              "price": "$8 300"
+            }
+          ]
+        }
+      ]
+    },
+    "luxor-aswan-cruise": {
+      "id": "luxor-aswan-cruise",
+      "title": "Croisières sur le Nil entre Louxor et Assouan",
+      "quote": "Sail through the heart of history. Our Luxor and Aswan cruises offer a unique perspective of Egypt's ancient wonders from the comfort of a 5-star floating hotel.",
+      "tours": [
+        {
+          "id": 1,
+          "title": "Mövenpick MS Sunray - 4 nuits / 5 jours (de Louxor à Assouan)",
+          "images": [
+            "https://images.unsplash.com/photo-1544971587-b842c27f8e14?auto=format&fit=crop&q=80&w=1200&fmt=webp"
+          ],
+          "highlights": "Experience 5-star elegance on the Nile with Mövenpick MS Sunray. Enjoy 43-inch Smart TVs, private espresso machines, and a curated itinerary featuring the best of Luxor and Aswan.",
+          "inclusions": [
+            "Tous les transferts (aéroport/train/hôtel)",
+            "Hébergement en croisière 5 étoiles (pension complète)",
+            "Guide égyptologue",
+            "Frais d'entrée pour tous les sites mentionnés",
+            "Internet Wi-Fi gratuit",
+            "Machine à espresso dans toutes les unités"
+          ],
+          "exclusions": [
+            "Excursions facultatives (Abou Simbel, montgolfière, etc.)",
+            "Dépenses personnelles",
+            "Pourboires"
+          ],
+          "itinerary": [
+            {
+              "day": "Thursday",
+              "time": "12:00",
+              "event": "Enregistrement et déjeuner",
+              "detail": "Embarquement à Louxor suivi d'un buffet somptueux à bord."
+            },
+            {
+              "day": "Thursday",
+              "time": "14 h 30",
+              "event": "Visite de la rive est",
+              "detail": "Visite du grand temple de Karnak et du temple de Louxor. Nuit à Louxor."
+            },
+            {
+              "day": "Friday",
+              "time": "7 h 30",
+              "event": "Exploration de la rive ouest",
+              "detail": "Découvrez la Vallée des Rois, la Vallée des Reines et le temple de Hatchepsout. Naviguez jusqu'à Edfou via l'écluse d'Esna."
+            },
+            {
+              "day": "Saturday",
+              "time": "7 h 30",
+              "event": "Temple d'Edfou",
+              "detail": "Visitez le temple d'Edfou en calèche. Naviguez jusqu'à Kom Ombo."
+            },
+            {
+              "day": "Saturday",
+              "time": "16:00",
+              "event": "Temple de Kom Ombo",
+              "detail": "Visitez le temple double unique de Sobek et Haroéris. Naviguez jusqu'à Assouan."
+            },
+            {
+              "day": "Saturday",
+              "time": "21:00",
+              "event": "Nuit en galabeya égyptienne",
+              "detail": "Célébration festive à bord. Nuit à Assouan."
+            },
+            {
+              "day": "Sunday",
+              "time": "7 h 30",
+              "event": "Sites historiques d'Assouan",
+              "detail": "Visitez le Grand Barrage, le temple de Philae et l'obélisque inachevé."
+            },
+            {
+              "day": "Sunday",
+              "time": "15:30",
+              "event": "Navigation en felouque",
+              "detail": "Navigation traditionnelle autour de l'île de Kitchener. Spectacle de danse du ventre le soir."
+            },
+            {
+              "day": "Monday",
+              "time": "08:00",
+              "event": "Départ",
+              "detail": "Embarquement après le petit-déjeuner."
+            }
+          ],
+          "prices": [
+            {
+              "label": "Cabine double standard (par personne / croisière)",
+              "price": "210 $"
+            },
+            {
+              "label": "Cabine double supérieure (par personne / croisière)",
+              "price": "242 $"
+            },
+            {
+              "label": "Suite exécutive (réservation de suite privée)",
+              "price": "$1,365"
+            },
+            {
+              "label": "Chambre double standard (Saison hivernale - par personne)",
+              "price": "$430"
+            }
+          ],
+          "boatDetails": {
+            "name": "Mövenpick MS Sunray",
+            "usp": "Where ancient history meets smart-home tech.",
+            "specs": {
+              "length": "72m",
+              "width": "15m",
+              "height": "11.50m",
+              "engines": "3",
+              "generators": "3",
+              "speed": "15"
+            },
+            "facilities": [
+              "Main Restaurant",
+              "Lounge Bar",
+              "Pool"
+            ],
+            "cabins": [
+              {
+                "name": "Standard",
+                "size": "20",
+                "decks": [
+                  "Main"
+                ],
+                "amenities": [
+                  "TV"
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "id": 2,
+          "title": "Mövenpick MS Hamees - 3 nuits / 4 jours (Assouan à Louxor)",
+          "images": [
+            "https://images.unsplash.com/photo-1503177119275-0aa32b3a9368?auto=format&fit=crop&q=80&w=1200&fmt=webp"
+          ],
+          "highlights": "Discover one of the largest and best-appointed Nile crafts. Mövenpick MS Hamees offers contemporary design, French windows, and world-class dining experiences.",
+          "inclusions": [
+            "Tous les transferts",
+            "Hébergement en croisière 5 étoiles (pension complète)",
+            "Guide égyptologue",
+            "Frais d'entrée",
+            "Fenêtres-french dans les cabines",
+            "Téléviseurs intelligents"
+          ],
+          "exclusions": [
+            "Excursions facultatives",
+            "Extras personnels",
+            "Pourboires"
+          ],
+          "itinerary": [
+            {
+              "day": "Friday",
+              "time": "12:00",
+              "event": "Arrivée",
+              "detail": "Embarquement à Assouan suivi d'un déjeuner à bord."
+            },
+            {
+              "day": "Friday",
+              "time": "01:30 PM",
+              "event": "Barrage d'Assouan et Philae",
+              "detail": "Visite du barrage d'Assouan et du magnifique temple de Philae."
+            },
+            {
+              "day": "Saturday",
+              "time": "06:00",
+              "event": "Navigation vers Kom Ombo",
+              "detail": "Visite du temple de Kom Ombo. Navigation vers Edfou."
+            },
+            {
+              "day": "Saturday",
+              "time": "13:00",
+              "event": "Temple d'Edfou",
+              "detail": "Visitez le temple d'Edfou. Naviguez jusqu'à Louxor via l'écluse d'Esna."
+            },
+            {
+              "day": "Saturday",
+              "time": "21:00",
+              "event": "Nuit de Galabeya",
+              "detail": "Profitez d'une célébration traditionnelle en naviguant vers Louxor."
+            },
+            {
+              "day": "Sunday",
+              "time": "07:00",
+              "event": "Rive Ouest",
+              "detail": "Visitez la Vallée des Rois, le temple de Hatshepsout et les Colosses de Memnon."
+            },
+            {
+              "day": "Sunday",
+              "time": "14 h 30",
+              "event": "Rive Est",
+              "detail": "Visitez les temples de Karnak et de Louxor. Spectacle de danse du ventre le soir."
+            },
+            {
+              "day": "Monday",
+              "time": "08:00",
+              "event": "Départ",
+              "detail": "Embarquement après le petit-déjeuner."
+            }
+          ],
+          "prices": [
+            {
+              "label": "Cabine double standard (par personne / croisière)",
+              "price": "200 $"
+            },
+            {
+              "label": "Cabine double supérieure (par personne / croisière)",
+              "price": "230 $"
+            },
+            {
+              "label": "Suite Deluxe (Réservation de suite privée)",
+              "price": "$1 100"
+            }
+          ],
+          "boatDetails": {
+            "name": "Mövenpick MS Hamees",
+            "usp": "A comfortable sanctuary.",
+            "specs": {
+              "length": "72m",
+              "width": "14.8m",
+              "height": "11.5m",
+              "engines": "3",
+              "generators": "3",
+              "speed": "15"
+            },
+            "facilities": [
+              "Main Restaurant",
+              "Lounge Bar"
+            ],
+            "cabins": [
+              {
+                "name": "Standard",
+                "size": "21.7",
+                "decks": [
+                  "Main"
+                ],
+                "amenities": [
+                  "TV"
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "id": 3,
+          "title": "Flotte standard de croisière sur le Nil (formules de 3 ou 4 nuits)",
+          "images": [
+            "https://images.unsplash.com/photo-1544971587-b842c27f8e14?auto=format&fit=crop&fmt=webp"
+          ],
+          "highlights": "Sailing aboard comfortable fleet like M/S Sunrise Semirames I & II, M/S Nile Dolphin, or M/S Zeina. Features Option 1 (Sailing 2:00 PM Day 2) or Option 2 (Sailing 3:00 AM Day 2).",
+          "inclusions": [
+            "Hébergement sur croisière 5 étoiles standard (pension complète)",
+            "Accueil et assistance à l'arrivée et au départ",
+            "Toutes les excursions avec transport climatisé",
+            "Guide égyptologue et frais d'entrée"
+          ],
+          "exclusions": [
+            "Toutes les excursions optionnelles",
+            "Dépenses personnelles",
+            "Pourboires"
+          ],
+          "itinerary": [],
+          "prices": [
+            {
+              "label": "3 nuits - Cabine double/triple (par personne)",
+              "price": "$480"
+            },
+            {
+              "label": "3 nuits - Cabine privée individuelle",
+              "price": "$725"
+            },
+            {
+              "label": "4 nuits - Cabine double/triple (par personne)",
+              "price": "$630"
+            },
+            {
+              "label": "4 nuits - Cabine privée individuelle",
+              "price": "$960"
+            }
+          ]
+        },
+        {
+          "id": 4,
+          "title": "Flotte de luxe de croisière sur le Nil (formules de 3 ou 4 nuits)",
+          "images": [
+            "https://images.unsplash.com/photo-1628178651610-d9d1be6a32d1?auto=format&fit=crop&fmt=webp"
+          ],
+          "highlights": "Premium cruising experience on celebrated deluxe ships like M/S Nile Premium, M/S Le Fayan, or M/S Concerto.",
+          "inclusions": [
+            "Hébergement sur croisière 5 étoiles de luxe (pension complète)",
+            "Accueil, assistance et transferts privés",
+            "Toutes les excursions avec guide expert et frais d'entrée"
+          ],
+          "exclusions": [
+            "Toutes les excursions optionnelles",
+            "Dépenses personnelles",
+            "Pourboires"
+          ],
+          "itinerary": [],
+          "prices": [
+            {
+              "label": "3 nuits - Cabine double/triple (par personne)",
+              "price": "$825"
+            },
+            {
+              "label": "3 nuits - Cabine privée individuelle",
+              "price": "$1300"
+            },
+            {
+              "label": "4 nuits - Cabine double/triple (par personne)",
+              "price": "$1100"
+            },
+            {
+              "label": "4 nuits - Cabine privée individuelle",
+              "price": "1700 $"
+            }
+          ]
+        },
+        {
+          "id": 5,
+          "title": "Flotte de croisières de luxe sur le Nil (formules de 3 ou 4 nuits)",
+          "images": [
+            "https://images.unsplash.com/photo-1539768942893-daf53e448371?auto=format&fit=crop&fmt=webp"
+          ],
+          "highlights": "Boutique luxury cruising on renowned ships like M/S Mayfair, M/S Mayflower, M/S Sonesta St. George, or M/S Mövenpick Royal Lotus.",
+          "inclusions": [
+            "Hébergement sur une croisière de luxe 5 étoiles (pension complète)",
+            "Accueil et assistance à l'arrivée et au départ",
+            "Toutes les excursions avec transport climatisé",
+            "Guide égyptologue et frais d'entrée"
+          ],
+          "exclusions": [
+            "Toutes les excursions optionnelles",
+            "Dépenses personnelles",
+            "Pourboires"
+          ],
+          "itinerary": [],
+          "prices": [
+            {
+              "label": "3 nuits - Cabine double/triple (par personne)",
+              "price": "$1050"
+            },
+            {
+              "label": "3 nuits - Cabine privée individuelle",
+              "price": "1700 $"
+            },
+            {
+              "label": "4 nuits - Cabine double/triple (par personne)",
+              "price": "$1400"
+            },
+            {
+              "label": "4 nuits - Cabine privée individuelle",
+              "price": "$2260"
+            }
+          ]
+        },
+        {
+          "id": 6,
+          "title": "Expériences de croisière ultra-luxueuse sur le Nil",
+          "images": [
+            "https://images.unsplash.com/photo-1568322422676-9d713bcc136b?auto=format&fit=crop&fmt=webp"
+          ],
+          "highlights": "The absolute pinnacle of royalty and elite comfort on the Nile. Sail aboard world-class historical steamers and ultra-luxury crafts like Mövenpick SS Steamer Misr, Steam Ship Sudan, Oberoi Zahra, or Oberoi Philae.",
+          "inclusions": [
+            "Hébergement en croisière ultra-luxueuse de type boutique (pension complète)",
+            "Transferts privés VIP et traitement premium",
+            "Visites touristiques privées sur mesure avec un égyptologue de premier plan"
+          ],
+          "exclusions": [
+            "Toutes les excursions optionnelles",
+            "Dépenses personnelles",
+            "Pourboires"
+          ],
+          "itinerary": [],
+          "prices": [
+            {
+              "label": "3 nuits - Cabine double/triple (par personne)",
+              "price": "$2990"
+            },
+            {
+              "label": "3 nuits - Cabine privée individuelle",
+              "price": "$4780"
+            },
+            {
+              "label": "4 nuits - Cabine double/triple (par personne)",
+              "price": "$3920"
+            },
+            {
+              "label": "4 nuits - Cabine privée individuelle",
+              "price": "$6270"
+            }
+          ]
+        }
+      ]
+    },
+    "felucca-cruise": {
+      "id": "felucca-cruise",
+      "title": "Croisières en felouque super délicate",
+      "quote": "Sail along the Nile in style aboard an exclusive traditional felucca, offering a blend of heritage and modern comfort. Enjoy pristine river landscapes, campfires, and authentic Nubian hospitality.",
+      "tours": [
+        {
+          "id": 1,
+          "title": "D'Assouan à Daraw – 1 nuit / 1 jour",
+          "images": [
+            "https://images.unsplash.com/photo-1539650116574-8efeb43e2750?auto=format&fit=crop&fmt=webp"
+          ],
+          "highlights": "Experience a magical night under the stars with a campfire and traditional Nubian music performed by the crew. Features traditional clay-pot Nubian Tagen stews.",
+          "inclusions": [
+            "Transfert privé vers et depuis la felouque",
+            "Trois repas frais par jour et eau minérale",
+            "Soirée musicale folklorique nubienne"
+          ],
+          "exclusions": [
+            "Dépenses personnelles",
+            "Pourboires"
+          ],
+          "itinerary": [
+            {
+              "day": "Day 1",
+              "time": "Assouan",
+              "event": "Départ le matin (10:00), navigation en aval, repas à terre/à bord"
+            },
+            {
+              "day": "Day 2",
+              "time": "Daraw",
+              "event": "Arrivée à Daraw, transfert vers Assouan ou poursuite vers Louxor"
+            }
+          ],
+          "prices": [
+            {
+              "label": "1 personne (location privée d'un bateau)",
+              "price": "190 $"
+            },
+            {
+              "label": "2 à 4 personnes (forfait de groupe - par personne)",
+              "price": "130 $"
+            },
+            {
+              "label": "Plus de 4 personnes (par personne supplémentaire)",
+              "price": "+60 $"
+            }
+          ],
+          "note": "Menu nubien : ragoûts traditionnels de Tagen, pain au soleil, salades, boissons gazeuses et eau minérale illimitée."
+        },
+        {
+          "id": 2,
+          "title": "D'Assouan à Kom Ombo – 2 nuits / 2 jours",
+          "images": [
+            "https://images.unsplash.com/photo-1544971587-b842c27f8e14?auto=format&fit=crop&fmt=webp"
+          ],
+          "highlights": "An unforgettable two-day flexible sailing journey downstream with Nubian music, storytelling, and campfire evenings under the stars.",
+          "inclusions": [
+            "Transfert privé de votre emplacement vers la felouque",
+            "Trois repas frais par jour (petit-déjeuner, déjeuner et dîner) et eau minérale",
+            "Installation d'un feu de camp et divertissement musical nubien à bord"
+          ],
+          "exclusions": [
+            "Dépenses personnelles",
+            "Pourboires"
+          ],
+          "itinerary": [
+            {
+              "day": "Day 1",
+              "time": "Navigation",
+              "event": "Départ d'Assouan, navigation, musique nubienne et dîner sous les étoiles"
+            },
+            {
+              "day": "Day 2",
+              "time": "Navigation",
+              "event": "Navigation tranquille, pauses pour les repas, soirée autour du feu de camp"
+            },
+            {
+              "day": "Day 3",
+              "time": "Kom Ombo",
+              "event": "Arrivée à Kom Ombo, transfert vers la prochaine destination"
+            }
+          ],
+          "prices": [
+            {
+              "label": "1 personne (location privée d'un bateau)",
+              "price": "$350"
+            },
+            {
+              "label": "2 à 4 personnes (Forfait groupe - Total groupe)",
+              "price": "$480"
+            },
+            {
+              "label": "Plus de 4 personnes (par personne supplémentaire)",
+              "price": "+$100"
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "title": "D'Assouan à Edfou – 3 nuits / 3-4 jours",
+          "images": [
+            "https://images.unsplash.com/photo-1503177119275-0aa32b3a9368?auto=format&fit=crop&fmt=webp"
+          ],
+          "highlights": "The ultimate authentic slow-travel experience on the Nile. Fully dependent on wind conditions.",
+          "inclusions": [
+            "Transferts privés de votre emplacement vers la felouque et transferts de retour depuis Edfou",
+            "Trois repas chauds et frais par jour et eau minérale",
+            "Espace de stockage pour les bagages et installation complète des draps et couvertures"
+          ],
+          "exclusions": [
+            "Dépenses personnelles",
+            "Pourboires"
+          ],
+          "itinerary": [
+            {
+              "day": "Days 1-3",
+              "time": "Navigation",
+              "event": "Voyage depuis Assouan, navigation quotidienne, baignade et escales pour l'exploration"
+            },
+            {
+              "day": "Day 4",
+              "time": "Edfou",
+              "event": "Dernier petit-déjeuner, débarquement à Edfou, transfert de retour"
+            }
+          ],
+          "prices": [
+            {
+              "label": "1 personne (location privée d'un bateau)",
+              "price": "$350"
+            },
+            {
+              "label": "2 à 4 personnes (Forfait groupe - Total groupe)",
+              "price": "$640"
+            },
+            {
+              "label": "Plus de 4 personnes (par personne supplémentaire)",
+              "price": "+$135"
+            }
+          ]
+        }
+      ]
+    },
+    "dahabiya-cruise": {
+      "id": "dahabiya-cruise",
+      "title": "Bateau de croisière dahabiya sur le Nil",
+      "quote": "A Dahabiya is the most exclusive way to see the Nile. These elegant sailing boats offer a boutique experience far removed from the larger cruise ships.",
+      "tours": [
+        {
+          "id": 1,
+          "title": "Croisière en dahabiya de 4 nuits (Esna à Assouan) – Départ chaque lundi",
+          "images": [
+            "https://images.unsplash.com/photo-1568322422676-9d713bcc136b?auto=format&fit=crop&fmt=webp"
+          ],
+          "highlights": "Includes Luxor West/East Bank sightseeing before embarking on your private sailing journey south. Available on premium crafts: Amoura, Queen Anat, Princess Donia, Nebyt, or Orient.",
+          "inclusions": [
+            "Hébergement en pension complète",
+            "Accueil, assistance et transferts privés",
+            "Visites guidées avec un égyptologue expert",
+            "Frais d'entrée pour tous les temples mentionnés"
+          ],
+          "exclusions": [
+            "Excursions facultatives",
+            "Pourboires",
+            "Dépenses personnelles"
+          ],
+          "itinerary": [
+            {
+              "day": "Day 1",
+              "time": "Louxor/Esna",
+              "event": "Vallée des Rois, Hatshepsout, Karnak, transfert à Esna pour l'embarquement"
+            },
+            {
+              "day": "Day 2",
+              "time": "Edfou",
+              "event": "Navigation jusqu'à Edfou, visite du temple d'Horus, expérience culturelle au village de Bassaw"
+            },
+            {
+              "day": "Day 3",
+              "time": "Selsila",
+              "event": "Temple de Selsila, croisière jusqu'au temple de Kom Ombo, continuation vers Assouan"
+            },
+            {
+              "day": "Day 4",
+              "time": "Assouan",
+              "event": "Temple de Philae, souk d'Assouan, village nubien/felouque en option"
+            },
+            {
+              "day": "Day 5",
+              "time": "Départ",
+              "event": "Dernier petit-déjeuner, transfert vers l'aéroport/hôtel"
+            }
+          ],
+          "prices": [
+            {
+              "label": "Cabine double/triple (par personne - 3 nuits)",
+              "price": "1200 $"
+            },
+            {
+              "label": "Cabine simple (simple privée - 3 nuits)",
+              "price": "1980 $"
+            },
+            {
+              "label": "Cabine double/triple (par personne - 4 nuits)",
+              "price": "1600 $"
+            },
+            {
+              "label": "Cabine simple (Simple privée - 4 nuits)",
+              "price": "2640 $"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "title": "Croisière en dahabiya de 3 nuits (Assouan à Esna) – Départ chaque vendredi",
+          "images": [
+            "https://images.unsplash.com/photo-1544971587-b842c27f8e14?auto=format&fit=crop&fmt=webp"
+          ],
+          "highlights": "Explore Aswan's highlights including Philae Temple and local markets before sailing north towards Luxor on an intimate, top-tier Dahabiya.",
+          "inclusions": [
+            "Hébergement en pension complète en boutique-hôtel",
+            "Accueil et assistance à l'arrivée et au départ",
+            "Toutes les visites guidées avec transport privé, guide expert et frais d'entrée"
+          ],
+          "exclusions": [
+            "Excursions facultatives",
+            "Pourboires",
+            "Dépenses personnelles"
+          ],
+          "itinerary": [
+            {
+              "day": "Day 1",
+              "time": "Assouan",
+              "event": "Visite du temple de Philae, du souk, embarquement, navigation vers Kom Ombo, visite du temple"
+            },
+            {
+              "day": "Day 2",
+              "time": "Selsila",
+              "event": "Temple de Selsila, interaction avec le village de Bassaw, soirée folklorique"
+            },
+            {
+              "day": "Day 3",
+              "time": "Edfou",
+              "event": "Visite du temple d'Horus à Edfou, navigation vers Esna"
+            },
+            {
+              "day": "Day 4",
+              "time": "Louxor",
+              "event": "Débarquement, transfert à Louxor, visite touristique, départ"
+            }
+          ],
+          "prices": [
+            {
+              "label": "Cabine double/triple (par personne - 3 nuits)",
+              "price": "1200 $"
+            },
+            {
+              "label": "Cabine simple (simple privée - 3 nuits)",
+              "price": "1980 $"
+            },
+            {
+              "label": "Cabine double/triple (par personne - 4 nuits)",
+              "price": "1600 $"
+            },
+            {
+              "label": "Cabine simple (Simple privée - 4 nuits)",
+              "price": "2640 $"
+            }
+          ]
+        }
+      ]
+    },
+    "lake-nasser-cruise": {
+      "id": "lake-nasser-cruise",
+      "title": "Croisière sur le lac Nasser",
+      "quote": "Experience the timeless beauty of Lake Nasser on a luxury cruise. Sail between Aswan and Abu Simbel, visiting remote monuments rarely seen by others.",
+      "tours": [
+        {
+          "id": 1,
+          "title": "Croisière de 4 nuits / 5 jours (Assouan à Abou Simbel)",
+          "images": [
+            "https://images.unsplash.com/photo-1503177119275-0aa32b3a9368?auto=format&fit=crop&fmt=webp"
+          ],
+          "highlights": "A one-of-a-kind route visiting Kalabsha, Wadi El Seboua, Amada, and finishing with a sunrise over Abu Simbel. Vessels: M/S Steigenberger Omar El Khayam or M/S Prince Abbas.",
+          "inclusions": [
+            "Service d'accueil et d'assistance à l'arrivée et au départ",
+            "Hébergement en croisière 5 étoiles sur le lac Nasser en pension complète",
+            "Tous les transferts et excursions touristiques en véhicules climatisés de luxe et frais d'entrée",
+            "Guide égyptologue professionnel anglophone, toutes les pourboires et taxes"
+          ],
+          "exclusions": [
+            "Dépenses personnelles et extras",
+            "Spectacle son et lumière d'Abou Simbel (en option)",
+            "Pourboires"
+          ],
+          "itinerary": [
+            {
+              "day": "Day 1",
+              "time": "Assouan",
+              "event": "Transfert à l'arrivée, enregistrement, déjeuner à bord, temps libre"
+            },
+            {
+              "day": "Day 2",
+              "time": "Kalabsha",
+              "event": "Visite des temples de Kalabsha, navigation vers Wadi El Seboua, soirée cocktail"
+            },
+            {
+              "day": "Day 3",
+              "time": "Amada",
+              "event": "Visite de Wadi El Seboua, navigation vers Amada, visite des temples, spectacle nubien"
+            },
+            {
+              "day": "Day 4",
+              "time": "Abou Simbel",
+              "event": "Navigation vers Abou Simbel, arrêt panoramique, visite du temple, option Son et Lumière"
+            },
+            {
+              "day": "Day 5",
+              "time": "Départ",
+              "event": "Départ, transfert privé retour à Assouan"
+            }
+          ],
+          "prices": [
+            {
+              "label": "Chambre simple (Chambre privée - octobre à avril)",
+              "price": "2300 $"
+            },
+            {
+              "label": "Chambre double (Par personne - octobre à avril)",
+              "price": "$1400"
+            },
+            {
+              "label": "Chambre triple (Par personne - octobre à avril)",
+              "price": "1375 $"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "title": "Croisière de 3 nuits / 4 jours (d'Abou Simbel à Assouan)",
+          "images": [
+            "https://images.unsplash.com/photo-1628178651610-d9d1be6a32d1?auto=format&fit=crop&fmt=webp"
+          ],
+          "highlights": "Start your journey at the majestic Abu Simbel and sail north towards Aswan, visiting the hidden gems of Lake Nasser.",
+          "inclusions": [
+            "Transfert routier privé d'Assouan à Abou Simbel pour le début de la croisière",
+            "Hébergement en croisière 5 étoiles sur le lac Nasser en pension complète",
+            "Toutes les visites guidées, frais d'entrée et accompagnement par un égyptologue expert",
+            "Toutes les pourboires applicables et taxes locales"
+          ],
+          "exclusions": [
+            "Extras personnels",
+            "Pourboires",
+            "Excursions facultatives"
+          ],
+          "itinerary": [
+            {
+              "day": "Day 1",
+              "time": "Abou Simbel",
+              "event": "Transfert depuis Assouan, embarquement, visite du temple d'Abou Simbel"
+            },
+            {
+              "day": "Day 2",
+              "time": "Amada",
+              "event": "Naviguer jusqu'à Kasr Ibrim (arrêt photo), visiter les temples d'Amada, naviguer jusqu'à Wadi El Seboua"
+            },
+            {
+              "day": "Day 3",
+              "time": "Assouan",
+              "event": "Visiter les temples de Wadi El Seboua, naviguer jusqu'à Assouan"
+            },
+            {
+              "day": "Day 4",
+              "time": "Départ",
+              "event": "Visiter les temples de Kalabsha, départ, transfert final"
+            }
+          ],
+          "prices": [
+            {
+              "label": "Chambre simple (Chambre privée - octobre à avril)",
+              "price": "1755 $"
+            },
+            {
+              "label": "Chambre double (Par personne - octobre à avril)",
+              "price": "1080 $"
+            },
+            {
+              "label": "Chambre triple (Par personne - octobre à avril)",
+              "price": "$1050"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}
