@@ -309,6 +309,15 @@ export const NileCruiseDetailPage: React.FC = () => {
                 {selectedItinerary.pricing.map((p, i) => (
                   <div key={i} className="bg-white/5 border border-white/10 p-6 rounded-2xl group hover:bg-white/10 transition-colors">
                     <span className="block text-xs text-[#d4af37] uppercase font-bold tracking-widest mb-1">{p.seasonName}</span>
+                    {p.applicableDates && p.applicableDates.length > 0 && (
+                      <div className="mb-2 space-y-1">
+                        {p.applicableDates.map((date, idx) => (
+                          <span key={idx} className="block text-[11px] text-[#d4af37]/80 font-medium">
+                            {date}
+                          </span>
+                        ))}
+                      </div>
+                    )}
                     <span className="block text-[10px] text-gray-400 mb-4 italic">* Price is per person</span>
                     <div className="space-y-3 text-sm text-gray-300">
                       {p.doubleSharing && (
