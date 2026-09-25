@@ -32,7 +32,7 @@ import AboutUs from "./components/AboutUs";
 
 import ContactUs from "./components/ContactUs";
 
-
+import SpecialOfferCruise from "./components/SpecialOfferCruise";
 
 const pageVariants = {
 
@@ -134,8 +134,9 @@ export default function App() {
 
             <Route path="/nile-cruise" element={<NileCruiseListPage />} />
             <Route path="/nile-cruise/category/:categoryId" element={<NileCruiseListPage />} />
-            {/* التعديل هنا: استخدام cruiseId بدل destId/tourId ليتوافق مع الداتا الجديدة */}
             <Route path="/nile-cruise/:cruiseId" element={<NileCruiseDetailPage />} />
+
+            <Route path="/special-offer/aswan-luxor-cruise" element={<SpecialOfferCruise />} />
 
             <Route path="/policies" element={<PoliciesPage />} />
 

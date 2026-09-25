@@ -1,6 +1,7 @@
 import React, { useEffect } from "react";
 import { motion } from "framer-motion";
 import { useLocation, Link } from "react-router-dom";
+import { Calendar } from "lucide-react";
 // استيراد دالة الترجمة
 import { useTranslation } from "react-i18next";
 // استيراد داتا المراكب الجديدة
@@ -75,6 +76,59 @@ export const Home: React.FC = () => {
               >
                 {t("hero.btn_book")}
               </a>
+            </div>
+          </motion.div>
+        </div>
+      </section>
+
+      {/* --- Special Offers Section --- */}
+      <section className="max-w-7xl mx-auto px-4 py-16 border-t border-gray-100">
+        <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 mb-10 items-end">
+          <div className="lg:col-span-8">
+            <h2 className="text-4xl md:text-5xl lg:text-6xl font-serif font-bold text-gray-900 mb-4 tracking-tight">
+              Special Offers
+            </h2>
+          </div>
+        </div>
+        <div className="flex flex-wrap gap-8">
+          <motion.div viewport={{ once: true }}
+            initial={{ opacity: 0, y: 30 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            className="flex-1 min-w-[300px] 2xl:min-w-[600px] bg-white group overflow-hidden rounded-[2.5rem] border border-gray-100 shadow-xl hover:shadow-2xl transition-all duration-500 flex flex-col lg:flex-row relative"
+          >
+            <div className="lg:w-2/5 aspect-[4/3] lg:aspect-auto overflow-hidden relative">
+              <img
+                src="/cruises/New folder/WhatsApp Image 2026-09-24 at 1.52.04 AM.webp"
+                alt="3 Nights Cruise from Aswan to Luxor Balloon and Abu Simbel"
+                loading="lazy"
+                className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
+              />
+            </div>
+            <div className="p-8 lg:p-12 lg:w-3/5 flex flex-col justify-center">
+              <h3 className="text-2xl md:text-3xl font-bold font-serif text-gray-900 mb-4 group-hover:text-brand-emerald transition-colors">
+                3 Nights Cruise from Aswan to Luxor, Balloon & Abu Simbel
+              </h3>
+              <div className="flex items-center text-[#0b8a3e] font-semibold mb-4 bg-emerald-50 w-max px-4 py-2 rounded-lg">
+                 <Calendar className="w-5 h-5 mr-2" />
+                 Available every day
+              </div>
+              <p className="text-gray-600 font-medium mb-8 leading-relaxed">
+                Experience the magic of the Nile with a 5-star standard cruise. This exclusive package features an Abu Simbel Tour, a breathtaking Hot Air Balloon ride in Luxor, and all transfers by AC minibus, motor boat, and horse carriage. Guided by a professional Egyptology tour guide.
+              </p>
+              <div className="pt-6 border-t border-gray-200 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-6">
+                <div>
+                  <div className="flex items-center gap-3 mb-1">
+                    <span className="text-gray-500 line-through text-xl font-bold">from $576</span>
+                    <span className="bg-[#0b8a3e] text-white text-sm font-bold px-3 py-1 rounded-lg">10% off</span>
+                  </div>
+                  <div className="text-4xl font-bold text-gray-900">
+                    $518 <span className="text-sm text-gray-600 font-normal">per adult</span>
+                  </div>
+                </div>
+                <Link to="/special-offer/aswan-luxor-cruise" className="px-8 py-4 bg-white border-2 border-brand-gold text-brand-gold font-bold rounded-xl hover:bg-brand-gold hover:text-white transition-all text-sm uppercase tracking-widest shadow-md hover:shadow-brand-gold/20 w-full sm:w-auto text-center">
+                  View Details
+                </Link>
+              </div>
             </div>
           </motion.div>
         </div>
