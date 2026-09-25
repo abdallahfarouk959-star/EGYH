@@ -122,7 +122,7 @@ export const Home: React.FC = () => {
                     <span className="bg-[#0b8a3e] text-white text-sm font-bold px-3 py-1 rounded-lg">10% off</span>
                   </div>
                   <div className="text-4xl font-bold text-gray-900">
-                    $518 <span className="text-sm text-gray-600 font-normal">per adult</span>
+                    $518 <span className="text-sm text-gray-600 font-normal">per person</span>
                   </div>
                 </div>
                 <Link to="/special-offer/aswan-luxor-cruise" className="px-8 py-4 bg-white border-2 border-brand-gold text-brand-gold font-bold rounded-xl hover:bg-brand-gold hover:text-white transition-all text-sm uppercase tracking-widest shadow-md hover:shadow-brand-gold/20 w-full sm:w-auto text-center">

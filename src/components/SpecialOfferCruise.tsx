@@ -130,7 +130,7 @@ export const SpecialOfferCruise: React.FC = () => {
             <div className="text-right">
               <div className="text-sm text-gray-500 line-through mb-1">Original Price: $576</div>
               <div className="text-4xl font-bold text-gray-900 mb-1">
-                $518 <span className="text-sm font-normal text-gray-500">per adult</span>
+                $518 <span className="text-sm font-normal text-gray-500">per person</span>
               </div>
               <p className="text-xs text-gray-400">Price varies by date</p>
             </div>
@@ -227,6 +227,7 @@ export const SpecialOfferCruise: React.FC = () => {
                 </h3>
                 <ul className="space-y-2 text-sm text-gray-600">
                   <li>• Tipping</li>
+                  <li>• Entrance tickets</li>
                   <li>• French / Italian / German / Spanish Guide (EUR 200 per booking)</li>
                 </ul>
               </div>
@@ -284,10 +285,10 @@ export const SpecialOfferCruise: React.FC = () => {
                 <div>
                   <h4 className="font-bold text-brand-emerald mb-2 border-b pb-1">May - Sep (Low Season)</h4>
                   <ul className="space-y-1 text-gray-600">
-                    <li className="flex justify-between"><span>Adult (Single)</span> <strong>$893.7</strong></li>
-                    <li className="flex justify-between"><span>Adult (2-15 pax)</span> <strong>$518</strong></li>
-                    <li className="flex justify-between"><span>Child (6-11)</span> <strong>$258.75</strong></li>
-                    <li className="flex justify-between"><span>Infant (0-5)</span> <strong>$155.7</strong></li>
+                    <li className="flex justify-between items-center"><span>1 Person</span> <div><span className="text-gray-400 line-through text-xs mr-2">$993</span><strong className="text-gray-900">$893.7</strong></div></li>
+                    <li className="flex justify-between items-center"><span>2-15 Persons</span> <div><span className="text-gray-400 line-through text-xs mr-2">$576</span><strong className="text-gray-900">$518</strong></div></li>
+                    <li className="flex justify-between items-center"><span>Child (6-11)</span> <div><span className="text-gray-400 line-through text-xs mr-2">$287.5</span><strong className="text-gray-900">$258.75</strong></div></li>
+                    <li className="flex justify-between items-center"><span>Infant (0-5)</span> <div><span className="text-gray-400 line-through text-xs mr-2">$173</span><strong className="text-gray-900">$155.7</strong></div></li>
                   </ul>
                 </div>
                 
@@ -295,35 +296,35 @@ export const SpecialOfferCruise: React.FC = () => {
                   <h4 className="font-bold text-brand-emerald mb-2 border-b pb-1">Oct - Dec & Jan - May (High Season)</h4>
                   <p className="text-xs text-gray-500 mb-2">Sun, Tue, Thu Departures</p>
                   <ul className="space-y-1 text-gray-600">
-                    <li className="flex justify-between"><span>Adult (Single)</span> <strong>$1,300.5</strong></li>
-                    <li className="flex justify-between"><span>Adult (2-15 pax)</span> <strong>$812.7</strong></li>
-                    <li className="flex justify-between"><span>Child (6-11)</span> <strong>$406</strong></li>
-                    <li className="flex justify-between"><span>Infant (0-5)</span> <strong>$244</strong></li>
+                    <li className="flex justify-between items-center"><span>1 Person</span> <div><span className="text-gray-400 line-through text-xs mr-2">$1,445</span><strong className="text-gray-900">$1,300.5</strong></div></li>
+                    <li className="flex justify-between items-center"><span>2-15 Persons</span> <div><span className="text-gray-400 line-through text-xs mr-2">$903</span><strong className="text-gray-900">$812.7</strong></div></li>
+                    <li className="flex justify-between items-center"><span>Child (6-11)</span> <div><span className="text-gray-400 line-through text-xs mr-2">$451</span><strong className="text-gray-900">$406</strong></div></li>
+                    <li className="flex justify-between items-center"><span>Infant (0-5)</span> <div><span className="text-gray-400 line-through text-xs mr-2">$271</span><strong className="text-gray-900">$244</strong></div></li>
                   </ul>
                   <p className="text-xs text-gray-500 mt-2 mb-2">Sat, Mon, Wed, Fri Departures</p>
                   <ul className="space-y-1 text-gray-600">
-                    <li className="flex justify-between"><span>Adult (Single)</span> <strong>$1,175</strong></li>
-                    <li className="flex justify-between"><span>Adult (2-15 pax)</span> <strong>$706.5</strong></li>
-                    <li className="flex justify-between"><span>Child (6-11)</span> <strong>$296.5</strong></li>
-                    <li className="flex justify-between"><span>Infant (0-5)</span> <strong>$212</strong></li>
+                    <li className="flex justify-between items-center"><span>1 Person</span> <div><span className="text-gray-400 line-through text-xs mr-2">$1,306</span><strong className="text-gray-900">$1,175</strong></div></li>
+                    <li className="flex justify-between items-center"><span>2-15 Persons</span> <div><span className="text-gray-400 line-through text-xs mr-2">$785</span><strong className="text-gray-900">$706.5</strong></div></li>
+                    <li className="flex justify-between items-center"><span>Child (6-11)</span> <div><span className="text-gray-400 line-through text-xs mr-2">$329.5</span><strong className="text-gray-900">$296.5</strong></div></li>
+                    <li className="flex justify-between items-center"><span>Infant (0-5)</span> <div><span className="text-gray-400 line-through text-xs mr-2">$235.5</span><strong className="text-gray-900">$212</strong></div></li>
                   </ul>
                 </div>
 
                 <div>
-                  <h4 className="font-bold text-brand-emerald mb-2 border-b pb-1">Peak Season (Christmas/Easter)</h4>
+                  <h4 className="font-bold text-brand-emerald mb-2 border-b pb-1">Peak Season (Dec 21 - Jan 3)</h4>
                   <p className="text-xs text-gray-500 mb-2">Sun, Tue, Thu Departures</p>
                   <ul className="space-y-1 text-gray-600">
-                    <li className="flex justify-between"><span>Adult (Single)</span> <strong>$1,944</strong></li>
-                    <li className="flex justify-between"><span>Adult (2-15 pax)</span> <strong>$1,212</strong></li>
-                    <li className="flex justify-between"><span>Child (6-11)</span> <strong>$606.6</strong></li>
-                    <li className="flex justify-between"><span>Infant (0-5)</span> <strong>$363.6</strong></li>
+                    <li className="flex justify-between items-center"><span>1 Person</span> <div><span className="text-gray-400 line-through text-xs mr-2">$2,160</span><strong className="text-gray-900">$1,944</strong></div></li>
+                    <li className="flex justify-between items-center"><span>2-15 Persons</span> <div><span className="text-gray-400 line-through text-xs mr-2">$1,347</span><strong className="text-gray-900">$1,212</strong></div></li>
+                    <li className="flex justify-between items-center"><span>Child (6-11)</span> <div><span className="text-gray-400 line-through text-xs mr-2">$674</span><strong className="text-gray-900">$606.6</strong></div></li>
+                    <li className="flex justify-between items-center"><span>Infant (0-5)</span> <div><span className="text-gray-400 line-through text-xs mr-2">$404</span><strong className="text-gray-900">$363.6</strong></div></li>
                   </ul>
                   <p className="text-xs text-gray-500 mt-2 mb-2">Sat, Mon, Wed, Fri Departures</p>
                   <ul className="space-y-1 text-gray-600">
-                    <li className="flex justify-between"><span>Adult (Single)</span> <strong>$1,800</strong></li>
-                    <li className="flex justify-between"><span>Adult (2-15 pax)</span> <strong>$1,087</strong></li>
-                    <li className="flex justify-between"><span>Child (6-11)</span> <strong>$543.6</strong></li>
-                    <li className="flex justify-between"><span>Infant (0-5)</span> <strong>$326.25</strong></li>
+                    <li className="flex justify-between items-center"><span>1 Person</span> <div><span className="text-gray-400 line-through text-xs mr-2">$2,000</span><strong className="text-gray-900">$1,800</strong></div></li>
+                    <li className="flex justify-between items-center"><span>2-15 Persons</span> <div><span className="text-gray-400 line-through text-xs mr-2">$1,208</span><strong className="text-gray-900">$1,087</strong></div></li>
+                    <li className="flex justify-between items-center"><span>Child (6-11)</span> <div><span className="text-gray-400 line-through text-xs mr-2">$604</span><strong className="text-gray-900">$543.6</strong></div></li>
+                    <li className="flex justify-between items-center"><span>Infant (0-5)</span> <div><span className="text-gray-400 line-through text-xs mr-2">$362.5</span><strong className="text-gray-900">$326.25</strong></div></li>
                   </ul>
                 </div>
               </div>
